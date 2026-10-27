@@ -1,0 +1,57 @@
+================================================================================
+COMO ADICIONAR UMA NOVA PARTICIPAÇÃO
+================================================================================
+
+PASSO 1: CRIAR PASTA
+--------------------
+Cria uma pasta com o nome da participação (sem acentos, minúsculas, hífens):
+Exemplo: "heritage-camp-porto" ou "workshop-biomateriais"
+
+
+PASSO 2: ADICIONAR IMAGENS
+--------------------------
+Coloca as imagens na pasta. Formatos aceites: .jpg, .jpeg, .png
+
+Sugestão de nomes:
+- imagem1.jpg
+- imagem2.jpg
+- grupo.jpg
+- trabalho-pratico.jpg
+
+Tamanho recomendado: máximo 1500px de largura (para não pesar no site)
+
+
+PASSO 3: PREENCHER INFO.txt
+---------------------------
+Copia o ficheiro "INFO.txt" desta pasta para a tua nova pasta.
+Preenche todos os campos em Português, Inglês E Espanhol.
+
+IMPORTANTE: O site está em 3 idiomas (PT/EN/ES), por isso todos os textos
+devem estar traduzidos nas 3 línguas.
+
+
+PASSO 4: ENVIAR
+---------------
+Envia a pasta completa (com imagens + INFO.txt preenchido) para o developer.
+
+
+================================================================================
+ESTRUTURA DA PASTA (EXEMPLO)
+================================================================================
+
+heritage-camp-porto/
+├── INFO.txt              ← Informação da participação (obrigatório)
+├── imagem1.jpg           ← Imagens (opcional, mas recomendado)
+├── imagem2.jpg
+└── grupo.jpg
+
+
+================================================================================
+NOTAS
+================================================================================
+
+- Podes adicionar quantas imagens quiseres
+- As imagens aparecerão na ordem em que forem adicionadas ao site
+- Cada imagem pode ter uma legenda (caption) em PT, EN e ES
+- Podes incluir links externos (ex: link para evento, artigo, etc.)
+- LEMBRA-TE: Todos os textos devem estar em Português, Inglês e Espanhol!

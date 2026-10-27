@@ -1,0 +1,98 @@
+================================================================================
+INFORMAÇÃO DA TESE
+================================================================================
+Preenche os campos abaixo em PORTUGUÊS, INGLÊS e ESPANHOL.
+
+
+TÍTULO
+--------------------------------------------------------------------------------
+Título PT:
+
+Título EN:
+
+Título ES:
+
+
+SUBTÍTULO (opcional)
+--------------------------------------------------------------------------------
+Subtítulo PT:
+
+Subtítulo EN:
+
+Subtítulo ES:
+
+
+ANO / STATUS
+--------------------------------------------------------------------------------
+Ano: 2024
+Status PT: Em curso
+Status EN: In progress
+Status ES: En curso
+
+
+INSTITUIÇÕES
+--------------------------------------------------------------------------------
+Instituição 1: Universidade de Évora
+Instituição 2: Università degli Studi di Firenze (DIDA)
+
+
+ORIENTADORES
+--------------------------------------------------------------------------------
+Orientador 1 (Nome e instituição):
+
+Orientador 2 (Nome e instituição):
+
+Orientador 3 (se aplicável):
+
+
+RESUMO / ABSTRACT
+--------------------------------------------------------------------------------
+Escreve um resumo da tese (2-4 parágrafos).
+Explica o tema, o contexto, os objetivos e a abordagem.
+
+Resumo PT:
+
+
+
+
+Resumo EN:
+
+
+
+
+Resumo ES:
+
+
+
+
+PALAVRAS-CHAVE / KEYWORDS
+--------------------------------------------------------------------------------
+Palavras-chave PT (separadas por vírgula):
+
+Keywords EN:
+
+Palabras clave ES:
+
+
+LOCALIZAÇÃO DO PROJETO (se aplicável)
+--------------------------------------------------------------------------------
+Local PT:
+
+Local EN:
+
+Local ES:
+
+Coordenadas (opcional, para mapa):
+
+
+NÚMERO TOTAL DE PÁGINAS
+--------------------------------------------------------------------------------
+Número de páginas:
+
+
+================================================================================
+NOTAS ADICIONAIS
+================================================================================
+Informação extra que queiras incluir na página:
+
+

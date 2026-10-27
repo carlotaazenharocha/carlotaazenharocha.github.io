@@ -1,0 +1,553 @@
+{
+  "projects": [
+    {
+      "id": "01-projeto-avancadoIV",
+      "title": {
+        "en": "No Name Project",
+        "pt": "Projeto sem nome",
+        "es": "Proyecto sin nombre"
+      },
+      "year": "2025",
+      "location": {
+        "en": "Porto, Portugal",
+        "pt": "Porto, Portugal",
+        "es": "Oporto, Portugal"
+      },
+      "typology": {
+        "en": "Cultural / Educational",
+        "pt": "Cultural / Educacional",
+        "es": "Cultural / Educativo"
+      },
+      "thumbnail": "projects/01-projeto-avançadoIV/thumbnail.jpg",
+      "hero": "projects/01-projeto-avançadoIV/hero.jpg",
+      "concept": {
+        "en": "A study on collective living spaces in dense urban environments. The project explores the relationship between private and communal areas through a series of interconnected courtyards and vertical gardens.",
+        "pt": "Um estudo sobre espaços de habitação coletiva em ambientes urbanos densos. O projeto explora a relação entre áreas privadas e comunitárias através de uma série de pátios interligados e jardins verticais.",
+        "es": "Un estudio sobre espacios de vivienda colectiva en entornos urbanos densos. El proyecto explora la relación entre áreas privadas y comunitarias a través de una serie de patios interconectados y jardines verticales."
+      },
+      "images": [
+        {
+          "src": "projects/01-projeto-avançadoIV/planta.jpg",
+          "caption": {
+            "en": "Ground floor plan, 1:200",
+            "pt": "Planta piso térreo, 1:200",
+            "es": "Planta baja, 1:200"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/01-projeto-avançadoIV/corte.png",
+          "caption": {
+            "en": "Section AA, 1:200",
+            "pt": "Corte AA, 1:200",
+            "es": "Sección AA, 1:200"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/01-projeto-avançadoIV/corte-transversal.png",
+          "caption": {
+            "en": "Transversal section, 1:50",
+            "pt": "Corte Transversal, 1:50",
+            "es": "Sección transversal, 1:50"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/01-projeto-avançadoIV/maquete.jpg",
+          "caption": {
+            "en": "Physical model, courtyard view",
+            "pt": "Maquete física, vista do pátio",
+            "es": "Maqueta física, vista del patio"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "02-rock-oporto-palace",
+      "title": {
+        "en": "Rock Oporto Palace",
+        "pt": "Rock Oporto Palace",
+        "es": "Rock Oporto Palace"
+      },
+      "year": "2024",
+      "location": {
+        "en": "Porto, Portugal",
+        "pt": "Porto, Portugal",
+        "es": "Oporto, Portugal"
+      },
+      "typology": {
+        "en": "Cultural",
+        "pt": "Cultural",
+        "es": "Cultural"
+      },
+      "thumbnail": "projects/02-rock-oporto-palace/thumbnail.jpg",
+      "hero": "projects/02-rock-oporto-palace/hero.jpg",
+      "concept": {
+        "en": "An exploration of flexible spaces for community activities. The building functions as a permeable urban connector, allowing both programmed and spontaneous cultural events.",
+        "pt": "Uma exploração de espaços flexíveis para atividades comunitárias. O edifício funciona como um conector urbano permeável, permitindo eventos culturais programados e espontâneos.",
+        "es": "Una exploración de espacios flexibles para actividades comunitarias. El edificio funciona como un conector urbano permeable, permitiendo eventos culturales programados y espontáneos."
+      },
+      "images": [
+        {
+          "src": "projects/02-rock-oporto-palace/axonometria.png",
+          "caption": {
+            "en": "Exploded axonometric",
+            "pt": "Axonometria explodida",
+            "es": "Axonometría explotada"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/planta0.png",
+          "caption": {
+            "en": "Ground floor plan, 1:100",
+            "pt": "Planta rés do chão, 1:100",
+            "es": "Planta baja, 1:100"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/planta1.png",
+          "caption": {
+            "en": "First floor plan, 1:100",
+            "pt": "Planta primeiro piso, 1:100",
+            "es": "Planta primera, 1:100"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/corte-piso0.png",
+          "caption": {
+            "en": "Ground floor section",
+            "pt": "Corte Rés do Chão",
+            "es": "Sección planta baja"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/corte-piso1.png",
+          "caption": {
+            "en": "First floor section",
+            "pt": "Corte Piso 1",
+            "es": "Sección planta primera"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/maquete.jpg",
+          "caption": {
+            "en": "Physical model",
+            "pt": "Maquete física",
+            "es": "Maqueta física"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "03-beber-a-terra",
+      "title": {
+        "en": "Drink the Soil",
+        "pt": "Beber a Terra",
+        "es": "Beber la Tierra"
+      },
+      "year": "2023",
+      "location": {
+        "en": "Alcácer do Sal, Portugal",
+        "pt": "Alcácer do Sal, Portugal",
+        "es": "Alcácer do Sal, Portugal"
+      },
+      "typology": {
+        "en": "Public Space",
+        "pt": "Espaço Público",
+        "es": "Espacio Público"
+      },
+      "thumbnail": "projects/03-beber-a-terra/thumbnail.jpg",
+      "hero": "projects/03-beber-a-terra/hero.jpg",
+      "concept": {
+        "en": "The project is located as a continuation of a path naturally defined by the existing city wall. By introducing a water tank that creates tension with the wall, the proposal extends this path via a ramp that follows the wall's geometry, resolving the elevation changes and becoming the accessible roof of a pavilion. A square emerges between the wall and the pavilion, enhanced by local cypresses and a reflecting pool that captures the surrounding greenery and the sky.\n\nNavigating through the olive grove leads to the pavilion — a structure conceived as a table, designed based on the proportions of a bench. The program consists of a reception area, a space for observing olive storage and oil transformation, an outdoor (yet sheltered) olive oil tasting area, and a subterranean support facility. Within the olive grove, organized in a 7mx7m grid following the topography of Alcácer, spontaneous moments of pause are defined by water elements inspired by Carlo Scarpa, and clearings or walls reminiscent of the Calouste Gulbenkian Foundation gardens.\n\nThe design explores the anchors between the pre-existing and the proposed, balancing light-shadow and open-closed relationships. Here, every 'place of water' serves as a place of rest and comfort, inviting biodiversity. This work is deeply influenced by Architect Gonçalo Byrne's reflections on Japanese modernity, where intimacy and comfort are seamlessly intertwined with the outdoor space.",
+        "pt": "O projeto localiza-se na continuidade de um percurso naturalmente definido pela muralha. Através de um tanque de água que cria tensão com a pré-existência, a proposta prolonga esse caminho por meio de uma rampa que acompanha a geometria da muralha, resolvendo a diferença de cotas e transformando-se na cobertura percorrível de um pavilhão. Entre a muralha e o pavilhão surge uma praça, valorizada por ciprestes e um espelho de água que reflete a vegetação e o céu.\n\nAtravés do olival, chega-se ao pavilhão — uma estrutura baseada na tipologia de uma mesa, desenhada a partir da métrica de um banco. O programa inclui uma receção, um espaço de visita para armazenamento e transformação de azeitona, uma área de degustação de azeite ao ar livre (mas coberta) e uma zona de apoio subterrânea. No olival, organizado numa métrica de 7mx7m seguindo a topografia de Alcácer, definem-se momentos de pausa através de elementos de água inspirados em Carlo Scarpa e muros ou clareiras que remetem aos jardins da Fundação Calouste Gulbenkian.\n\nO projeto explora as relações entre luz-sombra e aberto-fechado, onde cada 'lugar da água' se torna um lugar de descanso e conforto, convidativo à biodiversidade. Esta abordagem foi influenciada pela visão do Arquiteto Gonçalo Byrne sobre a modernidade japonesa, onde a intimidade e o conforto coexistem numa relação contínua com o espaço exterior.",
+        "es": "El proyecto se sitúa como continuación de un recorrido definido naturalmente por la muralla existente. Mediante la introducción de un tanque de agua que crea tensión con la muralla, la propuesta prolonga este camino a través de una rampa que sigue la geometría de la muralla, resolviendo los cambios de nivel y convirtiéndose en la cubierta transitable de un pabellón. Entre la muralla y el pabellón surge una plaza, realzada por cipreses locales y un espejo de agua que captura la vegetación circundante y el cielo.\n\nAtravesando el olivar se llega al pabellón — una estructura concebida como una mesa, diseñada según las proporciones de un banco. El programa incluye un área de recepción, un espacio para observar el almacenamiento de aceitunas y la transformación del aceite, una zona de degustación de aceite de oliva al aire libre (pero cubierta) y unas instalaciones de apoyo subterráneas. Dentro del olivar, organizado en una cuadrícula de 7mx7m siguiendo la topografía de Alcácer, los momentos espontáneos de pausa se definen mediante elementos de agua inspirados en Carlo Scarpa, y claros o muros que recuerdan los jardines de la Fundación Calouste Gulbenkian.\n\nEl diseño explora los anclajes entre lo preexistente y lo propuesto, equilibrando las relaciones luz-sombra y abierto-cerrado. Aquí, cada 'lugar del agua' sirve como lugar de descanso y confort, invitando a la biodiversidad. Este trabajo está profundamente influenciado por las reflexiones del Arquitecto Gonçalo Byrne sobre la modernidad japonesa, donde la intimidad y el confort se entrelazan perfectamente con el espacio exterior."
+      },
+      "images": [
+        {
+          "src": "projects/03-beber-a-terra/planta.png",
+          "caption": {
+            "en": "Roof plan, 1:300",
+            "pt": "Planta de cobertura, 1:300",
+            "es": "Planta de cubierta, 1:300"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/03-beber-a-terra/cortes.png",
+          "caption": {
+            "en": "Architectural sections",
+            "pt": "Cortes",
+            "es": "Secciones"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/03-beber-a-terra/axonometria.png",
+          "caption": {
+            "en": "Exploded axonometric view",
+            "pt": "Axonometria explodida",
+            "es": "Axonometría explotada"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/03-beber-a-terra/Image1.jpg",
+          "caption": {
+            "en": "Site perspective",
+            "pt": "Perspetiva do local",
+            "es": "Perspectiva del lugar"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/03-beber-a-terra/Image5.jpg",
+          "caption": {
+            "en": "Pavilion view",
+            "pt": "Vista do pavilhão",
+            "es": "Vista del pabellón"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "04-casa-do-arco",
+      "title": {
+        "en": "Arch House",
+        "pt": "Casa do Arco",
+        "es": "Casa del Arco"
+      },
+      "year": "2022",
+      "location": {
+        "en": "Évoramonte, Portugal",
+        "pt": "Évoramonte, Portugal",
+        "es": "Évoramonte, Portugal"
+      },
+      "typology": {
+        "en": "Public Space / Cultural",
+        "pt": "Espaço Público / Cultural",
+        "es": "Espacio Público / Cultural"
+      },
+      "thumbnail": "projects/04-casa-do-arco/thumbnail.jpg",
+      "hero": "projects/04-casa-do-arco/hero.jpg",
+      "concept": {
+        "en": "Located in Évoramonte, near the Arch of the former Town Hall, this project originated from a detailed six-month surveying process. This extensive research was fundamental in grounding a proposal for a site that was previously in a state of relative neglect.\n\nTo revitalize the area, the proposal introduces two key volumes. The first is a Cafeteria featuring a terrace built upon a pre-existing structure, with the kitchen and technical areas situated on the lower level. The second is the Interpretive Center, which follows the terrace's reference line and extends toward an existing ruined wall. From these ruins, a new wall emerges to guide pedestrians toward the opposite street, effectively linking two different urban levels.\n\nThe Interpretive Center is divided into three functional areas—reception and temporary exhibition halls—designed to create a dynamic architectural experience. One hall features a double-height ceiling with reduced natural light for a more intimate atmosphere, while the main hall is expansive and bright, boasting a triple-height ceiling. Restrooms were discreetly tucked away along the staircase landings to remain out of sight.\n\nThe void created between the Cafeteria and the Interpretive Center forms a new public square. This space serves as an outdoor seating area for the cafeteria, reintroducing social life to the location and transforming a once-abandoned spot into a vibrant community hub.",
+        "pt": "Este projeto localiza-se em Évoramonte, numa área próxima ao Arco, estrutura pertencente à antiga Casa da Câmara. O ponto de partida foi um trabalho detalhado de levantamento, com a duração de seis meses, essencial para fundamentar a proposta de aproveitamento deste espaço da vila, que se encontrava em situação de relativo abandono.\n\nDe modo a tornar essa zona útil e atrativa, a proposta define-se através de dois volumes distintos. O primeiro é uma Cafetaria, dotada de um terraço desenvolvido a partir de uma estrutura pré-existente, com a zona técnica e cozinha situadas no piso inferior. O segundo volume é o Centro Interpretativo que, partindo da linha de referência do terraço, se prolonga até ao muro em ruína. Dessa ruína nasce um novo muro que guia os visitantes entre as duas ruas adjacentes, estabelecendo uma nova ligação urbana.\n\nO Centro Interpretativo organiza-se em três áreas, incluindo receção e salas de exposições temporárias, num desenho que privilegia a dinâmica espacial. Uma das salas, mais comprimida e com iluminação controlada, beneficia de um pé-direito duplo, enquanto a sala principal se revela ampla e luminosa com um pé-direito triplo. As instalações sanitárias foram estrategicamente integradas nos patamares das escadas para garantir a sua discrição.\n\nNo exterior, o vazio gerado entre os dois volumes resulta numa nova praça pública. Este espaço funciona como extensão da cafetaria (esplanada), promovendo a revitalização social e devolvendo o usufruto deste local histórico à comunidade.",
+        "es": "Situado en Évoramonte, cerca del Arco del antiguo Ayuntamiento, este proyecto surgió de un detallado proceso de levantamiento de seis meses. Esta extensa investigación fue fundamental para fundamentar una propuesta para un sitio que se encontraba en estado de relativo abandono.\n\nPara revitalizar el área, la propuesta introduce dos volúmenes clave. El primero es una Cafetería con una terraza construida sobre una estructura preexistente, con la cocina y las áreas técnicas situadas en el nivel inferior. El segundo es el Centro Interpretativo, que sigue la línea de referencia de la terraza y se extiende hacia un muro en ruinas existente. De estas ruinas emerge un nuevo muro para guiar a los peatones hacia la calle opuesta, conectando efectivamente dos niveles urbanos diferentes.\n\nEl Centro Interpretativo se divide en tres áreas funcionales—recepción y salas de exposiciones temporales—diseñadas para crear una experiencia arquitectónica dinámica. Una sala presenta un techo de doble altura con luz natural reducida para una atmósfera más íntima, mientras que la sala principal es amplia y luminosa, con un techo de triple altura. Los aseos se ubicaron discretamente en los rellanos de las escaleras para permanecer fuera de la vista.\n\nEl vacío creado entre la Cafetería y el Centro Interpretativo forma una nueva plaza pública. Este espacio sirve como zona de terraza al aire libre para la cafetería, reintroduciendo la vida social en el lugar y transformando un punto antes abandonado en un vibrante centro comunitario."
+      },
+      "images": [
+        {
+          "src": "projects/04-casa-do-arco/planta.png",
+          "caption": {
+            "en": "Floor plan, 1:200",
+            "pt": "Planta, 1:200",
+            "es": "Planta, 1:200"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/04-casa-do-arco/alçado.png",
+          "caption": {
+            "en": "Elevation, 1:200",
+            "pt": "Alçado, 1:200",
+            "es": "Alzado, 1:200"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/04-casa-do-arco/corte.png",
+          "caption": {
+            "en": "Architectural section, 1:200",
+            "pt": "Corte, 1:200",
+            "es": "Sección, 1:200"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "05-dispositivo-urbano",
+      "title": {
+        "en": "Urban Device",
+        "pt": "Dispositivo Urbano",
+        "es": "Dispositivo Urbano"
+      },
+      "year": "2020",
+      "location": {
+        "en": "Porto, Portugal",
+        "pt": "Porto, Portugal",
+        "es": "Oporto, Portugal"
+      },
+      "typology": {
+        "en": "Installation / Sensory",
+        "pt": "Instalação / Sensorial",
+        "es": "Instalación / Sensorial"
+      },
+      "thumbnail": "projects/05-dispositivo-urbano/hero.jpeg",
+      "hero": "projects/05-dispositivo-urbano/hero.jpeg",
+      "concept": {
+        "en": "This project explored touch as a receiver of architectural experience, drawing reference from the works of Kengo Kuma and his rhythmic use of wood. The objective was to awaken physical awareness through textural contrasts and spatial compression.\n\nThe journey was structured into three moments:\n- Entrance: A diagonal construction with a distinct texture that demanded careful walking, elevating the project and allowing passage.\n- Corridor: A flat, dark, central parallelepiped volume where spatial narrowing and the absence of light made touch indispensable.\n- Light and Matter: The end of the journey revealed a vertical wooden slat structure that filtered light beams, creating shadows and inviting tactile and visual exploration of materiality.\n\nThe exercise culminated in a dialogue between \"seeing\" and \"feeling\", where architecture asserted itself as a device for sensory stimulation.",
+        "pt": "Este projeto explorou o tato como recetor da experiência arquitetónica, utilizando como referência as obras de Kengo Kuma e o seu uso rítmico da madeira. O objetivo foi despertar a consciência física através de contrastes de textura e compressão espacial.\n\nO percurso estruturou-se em três momentos:\n- Entrada: Uma construção diagonal com uma textura particular que obrigava a um caminhar atento, elevando o projeto e permitindo a passagem.\n- Corredor: Um volume central paralelepipédico plano e em obscuridade, onde o estreitamento do espaço e a ausência de luz tornavam o tato indispensável.\n- Luz e Matéria: O final do percurso revelava uma estrutura de ripas de madeira vertical que filtrava os raios de luz, criando jogos de sombra e convidando à exploração tátil e visual da materialidade.\n\nO exercício culminou num diálogo entre o \"ver\" e o \"sentir\", onde a arquitetura se afirmou como um dispositivo de estimulação sensorial.",
+        "es": "Este proyecto exploró el tacto como receptor de la experiencia arquitectónica, tomando como referencia las obras de Kengo Kuma y su uso rítmico de la madera. El objetivo fue despertar la conciencia física a través de contrastes texturales y compresión espacial.\n\nEl recorrido se estructuró en tres momentos:\n- Entrada: Una construcción diagonal con una textura distintiva que exigía un caminar cuidadoso, elevando el proyecto y permitiendo el paso.\n- Corredor: Un volumen paralelepípedo central plano y oscuro donde el estrechamiento espacial y la ausencia de luz hacían el tacto indispensable.\n- Luz y Materia: El final del recorrido revelaba una estructura de listones de madera verticales que filtraba los rayos de luz, creando sombras e invitando a la exploración táctil y visual de la materialidad.\n\nEl ejercicio culminó en un diálogo entre \"ver\" y \"sentir\", donde la arquitectura se afirmó como un dispositivo de estimulación sensorial."
+      },
+      "images": [
+        {
+          "src": "projects/05-dispositivo-urbano/vista-frontal.jpeg",
+          "caption": {
+            "en": "Front view",
+            "pt": "Vista frontal",
+            "es": "Vista frontal"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/vista-superior.jpeg",
+          "caption": {
+            "en": "Top view",
+            "pt": "Vista superior",
+            "es": "Vista superior"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "06-solar-sao-joao",
+      "title": {
+        "en": "Solar de S. João Square",
+        "pt": "Praça e Solar de S. João",
+        "es": "Plaza y Solar de S. João"
+      },
+      "year": "2023-2024",
+      "location": {
+        "en": "Almeida, Guarda, Portugal",
+        "pt": "Almeida, Guarda, Portugal",
+        "es": "Almeida, Guarda, Portugal"
+      },
+      "typology": {
+        "en": "Heritage / Research",
+        "pt": "Património / Investigação",
+        "es": "Patrimonio / Investigación"
+      },
+      "thumbnail": "projects/06-solar-sao-joao/hero.png",
+      "hero": "projects/06-solar-sao-joao/hero.png",
+      "concept": {
+        "en": "Morphological and typological study of the Praça and Solar de S. João in Almeida, developed within the fortified perimeter of the historic border town. The research analyzes the dialectic between public void and built fabric, examining the evolution of the 16th-century 'terreiro' into a consolidated square framed on its northern boundary by the 1726 manor house.\n\nFrom an architectural perspective, the Solar de S. João exemplifies northern Portuguese manor architecture. Its primary façade demonstrates a balanced composition anchored by corner pilasters, a crowning cornice, and a central portal crowned by a balconied window and family coat of arms, featuring padded apron window surrounds that alternate between straight lintels and segmental arches.\n\nInternally, the analysis reveals a deliberate spatial grammar: on the ground floor, an intentional misalignment between the main portal and the two-flight monumental stair (featuring a window-seat landing) buffers visual permeability. On the piano nobile, circulation relies on classical enfilade alignments that establish visual axes across sequential rooms toward the exterior square. The square distribution room ('sala vaga') acts as a core compositional module, framing views directly aligned with entrance thresholds. With the historical demolition of the central pillory and chapel, the solar remains the primary architectural anchor defining the urban scale and skyline of the square.",
+        "pt": "Estudo morfológico e tipológico da Praça e Solar de S. João em Almeida, inseridos na estrutura urbana da vila fortificada. A investigação aborda a dialética entre o vazio público e a frente edificada, examinando a evolução do terreiro quinhentista para uma praça consolidada que tem no solar setecentista (1726) o seu remate norte.\n\nAo nível arquitetónico, o Solar de S. João afirma-se como um exemplar representativo da casa senhorial portuguesa. A sua fachada organiza-se numa composição centralizada balizada por pilastras nos cunhais e cornija de remate, enfatizando o eixo do portal e janela de sacada encimada por pedra de armas, com vãos de avental almofadado que alternam vergas retas e arcos abatidos.\n\nEspacialmente, destaca-se o desencontro intencional no piso térreo entre o acesso exterior e o arranque da escadaria nobre de dois lances com namoradeira, controlando a permeabilidade visual. No piso nobre, a organização desenvolve-se através do princípio da enfilade, articulando eixos visuais longitudinais e transversais em relação à praça. A «sala vaga» quadrada funciona como módulo central de distribuição, onde a relação entre portas e vãos exteriores assegura continuidade espacial e enquadramento visual. Com o desaparecimento do pelourinho e da capela que outrora ocupavam o terreiro, o solar assume-se como a principal âncora de escala e referência urbana do conjunto.",
+        "es": "Estudio morfológico y tipológico de la Plaza y Solar de S. João en Almeida, desarrollado dentro del perímetro fortificado de la histórica ciudad fronteriza. La investigación analiza la dialéctica entre el vacío público y el tejido edificado, examinando la evolución del 'terreiro' del siglo XVI hacia una plaza consolidada enmarcada en su límite norte por la casa solariega de 1726.\n\nDesde una perspectiva arquitectónica, el Solar de S. João ejemplifica la arquitectura de casas solariegas del norte de Portugal. Su fachada principal demuestra una composición equilibrada anclada por pilastras esquineras, una cornisa de coronación y un portal central coronado por una ventana con balcón y escudo familiar, con recercos de ventana almohadillados que alternan entre dinteles rectos y arcos rebajados.\n\nInternamente, el análisis revela una gramática espacial deliberada: en la planta baja, un desalineamiento intencional entre el portal principal y la escalera monumental de dos tramos (con un rellano con asiento de ventana) amortigua la permeabilidad visual. En el piano nobile, la circulación se basa en alineaciones clásicas en enfilade que establecen ejes visuales a través de habitaciones secuenciales hacia la plaza exterior. La sala de distribución cuadrada ('sala vaga') actúa como módulo compositivo central, enmarcando vistas directamente alineadas con los umbrales de entrada. Con la demolición histórica del pelourinho central y la capilla, el solar permanece como el principal ancla arquitectónica que define la escala urbana y el horizonte de la plaza."
+      },
+      "images": [
+        {
+          "src": "projects/06-solar-sao-joao/planta.jpg",
+          "caption": {
+            "en": "Floor plan analysis",
+            "pt": "Análise da planta",
+            "es": "Análisis de la planta"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/06-solar-sao-joao/painel.jpg",
+          "caption": {
+            "en": "Research panel",
+            "pt": "Painel de investigação",
+            "es": "Panel de investigación"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "07-capillas-san-bruno",
+      "title": {
+        "en": "Capillas de San Bruno",
+        "pt": "Capillas de San Bruno",
+        "es": "Capillas de San Bruno"
+      },
+      "year": "2022",
+      "location": {
+        "en": "Seville, Spain",
+        "pt": "Sevilha, Espanha",
+        "es": "Sevilla, España"
+      },
+      "typology": {
+        "en": "Heritage / Survey",
+        "pt": "Património / Levantamento",
+        "es": "Patrimonio / Levantamiento"
+      },
+      "thumbnail": "projects/07-Capillas-de-San-Bruno/axonometria.png",
+      "hero": "projects/07-Capillas-de-San-Bruno/axonometria.png",
+      "concept": {
+        "en": "Architectural survey and geometric analysis of the Capilla de San Bruno at the Monasterio de la Cartuja de Santa María de las Cuevas in Seville, developed within the academic framework of the Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). The study explores the spatial, stereotomic, and structural transitions within this historic monastic complex, articulated through vaulted spaces, monumental thresholds, and an irregular colonnade.\n\nThe spatial system is defined by two contiguous vaulted bays: a quadripartite ribbed vault with painted mural decorations and sculpted corbels, and an adjacent hemispherical sail vault/dome over pendentives, pierced by high clerestory openings and lanterns. This dominant verticality establishes a clear compression-decompression dialogue with the adjoining ambulatory and lower connecting corridors.\n\nAt the boundary between circulation and vaulted chambers, the transition is mediated by a series of marble columns featuring distinct base moldings, plinth heights, and column shaft proportions (cataloged from Column 1 to Column 4, including engaged corner elements). The investigation documents the stone stereotomy, wall stratigraphy (uncovering fresco fragments and historic ceramic wainscots), and the geometric survey across sections and axonometry, registering the structural layers and tectonic logic that define the chapel's architectural experience.",
+        "pt": "Levantamento arquitetónico e análise geométrica da Capilla de San Bruno, no Monasterio de la Cartuja de Santa María de las Cuevas em Sevilha, desenvolvido no âmbito académico da Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). O estudo explora as transições espaciais, estereotómicas e estruturais deste conjunto histórico monástico, articulado entre tramos abobadados, passagens de escala e uma colunata de morfologia mista.\n\nO sistema espacial estrutura-se através de dois volumes cobertos contíguos: um tramo em abóbada de cruzaria com nervuras pintadas que descarregam em mísulas murais esculpidas, e uma cúpula/abóbada hemisférica sobre pendentes com iluminação zenital e vãos alteados. Esta verticalidade dominante estabelece um diálogo de compressão e descompressão com a galeria de circulação e os corredores adjacentes.\n\nNo limiar entre o percurso de circulação e os espaços abobadados, a transição estrutural é resolvida por um conjunto de colunas em mármore com bases, plintos e fustes diferenciados (sistematizados nos tipos 1 a 4, incluindo meias-colunas embebidas). A investigação decodifica a estereotomia das peças líticas, a estratigrafia parietal (evidenciando frescos murais e azulejaria histórica) e o rigor métrico das secções transversais e axadrezamento axonométrico, registando a sobreposição temporal e a lógica tectónica da capela.",
+        "es": "Levantamiento arquitectónico y análisis geométrico de la Capilla de San Bruno en el Monasterio de la Cartuja de Santa María de las Cuevas en Sevilla, desarrollado en el marco académico de la Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). El estudio explora las transiciones espaciales, estereotómicas y estructurales de este histórico complejo monástico, articulado a través de espacios abovedados, umbrales monumentales y una columnata irregular.\n\nEl sistema espacial está definido por dos tramos abovedados contiguos: una bóveda de crucería cuatripartita con decoraciones murales pintadas y ménsulas esculpidas, y una cúpula hemisférica adyacente sobre pechinas, perforada por altos vanos de claristorio y linternas. Esta verticalidad dominante establece un claro diálogo de compresión-descompresión con el deambulatorio contiguo y los corredores de conexión inferiores.\n\nEn el límite entre la circulación y las cámaras abovedadas, la transición está mediada por una serie de columnas de mármol con molduras de base distintivas, alturas de plinto y proporciones de fuste (catalogadas de la Columna 1 a la Columna 4, incluyendo elementos de esquina embebidos). La investigación documenta la estereotomía de la piedra, la estratigrafía mural (descubriendo fragmentos de frescos y arrimaderos cerámicos históricos) y el levantamiento geométrico a través de secciones y axonometría, registrando las capas estructurales y la lógica tectónica que definen la experiencia arquitectónica de la capilla."
+      },
+      "images": [
+        {
+          "src": "projects/07-Capillas-de-San-Bruno/seccao1.png",
+          "caption": {
+            "en": "Section 1",
+            "pt": "Secção 1",
+            "es": "Sección 1"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-Capillas-de-San-Bruno/seccao2.png",
+          "caption": {
+            "en": "Section 2",
+            "pt": "Secção 2",
+            "es": "Sección 2"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-Capillas-de-San-Bruno/seccao3.png",
+          "caption": {
+            "en": "Section 3",
+            "pt": "Secção 3",
+            "es": "Sección 3"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-Capillas-de-San-Bruno/colunas0.png",
+          "caption": {
+            "en": "Column survey - Overview",
+            "pt": "Levantamento das colunas - Geral",
+            "es": "Levantamiento de columnas - General"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-Capillas-de-San-Bruno/colunas1.png",
+          "caption": {
+            "en": "Column survey - Type 1",
+            "pt": "Levantamento das colunas - Tipo 1",
+            "es": "Levantamiento de columnas - Tipo 1"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-Capillas-de-San-Bruno/colunas2.png",
+          "caption": {
+            "en": "Column survey - Type 2",
+            "pt": "Levantamento das colunas - Tipo 2",
+            "es": "Levantamiento de columnas - Tipo 2"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-Capillas-de-San-Bruno/colunas3.png",
+          "caption": {
+            "en": "Column survey - Type 3",
+            "pt": "Levantamento das colunas - Tipo 3",
+            "es": "Levantamiento de columnas - Tipo 3"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "09-cafetaria-centro-interpretativo",
+      "title": {
+        "en": "Interpretive Center Cafeteria",
+        "pt": "Cafetaria de Apoio a Centro Interpretativo",
+        "es": "Cafetería de Apoyo al Centro Interpretativo"
+      },
+      "year": "2023-2024",
+      "location": {
+        "en": "Évoramonte, Alentejo, Portugal",
+        "pt": "Évoramonte, Alentejo, Portugal",
+        "es": "Évoramonte, Alentejo, Portugal"
+      },
+      "typology": {
+        "en": "Cultural / Technical",
+        "pt": "Cultural / Técnico",
+        "es": "Cultural / Técnico"
+      },
+      "thumbnail": "projects/09-cafetaria-centro-interpretativo/planta.png",
+      "hero": "projects/09-cafetaria-centro-interpretativo/planta.png",
+      "concept": {
+        "en": "Support cafeteria for an Interpretive Center, located in the historic village of Évoramonte and developed within the academic framework of Architectural Technologies I. Rooted in a pre-existing terrace structure, the project negotiates the sloped topography through a semi-embedded volume that articulates service back-of-house areas with a panoramic dining hall facing the Serra d'Ossa landscape.\n\nThe constructive and spatial strategy organizes the program across differentiated height levels: the kitchen and service core are positioned in the recessed, partially subterranean rear zone, whose flat roof forms an upper patio accessible via an exterior flight of stairs. In the dining area, spatial quality is achieved through tectonic contrast—substantial retaining and perimeter envelope walls paired with a generous glazed opening on the main facade and a clerestory clerestory-level opening filtering light from the upper terrace.\n\nThe technical design details the envelope's stratification: continuous foundation footing with exterior perimeter drainage, thermal insulation, damp-proofing barriers, and a detailed interior joinery elevation for the kitchen core. Outside, the volume extends onto an open-air esplanade, establishing an active relationship between the built threshold, the topography, and the visual horizon.",
+        "pt": "Cafetaria de apoio ao Centro Interpretativo, localizada na vila de Évoramonte e desenvolvida no âmbito curricular de Tecnologias da Arquitetura I. Assente sobre uma estrutura de socalco/terraço pré-existente, o projeto acomoda-se à topografia em declive através de um volume semi-enterrado que articula as zonas técnicas de serviço com uma sala de refeições aberta à paisagem da Serra d'Ossa.\n\nA estratégia construtiva e espacial distribui o programa em dois momentos altimétricos: a cozinha e áreas técnicas posicionam-se a tardoz, encostadas à contenção de terras, cuja laje de cobertura configura um pátio superior exterior acessível por escadas. No salão, a captação de luz natural faz-se pelo contraste entre a massa dos elementos de suporte e a desmaterialização dos vãos, combinando um grande plano envidraçado frontal com uma abertura superior zenital orientada ao terraço.\n\nO pormenor tecnológico explicita a estratigrafia dos elementos construtivos: sapatas contínuas com dreno perimetral e enrocamento exterior, isolamento e impermeabilização parietal contra o terreno, e o desenho pormenorizado da marcenaria da cozinha e balcão. No exterior, o espaço prolonga-se numa esplanada que consolida o limite edificado e enquadra as vistas de horizonte.",
+        "es": "Cafetería de apoyo para un Centro Interpretativo, ubicada en el histórico pueblo de Évoramonte y desarrollada en el marco académico de Tecnologías de la Arquitectura I. Arraigada en una estructura de terraza preexistente, el proyecto negocia la topografía en pendiente a través de un volumen semi-empotrado que articula las áreas de servicio traseras con un comedor panorámico orientado hacia el paisaje de la Serra d'Ossa.\n\nLa estrategia constructiva y espacial organiza el programa en niveles de altura diferenciados: la cocina y el núcleo de servicios se posicionan en la zona trasera retranqueada y parcialmente subterránea, cuya cubierta plana forma un patio superior accesible mediante una escalera exterior. En el área del comedor, la calidad espacial se logra a través del contraste tectónico—muros de contención y envolvente perimetral sustanciales combinados con una generosa apertura acristalada en la fachada principal y una apertura a nivel de claristorio que filtra la luz desde la terraza superior.\n\nEl diseño técnico detalla la estratificación de la envolvente: zapata de cimentación continua con drenaje perimetral exterior, aislamiento térmico, barreras de impermeabilización, y un alzado detallado de la carpintería interior para el núcleo de cocina. En el exterior, el volumen se extiende hacia una explanada al aire libre, estableciendo una relación activa entre el umbral construido, la topografía y el horizonte visual."
+      },
+      "images": [
+        {
+          "src": "projects/09-cafetaria-centro-interpretativo/corte.png",
+          "caption": {
+            "en": "Architectural section with technical details",
+            "pt": "Corte com pormenores técnicos",
+            "es": "Sección con detalles técnicos"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/09-cafetaria-centro-interpretativo/especialidades.png",
+          "caption": {
+            "en": "Technical specialties and joinery details",
+            "pt": "Especialidades técnicas e pormenores de marcenaria",
+            "es": "Especialidades técnicas y detalles de carpintería"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "10-master-lisboa",
+      "title": {
+        "en": "Water Reservoir Tower",
+        "pt": "Reservatório / Torre de Água",
+        "es": "Depósito / Torre de Agua"
+      },
+      "year": "2022",
+      "location": {
+        "en": "Lisbon, Portugal",
+        "pt": "Lisboa, Portugal",
+        "es": "Lisboa, Portugal"
+      },
+      "typology": {
+        "en": "Infrastructure / Landscape",
+        "pt": "Infraestrutura / Paisagem",
+        "es": "Infraestructura / Paisaje"
+      },
+      "thumbnail": "projects/10-master-lisboa/reservatorio_corte.jpg",
+      "hero": "projects/10-master-lisboa/reservatorio_corte.jpg",
+      "concept": {
+        "en": "Conceived within the context of a Master's program in Lisbon, this collaborative project explores the monumental and infrastructural dimension of hydraulic architecture on sloping topography. The proposal is structured as a vertical monolith—spanning between elevations +33.00m and +70.00m—that operates simultaneously as a water reservoir tower and a landscape threshold.\n\nThe tectonic strategy is defined by an exterior concrete envelope sheltering a suspended, massive cistern vessel whose base curves softly to negotiate hydraulic loads. The spatial section reveals an intentional vertical progression: a technical lower plinth anchoring the structure into the embankment, an open vertical shaft framing circulation stairs and maintenance shafts, and an upper crowning plane that caps the void.\n\nAt the ground level, the retaining base interacts with a large exterior water basin, translating internal hydraulic storage into an open public or landscape plane. The dialogue between massive retaining walls, stereotomic weight, and the ethereal reflection of water establishes an infrastructure that transcends its purely utilitarian purpose to become a permanent landmark in the territory.",
+        "pt": "Desenvolvido em ambiente colaborativo no âmbito de um mestrado em Lisboa, o projeto explora a escala infraestrutural e a monumentalidade da arquitetura da água numa encosta acentuada. A proposta materializa-se através de um monólito vertical — vencendo um desnível entre as cotas +33.00m e +70.00m — que articula as funções de torre de água/reservatório com a mediação topográfica do território.\n\nA estratégia tectónica assenta numa caixa perimetral de betão que encerra no seu interior um vaso de contenção suspenso e maciço, cujo fundo curvo otimiza as tensões do peso e volume da água. Em corte, a transição entre cotas evidencia um núcleo de circulação vertical (escadas e couretes técnicas), um nível inferior de embasamento técnico enterrado no declive e um remate superior vazado que regula a iluminação zenital do vazio vertical.\n\nNa cota inferior (+33.00m), o edifício ancora-se ao terreno estendendo-se num espelho de água exterior de grande dimensão, projetando a presença da matéria líquida para o espaço aberto. O contraste entre a massa cega dos paramentos murários e o plano horizontal da água transforma a infraestrutura técnica num elemento de contenção e contemplação paisagística.",
+        "es": "Concebido en el contexto de un programa de Máster en Lisboa, este proyecto colaborativo explora la dimensión monumental e infraestructural de la arquitectura hidráulica en topografía en pendiente. La propuesta se estructura como un monolito vertical—abarcando entre las cotas +33.00m y +70.00m—que opera simultáneamente como torre de depósito de agua y umbral paisajístico.\n\nLa estrategia tectónica está definida por una envolvente exterior de hormigón que alberga un vaso de cisterna masivo y suspendido cuya base se curva suavemente para negociar las cargas hidráulicas. La sección espacial revela una progresión vertical intencional: un plinto técnico inferior que ancla la estructura al terraplén, un hueco vertical abierto que enmarca escaleras de circulación y conductos de mantenimiento, y un plano de coronación superior que remata el vacío.\n\nA nivel del suelo, la base de contención interactúa con una gran lámina de agua exterior, traduciendo el almacenamiento hidráulico interno en un plano abierto público o paisajístico. El diálogo entre los muros de contención masivos, el peso estereotómico y el reflejo etéreo del agua establece una infraestructura que trasciende su propósito puramente utilitario para convertirse en un hito permanente en el territorio."
+      },
+      "images": [
+        {
+          "src": "projects/10-master-lisboa/reservatorio_corte2.jpg",
+          "caption": {
+            "en": "Architectural section - Detail",
+            "pt": "Corte arquitetónico - Pormenor",
+            "es": "Sección arquitectónica - Detalle"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/10-master-lisboa/reservatorio_plantas.jpg",
+          "caption": {
+            "en": "Floor plans",
+            "pt": "Plantas",
+            "es": "Plantas"
+          },
+          "layout": "full"
+        }
+      ]
+    }
+  ]
+}

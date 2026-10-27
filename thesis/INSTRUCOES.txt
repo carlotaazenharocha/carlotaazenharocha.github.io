@@ -1,0 +1,83 @@
+================================================================================
+PÁGINA DA TESE - INSTRUÇÕES
+================================================================================
+
+Esta pasta contém tudo o que é necessário para a página dedicada à tua tese.
+A página vai apresentar o teu trabalho de forma interativa e profissional.
+
+
+================================================================================
+O QUE TENS DE FAZER
+================================================================================
+
+PASSO 1: PREENCHER INFO.txt
+----------------------------
+Preenche o ficheiro INFO.txt com os dados da tese:
+- Título
+- Resumo/Abstract (PT, EN, ES)
+- Orientadores
+- Instituições
+- Ano
+
+
+PASSO 2: EXPORTAR PÁGINAS DO INDESIGN
+-------------------------------------
+Exporta cada página do teu livro como imagem individual.
+
+No InDesign:
+1. Ficheiro > Exportar
+2. Formato: JPEG ou PNG
+3. Exportar: Todas as páginas (como ficheiros separados)
+4. Resolução: Alta qualidade (150-200 ppi é suficiente para web)
+5. Largura recomendada: 1200-1500 pixels
+
+Guarda as imagens na pasta "pages/" com nomes sequenciais:
+- page-01.jpg
+- page-02.jpg
+- page-03.jpg
+- ... etc.
+
+IMPORTANTE: Mantém a numeração com dois dígitos (01, 02... não 1, 2...)
+
+
+PASSO 3: IMAGEM DE CAPA (opcional)
+----------------------------------
+Se quiseres uma imagem de destaque para a página, adiciona:
+- cover.jpg (imagem principal que aparece no topo da página)
+
+
+PASSO 4: PDF COMPLETO
+---------------------
+Coloca o PDF completo da tese nesta pasta:
+- tese-completa.pdf
+
+Isto permite que os visitantes façam download do documento integral.
+
+
+================================================================================
+ESTRUTURA FINAL DA PASTA
+================================================================================
+
+thesis/
+├── INSTRUCOES.txt          ← Este ficheiro
+├── INFO.txt                ← Informação da tese (preencher!)
+├── cover.jpg               ← Imagem de capa (opcional)
+├── tese-completa.pdf       ← PDF para download
+└── pages/                  ← Pasta com as páginas exportadas
+    ├── page-01.jpg
+    ├── page-02.jpg
+    ├── page-03.jpg
+    └── ...
+
+
+================================================================================
+NOTAS
+================================================================================
+
+- As imagens devem estar por ordem (a numeração define a ordem das páginas)
+- Quanto mais leves as imagens, mais rápido carrega a página
+- JPG é recomendado para fotografias, PNG para gráficos/texto
+- Se o ficheiro PDF for muito grande (>10MB), considera criar uma versão
+  otimizada para web
+
+Qualquer dúvida, fala com o developer!

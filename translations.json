@@ -1,0 +1,140 @@
+{
+  "en": {
+    "nav": {
+      "projects": "Projects",
+      "about": "About"
+    },
+    "projects": {
+      "grid_title": "Selected Projects"
+    },
+    "project": {
+      "metadata_labels": {
+        "project": "Project",
+        "year": "Year",
+        "location": "Location",
+        "typology": "Typology"
+      }
+    },
+    "about": {
+      "title": "About",
+      "intro": "Believing that learning is largely the result of experience, I have been putting into practice my enthusiasm for architecture through programs and volunteering that foster my growth as a person and as a student.",
+      "intro2": "In addition to this interest, I enjoy being involved with sustainability, the arts, dance, sports, music, and nature.",
+      "skills": "Technical Skills",
+      "skills_experienced": "Experienced",
+      "skills_learning": "Learning",
+      "languages": "Languages",
+      "language_native": "Native",
+      "education": "Education",
+      "participations": "Academic Activities & Formative Experiences",
+      "publications": "Publications",
+      "thesis": "Thesis",
+      "cv_download": "Download Full CV (PDF)",
+      "contact": "Contact",
+      "contact_labels": {
+        "name": "Name",
+        "email": "Email",
+        "location": "Location",
+        "linkedin": "LinkedIn"
+      }
+    },
+    "participation": {
+      "back_to_about": "Back to About",
+      "external_links": "External Links"
+    },
+    "footer": {
+      "copyright": "© 2026. All rights reserved."
+    }
+  },
+  "pt": {
+    "nav": {
+      "projects": "Projetos",
+      "about": "Sobre"
+    },
+    "projects": {
+      "grid_title": "Projetos Selecionados"
+    },
+    "project": {
+      "metadata_labels": {
+        "project": "Projeto",
+        "year": "Ano",
+        "location": "Localização",
+        "typology": "Tipologia"
+      }
+    },
+    "about": {
+      "title": "Sobre",
+      "intro": "Acreditando que a aprendizagem é, em grande medida, o resultado da experiência obtida, tenho vindo a colocar em prática o meu entusiasmo pela participação em programas e voluntariados que me fazem crescer enquanto pessoa e estudante de Arquitetura.",
+      "intro2": "Além deste interesse, gosto de estar relacionada com o tema da sustentabilidade, com as artes, com a dança, com o desporto, com a música e com a natureza.",
+      "skills": "Competências Técnicas",
+      "skills_experienced": "Experiente",
+      "skills_learning": "A aprender",
+      "languages": "Idiomas",
+      "language_native": "Nativo",
+      "education": "Educação",
+      "participations": "Atividades Académicas e Experiências Formativas",
+      "publications": "Publicações",
+      "thesis": "Dissertação",
+      "cv_download": "Descarregar CV Completo (PDF)",
+      "contact": "Contacto",
+      "contact_labels": {
+        "name": "Nome",
+        "email": "Email",
+        "location": "Localização",
+        "linkedin": "LinkedIn"
+      }
+    },
+    "participation": {
+      "back_to_about": "Voltar a Sobre",
+      "external_links": "Links Externos"
+    },
+    "footer": {
+      "copyright": "© 2026. Todos os direitos reservados."
+    }
+  },
+  "es": {
+    "nav": {
+      "projects": "Proyectos",
+      "about": "Sobre mí"
+    },
+    "projects": {
+      "grid_title": "Proyectos Seleccionados"
+    },
+    "project": {
+      "metadata_labels": {
+        "project": "Proyecto",
+        "year": "Año",
+        "location": "Ubicación",
+        "typology": "Tipología"
+      }
+    },
+    "about": {
+      "title": "Sobre mí",
+      "intro": "Creyendo que el aprendizaje es, en gran medida, el resultado de la experiencia obtenida, he puesto en práctica mi entusiasmo por la participación en programas y voluntariados que me hacen crecer como persona y estudiante de Arquitectura.",
+      "intro2": "Además de este interés, me gusta estar relacionada con el tema de la sostenibilidad, las artes, la danza, el deporte, la música y la naturaleza.",
+      "skills": "Competencias Técnicas",
+      "skills_experienced": "Experimentada",
+      "skills_learning": "Aprendiendo",
+      "languages": "Idiomas",
+      "language_native": "Nativo",
+      "education": "Educación",
+      "participations": "Actividades Académicas y Experiencias Formativas",
+      "publications": "Publicaciones",
+      "thesis": "Tesis",
+      "cv_download": "Descargar CV Completo (PDF)",
+      "contact": "Contacto",
+      "contact_labels": {
+        "name": "Nombre",
+        "email": "Email",
+        "location": "Ubicación",
+        "linkedin": "LinkedIn"
+      }
+    },
+    "participation": {
+      "back_to_about": "Volver a Sobre mí",
+      "external_links": "Enlaces Externos"
+    },
+    "footer": {
+      "copyright": "© 2026. Todos los derechos reservados."
+    }
+  }
+}

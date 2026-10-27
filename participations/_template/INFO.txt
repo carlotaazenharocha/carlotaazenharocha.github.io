@@ -1,0 +1,111 @@
+================================================================================
+INFORMAÇÃO DA PARTICIPAÇÃO
+================================================================================
+Preenche os campos abaixo em PORTUGUÊS, INGLÊS e ESPANHOL.
+Apaga os textos de exemplo e escreve a tua informação.
+
+
+TIPO DE PARTICIPAÇÃO
+--------------------
+Escolhe um: Workshop / Seminário / Intercâmbio / Voluntariado / Projeto / Programa
+
+Tipo:
+
+
+DATA
+--------------------
+Português: (ex: "Março de 2024" ou "15-20 de julho de 2023")
+Inglês: (ex: "March 2024" ou "July 15-20, 2023")
+Espanhol: (ex: "Marzo de 2024" ou "15-20 de julio de 2023")
+
+Data PT:
+Data EN:
+Data ES:
+
+
+TÍTULO
+--------------------
+Português:
+Inglês:
+Espanhol:
+
+Título PT:
+Título EN:
+Título ES:
+
+
+LOCAL
+--------------------
+Português: (ex: "Porto, Portugal")
+Inglês: (ex: "Porto, Portugal")
+Espanhol: (ex: "Oporto, Portugal")
+
+Local PT:
+Local EN:
+Local ES:
+
+
+INSTITUIÇÃO / ORGANIZAÇÃO
+--------------------
+Português:
+Inglês:
+Espanhol:
+
+Instituição PT:
+Instituição EN:
+Instituição ES:
+
+
+DESCRIÇÃO
+--------------------
+Escreve um texto descritivo sobre a participação.
+Pode ter vários parágrafos. Descreve o que fizeste, o que aprendeste, etc.
+
+Descrição PT:
+
+
+
+
+Descrição EN:
+
+
+
+
+Descrição ES:
+
+
+
+
+LEGENDAS DAS IMAGENS (opcional)
+--------------------
+Para cada imagem, escreve a legenda em PT, EN e ES.
+Usa o nome exacto do ficheiro da imagem.
+
+Imagem: imagem1.jpg
+Legenda PT:
+Legenda EN:
+Legenda ES:
+
+Imagem: imagem2.jpg
+Legenda PT:
+Legenda EN:
+Legenda ES:
+
+(adiciona mais se necessário)
+
+
+LINKS EXTERNOS (opcional)
+--------------------
+Links para sites, artigos, vídeos relacionados.
+
+Link 1:
+Texto do link PT:
+Texto do link EN:
+Texto do link ES:
+
+Link 2:
+Texto do link PT:
+Texto do link EN:
+Texto do link ES:
+
+(adiciona mais se necessário)

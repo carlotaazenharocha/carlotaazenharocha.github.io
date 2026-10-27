@@ -1,0 +1,133 @@
+{
+  "intro": {
+    "en": [
+      "Believing that learning is largely the result of experience, I have been putting into practice my enthusiasm for architecture through programs and volunteering that foster my growth as a person and as a student.",
+      "In addition to this interest, I enjoy being involved with sustainability, the arts, dance, sports, music, and nature."
+    ],
+    "pt": [
+      "Acreditando que a aprendizagem é, em grande medida, o resultado da experiência obtida, tenho vindo a colocar em prática o meu entusiasmo pela participação em programas e voluntariados que me fazem crescer enquanto pessoa e estudante de Arquitetura.",
+      "Além deste interesse, gosto de estar relacionada com o tema da sustentabilidade, com as artes, com a dança, com o desporto, com a música e com a natureza."
+    ],
+    "es": [
+      "Creyendo que el aprendizaje es, en gran medida, el resultado de la experiencia obtenida, he puesto en práctica mi entusiasmo por la participación en programas y voluntariados que me hacen crecer como persona y estudiante de Arquitectura.",
+      "Además de este interés, me gusta estar relacionada con el tema de la sostenibilidad, las artes, la danza, el deporte, la música y la naturaleza."
+    ]
+  },
+  "skills": {
+    "experienced": ["AutoCAD", "TwinMotion", "Adobe InDesign"],
+    "learning": ["Adobe Photoshop", "SketchUp", "Revit"]
+  },
+  "languages": [
+    {
+      "name": "Português",
+      "level": "native"
+    },
+    {
+      "name": "English",
+      "level": "B2"
+    },
+    {
+      "name": "Español",
+      "level": "B2"
+    }
+  ],
+  "education": [
+    {
+      "date": {
+        "en": "2023 — 2024",
+        "pt": "2023 — 2024",
+        "es": "2023 — 2024"
+      },
+      "title": {
+        "en": "Integrated Master in Architecture (Exchange)",
+        "pt": "Mestrado Integrado em Arquitetura (Intercâmbio)",
+        "es": "Máster Integrado en Arquitectura (Intercambio)"
+      },
+      "institution": {
+        "en": "University of Porto",
+        "pt": "Universidade do Porto",
+        "es": "Universidad de Oporto"
+      }
+    },
+    {
+      "date": {
+        "en": "Feb 2023 — Jul 2023",
+        "pt": "Fev 2023 — Jul 2023",
+        "es": "Feb 2023 — Jul 2023"
+      },
+      "title": {
+        "en": "Integrated Master in Architecture (Erasmus)",
+        "pt": "Mestrado Integrado em Arquitetura (Erasmus)",
+        "es": "Máster Integrado en Arquitectura (Erasmus)"
+      },
+      "institution": {
+        "en": "Superior Technical School of Architecture of Seville",
+        "pt": "Escola Técnica Superior de Arquitectura de Sevilha",
+        "es": "Escuela Técnica Superior de Arquitectura de Sevilla"
+      }
+    },
+    {
+      "date": {
+        "en": "Oct 2020 — Dec 2022",
+        "pt": "Out 2020 — Dez 2022",
+        "es": "Oct 2020 — Dic 2022"
+      },
+      "title": {
+        "en": "Integrated Master in Architecture",
+        "pt": "Mestrado Integrado em Arquitetura",
+        "es": "Máster Integrado en Arquitectura"
+      },
+      "institution": {
+        "en": "University of Évora",
+        "pt": "Universidade de Évora",
+        "es": "Universidad de Évora"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "date": "2025",
+      "title": {
+        "en": "\"Collaborative Laboratory: Urban Dynamics, Heritage, Arts\"",
+        "pt": "\"Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes\"",
+        "es": "\"Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes\""
+      },
+      "institution": {
+        "en": "XI Seminar on Research, Teaching and Dissemination",
+        "pt": "XI Seminário de Investigação, Ensino e Difusão",
+        "es": "XI Seminario de Investigación, Enseñanza y Difusión"
+      }
+    }
+  ],
+  "thesis": {
+    "date": {
+      "en": "Oct 2024 — In Progress",
+      "pt": "Out 2024 — Em Curso",
+      "es": "Oct 2024 — En Curso"
+    },
+    "title": {
+      "en": "Master's Thesis",
+      "pt": "Dissertação de Mestrado",
+      "es": "Tesis de Máster"
+    },
+    "institution": {
+      "en": "University of Évora / University of Florence (DIDA)",
+      "pt": "Universidade de Évora / Universidade de Florença (DIDA)",
+      "es": "Universidad de Évora / Universidad de Florencia (DIDA)"
+    }
+  },
+  "contact": {
+    "name": "Carlota de Sousa Azenha da Rocha",
+    "email": "carlota.s.rocha@gmail.com",
+    "location": {
+      "en": "Amarante, Porto, Portugal",
+      "pt": "Amarante, Porto, Portugal",
+      "es": "Amarante, Oporto, Portugal"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/carlota-rocha-766665248/",
+      "label": "Carlota Rocha"
+    }
+  },
+  "cvFile": "assets/cv.pdf"
+}

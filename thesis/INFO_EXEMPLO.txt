@@ -1,0 +1,97 @@
+================================================================================
+INFORMAÇÃO DA TESE - EXEMPLO PREENCHIDO
+================================================================================
+Este é um exemplo de como preencher o ficheiro INFO.txt
+
+
+TÍTULO
+--------------------------------------------------------------------------------
+Título PT: Convento de Tomina: Memória e Reabilitação
+
+Título EN: Tomina Convent: Memory and Rehabilitation
+
+Título ES: Convento de Tomina: Memoria y Rehabilitación
+
+
+SUBTÍTULO (opcional)
+--------------------------------------------------------------------------------
+Subtítulo PT: Uma proposta de intervenção no património conventual alentejano
+
+Subtítulo EN: An intervention proposal for Alentejo's conventual heritage
+
+Subtítulo ES: Una propuesta de intervención en el patrimonio conventual alentejano
+
+
+ANO / STATUS
+--------------------------------------------------------------------------------
+Ano: 2024
+Status PT: Em curso
+Status EN: In progress
+Status ES: En curso
+
+
+INSTITUIÇÕES
+--------------------------------------------------------------------------------
+Instituição 1: Universidade de Évora
+Instituição 2: Università degli Studi di Firenze (DIDA)
+
+
+ORIENTADORES
+--------------------------------------------------------------------------------
+Orientador 1 (Nome e instituição): Prof. João Silva, Universidade de Évora
+
+Orientador 2 (Nome e instituição): Prof.ssa Maria Rossi, Università di Firenze
+
+Orientador 3 (se aplicável):
+
+
+RESUMO / ABSTRACT
+--------------------------------------------------------------------------------
+
+Resumo PT:
+A presente dissertação centra-se no estudo e proposta de reabilitação do Convento de Tomina, localizado no Alentejo. O trabalho desenvolve-se a partir de uma análise histórica e arquitetónica do edifício, procurando compreender as diferentes fases de construção e as transformações que sofreu ao longo dos séculos.
+
+A proposta de intervenção procura estabelecer um diálogo entre a memória do lugar e as necessidades contemporâneas, explorando novos usos que garantam a sustentabilidade e vitalidade do conjunto edificado.
+
+Resumo EN:
+This dissertation focuses on the study and rehabilitation proposal for the Tomina Convent, located in Alentejo. The work develops from a historical and architectural analysis of the building, seeking to understand the different construction phases and transformations it underwent over the centuries.
+
+The intervention proposal seeks to establish a dialogue between the memory of the place and contemporary needs, exploring new uses that ensure the sustainability and vitality of the built ensemble.
+
+Resumo ES:
+La presente disertación se centra en el estudio y propuesta de rehabilitación del Convento de Tomina, ubicado en el Alentejo. El trabajo se desarrolla a partir de un análisis histórico y arquitectónico del edificio, buscando comprender las diferentes fases de construcción y las transformaciones que sufrió a lo largo de los siglos.
+
+La propuesta de intervención busca establecer un diálogo entre la memoria del lugar y las necesidades contemporáneas, explorando nuevos usos que garanticen la sostenibilidad y vitalidad del conjunto edificado.
+
+
+PALAVRAS-CHAVE / KEYWORDS
+--------------------------------------------------------------------------------
+Palavras-chave PT: Património, Reabilitação, Convento, Alentejo, Arquitetura conventual
+
+Keywords EN: Heritage, Rehabilitation, Convent, Alentejo, Conventual architecture
+
+Palabras clave ES: Patrimonio, Rehabilitación, Convento, Alentejo, Arquitectura conventual
+
+
+LOCALIZAÇÃO DO PROJETO (se aplicável)
+--------------------------------------------------------------------------------
+Local PT: Tomina, Alentejo, Portugal
+
+Local EN: Tomina, Alentejo, Portugal
+
+Local ES: Tomina, Alentejo, Portugal
+
+Coordenadas (opcional, para mapa): 38.5234, -7.9012
+
+
+NÚMERO TOTAL DE PÁGINAS
+--------------------------------------------------------------------------------
+Número de páginas: 12
+
+
+================================================================================
+NOTAS ADICIONAIS
+================================================================================
+Tese desenvolvida no âmbito do programa de mobilidade entre a Universidade
+de Évora e a Università degli Studi di Firenze.
+
