@@ -10,6 +10,7 @@
   --color-text-secondary: #666666;
   --color-border: #e5e5e5;
   --color-concept: #444444;
+  --color-accent: #a32a2a;
   --color-preview-bg: #f0f0f0;
 
   /* Page size in mm and type scale — set by JavaScript (A4 = 1, A3 = 1.414) */
@@ -376,6 +377,163 @@ button {
   margin-top: calc(2mm * var(--u));
 }
 
+/* Research chapter */
+.research-subtitle {
+  font-size: calc(10pt * var(--u));
+  font-weight: 300;
+  color: var(--color-text-secondary);
+  margin: calc(-5mm * var(--u)) 0 calc(6mm * var(--u));
+  max-width: 70ch;
+}
+
+.pf-spaced {
+  margin-top: calc(10mm * var(--u));
+}
+
+.pf-intro {
+  max-width: 80ch;
+  margin-top: calc(4mm * var(--u));
+  font-size: calc(9pt * var(--u));
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--color-concept);
+}
+
+/* Timeline: vertical list, in two columns on landscape pages */
+.pf-timeline {
+  list-style: none;
+  margin-top: calc(8mm * var(--u));
+}
+
+.orientation-landscape .pf-timeline {
+  column-count: 2;
+  column-gap: calc(12mm * var(--u));
+}
+
+.pf-timeline-item {
+  display: grid;
+  grid-template-columns: calc(14mm * var(--u)) 1fr;
+  gap: calc(4mm * var(--u));
+  padding: calc(1.6mm * var(--u)) 0;
+  border-top: 1px solid var(--color-border);
+  break-inside: avoid;
+}
+
+.pf-timeline-item .pf-timeline-year {
+  font-size: calc(9pt * var(--u));
+  margin-bottom: 0;
+}
+
+.pf-timeline-text {
+  font-size: calc(7.5pt * var(--u));
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--color-concept);
+}
+
+.pf-timeline-item--key .pf-timeline-year {
+  color: var(--color-accent);
+}
+
+.pf-timeline-item--key .pf-timeline-text {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.pf-publication {
+  display: grid;
+  grid-template-columns: calc(18mm * var(--u)) 1fr;
+  gap: calc(4mm * var(--u));
+  padding-top: calc(3mm * var(--u));
+  border-top: 1px solid var(--color-border);
+  font-size: calc(8.5pt * var(--u));
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--color-concept);
+}
+
+.pf-timeline-year {
+  font-size: calc(11pt * var(--u));
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: calc(2mm * var(--u));
+}
+
+.pf-phases {
+  list-style: none;
+  margin-top: calc(8mm * var(--u));
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: calc(8mm * var(--u));
+}
+
+.orientation-landscape .pf-phases {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pf-phase {
+  padding-top: calc(4mm * var(--u));
+  border-top: 1px solid var(--color-text);
+}
+
+.pf-phase-number {
+  font-size: calc(8pt * var(--u));
+  color: var(--color-text-secondary);
+}
+
+.pf-phase-title {
+  font-size: calc(10pt * var(--u));
+  font-weight: 500;
+  margin: calc(2mm * var(--u)) 0 calc(3mm * var(--u));
+}
+
+.pf-phase-text {
+  font-size: calc(8pt * var(--u));
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--color-concept);
+}
+
+.pf-status {
+  display: flex;
+  align-items: center;
+  gap: calc(3mm * var(--u));
+  margin-top: calc(5mm * var(--u));
+}
+
+.pf-status .meta-label {
+  margin-bottom: 0;
+}
+
+.pf-status-badge {
+  padding: calc(1mm * var(--u)) calc(3mm * var(--u));
+  border: 1px solid var(--color-text);
+  border-radius: 999px;
+  font-size: calc(7.5pt * var(--u));
+}
+
+.pf-publications {
+  list-style: none;
+  margin-top: calc(4mm * var(--u));
+  display: grid;
+  gap: calc(4mm * var(--u));
+}
+
+.pf-publication-title {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.pf-publication-venue,
+.pf-publication-url {
+  color: var(--color-text-secondary);
+}
+
+.pf-publication-url {
+  font-size: calc(7pt * var(--u));
+  word-break: break-all;
+}
+
 /* Back page */
 .page-back {
   justify-content: flex-end;
@@ -442,4 +600,12 @@ button {
     margin-left: 0;
     padding: 1rem;
   }
+}
+
+/* Running text is always justified */
+.project-text,
+.pf-intro,
+.pf-timeline-text,
+.pf-phase-text {
+  text-align: justify;
 }

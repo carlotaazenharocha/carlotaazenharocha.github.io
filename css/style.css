@@ -16,6 +16,7 @@
   --color-border: #e5e5e5;
   --color-overlay: rgba(0, 0, 0, 0.3);
   --color-concept: #333333;
+  --color-accent: #a32a2a;
 }
 
 /* ============================================
@@ -1262,4 +1263,282 @@ footer {
     height: auto;
     aspect-ratio: 4/3;
   }
+}
+/* ============================================
+   RESEARCH PAGE
+   ============================================ */
+
+.project-section-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+}
+
+.research-subtitle {
+  max-width: 60ch;
+  margin: -2rem 0 3rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.research-section {
+  margin-bottom: 2rem;
+}
+
+.research-text {
+  max-width: 70ch;
+  margin-bottom: 3rem;
+  font-size: 1.0625rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--color-concept);
+}
+
+/* Image still to be added: dashed box with what goes there */
+.image-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  aspect-ratio: 16 / 9;
+  padding: 2rem;
+  border: 1px dashed var(--color-text-tertiary);
+  background-color: var(--color-bg-alt);
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.image-placeholder code {
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary);
+}
+
+/* Timeline: vertical list, years on the left */
+.timeline {
+  list-style: none;
+  margin-bottom: 4rem;
+  border-left: 1px solid var(--color-border);
+}
+
+.timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 60ch);
+  gap: 2rem;
+  padding: 0 0 2rem 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 0.45rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--color-text);
+}
+
+.timeline-year {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.timeline-text {
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--color-concept);
+}
+
+/* Key moments, in red and bold as in the dissertation diagram */
+.timeline-item--key::before {
+  left: -6px;
+  top: 0.35rem;
+  width: 11px;
+  height: 11px;
+  background-color: var(--color-accent);
+}
+
+.timeline-item--key .timeline-year {
+  color: var(--color-accent);
+}
+
+.timeline-item--key .timeline-text {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* Safeguarding phases */
+.phases {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.phase {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-text);
+}
+
+.phase-number {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.phase-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.phase-text {
+  font-size: 0.9375rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--color-concept);
+}
+
+.phase-next {
+  margin-top: auto;
+  padding-top: 1rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+/* Classification status */
+.status {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.status .metadata-label {
+  margin-bottom: 0;
+}
+
+.status-badge {
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--color-text);
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  letter-spacing: 0.02em;
+}
+
+/* Publications */
+.publications {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.publication {
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1fr);
+  gap: 2rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.publication-year {
+  color: var(--color-text-secondary);
+}
+
+.publication-title {
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+
+.publication-venue {
+  font-size: 0.9375rem;
+  font-weight: 300;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.publication-link {
+  font-size: 0.875rem;
+  color: var(--color-text);
+}
+
+.publication-note {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1024px) {
+  .phases {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .research-subtitle {
+    margin: -1rem 0 2rem;
+    font-size: 1rem;
+  }
+
+  .timeline-item,
+  .publication {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .phases {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Contact call on the research page */
+.research-contact-btn {
+  display: inline-block;
+  margin-bottom: 4rem;
+  padding: 0.85rem 1.5rem;
+  border: 1px solid var(--color-text);
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.research-contact-btn:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+@media (max-width: 768px) {
+  .research-contact-btn {
+    display: block;
+    text-align: center;
+    word-break: break-word;
+  }
+}
+
+/* Running text is always justified */
+.project-concept,
+.about-main p,
+.participation-description,
+.research-text,
+.timeline-text,
+.phase-text,
+.phase-next,
+.publication-note {
+  text-align: justify;
 }

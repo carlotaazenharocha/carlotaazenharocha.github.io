@@ -1,6 +1,6 @@
 // ============================================
 // PORTFOLIO PDF BUILDER
-// Builds print-ready pages from projects.json; the browser's
+// Builds print-ready pages from research.json and projects.json; the browser's
 // "Save as PDF" turns them into the portfolio.
 // ============================================
 
@@ -22,8 +22,11 @@ const STORAGE_KEY = 'portfolio-builder';
 let projects = [];
 let translations = null;
 let about = null;
+let research = null;
+let availableResearchImages = new Set();
 
 const state = {
+  includeResearch: true,
   selected: [],
   format: 'a4',
   orientation: 'landscape',
@@ -183,6 +186,119 @@ function buildImagePage(group) {
   return page;
 }
 
+// ============================================
+// RESEARCH CHAPTER
+// ============================================
+
+function buildResearchIntro() {
+  const page = createPage('page-project-intro');
+  page.appendChild(el('div', 'project-number', getText(research.label)));
+  page.appendChild(el('h2', 'project-name', getText(research.title)));
+  page.appendChild(el('p', 'research-subtitle', getText(research.subtitle)));
+
+  const meta = el('dl', 'project-meta');
+  (research.metadata || []).forEach(item => {
+    const node = el('div', 'meta-item');
+    node.append(el('dt', 'meta-label', getText(item.label)), el('dd', 'meta-value', getText(item.value)));
+    meta.appendChild(node);
+  });
+  page.appendChild(meta);
+
+  const text = el('div', 'project-text');
+  getText(research.abstract).split(/\n\s*\n/).forEach(paragraph => text.appendChild(el('p', null, paragraph)));
+  page.appendChild(text);
+  return page;
+}
+
+function buildTimelinePage(section) {
+  const page = createPage('page-research');
+  page.appendChild(el('div', 'page-label', getText(section.title)));
+  const list = el('ol', 'pf-timeline');
+  section.items.forEach(item => {
+    const node = el('li', `pf-timeline-item${item.highlight ? ' pf-timeline-item--key' : ''}`);
+    node.append(el('span', 'pf-timeline-year', item.year), el('p', 'pf-timeline-text', getText(item.text)));
+    list.appendChild(node);
+  });
+  page.appendChild(list);
+  return page;
+}
+
+function buildPhasesPage(section) {
+  const page = createPage('page-research');
+  page.appendChild(el('div', 'page-label', getText(section.title)));
+  if (section.intro) page.appendChild(el('p', 'pf-intro', getText(section.intro)));
+  const list = el('ol', 'pf-phases');
+  section.items.forEach((item, index) => {
+    const node = el('li', 'pf-phase');
+    node.append(
+      el('span', 'pf-phase-number', String(index + 1).padStart(2, '0')),
+      el('h3', 'pf-phase-title', getText(item.title)),
+      el('p', 'pf-phase-text', getText(item.text))
+    );
+    list.appendChild(node);
+  });
+  page.appendChild(list);
+  return page;
+}
+
+// Classification status and publications share the last page of the chapter
+function buildStatusPage(status, publications) {
+  const page = createPage('page-research');
+  if (status) {
+    page.appendChild(el('div', 'page-label', getText(status.title)));
+    const badge = el('div', 'pf-status');
+    badge.append(el('span', 'meta-label', getText(status.statusLabel)), el('span', 'pf-status-badge', getText(status.status)));
+    page.append(badge, el('p', 'pf-intro', getText(status.text)));
+  }
+  if (publications) {
+    page.appendChild(el('div', 'page-label pf-spaced', getText(publications.title)));
+    const list = el('ul', 'pf-publications');
+    publications.items.forEach(item => {
+      const node = el('li', 'pf-publication');
+      const body = el('div');
+      body.append(
+        el('p', 'pf-publication-title', item.title),
+        el('p', 'pf-publication-venue', `${item.authors} — ${getText(item.venue)}`)
+      );
+      if (item.url) body.appendChild(el('p', 'pf-publication-url', item.url));
+      node.append(el('span', 'pf-timeline-year', item.year), body);
+      list.appendChild(node);
+    });
+    page.appendChild(list);
+  }
+  return page;
+}
+
+// Pages of the research chapter, skipping images that have not been added yet
+function buildResearchPages() {
+  const pages = [buildResearchIntro()];
+  const find = type => research.sections.find(section => section.type === type);
+
+  research.sections.forEach(section => {
+    if (section.type === 'timeline') pages.push(buildTimelinePage(section));
+    if (section.type === 'phases') pages.push(buildPhasesPage(section));
+    if (section.type === 'text' && section.images) {
+      const images = section.images.filter(image => availableResearchImages.has(image.src));
+      if (images.length) {
+        images[0] = { ...images[0], section: section.title };
+        pages.push(...groupImages(images).map(buildImagePage));
+      }
+    }
+  });
+
+  if (find('status') || find('publications')) pages.push(buildStatusPage(find('status'), find('publications')));
+  return pages;
+}
+
+// Check which research images exist, so missing ones are left out of the PDF
+async function checkResearchImages() {
+  const sources = (research?.sections || []).flatMap(section => (section.images || []).map(image => image.src));
+  const results = await Promise.all(sources.map(src =>
+    fetch(src, { method: 'HEAD' }).then(response => response.ok ? src : null).catch(() => null)
+  ));
+  availableResearchImages = new Set(results.filter(Boolean));
+}
+
 function buildBackPage() {
   const page = createPage('page-back');
   const contact = el('div', 'back-contact');
@@ -264,15 +380,29 @@ function renderPages() {
   const selected = projects.filter(project => state.selected.includes(project.id));
   const name = about?.contact?.name || 'Carlota Azenha da Rocha';
 
-  // Build project pages first so the contents page knows where each one starts
-  const hasContents = selected.length > 0;
+  // Build the chapters first so the contents page knows where each one starts
+  const withResearch = state.includeResearch && research;
+  const hasContents = selected.length > 0 || withResearch;
   let pageNumber = hasContents ? 3 : 2; // cover = 1, contents = 2
-  const entries = selected.map((project, index) => {
+  const entries = [];
+
+  if (withResearch) {
+    const pages = buildResearchPages();
+    const period = research.metadata?.find(item => item.label.en === 'Period');
+    entries.push({
+      project: { title: research.title, year: period ? getText(period.value) : '' },
+      number: '—',
+      startPage: pageNumber,
+      pages
+    });
+    pages.forEach(page => addFooter(page, `${name} — ${getText(research.title)}`, pageNumber++));
+  }
+
+  selected.forEach((project, index) => {
     const number = String(index + 1).padStart(2, '0');
     const pages = [buildProjectIntro(project, number), ...groupImages(project.images || []).map(buildImagePage)];
-    const entry = { project, number, startPage: pageNumber, pages };
+    entries.push({ project, number, startPage: pageNumber, pages });
     pages.forEach(page => addFooter(page, `${name} — ${getText(project.title)}`, pageNumber++));
-    return entry;
   });
 
   pagesEl.appendChild(buildCover());
@@ -376,6 +506,14 @@ function initControls() {
     });
   });
 
+  const researchToggle = document.getElementById('include-research');
+  researchToggle.checked = state.includeResearch;
+  researchToggle.disabled = !research;
+  researchToggle.addEventListener('change', () => {
+    state.includeResearch = researchToggle.checked;
+    update();
+  });
+
   document.getElementById('export-pdf').addEventListener('click', exportPdf);
   window.addEventListener('resize', fitPreview);
 }
@@ -385,14 +523,16 @@ function initControls() {
 // ============================================
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const [projectsJson, translationsJson, aboutJson] = await Promise.all(
-    ['projects.json', 'translations.json', 'about.json'].map(file =>
+  const [projectsJson, translationsJson, aboutJson, researchJson] = await Promise.all(
+    ['projects.json', 'translations.json', 'about.json', 'research.json'].map(file =>
       fetch(file).then(response => response.json()).catch(() => null)
     )
   );
   projects = projectsJson?.projects || [];
   translations = translationsJson;
   about = aboutJson;
+  research = researchJson;
+  await checkResearchImages();
 
   // Drop saved ids of projects that no longer exist; default to all projects
   const ids = projects.map(p => p.id);

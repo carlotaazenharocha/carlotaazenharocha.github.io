@@ -1,6 +1,6 @@
 # Carlota Azenha da Rocha — Portfólio de Arquitetura
 
-Site-portfólio de **Carlota Azenha da Rocha**, estudante do Mestrado Integrado em Arquitetura da Universidade de Évora, com períodos de estudo na Universidade do Porto e na ETSA de Sevilha, e tese de mestrado em curso com a Universidade de Florença.
+Site-portfólio de **Carlota Azenha da Rocha**, estudante do Mestrado Integrado em Arquitetura da Universidade de Évora, com períodos de estudo na Universidade do Porto e na ETSA de Sevilha. A dissertação de mestrado, sobre a salvaguarda do Convento da Tomina, foi desenvolvida na Universidade de Évora.
 
 🔗 **https://carlotaazenharocha.github.io**
 
@@ -17,6 +17,7 @@ O site apresenta projetos académicos (desenhos, maquetes e processo), o percurs
 | `index.html` | Grelha com todos os projetos |
 | `project.html?id=…` | Projeto: título, texto, imagens organizadas por blocos (Lugar, Desenhos, Maquetes, Processo) e ficha técnica |
 | `about.html` | Apresentação, formação, competências, tese, CV para descarregar e contactos |
+| `research.html` | Investigação (em curso) sobre o Convento da Tomina, iniciada com a dissertação de mestrado: resumo, linha do tempo, levantamento, estratégia de salvaguarda, candidatura a património e publicações |
 | `participation.html?id=…` | Detalhe de cada participação (workshop, seminário, intercâmbio…) |
 | `portfolio.html` | Ferramenta interna para gerar o portfólio em PDF: escolher projetos, formato (A4/A3, horizontal/vertical) e língua |
 
@@ -32,6 +33,7 @@ Site estático, sem dependências nem passo de build: **HTML, CSS e JavaScript**
 ├── projects.json           # Projetos
 ├── participations.json     # Participações
 ├── about.json              # Conteúdo da página About
+├── research.json           # Conteúdo da página Investigação
 ├── translations.json       # Textos da interface (menus, etiquetas, rodapé)
 ├── css/
 │   ├── style.css           # Estilos do site
@@ -42,7 +44,7 @@ Site estático, sem dependências nem passo de build: **HTML, CSS e JavaScript**
 ├── projects/NN-nome/       # Imagens de cada projeto
 ├── participations/<id>/    # Imagens de cada participação
 ├── assets/                 # CV, documentos e imagens gerais
-└── thesis/                 # Material da tese
+└── research/images/        # Imagens da página Investigação
 ```
 
 ---

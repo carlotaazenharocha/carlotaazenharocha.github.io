@@ -14,8 +14,16 @@
     ]
   },
   "skills": {
-    "experienced": ["AutoCAD", "TwinMotion", "Adobe InDesign"],
-    "learning": ["Adobe Photoshop", "SketchUp", "Revit"]
+    "experienced": [
+      "AutoCAD",
+      "TwinMotion",
+      "Adobe InDesign"
+    ],
+    "learning": [
+      "Adobe Photoshop",
+      "SketchUp",
+      "Revit"
+    ]
   },
   "languages": [
     {
@@ -88,32 +96,47 @@
     {
       "date": "2025",
       "title": {
-        "en": "\"Collaborative Laboratory: Urban Dynamics, Heritage, Arts\"",
-        "pt": "\"Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes\"",
-        "es": "\"Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes\""
+        "en": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”",
+        "pt": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”",
+        "es": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”"
       },
       "institution": {
-        "en": "XI Seminar on Research, Teaching and Dissemination",
-        "pt": "XI Seminário de Investigação, Ensino e Difusão",
-        "es": "XI Seminario de Investigación, Enseñanza y Difusión"
-      }
+        "en": "XI Seminar of the Collaborative Laboratory: Urban Dynamics, Heritage, Arts",
+        "pt": "XI Seminário do Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes",
+        "es": "XI Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes"
+      },
+      "url": "https://repositorio.iscte-iul.pt/entities/publication/1ad02647-07bf-4342-a9b6-2101a4ab41ca"
+    },
+    {
+      "date": "2026",
+      "title": {
+        "en": "“Convento da Tomina: da identidade patrimonial à estratégia de intervenção”",
+        "pt": "“Convento da Tomina: da identidade patrimonial à estratégia de intervenção”",
+        "es": "“Convento da Tomina: da identidade patrimonial à estratégia de intervenção”"
+      },
+      "institution": {
+        "en": "XII Seminar of the Collaborative Laboratory: Urban Dynamics, Heritage, Arts",
+        "pt": "XII Seminário do Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes",
+        "es": "XII Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes"
+      },
+      "url": "https://dspace.uevora.pt/rdpc/handle/10174/40438"
     }
   ],
   "thesis": {
     "date": {
-      "en": "Oct 2024 — In Progress",
-      "pt": "Out 2024 — Em Curso",
-      "es": "Oct 2024 — En Curso"
+      "en": "Oct 2024 — 2026",
+      "pt": "Out 2024 — 2026",
+      "es": "Oct 2024 — 2026"
     },
     "title": {
-      "en": "Master's Thesis",
-      "pt": "Dissertação de Mestrado",
-      "es": "Tesis de Máster"
+      "en": "Master's Dissertation — Convento da Tomina",
+      "pt": "Dissertação de Mestrado — Convento da Tomina",
+      "es": "Tesis de Máster — Convento da Tomina"
     },
     "institution": {
-      "en": "University of Évora / University of Florence (DIDA)",
-      "pt": "Universidade de Évora / Universidade de Florença (DIDA)",
-      "es": "Universidad de Évora / Universidad de Florencia (DIDA)"
+      "en": "University of Évora — Supervisor: Sofia Aleixo",
+      "pt": "Universidade de Évora — Orientadora: Sofia Aleixo",
+      "es": "Universidad de Évora — Directora: Sofia Aleixo"
     }
   },
   "contact": {

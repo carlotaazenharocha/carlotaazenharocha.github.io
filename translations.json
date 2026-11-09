@@ -2,6 +2,7 @@
   "en": {
     "nav": {
       "projects": "Projects",
+      "research": "Research",
       "about": "About"
     },
     "projects": {
@@ -51,6 +52,7 @@
   "pt": {
     "nav": {
       "projects": "Projetos",
+      "research": "Investigação",
       "about": "Sobre"
     },
     "projects": {
@@ -100,6 +102,7 @@
   "es": {
     "nav": {
       "projects": "Proyectos",
+      "research": "Investigación",
       "about": "Sobre mí"
     },
     "projects": {

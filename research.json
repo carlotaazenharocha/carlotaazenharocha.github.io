@@ -1,0 +1,648 @@
+{
+  "label": {
+    "en": "Ongoing research",
+    "pt": "Investigação em curso",
+    "es": "Investigación en curso"
+  },
+  "title": {
+    "en": "Convento da Tomina",
+    "pt": "Convento da Tomina",
+    "es": "Convento da Tomina"
+  },
+  "subtitle": {
+    "en": "Sociocultural Sustainability of Heritage: Safeguarding and valorisation proposal for the Convento da Tomina",
+    "pt": "Sustentabilidade Sócio-cultural do Património: Proposta de salvaguarda e valorização do Convento da Tomina",
+    "es": "Sostenibilidad Sociocultural del Patrimonio: Propuesta de salvaguarda y valorización del Convento da Tomina"
+  },
+  "abstract": {
+    "en": "The Convento da Tomina is a seventeenth-century convent on the edge of the Herdade da Contenda, in Santo Aleixo da Restauração (Moura), founded by a community of hermits and later integrated into the Congregation of the Clerics Regular, Ministers of the Sick. Abandoned after the dissolution of the religious orders in 1834, it is today in a state of accelerated ruin, with no legal protection — yet it remains a reference of identity for the local community, which still celebrates the Festa da Tomina every year.\n\nFramed by international charters and conventions for the safeguarding of architectural heritage, and through the comparative analysis of case studies, the research defines intervention criteria for religious heritage in ruins — minimum intervention, reversibility, material compatibility and legibility. It documents the convent through an architectural and topographic survey, historical sources and the memory of the community, and proposes a phased safeguarding strategy that values the authenticity of the built and landscape ensemble.",
+    "pt": "O Convento da Tomina é um edifício do século XVII, situado nos limites da Herdade da Contenda, em Santo Aleixo da Restauração (Moura), fundado por uma comunidade de eremitas e mais tarde integrado na Congregação dos Clérigos Regulares Ministros dos Enfermos. Abandonado após a extinção das ordens religiosas, em 1834, encontra-se hoje em estado de ruína acelerada e sem proteção legal — mas continua a ser uma referência identitária para a comunidade local, que ainda celebra todos os anos a Festa da Tomina.\n\nEnquadrada pelas Cartas e Convenções internacionais para a salvaguarda do património arquitetónico, e através da análise comparativa de casos de estudo, a investigação define critérios de intervenção em património religioso em ruína — intervenção mínima, reversibilidade, compatibilidade dos materiais e legibilidade das operações. Documenta o Convento através do levantamento arquitetónico e topográfico, das fontes históricas e da memória da comunidade, e propõe uma estratégia faseada de salvaguarda que valoriza a autenticidade do conjunto edificado e paisagístico.",
+    "es": "El Convento da Tomina es un edificio del siglo XVII, situado en los límites de la Herdade da Contenda, en Santo Aleixo da Restauração (Moura), fundado por una comunidad de eremitas y más tarde integrado en la Congregación de los Clérigos Regulares Ministros de los Enfermos. Abandonado tras la extinción de las órdenes religiosas en 1834, se encuentra hoy en estado de ruina acelerada y sin protección legal — pero sigue siendo una referencia identitaria para la comunidad local, que aún celebra cada año la Festa da Tomina.\n\nEnmarcada por las Cartas y Convenciones internacionales para la salvaguarda del patrimonio arquitectónico, y mediante el análisis comparativo de casos de estudio, la investigación define criterios de intervención en patrimonio religioso en ruina — intervención mínima, reversibilidad, compatibilidad de los materiales y legibilidad de las operaciones. Documenta el Convento a través del levantamiento arquitectónico y topográfico, de las fuentes históricas y de la memoria de la comunidad, y propone una estrategia de salvaguarda por fases que pone en valor la autenticidad del conjunto edificado y paisajístico."
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": "Period",
+        "pt": "Período",
+        "es": "Periodo"
+      },
+      "value": {
+        "en": "2024 — 2026",
+        "pt": "2024 — 2026",
+        "es": "2024 — 2026"
+      }
+    },
+    {
+      "label": {
+        "en": "Location",
+        "pt": "Localização",
+        "es": "Ubicación"
+      },
+      "value": {
+        "en": "Santo Aleixo da Restauração, Moura, Portugal",
+        "pt": "Santo Aleixo da Restauração, Moura, Portugal",
+        "es": "Santo Aleixo da Restauração, Moura, Portugal"
+      }
+    },
+    {
+      "label": {
+        "en": "Dissertation",
+        "pt": "Dissertação",
+        "es": "Tesis"
+      },
+      "value": {
+        "en": "Integrated Master in Architecture, University of Évora",
+        "pt": "Mestrado Integrado em Arquitetura, Universidade de Évora",
+        "es": "Máster Integrado en Arquitectura, Universidad de Évora"
+      }
+    },
+    {
+      "label": {
+        "en": "Supervisor",
+        "pt": "Orientadora",
+        "es": "Directora"
+      },
+      "value": "Sofia Aleixo"
+    }
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "title": {
+        "en": "The place",
+        "pt": "O lugar",
+        "es": "El lugar"
+      },
+      "text": {
+        "en": "The convent stands on a hillside of rocky outcrops on the edge of the Herdade da Contenda, a border territory with Spain, close to the Ribeira de Pae Joanes. Isolated and hard to reach — the stream can cut off access in periods of heavy rain — the site was chosen precisely for this harshness, the ideal “desert” of hermit life. Today the ruin, taken over by vegetation, sits within an area of significant natural value, part of the Natura 2000 network.",
+        "pt": "O Convento implanta-se numa encosta de afloramentos rochosos, nos limites da Herdade da Contenda, território de fronteira com Espanha, junto à Ribeira de Pae Joanes. Isolado e de difícil acesso — a ribeira pode isolá-lo em períodos de chuva intensa — o lugar foi escolhido precisamente por esta aspereza, o “deserto” ideal da vida eremítica. Hoje, a ruína, dominada pela vegetação, integra-se numa área de significativo valor natural, abrangida pela Rede Natura 2000.",
+        "es": "El Convento se asienta en una ladera de afloramientos rocosos, en los límites de la Herdade da Contenda, territorio fronterizo con España, junto a la Ribeira de Pae Joanes. Aislado y de difícil acceso — el arroyo puede aislarlo en periodos de lluvias intensas — el lugar fue elegido precisamente por esa aspereza, el “desierto” ideal de la vida eremítica. Hoy la ruina, dominada por la vegetación, se integra en un área de notable valor natural, incluida en la Red Natura 2000."
+      },
+      "images": [
+        {
+          "src": "research/images/01-enquadramento-territorial.jpg",
+          "placeholder": "Fig. 5 — Esquema de enquadramento territorial (Contenda, fronteira, distâncias). Esquema da autora.",
+          "caption": {
+            "en": "Territorial framework of the convent",
+            "pt": "Enquadramento territorial do Convento",
+            "es": "Encuadre territorial del Convento"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/02-vista-geral-encosta.jpg",
+          "placeholder": "Fig. 28 — Vista geral do conjunto na encosta. Fotografia da autora.",
+          "caption": {
+            "en": "The convent on the hillside",
+            "pt": "O Convento na encosta",
+            "es": "El Convento en la ladera"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/03-paisagem.jpg",
+          "placeholder": "Fig. 32 — Edifício na paisagem de afloramentos rochosos. Fotografia da autora.",
+          "caption": {
+            "en": "The building in the landscape",
+            "pt": "O edifício na paisagem",
+            "es": "El edificio en el paisaje"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "research/images/04-torre-sineira.jpg",
+          "placeholder": "Fig. 30 — Fachada com a torre sineira. Fotografia da autora.",
+          "caption": {
+            "en": "Bell tower",
+            "pt": "Torre sineira",
+            "es": "Campanario"
+          },
+          "layout": "half"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": {
+        "en": "History",
+        "pt": "História",
+        "es": "Historia"
+      },
+      "items": [
+        {
+          "year": "1542",
+          "text": {
+            "en": "Concordat of Moura.",
+            "pt": "Concordata de Moura.",
+            "es": "Concordato de Moura."
+          }
+        },
+        {
+          "year": "1668",
+          "text": {
+            "en": "End of the Restoration War.",
+            "pt": "Fim da Guerra da Restauração.",
+            "es": "Fin de la Guerra de Restauración."
+          }
+        },
+        {
+          "year": "1677",
+          "text": {
+            "en": "Manuel de Beça Leal arrives in the Alentejo.",
+            "pt": "Chegada de Manuel de Beça Leal ao Alentejo.",
+            "es": "Llegada de Manuel de Beça Leal al Alentejo."
+          }
+        },
+        {
+          "year": "1683",
+          "text": {
+            "en": "Manuel de Beça Leal takes the name Father Manuel de Jesus Maria.",
+            "pt": "Manuel de Beça Leal adota o nome de Padre Manuel de Jesus Maria.",
+            "es": "Manuel de Beça Leal adopta el nombre de Padre Manuel de Jesus Maria."
+          }
+        },
+        {
+          "year": "?",
+          "text": {
+            "en": "Prohibition of permanent buildings.",
+            "pt": "Proibição de construções definitivas.",
+            "es": "Prohibición de construcciones definitivas."
+          }
+        },
+        {
+          "year": "1686",
+          "text": {
+            "en": "Formation of the convent — Congregation of the Agonizing Friars.",
+            "pt": "Formação do Convento — Congregação de Frades Agonizantes.",
+            "es": "Formación del Convento — Congregación de los Frailes Agonizantes."
+          },
+          "highlight": true
+        },
+        {
+          "year": "1688",
+          "text": {
+            "en": "Fire and miracle associated with the festivities.",
+            "pt": "Incêndio e milagre associado às festividades.",
+            "es": "Incendio y milagro asociado a las festividades."
+          }
+        },
+        {
+          "year": "1698",
+          "text": {
+            "en": "Order to demolish the convent, partially carried out.",
+            "pt": "Ordem de demolição do Convento, parcialmente executada.",
+            "es": "Orden de demolición del Convento, parcialmente ejecutada."
+          }
+        },
+        {
+          "year": "1702",
+          "text": {
+            "en": "Royal authorisation for works on the convent and for building the enclosure wall.",
+            "pt": "Autorização régia para obras no Convento e construção da cerca.",
+            "es": "Autorización real para obras en el Convento y construcción de la cerca."
+          }
+        },
+        {
+          "year": "1717",
+          "text": {
+            "en": "Inauguration of the Convento do Alcance, in Mourão.",
+            "pt": "Inauguração do Convento do Alcance, em Mourão.",
+            "es": "Inauguración del Convento do Alcance, en Mourão."
+          }
+        },
+        {
+          "year": "1721",
+          "text": {
+            "en": "Grant and demarcation of land for a new convent.",
+            "pt": "Concessão e demarcação de terreno para um novo convento.",
+            "es": "Concesión y demarcación de terreno para un nuevo convento."
+          },
+          "highlight": true
+        },
+        {
+          "year": "1722",
+          "text": {
+            "en": "Royal confirmation of the building licence.",
+            "pt": "Confirmação régia da licença de construção.",
+            "es": "Confirmación real de la licencia de construcción."
+          }
+        },
+        {
+          "year": "1729",
+          "text": {
+            "en": "New attempt to destroy the walls and plantations.",
+            "pt": "Nova tentativa de destruição dos muros e plantações.",
+            "es": "Nuevo intento de destrucción de los muros y plantaciones."
+          }
+        },
+        {
+          "year": "1737",
+          "text": {
+            "en": "Repair works and structural consolidation.",
+            "pt": "Obras de reparação e consolidação estrutural.",
+            "es": "Obras de reparación y consolidación estructural."
+          },
+          "highlight": true
+        },
+        {
+          "year": "1749",
+          "text": {
+            "en": "Transfer to the Congregation of the Clerics Regular, Ministers of the Sick of Portugal and the Algarves.",
+            "pt": "Transferência para a Congregação dos Clérigos Regulares Ministros dos Enfermos de Portugal e dos Algarves.",
+            "es": "Transferencia a la Congregación de los Clérigos Regulares Ministros de los Enfermos de Portugal y de los Algarves."
+          }
+        },
+        {
+          "year": "1834",
+          "text": {
+            "en": "The convent is abandoned following the dissolution of the religious orders.",
+            "pt": "Abandono do Convento na sequência da extinção das Ordens Religiosas.",
+            "es": "Abandono del Convento tras la extinción de las Órdenes Religiosas."
+          }
+        },
+        {
+          "year": "1955",
+          "text": {
+            "en": "Old photographs show the church façade still standing, but without roofs.",
+            "pt": "Fotografias antigas mostram a fachada da igreja ainda existente, mas sem coberturas.",
+            "es": "Fotografías antiguas muestran la fachada de la iglesia todavía en pie, pero sin cubiertas."
+          }
+        },
+        {
+          "year": "2012",
+          "text": {
+            "en": "Photographic record of the convent already without the main façade of the church.",
+            "pt": "Registo fotográfico do Convento já sem a fachada principal da igreja.",
+            "es": "Registro fotográfico del Convento ya sin la fachada principal de la iglesia."
+          }
+        },
+        {
+          "year": "2026",
+          "text": {
+            "en": "?",
+            "pt": "?",
+            "es": "?"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "en": "Survey",
+        "pt": "Levantamento",
+        "es": "Levantamiento"
+      },
+      "text": {
+        "en": "Until this research, there were no reliable drawings of the convent. The architectural and topographic survey carried out on site — together with drawings made in loco — produced an up-to-date set of plans, elevations and sections, and the relationship of the building with the slope and the stream.",
+        "pt": "Até esta investigação não existia documentação gráfica fiável do Convento. O levantamento arquitetónico e topográfico realizado no local — a par dos desenhos feitos in loco — permitiu produzir um conjunto atualizado de plantas, alçados e cortes, e a relação do edifício com a encosta e a ribeira.",
+        "es": "Hasta esta investigación no existía documentación gráfica fiable del Convento. El levantamiento arquitectónico y topográfico realizado en el lugar — junto con los dibujos hechos in situ — permitió elaborar un conjunto actualizado de plantas, alzados y secciones, y la relación del edificio con la ladera y el arroyo."
+      },
+      "images": [
+        {
+          "src": "research/images/05-desenhos-in-loco.jpg",
+          "placeholder": "Fig. 41 — Planta e cortes desenhados in loco. Desenho da autora.",
+          "caption": {
+            "en": "Plan and sections drawn on site",
+            "pt": "Planta e cortes desenhados in loco",
+            "es": "Planta y secciones dibujadas in situ"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "research/images/06-espaco-liturgico-regral.jpg",
+          "placeholder": "Fig. 40 — Esquema: espaço litúrgico (vermelho) e zona regral (rosa). Esquema da autora.",
+          "caption": {
+            "en": "Liturgical space and conventual area",
+            "pt": "Espaço litúrgico e zona regral",
+            "es": "Espacio litúrgico y zona conventual"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "research/images/07-planta-implantacao.jpg",
+          "placeholder": "Fig. 68 — Planta de implantação e envolvente, com relevo e ribeira (1:1000). Desenho da autora.",
+          "caption": {
+            "en": "Site plan, 1:1000",
+            "pt": "Planta de implantação, 1:1000",
+            "es": "Planta de emplazamiento, 1:1000"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/08-plantas.jpg",
+          "placeholder": "Fig. 69 — Planta de cobertura e planta de piso. Desenho da autora.",
+          "caption": {
+            "en": "Roof plan and floor plan",
+            "pt": "Planta de cobertura e planta de piso",
+            "es": "Planta de cubierta y planta de piso"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/09-alcados-frontal-tardoz.jpg",
+          "placeholder": "Fig. 70 — Alçados frontal e tardoz. Desenho da autora.",
+          "caption": {
+            "en": "Front and rear elevations",
+            "pt": "Alçados frontal e tardoz",
+            "es": "Alzados frontal y posterior"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/10-alcados-sudeste-noroeste.jpg",
+          "placeholder": "Fig. 71 — Alçados sudeste e noroeste. Desenho da autora.",
+          "caption": {
+            "en": "South-east and north-west elevations",
+            "pt": "Alçados sudeste e noroeste",
+            "es": "Alzados sureste y noroeste"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/11-cortes.jpg",
+          "placeholder": "Fig. 72 — Cortes transversal e longitudinal. Desenho da autora.",
+          "caption": {
+            "en": "Cross and longitudinal sections",
+            "pt": "Cortes transversal e longitudinal",
+            "es": "Secciones transversal y longitudinal"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "en": "Current state",
+        "pt": "Estado atual",
+        "es": "Estado actual"
+      },
+      "text": {
+        "en": "The church and the conventual wing have lost their roofs; the bell tower, the arch of the chancel, niches, vaults and part of the walls still stand. Vegetation has taken over the interior spaces, and the walls continue to collapse.",
+        "pt": "A igreja e a zona regral perderam as coberturas; mantêm-se a torre sineira, o arco da capela-mor, nichos, abóbadas e parte dos paramentos. A vegetação ocupa os espaços interiores e as paredes continuam a desmoronar.",
+        "es": "La iglesia y la zona conventual han perdido sus cubiertas; se mantienen el campanario, el arco de la capilla mayor, hornacinas, bóvedas y parte de los muros. La vegetación ocupa los espacios interiores y los muros siguen derrumbándose."
+      },
+      "images": [
+        {
+          "src": "research/images/12-ruinas-igreja.jpg",
+          "placeholder": "Fig. 46 — Ruínas da igreja com a torre sineira ao fundo. Fotografia da autora.",
+          "caption": {
+            "en": "Ruins of the church, with the bell tower",
+            "pt": "Ruínas da igreja, com a torre sineira",
+            "es": "Ruinas de la iglesia, con el campanario"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/13-arco-capela-mor.jpg",
+          "placeholder": "Fig. 47 — Arco entre a nave e a capela-mor. Fotografia da autora.",
+          "caption": {
+            "en": "Arch between the nave and the chancel",
+            "pt": "Arco entre a nave e a capela-mor",
+            "es": "Arco entre la nave y la capilla mayor"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "research/images/14-zona-regral.jpg",
+          "placeholder": "Fig. 51 — Zona regral, com vãos e paramentos. Fotografia da autora.",
+          "caption": {
+            "en": "Conventual area",
+            "pt": "Zona regral",
+            "es": "Zona conventual"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "research/images/15-cisterna.jpg",
+          "placeholder": "Fig. 82 — Interior da cisterna. Fotografia da autora.",
+          "caption": {
+            "en": "Cistern",
+            "pt": "Cisterna",
+            "es": "Cisterna"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "research/images/16-passagem-abobadada.jpg",
+          "placeholder": "Fig. 83 — Passagem abobadada no interior. Fotografia da autora.",
+          "caption": {
+            "en": "Vaulted passage",
+            "pt": "Passagem abobadada",
+            "es": "Pasaje abovedado"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "research/images/17-vista-aerea.jpg",
+          "placeholder": "Fig. 52 ou 94 — Vista aérea do conjunto. Fotografia de Pedro Rocha ou Rui Amaro (pedir autorização e indicar o crédito na legenda).",
+          "caption": {
+            "en": "Aerial view",
+            "pt": "Vista aérea",
+            "es": "Vista aérea"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "en": "Memory and community",
+        "pt": "Memória e comunidade",
+        "es": "Memoria y comunidad"
+      },
+      "text": {
+        "en": "Although the convent lost its function in 1834, the community never abandoned the devotion to Our Lady of the Necessities. The Festa da Tomina is still held on the last weekend of August, the processional banners (guiões) are carried on the walk along the traditional path to the convent, and the stories passed down by the elders keep the place alive. The interviews carried out with residents show the convent as a reference of identity — one of the values the research seeks to safeguard.",
+        "pt": "Apesar de o Convento ter perdido a sua função em 1834, a comunidade nunca abandonou a devoção a Nossa Senhora das Necessidades. A Festa da Tomina continua a realizar-se no último fim de semana de agosto, os guiões acompanham a caminhada pelo percurso tradicional até ao Convento e as histórias transmitidas pelos mais velhos mantêm o lugar vivo. As entrevistas realizadas a residentes revelam o Convento como referência identitária — um dos valores que a investigação procura salvaguardar.",
+        "es": "Aunque el Convento perdió su función en 1834, la comunidad nunca abandonó la devoción a Nuestra Señora de las Necesidades. La Festa da Tomina se sigue celebrando el último fin de semana de agosto, los estandartes (guiões) acompañan la caminata por el recorrido tradicional hasta el Convento y las historias transmitidas por los mayores mantienen vivo el lugar. Las entrevistas realizadas a residentes muestran el Convento como referencia identitaria — uno de los valores que la investigación busca salvaguardar."
+      },
+      "images": [
+        {
+          "src": "research/images/18-guioes.jpg",
+          "placeholder": "Fig. 38 — Guiões da festa de Nossa Senhora das Necessidades. Fotografia da autora.",
+          "caption": {
+            "en": "Processional banners of the Festa da Tomina",
+            "pt": "Guiões da Festa da Tomina",
+            "es": "Estandartes de la Festa da Tomina"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "research/images/19-caminhada.jpg",
+          "placeholder": "Fig. 56 — Caminhada pelo percurso tradicional, com o guião. Fotografia da autora (evitar caras reconhecíveis sem consentimento).",
+          "caption": {
+            "en": "Walk along the traditional path to the convent",
+            "pt": "Caminhada pelo percurso tradicional até ao Convento",
+            "es": "Caminata por el recorrido tradicional hasta el Convento"
+          },
+          "layout": "half"
+        }
+      ]
+    },
+    {
+      "type": "phases",
+      "title": {
+        "en": "Safeguarding strategy",
+        "pt": "Estratégia de salvaguarda",
+        "es": "Estrategia de salvaguarda"
+      },
+      "intro": {
+        "en": "The proposal is organised in four successive phases. Each one only begins once the conditions of the previous phase have been met — so that use and valorisation never come before the stability and maintenance of the ensemble.",
+        "pt": "A proposta organiza-se em quatro fases sucessivas. Cada uma só começa depois de cumpridas as condições da anterior — para que a utilização e a valorização nunca antecedam a estabilidade e a manutenção do conjunto.",
+        "es": "La propuesta se organiza en cuatro fases sucesivas. Cada una solo comienza cuando se han cumplido las condiciones de la anterior — para que el uso y la valorización nunca precedan a la estabilidad y el mantenimiento del conjunto."
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Urgent safeguarding",
+            "pt": "Salvaguarda urgente",
+            "es": "Salvaguarda urgente"
+          },
+          "text": {
+            "en": "Structural assessment, with priority to the bell tower, the chancel arch and the vaults; localised stabilisation, temporary protection and controlled removal of invasive vegetation. Unstable areas are marked off and visits are limited to the exterior.",
+            "pt": "Avaliação estrutural, com prioridade para a torre sineira, o arco da capela-mor e as abóbadas; estabilização localizada, proteções provisórias e remoção controlada da vegetação invasiva. As zonas instáveis são delimitadas e a visita limita-se ao exterior.",
+            "es": "Evaluación estructural, con prioridad para el campanario, el arco de la capilla mayor y las bóvedas; estabilización localizada, protecciones provisionales y retirada controlada de la vegetación invasora. Las zonas inestables se delimitan y la visita se limita al exterior."
+          },
+          "next": {
+            "en": "Next phase: structural assessment completed, critical elements stabilised, agreement with the owner.",
+            "pt": "Passagem: avaliação estrutural concluída, elementos críticos estabilizados, acordo com o proprietário.",
+            "es": "Paso: evaluación estructural concluida, elementos críticos estabilizados, acuerdo con el propietario."
+          }
+        },
+        {
+          "title": {
+            "en": "Maintenance and protection",
+            "pt": "Manutenção e proteção",
+            "es": "Mantenimiento y protección"
+          },
+          "text": {
+            "en": "A regular programme of preventive conservation: periodic inspections, vegetation control, drainage and a record of the pathologies. Consolidation of the ruin with traditional techniques, reusing the stones from the collapses.",
+            "pt": "Programa regular de conservação preventiva: inspeções periódicas, controlo da vegetação, drenagem e registo das patologias. Consolidação da ruína com técnicas tradicionais, reutilizando as pedras das derrocadas.",
+            "es": "Programa regular de conservación preventiva: inspecciones periódicas, control de la vegetación, drenaje y registro de las patologías. Consolidación de la ruina con técnicas tradicionales, reutilizando las piedras de los derrumbes."
+          },
+          "next": {
+            "en": "Next phase: a full year of maintenance, including a winter, with no worsening of the pathologies.",
+            "pt": "Passagem: um ciclo anual de manutenção, incluindo um inverno, sem agravamento das patologias.",
+            "es": "Paso: un ciclo anual de mantenimiento, incluido un invierno, sin agravamiento de las patologías."
+          }
+        },
+        {
+          "title": {
+            "en": "Valorisation and controlled access",
+            "pt": "Valorização e acesso controlado",
+            "es": "Valorización y acceso controlado"
+          },
+          "text": {
+            "en": "Valorisation starts with the traditional path and the surroundings: discreet, reversible signage, interpretive content defined with the community, and monitored visits — conditioned by the stream in rainy periods.",
+            "pt": "A valorização começa pelo percurso tradicional e pela envolvente: sinalização discreta e reversível, conteúdos interpretativos definidos com a comunidade e visitação monitorizada — condicionada pela ribeira nos períodos de chuva.",
+            "es": "La valorización empieza por el recorrido tradicional y el entorno: señalización discreta y reversible, contenidos interpretativos definidos con la comunidad y visitas supervisadas — condicionadas por el arroyo en los periodos de lluvia."
+          },
+          "next": {
+            "en": "Next phase: no new damage from visits and interpretive content validated by the community.",
+            "pt": "Passagem: a visitação não revela novos danos e os conteúdos foram validados pela comunidade.",
+            "es": "Paso: las visitas no producen nuevos daños y los contenidos han sido validados por la comunidad."
+          }
+        },
+        {
+          "title": {
+            "en": "Assessing a future adaptive reuse",
+            "pt": "Avaliação de uma futura reabilitação adaptativa",
+            "es": "Evaluación de una futura rehabilitación adaptativa"
+          },
+          "text": {
+            "en": "Only after the previous phases is a new use considered. The decision may be not to go ahead: keeping the convent as a conserved and interpreted ruin is a possible outcome of the strategy.",
+            "pt": "Só depois das fases anteriores se pondera um novo uso. A decisão pode ser a de não avançar: manter o Convento como ruína conservada e interpretada é um resultado possível da estratégia.",
+            "es": "Solo después de las fases anteriores se plantea un nuevo uso. La decisión puede ser no avanzar: mantener el Convento como ruina conservada e interpretada es un resultado posible de la estrategia."
+          }
+        }
+      ]
+    },
+    {
+      "type": "status",
+      "title": {
+        "en": "Heritage classification",
+        "pt": "Candidatura a património",
+        "es": "Candidatura a patrimonio"
+      },
+      "statusLabel": {
+        "en": "Status",
+        "pt": "Estado",
+        "es": "Estado"
+      },
+      "status": {
+        "en": "In development",
+        "pt": "Em desenvolvimento",
+        "es": "En desarrollo"
+      },
+      "text": {
+        "en": "The Convento da Tomina is not classified. Given its historical, architectural, landscape and identity values, and its vulnerability, the research concludes that it meets the grounds for a proposal of classification as a Monument of Public Interest, under Law no. 107/2001. The application is being prepared.",
+        "pt": "O Convento da Tomina não se encontra classificado. Considerando os seus valores históricos, arquitetónicos, paisagísticos e identitários, e a sua vulnerabilidade, a investigação conclui que o conjunto reúne fundamentos para uma proposta de classificação como Monumento de Interesse Público, nos termos da Lei n.º 107/2001. A candidatura está em preparação.",
+        "es": "El Convento da Tomina no está clasificado. Considerando sus valores históricos, arquitectónicos, paisajísticos e identitarios, y su vulnerabilidad, la investigación concluye que el conjunto reúne fundamentos para una propuesta de clasificación como Monumento de Interés Público, en los términos de la Ley n.º 107/2001. La candidatura está en preparación."
+      }
+    },
+    {
+      "type": "publications",
+      "title": {
+        "en": "Publications",
+        "pt": "Publicações",
+        "es": "Publicaciones"
+      },
+      "items": [
+        {
+          "title": "Convento da Tomina: contributos para a compreensão da sua identidade patrimonial",
+          "authors": "Rocha, C. & Aleixo, S.",
+          "year": "2025",
+          "venue": {
+            "en": "XI Seminar of the Collaborative Laboratory: Urban Dynamics, Heritage, Arts — Anthology of essays, pp. 335–348",
+            "pt": "XI Seminário do Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes — Antologia de ensaios, pp. 335–348",
+            "es": "XI Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes — Antología de ensayos, pp. 335–348"
+          },
+          "url": "https://repositorio.iscte-iul.pt/entities/publication/1ad02647-07bf-4342-a9b6-2101a4ab41ca"
+        },
+        {
+          "title": "Convento da Tomina: da identidade patrimonial à estratégia de intervenção",
+          "authors": "Rocha, C. & Aleixo, S.",
+          "year": "2026",
+          "venue": {
+            "en": "XII Seminar of the Collaborative Laboratory: Urban Dynamics, Heritage, Arts",
+            "pt": "XII Seminário do Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes",
+            "es": "XII Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes"
+          },
+          "url": "https://dspace.uevora.pt/rdpc/handle/10174/40438"
+        }
+      ],
+      "linkLabel": {
+        "en": "View publication",
+        "pt": "Ver publicação",
+        "es": "Ver publicación"
+      },
+      "dissertationNote": {
+        "en": "The master's dissertation (2026), a first outcome of this research, will be available in the repository of the University of Évora.",
+        "pt": "A dissertação de mestrado (2026), primeiro resultado desta investigação, ficará disponível no repositório da Universidade de Évora.",
+        "es": "La tesis de máster (2026), primer resultado de esta investigación, estará disponible en el repositorio de la Universidad de Évora."
+      }
+    },
+    {
+      "type": "contact",
+      "title": {
+        "en": "Contribute",
+        "pt": "Contribuir",
+        "es": "Contribuir"
+      },
+      "text": {
+        "en": "Do you have information, photographs or memories of the Convento da Tomina — of the festival, the walks or the building as it once was? Every contribution helps to document the convent and to support its safeguarding.",
+        "pt": "Tem informação, fotografias ou memórias do Convento da Tomina — da festa, das caminhadas ou do edifício como era? Cada contributo ajuda a documentar o Convento e a apoiar a sua salvaguarda.",
+        "es": "¿Tiene información, fotografías o recuerdos del Convento da Tomina — de la fiesta, de las caminatas o del edificio tal como era? Cada contribución ayuda a documentar el Convento y a apoyar su salvaguarda."
+      },
+      "email": "carlota.s.rocha@gmail.com",
+      "subject": "Convento da Tomina",
+      "cta": {
+        "en": "Get in touch",
+        "pt": "Entrar em contacto",
+        "es": "Ponerse en contacto"
+      }
+    }
+  ]
+}

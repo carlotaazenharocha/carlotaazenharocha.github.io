@@ -41,6 +41,8 @@ function switchLanguage(lang) {
     updateAboutPage();
   } else if (currentPage === 'participation.html') {
     initParticipationPage();
+  } else if (currentPage === 'research.html') {
+    initResearchPage();
   }
 }
 
@@ -239,38 +241,7 @@ async function initProjectPage() {
   const contentContainer = document.getElementById('project-content');
   if (contentContainer) {
     contentContainer.innerHTML = '';
-    let row = null;
-    project.images.forEach(image => {
-      // Optional section heading before this image
-      if (image.section) {
-        const heading = document.createElement('h2');
-        heading.className = 'project-section-title';
-        heading.textContent = getText(image.section);
-        contentContainer.appendChild(heading);
-        row = null;
-      }
-
-      const layoutClass = { full: 'full-width', half: 'half-width' }[image.layout] || 'inset';
-      const imageDiv = document.createElement('div');
-      imageDiv.className = `project-image ${layoutClass}`;
-      imageDiv.innerHTML = `
-        <img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">
-        <div class="image-caption">${getText(image.caption)}</div>
-      `;
-
-      // Consecutive half-width images share a row
-      if (image.layout === 'half') {
-        if (!row) {
-          row = document.createElement('div');
-          row.className = 'project-image-row';
-          contentContainer.appendChild(row);
-        }
-        row.appendChild(imageDiv);
-      } else {
-        row = null;
-        contentContainer.appendChild(imageDiv);
-      }
-    });
+    renderImages(contentContainer, project.images);
   }
 
   // Setup navigation
@@ -278,6 +249,196 @@ async function initProjectPage() {
 
   // Update page title
   document.title = `${getText(project.title)} — Carlota Azenha da Rocha`;
+
+  // Add fade-in
+  setTimeout(() => {
+    document.querySelector('main').classList.add('loading');
+  }, 100);
+
+  // Reinitialize lightbox and animations for new content
+  initLightbox();
+  initScrollAnimations();
+}
+
+// Render a list of images into a container (used by project and research pages)
+function renderImages(container, images) {
+  let row = null;
+  images.forEach(image => {
+    // Optional section heading before this image
+    if (image.section) {
+      const heading = document.createElement('h2');
+      heading.className = 'project-section-title';
+      heading.textContent = getText(image.section);
+      container.appendChild(heading);
+      row = null;
+    }
+
+    const layoutClass = { full: 'full-width', half: 'half-width' }[image.layout] || 'inset';
+    const imageDiv = document.createElement('div');
+    imageDiv.className = `project-image ${layoutClass}`;
+    imageDiv.innerHTML = `
+      <img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">
+      <div class="image-caption">${getText(image.caption)}</div>
+    `;
+
+    // Until the file exists, show a box describing the image to add
+    if (image.placeholder) {
+      const img = imageDiv.querySelector('img');
+      img.loading = 'eager';
+      img.addEventListener('error', () => {
+        const box = document.createElement('div');
+        box.className = 'image-placeholder';
+        box.innerHTML = `<span>${image.placeholder}</span><code>${image.src}</code>`;
+        img.replaceWith(box);
+      }, { once: true });
+    }
+
+    // Consecutive half-width images share a row
+    if (image.layout === 'half') {
+      if (!row) {
+        row = document.createElement('div');
+        row.className = 'project-image-row';
+        container.appendChild(row);
+      }
+      row.appendChild(imageDiv);
+    } else {
+      row = null;
+      container.appendChild(imageDiv);
+    }
+  });
+}
+
+// ============================================
+// RESEARCH PAGE
+// ============================================
+
+let researchData = null;
+
+// Blank lines in the text separate paragraphs
+function paragraphs(text) {
+  return getText(text).split(/\n\s*\n/).map(paragraph => `<p>${paragraph}</p>`).join('');
+}
+
+function sectionTitle(title) {
+  return `<h2 class="project-section-title">${getText(title)}</h2>`;
+}
+
+function renderResearchSection(section) {
+  const wrapper = document.createElement('section');
+  wrapper.className = `research-section research-section--${section.type}`;
+
+  if (section.type === 'text') {
+    wrapper.innerHTML = `${sectionTitle(section.title)}<div class="research-text">${paragraphs(section.text)}</div>`;
+    if (section.images) renderImages(wrapper, section.images);
+  }
+
+  if (section.type === 'timeline') {
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <ol class="timeline">
+        ${section.items.map(item => `
+          <li class="timeline-item${item.highlight ? ' timeline-item--key' : ''}">
+            <span class="timeline-year">${item.year}</span>
+            <p class="timeline-text">${getText(item.text)}</p>
+          </li>
+        `).join('')}
+      </ol>
+    `;
+  }
+
+  if (section.type === 'phases') {
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <div class="research-text">${paragraphs(section.intro)}</div>
+      <ol class="phases">
+        ${section.items.map((item, index) => `
+          <li class="phase">
+            <span class="phase-number">${String(index + 1).padStart(2, '0')}</span>
+            <h3 class="phase-title">${getText(item.title)}</h3>
+            <p class="phase-text">${getText(item.text)}</p>
+            ${item.next ? `<p class="phase-next">${getText(item.next)}</p>` : ''}
+          </li>
+        `).join('')}
+      </ol>
+    `;
+  }
+
+  if (section.type === 'status') {
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <div class="status">
+        <span class="metadata-label">${getText(section.statusLabel)}</span>
+        <span class="status-badge">${getText(section.status)}</span>
+      </div>
+      <div class="research-text">${paragraphs(section.text)}</div>
+    `;
+  }
+
+  if (section.type === 'contact') {
+    const href = `mailto:${section.email}?subject=${encodeURIComponent(section.subject || '')}`;
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <div class="research-text">${paragraphs(section.text)}</div>
+      <a class="research-contact-btn" href="${href}">${getText(section.cta)} — ${section.email}</a>
+    `;
+  }
+
+  if (section.type === 'publications') {
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <ul class="publications">
+        ${section.items.map(item => `
+          <li class="publication">
+            <span class="publication-year">${item.year}</span>
+            <div>
+              <p class="publication-title">${item.title}</p>
+              <p class="publication-venue">${item.authors} — ${getText(item.venue)}</p>
+              ${item.url ? `<a class="publication-link" href="${item.url}" target="_blank" rel="noopener">${getText(section.linkLabel)} ↗</a>` : ''}
+            </div>
+          </li>
+        `).join('')}
+      </ul>
+      ${section.dissertationNote ? `<p class="publication-note">${getText(section.dissertationNote)}</p>` : ''}
+    `;
+  }
+
+  return wrapper;
+}
+
+// Fetch research data (shared by the research page and the homepage highlight)
+async function loadResearchData() {
+  if (!researchData) {
+    try {
+      const response = await fetch('research.json');
+      researchData = await response.json();
+    } catch (error) {
+      console.error('Error loading research data:', error);
+      return null;
+    }
+  }
+  return researchData;
+}
+
+async function initResearchPage() {
+  if (!await loadResearchData()) return;
+
+  document.getElementById('research-label').textContent = getText(researchData.label);
+  document.getElementById('research-title').textContent = getText(researchData.title);
+  document.getElementById('research-subtitle').textContent = getText(researchData.subtitle);
+  document.getElementById('research-abstract').innerHTML = paragraphs(researchData.abstract);
+
+  const content = document.getElementById('research-content');
+  content.innerHTML = '';
+  researchData.sections.forEach(section => content.appendChild(renderResearchSection(section)));
+
+  document.getElementById('research-metadata').innerHTML = researchData.metadata.map(item => `
+    <div class="metadata-item">
+      <dt class="metadata-label">${getText(item.label)}</dt>
+      <dd class="metadata-value">${getText(item.value)}</dd>
+    </div>
+  `).join('');
+
+  document.title = `${getText(researchData.title)} — Carlota Azenha da Rocha`;
 
   // Add fade-in
   setTimeout(() => {
@@ -393,24 +554,28 @@ function updateAboutPage() {
   // Update publications section
   const publicationsContainer = document.getElementById('publications-section');
   if (publicationsContainer && aboutData.publications) {
-    publicationsContainer.innerHTML = aboutData.publications.map(pub => `
-      <div class="cv-item">
+    // Publications with a url open in a new tab
+    publicationsContainer.innerHTML = aboutData.publications.map(pub => {
+      const content = `
         <div class="cv-date">${pub.date}</div>
-        <div class="cv-title">${getText(pub.title)}</div>
+        <div class="cv-title">${getText(pub.title)}${pub.url ? ' ↗' : ''}</div>
         <div class="cv-institution">${getText(pub.institution)}</div>
-      </div>
-    `).join('');
+      `;
+      return pub.url
+        ? `<a href="${pub.url}" class="cv-item cv-item-link" target="_blank" rel="noopener">${content}</a>`
+        : `<div class="cv-item">${content}</div>`;
+    }).join('');
   }
 
   // Update thesis section
   const thesisContainer = document.getElementById('thesis-section');
   if (thesisContainer && aboutData.thesis) {
     thesisContainer.innerHTML = `
-      <div class="cv-item">
+      <a href="research.html" class="cv-item cv-item-link">
         <div class="cv-date">${getText(aboutData.thesis.date)}</div>
-        <div class="cv-title">${getText(aboutData.thesis.title)}</div>
+        <div class="cv-title">${getText(aboutData.thesis.title)} →</div>
         <div class="cv-institution">${getText(aboutData.thesis.institution)}</div>
-      </div>
+      </a>
     `;
   }
 
@@ -580,6 +745,8 @@ function updateNavigationText() {
     const href = link.getAttribute('href');
     if (href === 'index.html') {
       link.textContent = t('nav.projects');
+    } else if (href === 'research.html') {
+      link.textContent = t('nav.research');
     } else if (href === 'about.html') {
       link.textContent = t('nav.about');
     }
@@ -595,7 +762,8 @@ function setActiveNavigation() {
     if (
       (currentPage === 'index.html' && href === 'index.html') ||
       (currentPage === 'about.html' && href === 'about.html') ||
-      (currentPage.includes('project.html') && href === 'index.html')
+      (currentPage.includes('project.html') && href === 'index.html') ||
+      (currentPage === 'research.html' && href === 'research.html')
     ) {
       link.classList.add('active');
     }
@@ -810,6 +978,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     await initAboutPage();
   } else if (currentPage === 'participation.html') {
     await initParticipationPage();
+  } else if (currentPage === 'research.html') {
+    await initResearchPage();
   }
 
   // Update footer
