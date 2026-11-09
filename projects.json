@@ -3,62 +3,156 @@
     {
       "id": "01-projeto-avancadoIV",
       "title": {
-        "en": "No Name Project",
-        "pt": "Projeto sem nome",
-        "es": "Proyecto sin nombre"
+        "en": "Atlas Case Studies",
+        "pt": "Atlas Case Studies",
+        "es": "Atlas Case Studies"
       },
-      "year": "2025",
+      "year": "2024–2025",
       "location": {
-        "en": "Porto, Portugal",
-        "pt": "Porto, Portugal",
-        "es": "Oporto, Portugal"
+        "en": "Évora, Portugal",
+        "pt": "Évora, Portugal",
+        "es": "Évora, Portugal"
       },
       "typology": {
         "en": "Cultural / Educational",
         "pt": "Cultural / Educacional",
         "es": "Cultural / Educativo"
       },
-      "thumbnail": "projects/01-projeto-avançadoIV/thumbnail.jpg",
-      "hero": "projects/01-projeto-avançadoIV/hero.jpg",
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "University of Évora",
+        "pt": "Universidade de Évora",
+        "es": "Universidad de Évora"
+      },
+      "teachers": "Daniel Jiménez | João Soares",
+      "thumbnail": "projects/01-projeto-avancadoIV/1.jpg",
+      "hero": "projects/01-projeto-avancadoIV/1.jpg",
       "concept": {
-        "en": "A study on collective living spaces in dense urban environments. The project explores the relationship between private and communal areas through a series of interconnected courtyards and vertical gardens.",
-        "pt": "Um estudo sobre espaços de habitação coletiva em ambientes urbanos densos. O projeto explora a relação entre áreas privadas e comunitárias através de uma série de pátios interligados e jardins verticais.",
-        "es": "Un estudio sobre espacios de vivienda colectiva en entornos urbanos densos. El proyecto explora la relación entre áreas privadas y comunitarias a través de una serie de patios interconectados y jardines verticales."
+        "en": "The project is developed around the theme of “Atlas Case Studies”, a research exercise that involves selecting emblematic architectural references and reinterpreting their principles in response to the proposed context and programme. The case studies include the Grândola Library and Archive, Casa de Caminha, House in Moledo, Farnsworth House, Pavilion House, Villa Savoye and the Vals Thermal Baths.\n\nThe intervention is based on an analysis of the urban fabric, the site's proximity to the railway line and its relationship with the historic centre, seeking to establish new pedestrian connections and enhance the existing structures. The proposal combines the rehabilitation of existing buildings with the introduction of new volumes accommodating researcher housing, a library archive, an auditorium, a shop, workspaces and administrative areas.\n\nThe overall layout is organised around two squares at different levels, defined according to different degrees of privacy while remaining connected to one another.\n\nThe square is defined by a pergola, conceived as a continuous element that gradually transforms: it begins as paving, extends into a balustrade and culminates as a roof. Inspired by the construction logic of Gerrit Rietveld’s chair, this sequence translates its principles into the architectural scale.\n\nThe residential tower is intended for researchers and is organised around different lengths of stay. The external walkway establishes a continuous visual relationship with the surroundings. The former factory is rehabilitated and converted into an archive and exhibition space, preserving its existing structure and reinterpreting the former silos as an entrance element.",
+        "pt": "O projeto desenvolve-se a partir do tema «Atlas Case Studies», um exercício de investigação que propõe selecionar referências emblemáticas da arquitetura e reinterpretar os seus princípios, adaptando-os ao contexto e ao programa propostos. Entre os casos estudados encontram-se a Biblioteca e Arquivo de Grândola, a Casa de Caminha, a House in Moledo, a Farnsworth House, a Pavilion House, a Villa Savoye e as Termas de Vals.\n\nA intervenção parte da análise da malha urbana, da proximidade à linha férrea e da relação com o centro histórico, procurando estabelecer novas continuidades pedonais e valorizar as preexistências. A proposta articula a reabilitação de edifícios existentes com a introdução de novos volumes, destinados a habitação para investigadores, arquivo bibliotecário, auditório, loja, espaços de trabalho e áreas administrativas.\n\nA organização do conjunto estrutura-se em torno de duas praças situadas a cotas distintas e definidas segundo diferentes graus de privacidade, mas mantendo uma ligação entre si.\n\nA praça é delimitada por uma pérgola, concebida como um elemento contínuo que se transforma progressivamente: começa no pavimento, prolonga-se pela guarda e termina na cobertura. Inspirada na lógica construtiva da cadeira de Gerrit Rietveld, esta sequência transpõe os seus princípios para a escala arquitetónica.\n\nA torre de habitação destina-se a investigadores e organiza-se segundo diferentes períodos de permanência. O deambulatório exterior estabelece uma relação contínua de observação com a envolvente. A antiga fábrica é, por sua vez, reabilitada e transformada em arquivo e espaço expositivo, preservando a estrutura existente e reinterpretando os antigos silos como elemento de entrada.",
+        "es": "El proyecto se desarrolla a partir del tema «Atlas Case Studies», un ejercicio de investigación que propone seleccionar referencias emblemáticas de la arquitectura y reinterpretar sus principios, adaptándolos al contexto y al programa propuestos. Entre los casos estudiados se encuentran la Biblioteca y Archivo de Grândola, Casa de Caminha, House in Moledo, Farnsworth House, Pavilion House, Villa Savoye y las Termas de Vals.\n\nLa intervención parte del análisis de la trama urbana, de la proximidad a la línea ferroviaria y de la relación con el centro histórico, buscando establecer nuevas continuidades peatonales y poner en valor las preexistencias. La propuesta articula la rehabilitación de edificios existentes con la incorporación de nuevos volúmenes destinados a viviendas para investigadores, archivo bibliotecario, auditorio, tienda, espacios de trabajo y áreas administrativas.\n\nLa organización del conjunto se estructura en torno a dos plazas situadas a diferentes cotas y definidas según distintos grados de privacidad, aunque manteniendo una conexión entre sí.\n\nLa plaza está delimitada por una pérgola, concebida como un elemento continuo que se transforma progresivamente: comienza en el pavimento, se prolonga en la barandilla y culmina en la cubierta. Inspirada en la lógica constructiva de la silla de Gerrit Rietveld, esta secuencia traslada sus principios a la escala arquitectónica.\n\nLa torre residencial está destinada a investigadores y se organiza según diferentes períodos de estancia. El deambulatorio exterior establece una relación visual continua con el entorno. La antigua fábrica se rehabilita y transforma en archivo y espacio expositivo, conservando la estructura existente y reinterpretando los antiguos silos como elemento de acceso."
       },
       "images": [
         {
-          "src": "projects/01-projeto-avançadoIV/planta.jpg",
+          "section": {
+            "en": "Site and strategy",
+            "pt": "Lugar e estratégia",
+            "es": "Lugar y estrategia"
+          },
+          "src": "projects/01-projeto-avancadoIV/vermelhos_amarelos_1_500.jpg",
           "caption": {
-            "en": "Ground floor plan, 1:200",
-            "pt": "Planta piso térreo, 1:200",
-            "es": "Planta baja, 1:200"
+            "en": "Site plan, 1:500",
+            "pt": "Planta de implantação, 1:500",
+            "es": "Planta de emplazamiento, 1:500"
           },
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avançadoIV/corte.png",
+          "src": "projects/01-projeto-avancadoIV/vermelhos_amarelos_1_500_cortes.jpg",
           "caption": {
-            "en": "Section AA, 1:200",
-            "pt": "Corte AA, 1:200",
-            "es": "Sección AA, 1:200"
+            "en": "Site elevations, 1:500",
+            "pt": "Alçados do conjunto, 1:500",
+            "es": "Alzados del conjunto, 1:500"
           },
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avançadoIV/corte-transversal.png",
+          "section": {
+            "en": "Drawings",
+            "pt": "Desenhos",
+            "es": "Dibujos"
+          },
+          "src": "projects/01-projeto-avancadoIV/ENTREGA_1_200.jpg",
           "caption": {
-            "en": "Transversal section, 1:50",
-            "pt": "Corte Transversal, 1:50",
-            "es": "Sección transversal, 1:50"
+            "en": "General plan, 1:200",
+            "pt": "Planta geral, 1:200",
+            "es": "Planta general, 1:200"
           },
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avançadoIV/maquete.jpg",
+          "src": "projects/01-projeto-avancadoIV/ENTREGA 1_200_plantas3.jpg",
           "caption": {
-            "en": "Physical model, courtyard view",
-            "pt": "Maquete física, vista do pátio",
-            "es": "Maqueta física, vista del patio"
+            "en": "Floor plans, 1:200",
+            "pt": "Plantas dos pisos, 1:200",
+            "es": "Plantas de los pisos, 1:200"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/01-projeto-avancadoIV/ENTREGA 1_200_cortes.jpg",
+          "caption": {
+            "en": "Sections, 1:200",
+            "pt": "Cortes, 1:200",
+            "es": "Secciones, 1:200"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Models",
+            "pt": "Maquetes",
+            "es": "Maquetas"
+          },
+          "src": "projects/01-projeto-avancadoIV/6.jpg",
+          "caption": {
+            "en": "Site model",
+            "pt": "Maquete de conjunto",
+            "es": "Maqueta de conjunto"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/01-projeto-avancadoIV/2.jpg",
+          "caption": {
+            "en": "Physical model, aerial view",
+            "pt": "Maquete física, vista aérea",
+            "es": "Maqueta física, vista aérea"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/01-projeto-avancadoIV/3.jpg",
+          "caption": {
+            "en": "Physical model, square",
+            "pt": "Maquete física, praça",
+            "es": "Maqueta física, plaza"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/01-projeto-avancadoIV/5.jpg",
+          "caption": {
+            "en": "Physical model, pergola detail",
+            "pt": "Maquete física, detalhe da pérgola",
+            "es": "Maqueta física, detalle de la pérgola"
+          },
+          "layout": "half"
+        },
+        {
+          "section": {
+            "en": "Process",
+            "pt": "Processo",
+            "es": "Proceso"
+          },
+          "src": "projects/01-projeto-avancadoIV/7.jpg",
+          "caption": {
+            "en": "Process sketches",
+            "pt": "Esquissos de processo",
+            "es": "Bocetos de proceso"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/01-projeto-avancadoIV/4.jpg",
+          "caption": {
+            "en": "Working wall and study models",
+            "pt": "Painel de trabalho e maquetes de estudo",
+            "es": "Panel de trabajo y maquetas de estudio"
           },
           "layout": "full"
         }

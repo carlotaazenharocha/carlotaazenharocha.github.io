@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Portfolio PDF</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/portfolio.css">
+
+  <!-- Page size, updated by JavaScript -->
+  <style id="page-size">@page { size: A4 landscape; margin: 0; }</style>
+</head>
+<body>
+  <!-- Builder controls (not printed) -->
+  <aside class="builder">
+    <a href="index.html" class="builder-back">← Site</a>
+    <h1 class="builder-title">Portfolio PDF</h1>
+
+    <section class="builder-group">
+      <h2 class="builder-label">Projetos</h2>
+      <div class="builder-actions">
+        <button type="button" data-select="all">Todos</button>
+        <button type="button" data-select="none">Nenhum</button>
+      </div>
+      <div id="project-list" class="project-list">
+        <!-- Loaded via JavaScript -->
+      </div>
+    </section>
+
+    <section class="builder-group">
+      <h2 class="builder-label">Formato</h2>
+      <div class="segmented" data-option="format">
+        <button type="button" data-value="a4">A4</button>
+        <button type="button" data-value="a3">A3</button>
+      </div>
+      <div class="segmented" data-option="orientation">
+        <button type="button" data-value="landscape">Horizontal</button>
+        <button type="button" data-value="portrait">Vertical</button>
+      </div>
+    </section>
+
+    <section class="builder-group">
+      <h2 class="builder-label">Língua</h2>
+      <div class="segmented" data-option="lang">
+        <button type="button" data-value="pt">PT</button>
+        <button type="button" data-value="en">EN</button>
+        <button type="button" data-value="es">ES</button>
+      </div>
+    </section>
+
+    <section class="builder-group">
+      <button type="button" id="export-pdf" class="export-btn">Exportar PDF</button>
+      <p id="builder-status" class="builder-status"></p>
+      <p class="builder-hint">Na janela de impressão escolha "Guardar como PDF", margens "Nenhuma" e ative "Gráficos de fundo".</p>
+    </section>
+  </aside>
+
+  <!-- Portfolio pages (preview on screen, the PDF when printed) -->
+  <main class="preview">
+    <div id="pages" class="pages">
+      <!-- Loaded via JavaScript -->
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="js/portfolio.js"></script>
+</body>
+</html>

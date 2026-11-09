@@ -44,46 +44,6 @@ function switchLanguage(lang) {
   }
 }
 
-// ============================================
-// DARK MODE
-// ============================================
-
-// Initialize dark mode from localStorage or system preference
-function initDarkMode() {
-  const savedMode = localStorage.getItem('portfolio-darkmode');
-
-  if (savedMode === 'dark') {
-    document.body.classList.add('dark-mode');
-    updateDarkModeIcon(true);
-  } else if (savedMode === 'light') {
-    document.body.classList.remove('dark-mode');
-    updateDarkModeIcon(false);
-  } else {
-    // Check system preference
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      document.body.classList.add('dark-mode');
-      updateDarkModeIcon(true);
-    }
-  }
-}
-
-// Toggle dark mode
-function toggleDarkMode() {
-  const isDark = document.body.classList.toggle('dark-mode');
-  localStorage.setItem('portfolio-darkmode', isDark ? 'dark' : 'light');
-  updateDarkModeIcon(isDark);
-}
-
-// Update dark mode toggle icon
-function updateDarkModeIcon(isDark) {
-  const toggleBtn = document.getElementById('dark-mode-toggle');
-  if (toggleBtn) {
-    toggleBtn.innerHTML = isDark ?
-      '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>' :
-      '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
-  }
-}
-
 // Update language button states
 function updateLanguageUI() {
   const langButtons = document.querySelectorAll('.lang-btn');
@@ -242,53 +202,74 @@ async function initProjectPage() {
     return;
   }
 
-  // Populate hero image
-  const heroContainer = document.getElementById('project-hero');
-  if (heroContainer) {
-    heroContainer.innerHTML = `<img src="${project.hero}" alt="${getText(project.title)}">`;
-  }
-
-  // Populate metadata
-  const metadataContainer = document.getElementById('project-metadata');
-  if (metadataContainer) {
-    metadataContainer.innerHTML = `
-      <div class="metadata-item">
-        <div class="metadata-label">${t('project.metadata_labels.project')}</div>
-        <div class="metadata-value">${getText(project.title)}</div>
-      </div>
-      <div class="metadata-item">
-        <div class="metadata-label">${t('project.metadata_labels.year')}</div>
-        <div class="metadata-value">${project.year}</div>
-      </div>
-      <div class="metadata-item">
-        <div class="metadata-label">${t('project.metadata_labels.location')}</div>
-        <div class="metadata-value">${getText(project.location)}</div>
-      </div>
-      <div class="metadata-item">
-        <div class="metadata-label">${t('project.metadata_labels.typology')}</div>
-        <div class="metadata-value">${getText(project.typology)}</div>
-      </div>
-    `;
+  // Populate title
+  const titleContainer = document.getElementById('project-title');
+  if (titleContainer) {
+    titleContainer.textContent = getText(project.title);
   }
 
   // Populate concept
   const conceptContainer = document.getElementById('project-concept');
   if (conceptContainer) {
-    conceptContainer.innerHTML = `<p>${getText(project.concept)}</p>`;
+    // Blank lines in the text separate paragraphs
+    conceptContainer.innerHTML = getText(project.concept)
+      .split(/\n\s*\n/)
+      .map(paragraph => `<p>${paragraph}</p>`)
+      .join('');
   }
+
+// Populate metadata (fields missing from a project are skipped)
+  const metadataContainer = document.getElementById('project-metadata');
+  if (metadataContainer) {
+    const fields = ['year', 'location', 'typology', 'context', 'institution', 'teachers'];
+    metadataContainer.innerHTML = fields
+      .filter(field => project[field])
+      .map(field => `
+        <div class="metadata-item">
+          <dt class="metadata-label">${t(`project.metadata_labels.${field}`)}</dt>
+          <dd class="metadata-value">${getText(project[field])}</dd>
+        </div>
+      `)
+      .join('');
+  }
+
+
 
   // Populate images
   const contentContainer = document.getElementById('project-content');
   if (contentContainer) {
     contentContainer.innerHTML = '';
+    let row = null;
     project.images.forEach(image => {
+      // Optional section heading before this image
+      if (image.section) {
+        const heading = document.createElement('h2');
+        heading.className = 'project-section-title';
+        heading.textContent = getText(image.section);
+        contentContainer.appendChild(heading);
+        row = null;
+      }
+
+      const layoutClass = { full: 'full-width', half: 'half-width' }[image.layout] || 'inset';
       const imageDiv = document.createElement('div');
-      imageDiv.className = `project-image ${image.layout === 'full' ? 'full-width' : 'inset'}`;
+      imageDiv.className = `project-image ${layoutClass}`;
       imageDiv.innerHTML = `
         <img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">
         <div class="image-caption">${getText(image.caption)}</div>
       `;
-      contentContainer.appendChild(imageDiv);
+
+      // Consecutive half-width images share a row
+      if (image.layout === 'half') {
+        if (!row) {
+          row = document.createElement('div');
+          row.className = 'project-image-row';
+          contentContainer.appendChild(row);
+        }
+        row.appendChild(imageDiv);
+      } else {
+        row = null;
+        contentContainer.appendChild(imageDiv);
+      }
     });
   }
 
@@ -763,7 +744,7 @@ function initScrollAnimations() {
 
   // Observe elements for animation
   const animatedElements = document.querySelectorAll(
-    '.project-card, .project-hero, .project-image, .cv-item, .cv-item-link, ' +
+    '.project-card, .project-image, .cv-item, .cv-item-link, ' +
     '.about-main h2, .skills-section, .languages-section, .cv-section, ' +
     '.participations-section, .fade-in, .participation-image'
   );
@@ -801,9 +782,6 @@ function setupLazyLoading() {
 // ============================================
 
 document.addEventListener('DOMContentLoaded', async () => {
-  // Initialize dark mode first (before content loads to avoid flash)
-  initDarkMode();
-
   // Load translations first
   await loadTranslations();
 
@@ -820,12 +798,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       switchLanguage(btn.dataset.lang);
     });
   });
-
-  // Setup dark mode toggle
-  const darkModeToggle = document.getElementById('dark-mode-toggle');
-  if (darkModeToggle) {
-    darkModeToggle.addEventListener('click', toggleDarkMode);
-  }
 
   // Initialize appropriate page
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';

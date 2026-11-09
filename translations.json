@@ -12,7 +12,10 @@
         "project": "Project",
         "year": "Year",
         "location": "Location",
-        "typology": "Typology"
+        "typology": "Typology",
+        "context": "Context",
+        "institution": "Institution",
+        "teachers": "Professors"
       }
     },
     "about": {
@@ -58,7 +61,10 @@
         "project": "Projeto",
         "year": "Ano",
         "location": "Localização",
-        "typology": "Tipologia"
+        "typology": "Tipologia",
+        "context": "Contexto",
+        "institution": "Instituição",
+        "teachers": "Docentes"
       }
     },
     "about": {
@@ -104,7 +110,10 @@
         "project": "Proyecto",
         "year": "Año",
         "location": "Ubicación",
-        "typology": "Tipología"
+        "typology": "Tipología",
+        "context": "Contexto",
+        "institution": "Institución",
+        "teachers": "Docentes"
       }
     },
     "about": {
