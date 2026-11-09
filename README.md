@@ -1,6 +1,6 @@
 # Carlota Azenha da Rocha — Portfólio de Arquitetura
 
-Site-portfólio de **Carlota Azenha da Rocha**, estudante do Mestrado Integrado em Arquitetura da Universidade de Évora, com períodos de estudo na Universidade do Porto e na ETSA de Sevilha, e tese de mestrado em curso com a Universidade de Florença.
+Site-portfólio de **Carlota Azenha da Rocha**, estudante do Mestrado Integrado em Arquitetura da Universidade de Évora, com períodos de estudo na Universidade do Porto e na ETSA de Sevilha, e tese de mestrado pela Universidade de Évora.
 
 🔗 **https://carlotaazenharocha.github.io**
 
