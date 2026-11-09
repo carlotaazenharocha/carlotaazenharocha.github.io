@@ -277,7 +277,7 @@ async function initProjectPage() {
   setupProjectNavigation(data.projects, projectId);
 
   // Update page title
-  document.title = `${getText(project.title)} — Architecture Portfolio`;
+  document.title = `${getText(project.title)} — Carlota Azenha da Rocha`;
 
   // Add fade-in
   setTimeout(() => {
@@ -558,7 +558,7 @@ async function initParticipationPage() {
   }
 
   // Update page title
-  document.title = `${getText(participation.title)} — Architecture Portfolio`;
+  document.title = `${getText(participation.title)} — Carlota Azenha da Rocha`;
 
   // Add fade-in
   setTimeout(() => {
