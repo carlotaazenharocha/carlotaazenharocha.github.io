@@ -22,7 +22,7 @@ function initLanguage() {
 }
 
 // Switch language
-function switchLanguage(lang) {
+async function switchLanguage(lang) {
   currentLanguage = lang;
   localStorage.setItem('portfolio-language', lang);
   updateLanguageUI();
@@ -34,16 +34,20 @@ function switchLanguage(lang) {
   // Reload current page content
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   if (currentPage === 'index.html' || currentPage === '') {
-    initHomepage();
+    await initHomepage();
   } else if (currentPage === 'project.html') {
-    initProjectPage();
+    await initProjectPage();
   } else if (currentPage === 'about.html') {
     updateAboutPage();
   } else if (currentPage === 'participation.html') {
-    initParticipationPage();
+    await initParticipationPage();
   } else if (currentPage === 'research.html') {
-    initResearchPage();
+    await initResearchPage();
   }
+
+  // Re-rendered elements start hidden (scroll animation); after a language
+  // switch the content only changes text, so show it straight away
+  revealAnimatedElements();
 }
 
 // Update language button states
@@ -886,6 +890,12 @@ function initMobileMenu() {
 // SCROLL ANIMATIONS
 // ============================================
 
+// Elements that fade in when they scroll into view
+const ANIMATED_ELEMENTS =
+  '.project-card, .project-image, .cv-item, .cv-item-link, ' +
+  '.about-main h2, .skills-section, .languages-section, .cv-section, ' +
+  '.participations-section, .fade-in, .participation-image';
+
 function initScrollAnimations() {
   const observerOptions = {
     root: null,
@@ -910,14 +920,14 @@ function initScrollAnimations() {
     });
   }, observerOptions);
 
-  // Observe elements for animation
-  const animatedElements = document.querySelectorAll(
-    '.project-card, .project-image, .cv-item, .cv-item-link, ' +
-    '.about-main h2, .skills-section, .languages-section, .cv-section, ' +
-    '.participations-section, .fade-in, .participation-image'
-  );
+  // Observe elements for animation (already revealed ones are skipped)
+  document.querySelectorAll(ANIMATED_ELEMENTS).forEach(el => {
+    if (!el.classList.contains('visible')) observer.observe(el);
+  });
+}
 
-  animatedElements.forEach(el => observer.observe(el));
+function revealAnimatedElements() {
+  document.querySelectorAll(ANIMATED_ELEMENTS).forEach(el => el.classList.add('visible'));
 }
 
 // ============================================

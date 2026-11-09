@@ -22,7 +22,7 @@ python3 -m http.server 8000
 
 ### Pages
 - **index.html** - Homepage with project grid (loaded dynamically from JSON)
-- **project.html** - Project detail template (uses query param `?id=01-projeto-avancadoIV`)
+- **project.html** - Project detail template (uses query param `?id=01-atlas-case-studies`)
 - **about.html** - CV/bio page with participations list and sidebar contact info
 - **participation.html** - Participation detail template (uses query param `?id=participation-id`)
 
@@ -43,7 +43,7 @@ python3 -m http.server 8000
 
 | ID | Title (EN) | Location |
 |----|-----------|----------|
-| 01-projeto-avancadoIV | Music School in Porto | Porto |
+| 01-atlas-case-studies | Atlas Case Studies | Évora |
 | 02-rock-oporto-palace | Rock Oporto Palace | Porto |
 | 03-beber-a-terra | Drink the Soil | Alcácer do Sal |
 | 04-casa-do-arco | Arch House | Évoramonte |

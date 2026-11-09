@@ -1,8 +1,6 @@
 .DS_Store
 .claude/
 *.docx
-projects/01-projeto-avancadoIV/old/
-projects/01-projeto-avancadoIV/drive-download-*/
 projects/*/TEXTO_PROJETO.txt
 projects/*/concept
 thesis/*.pdf

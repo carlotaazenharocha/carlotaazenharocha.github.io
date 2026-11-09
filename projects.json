@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": "01-projeto-avancadoIV",
+      "id": "01-atlas-case-studies",
       "title": {
         "en": "Atlas Case Studies",
         "pt": "Atlas Case Studies",
@@ -29,8 +29,8 @@
         "es": "Universidad de Évora"
       },
       "teachers": "Daniel Jiménez | João Soares",
-      "thumbnail": "projects/01-projeto-avancadoIV/1.jpg",
-      "hero": "projects/01-projeto-avancadoIV/1.jpg",
+      "thumbnail": "projects/01-atlas-case-studies/1.jpg",
+      "hero": "projects/01-atlas-case-studies/1.jpg",
       "concept": {
         "en": "The project is developed around the theme of “Atlas Case Studies”, a research exercise that involves selecting emblematic architectural references and reinterpreting their principles in response to the proposed context and programme. The case studies include the Grândola Library and Archive, Casa de Caminha, House in Moledo, Farnsworth House, Pavilion House, Villa Savoye and the Vals Thermal Baths.\n\nThe intervention is based on an analysis of the urban fabric, the site's proximity to the railway line and its relationship with the historic centre, seeking to establish new pedestrian connections and enhance the existing structures. The proposal combines the rehabilitation of existing buildings with the introduction of new volumes accommodating researcher housing, a library archive, an auditorium, a shop, workspaces and administrative areas.\n\nThe overall layout is organised around two squares at different levels, defined according to different degrees of privacy while remaining connected to one another.\n\nThe square is defined by a pergola, conceived as a continuous element that gradually transforms: it begins as paving, extends into a balustrade and culminates as a roof. Inspired by the construction logic of Gerrit Rietveld’s chair, this sequence translates its principles into the architectural scale.\n\nThe residential tower is intended for researchers and is organised around different lengths of stay. The external walkway establishes a continuous visual relationship with the surroundings. The former factory is rehabilitated and converted into an archive and exhibition space, preserving its existing structure and reinterpreting the former silos as an entrance element.",
         "pt": "O projeto desenvolve-se a partir do tema «Atlas Case Studies», um exercício de investigação que propõe selecionar referências emblemáticas da arquitetura e reinterpretar os seus princípios, adaptando-os ao contexto e ao programa propostos. Entre os casos estudados encontram-se a Biblioteca e Arquivo de Grândola, a Casa de Caminha, a House in Moledo, a Farnsworth House, a Pavilion House, a Villa Savoye e as Termas de Vals.\n\nA intervenção parte da análise da malha urbana, da proximidade à linha férrea e da relação com o centro histórico, procurando estabelecer novas continuidades pedonais e valorizar as preexistências. A proposta articula a reabilitação de edifícios existentes com a introdução de novos volumes, destinados a habitação para investigadores, arquivo bibliotecário, auditório, loja, espaços de trabalho e áreas administrativas.\n\nA organização do conjunto estrutura-se em torno de duas praças situadas a cotas distintas e definidas segundo diferentes graus de privacidade, mas mantendo uma ligação entre si.\n\nA praça é delimitada por uma pérgola, concebida como um elemento contínuo que se transforma progressivamente: começa no pavimento, prolonga-se pela guarda e termina na cobertura. Inspirada na lógica construtiva da cadeira de Gerrit Rietveld, esta sequência transpõe os seus princípios para a escala arquitetónica.\n\nA torre de habitação destina-se a investigadores e organiza-se segundo diferentes períodos de permanência. O deambulatório exterior estabelece uma relação contínua de observação com a envolvente. A antiga fábrica é, por sua vez, reabilitada e transformada em arquivo e espaço expositivo, preservando a estrutura existente e reinterpretando os antigos silos como elemento de entrada.",
@@ -43,7 +43,7 @@
             "pt": "Lugar e estratégia",
             "es": "Lugar y estrategia"
           },
-          "src": "projects/01-projeto-avancadoIV/vermelhos_amarelos_1_500.jpg",
+          "src": "projects/01-atlas-case-studies/vermelhos_amarelos_1_500.jpg",
           "caption": {
             "en": "Site plan, 1:500",
             "pt": "Planta de implantação, 1:500",
@@ -52,7 +52,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avancadoIV/vermelhos_amarelos_1_500_cortes.jpg",
+          "src": "projects/01-atlas-case-studies/vermelhos_amarelos_1_500_cortes.jpg",
           "caption": {
             "en": "Site elevations, 1:500",
             "pt": "Alçados do conjunto, 1:500",
@@ -66,7 +66,7 @@
             "pt": "Desenhos",
             "es": "Dibujos"
           },
-          "src": "projects/01-projeto-avancadoIV/ENTREGA_1_200.jpg",
+          "src": "projects/01-atlas-case-studies/ENTREGA_1_200.jpg",
           "caption": {
             "en": "General plan, 1:200",
             "pt": "Planta geral, 1:200",
@@ -75,7 +75,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avancadoIV/ENTREGA 1_200_plantas3.jpg",
+          "src": "projects/01-atlas-case-studies/ENTREGA 1_200_plantas3.jpg",
           "caption": {
             "en": "Floor plans, 1:200",
             "pt": "Plantas dos pisos, 1:200",
@@ -84,7 +84,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avancadoIV/ENTREGA 1_200_cortes.jpg",
+          "src": "projects/01-atlas-case-studies/ENTREGA 1_200_cortes.jpg",
           "caption": {
             "en": "Sections, 1:200",
             "pt": "Cortes, 1:200",
@@ -98,7 +98,7 @@
             "pt": "Maquetes",
             "es": "Maquetas"
           },
-          "src": "projects/01-projeto-avancadoIV/6.jpg",
+          "src": "projects/01-atlas-case-studies/6.jpg",
           "caption": {
             "en": "Site model",
             "pt": "Maquete de conjunto",
@@ -107,7 +107,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avancadoIV/2.jpg",
+          "src": "projects/01-atlas-case-studies/2.jpg",
           "caption": {
             "en": "Physical model, aerial view",
             "pt": "Maquete física, vista aérea",
@@ -116,7 +116,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avancadoIV/3.jpg",
+          "src": "projects/01-atlas-case-studies/3.jpg",
           "caption": {
             "en": "Physical model, square",
             "pt": "Maquete física, praça",
@@ -125,7 +125,7 @@
           "layout": "half"
         },
         {
-          "src": "projects/01-projeto-avancadoIV/5.jpg",
+          "src": "projects/01-atlas-case-studies/5.jpg",
           "caption": {
             "en": "Physical model, pergola detail",
             "pt": "Maquete física, detalhe da pérgola",
@@ -139,7 +139,7 @@
             "pt": "Processo",
             "es": "Proceso"
           },
-          "src": "projects/01-projeto-avancadoIV/7.jpg",
+          "src": "projects/01-atlas-case-studies/7.jpg",
           "caption": {
             "en": "Process sketches",
             "pt": "Esquissos de processo",
@@ -148,7 +148,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-projeto-avancadoIV/4.jpg",
+          "src": "projects/01-atlas-case-studies/4.jpg",
           "caption": {
             "en": "Working wall and study models",
             "pt": "Painel de trabalho e maquetes de estudo",
@@ -165,76 +165,274 @@
         "pt": "Rock Oporto Palace",
         "es": "Rock Oporto Palace"
       },
-      "year": "2024",
+      "year": "2023–2024",
       "location": {
-        "en": "Porto, Portugal",
-        "pt": "Porto, Portugal",
-        "es": "Oporto, Portugal"
+        "en": "Parque da Cidade, Porto, Portugal",
+        "pt": "Parque da Cidade, Porto, Portugal",
+        "es": "Parque de la Ciudad, Oporto, Portugal"
       },
       "typology": {
-        "en": "Cultural",
-        "pt": "Cultural",
-        "es": "Cultural"
+        "en": "Cultural / Educational",
+        "pt": "Cultural / Educacional",
+        "es": "Cultural / Educativo"
       },
-      "thumbnail": "projects/02-rock-oporto-palace/thumbnail.jpg",
-      "hero": "projects/02-rock-oporto-palace/hero.jpg",
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "Faculty of Architecture of the University of Porto | University of Évora",
+        "pt": "Faculdade de Arquitetura da Universidade do Porto | Universidade de Évora",
+        "es": "Facultad de Arquitectura de la Universidad de Oporto | Universidad de Évora"
+      },
+      "teachers": "Maria Souto de Moura | Joana Vilhena | Ana Isabel Costa e Silva",
+      "thumbnail": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
+      "hero": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
       "concept": {
-        "en": "An exploration of flexible spaces for community activities. The building functions as a permeable urban connector, allowing both programmed and spontaneous cultural events.",
-        "pt": "Uma exploração de espaços flexíveis para atividades comunitárias. O edifício funciona como um conector urbano permeável, permitindo eventos culturais programados e espontâneos.",
-        "es": "Una exploración de espacios flexibles para actividades comunitarias. El edificio funciona como un conector urbano permeable, permitiendo eventos culturales programados y espontáneos."
+        "en": "The project consists of a large-scale cultural and educational facility located in Porto City Park, bringing together different programmes, including an auditorium, performance spaces, dining facilities, parking and a series of rooms dedicated to music education.\n\nThe proposal seeks to establish a close relationship with the surrounding landscape, preserving the existing vegetation and exploring façade transparency as a means of connecting the interior with the park. The spatial organisation and visual relationship with the outdoors serve as starting points for the architectural design.\n\nStructural solutions in concrete and steel, large glazed openings, movable partitions and timber interior finishes were explored, seeking to reconcile spatial flexibility, acoustic performance and visual comfort.\n\nThe project provided an opportunity to further explore the relationship between architectural design, construction systems and conscious material selection, highlighting the importance of these decisions in improving energy efficiency, user comfort and reducing the environmental impact of construction.",
+        "pt": "O projeto consiste num equipamento cultural e educativo de grande escala, implantado no Parque da Cidade do Porto, integrando diferentes programas, entre os quais um auditório, salas de espetáculo, espaços de restauração, estacionamento e um conjunto de salas destinadas ao ensino da música.\n\nA proposta procura estabelecer uma relação próxima com a paisagem envolvente, preservando a vegetação existente e explorando a transparência das fachadas como elemento de ligação entre o interior e o parque. A organização dos espaços e a relação visual com o exterior constituem pontos de partida para o desenvolvimento da solução arquitetónica.\n\nForam estudadas soluções estruturais em betão e aço, grandes vãos envidraçados, paredes amovíveis e revestimentos interiores em madeira, procurando conciliar flexibilidade espacial, desempenho acústico e conforto visual.\n\nO exercício permitiu aprofundar a relação entre conceção arquitetónica, sistemas construtivos e escolha consciente de materiais, compreendendo a importância destas decisões para a eficiência energética, o conforto dos utilizadores e a redução do impacto ambiental da construção.",
+        "es": "El proyecto consiste en un equipamiento cultural y educativo de gran escala, situado en el Parque de la Ciudad de Oporto, que integra diferentes programas, entre ellos un auditorio, salas de espectáculos, espacios de restauración, aparcamiento y un conjunto de aulas destinadas a la enseñanza musical.\n\nLa propuesta busca establecer una estrecha relación con el paisaje circundante, preservando la vegetación existente y explorando la transparencia de las fachadas como elemento de conexión entre el interior y el parque. La organización de los espacios y la relación visual con el exterior constituyen puntos de partida para el desarrollo de la solución arquitectónica.\n\nSe estudiaron soluciones estructurales de hormigón y acero, grandes superficies acristaladas, particiones móviles y revestimientos interiores de madera, buscando conciliar flexibilidad espacial, rendimiento acústico y confort visual.\n\nEl ejercicio permitió profundizar en la relación entre concepción arquitectónica, sistemas constructivos y selección consciente de materiales, comprendiendo la importancia de estas decisiones para mejorar la eficiencia energética, el confort de los usuarios y reducir el impacto ambiental de la construcción."
       },
       "images": [
         {
-          "src": "projects/02-rock-oporto-palace/axonometria.png",
+          "section": {
+            "en": "Site and strategy",
+            "pt": "Lugar e estratégia",
+            "es": "Lugar y estrategia"
+          },
+          "src": "projects/02-rock-oporto-palace/01-maquete-implantacao.jpg",
           "caption": {
-            "en": "Exploded axonometric",
-            "pt": "Axonometria explodida",
-            "es": "Axonometría explotada"
+            "en": "Site model, Parque da Cidade",
+            "pt": "Maquete de implantação, Parque da Cidade",
+            "es": "Maqueta de emplazamiento, Parque de la Ciudad"
           },
           "layout": "full"
         },
         {
-          "src": "projects/02-rock-oporto-palace/planta0.png",
+          "src": "projects/02-rock-oporto-palace/02-esquemas-percursos.jpg",
           "caption": {
-            "en": "Ground floor plan, 1:100",
-            "pt": "Planta rés do chão, 1:100",
-            "es": "Planta baja, 1:100"
+            "en": "Paths on festival days, everyday paths and axonometry of levels",
+            "pt": "Percursos em dias de festival, percursos regulares e axonometria de cotas",
+            "es": "Recorridos en días de festival, recorridos habituales y axonometría de cotas"
           },
           "layout": "full"
         },
         {
-          "src": "projects/02-rock-oporto-palace/planta1.png",
+          "section": {
+            "en": "Drawings",
+            "pt": "Desenhos",
+            "es": "Dibujos"
+          },
+          "src": "projects/02-rock-oporto-palace/04-planta-piso-0.jpg",
           "caption": {
-            "en": "First floor plan, 1:100",
-            "pt": "Planta primeiro piso, 1:100",
-            "es": "Planta primera, 1:100"
+            "en": "Floor plan, level 0",
+            "pt": "Planta do piso 0",
+            "es": "Planta del piso 0"
           },
           "layout": "full"
         },
         {
-          "src": "projects/02-rock-oporto-palace/corte-piso0.png",
+          "src": "projects/02-rock-oporto-palace/05-planta-piso-1.jpg",
           "caption": {
-            "en": "Ground floor section",
-            "pt": "Corte Rés do Chão",
-            "es": "Sección planta baja"
+            "en": "Floor plan, level 1",
+            "pt": "Planta do piso 1",
+            "es": "Planta del piso 1"
           },
           "layout": "full"
         },
         {
-          "src": "projects/02-rock-oporto-palace/corte-piso1.png",
+          "src": "projects/02-rock-oporto-palace/06-planta-estacionamento.jpg",
           "caption": {
-            "en": "First floor section",
-            "pt": "Corte Piso 1",
-            "es": "Sección planta primera"
+            "en": "Car park plan",
+            "pt": "Planta do estacionamento",
+            "es": "Planta del aparcamiento"
           },
           "layout": "full"
         },
         {
-          "src": "projects/02-rock-oporto-palace/maquete.jpg",
+          "src": "projects/02-rock-oporto-palace/07-corte-aa.jpg",
           "caption": {
-            "en": "Physical model",
-            "pt": "Maquete física",
-            "es": "Maqueta física"
+            "en": "Section AA, 1:500",
+            "pt": "Corte AA, 1:500",
+            "es": "Sección AA, 1:500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/08-corte-bb.jpg",
+          "caption": {
+            "en": "Section BB, 1:500",
+            "pt": "Corte BB, 1:500",
+            "es": "Sección BB, 1:500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/09-corte-cc.jpg",
+          "caption": {
+            "en": "Section CC, 1:500",
+            "pt": "Corte CC, 1:500",
+            "es": "Sección CC, 1:500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/10-corte-dd.jpg",
+          "caption": {
+            "en": "Section DD, 1:500",
+            "pt": "Corte DD, 1:500",
+            "es": "Sección DD, 1:500"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Construction",
+            "pt": "Construção",
+            "es": "Construcción"
+          },
+          "src": "projects/02-rock-oporto-palace/12-axonometria-estrutural.jpg",
+          "caption": {
+            "en": "Exploded structural axonometry",
+            "pt": "Axonometria estrutural explodida",
+            "es": "Axonometría estructural explotada"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/18-esquema-avac.jpg",
+          "caption": {
+            "en": "HVAC scheme: supply and extraction",
+            "pt": "Esquema AVAC: insuflação e extração",
+            "es": "Esquema de climatización: impulsión y extracción"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/13-saidas-emergencia-zonas-tecnicas.jpg",
+          "caption": {
+            "en": "Emergency exits and technical areas",
+            "pt": "Saídas de emergência e zonas técnicas",
+            "es": "Salidas de emergencia y zonas técnicas"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/14-corte-construtivo.jpg",
+          "caption": {
+            "en": "Construction section",
+            "pt": "Corte construtivo",
+            "es": "Sección constructiva"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/15-corte-construtivo-auditorio.jpg",
+          "caption": {
+            "en": "Construction section of the auditorium",
+            "pt": "Corte construtivo do auditório",
+            "es": "Sección constructiva del auditorio"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/16-corte-fachada.jpg",
+          "caption": {
+            "en": "Façade section, 1:10",
+            "pt": "Corte de fachada, 1:10",
+            "es": "Sección de fachada, 1:10"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/17-planta-pormenor.jpg",
+          "caption": {
+            "en": "Detail plan, 1:50",
+            "pt": "Planta de pormenor, 1:50",
+            "es": "Planta de detalle, 1:50"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/19-auditorio.jpg",
+          "caption": {
+            "en": "Auditorium, plan and section",
+            "pt": "Auditório, planta e corte",
+            "es": "Auditorio, planta y sección"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Models",
+            "pt": "Maquetes",
+            "es": "Maquetas"
+          },
+          "src": "projects/02-rock-oporto-palace/20-maquete-parque.jpg",
+          "caption": {
+            "en": "Model of the park",
+            "pt": "Maquete do parque",
+            "es": "Maqueta del parque"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/21-maquete-percursos.jpg",
+          "caption": {
+            "en": "Model, paths through the park",
+            "pt": "Maquete, percursos no parque",
+            "es": "Maqueta, recorridos en el parque"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/22-maquete-vista.jpg",
+          "caption": {
+            "en": "Model, view of the site",
+            "pt": "Maquete, vista do conjunto",
+            "es": "Maqueta, vista del conjunto"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/23-maquete-edificio.jpg",
+          "caption": {
+            "en": "Building model",
+            "pt": "Maquete do edifício",
+            "es": "Maqueta del edificio"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
+          "caption": {
+            "en": "Building model, with the tower",
+            "pt": "Maquete do edifício, com a torre",
+            "es": "Maqueta del edificio, con la torre"
+          },
+          "layout": "half"
+        },
+        {
+          "section": {
+            "en": "Process",
+            "pt": "Processo",
+            "es": "Proceso"
+          },
+          "src": "projects/02-rock-oporto-palace/03-planta-implantacao.jpg",
+          "caption": {
+            "en": "Site plan",
+            "pt": "Planta de implantação",
+            "es": "Planta de emplazamiento"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/11-corte-auditorio.jpg",
+          "caption": {
+            "en": "Section through the auditorium",
+            "pt": "Corte pelo auditório",
+            "es": "Sección por el auditorio"
           },
           "layout": "full"
         }
