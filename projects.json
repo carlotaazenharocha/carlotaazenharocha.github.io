@@ -226,16 +226,16 @@
           },
           "src": "projects/02-rock-oporto-palace/04-planta-piso-0.jpg",
           "caption": {
-            "en": "Floor plan, level 0",
-            "pt": "Planta do piso 0",
-            "es": "Planta del piso 0"
+            "en": "Ground floor plan",
+            "pt": "Planta do piso térreo",
+            "es": "Planta baja"
           },
           "layout": "full"
         },
         {
           "src": "projects/02-rock-oporto-palace/05-planta-piso-1.jpg",
           "caption": {
-            "en": "Floor plan, level 1",
+            "en": "First floor plan",
             "pt": "Planta do piso 1",
             "es": "Planta del piso 1"
           },
@@ -244,9 +244,9 @@
         {
           "src": "projects/02-rock-oporto-palace/06-planta-estacionamento.jpg",
           "caption": {
-            "en": "Car park plan",
-            "pt": "Planta do estacionamento",
-            "es": "Planta del aparcamiento"
+            "en": "Level -1 plan, car park",
+            "pt": "Planta do piso -1, estacionamento",
+            "es": "Planta del piso -1, aparcamiento"
           },
           "layout": "full"
         },
