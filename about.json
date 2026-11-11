@@ -42,14 +42,31 @@
   "education": [
     {
       "date": {
+        "en": "Oct 2020 — 2026",
+        "pt": "Out 2020 — 2026",
+        "es": "Oct 2020 — 2026"
+      },
+      "title": {
+        "en": "Integrated Master in Architecture",
+        "pt": "Mestrado Integrado em Arquitetura",
+        "es": "Máster Integrado en Arquitectura"
+      },
+      "institution": {
+        "en": "School of Arts at the University of Évora",
+        "pt": "Escola de Artes da Universidade de Évora",
+        "es": "Escuela de Artes de la Universidad de Évora"
+      }
+    },
+    {
+      "date": {
         "en": "2023 — 2024",
         "pt": "2023 — 2024",
         "es": "2023 — 2024"
       },
       "title": {
-        "en": "Integrated Master in Architecture (Exchange)",
-        "pt": "Mestrado Integrado em Arquitetura (Intercâmbio)",
-        "es": "Máster Integrado en Arquitectura (Intercambio)"
+        "en": "Integrated Master in Architecture (Exchange Almeida Garrett)",
+        "pt": "Mestrado Integrado em Arquitetura (Programa Almeida Garrett)",
+        "es": "Máster Integrado en Arquitectura (Intercambio Almeida Garrett)"
       },
       "institution": {
         "en": "University of Porto",
@@ -70,43 +87,12 @@
       },
       "institution": {
         "en": "Superior Technical School of Architecture of Seville",
-        "pt": "Escola Técnica Superior de Arquitectura de Sevilha",
+        "pt": "Escola Técnica Superior de Arquitetura de Sevilha",
         "es": "Escuela Técnica Superior de Arquitectura de Sevilla"
-      }
-    },
-    {
-      "date": {
-        "en": "Oct 2020 — Dec 2022",
-        "pt": "Out 2020 — Dez 2022",
-        "es": "Oct 2020 — Dic 2022"
-      },
-      "title": {
-        "en": "Integrated Master in Architecture",
-        "pt": "Mestrado Integrado em Arquitetura",
-        "es": "Máster Integrado en Arquitectura"
-      },
-      "institution": {
-        "en": "University of Évora",
-        "pt": "Universidade de Évora",
-        "es": "Universidad de Évora"
       }
     }
   ],
   "publications": [
-    {
-      "date": "2025",
-      "title": {
-        "en": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”",
-        "pt": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”",
-        "es": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”"
-      },
-      "institution": {
-        "en": "XI Seminar of the Collaborative Laboratory: Urban Dynamics, Heritage, Arts",
-        "pt": "XI Seminário do Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes",
-        "es": "XI Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes"
-      },
-      "url": "https://repositorio.iscte-iul.pt/entities/publication/1ad02647-07bf-4342-a9b6-2101a4ab41ca"
-    },
     {
       "date": "2026",
       "title": {
@@ -120,6 +106,20 @@
         "es": "XII Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes"
       },
       "url": "https://dspace.uevora.pt/rdpc/handle/10174/40438"
+    },
+    {
+      "date": "2025",
+      "title": {
+        "en": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”",
+        "pt": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”",
+        "es": "“Convento da Tomina: contributos para a compreensão da sua identidade patrimonial”"
+      },
+      "institution": {
+        "en": "XI Seminar of the Collaborative Laboratory: Urban Dynamics, Heritage, Arts",
+        "pt": "XI Seminário do Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes",
+        "es": "XI Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes"
+      },
+      "url": "https://repositorio.iscte-iul.pt/entities/publication/1ad02647-07bf-4342-a9b6-2101a4ab41ca"
     }
   ],
   "thesis": {
@@ -143,13 +143,18 @@
     "name": "Carlota de Sousa Azenha da Rocha",
     "email": "carlota.s.rocha@gmail.com",
     "location": {
-      "en": "Amarante, Porto, Portugal",
-      "pt": "Amarante, Porto, Portugal",
-      "es": "Amarante, Oporto, Portugal"
+      "en": "Amarante and Ericeira, Portugal · Granada, Spain",
+      "pt": "Amarante e Ericeira, Portugal · Granada, Espanha",
+      "es": "Amarante y Ericeira, Portugal · Granada, España"
     },
     "linkedin": {
       "url": "https://www.linkedin.com/in/carlota-rocha-766665248/",
       "label": "Carlota Rocha"
+    },
+    "availability": {
+      "en": "Open to relocation",
+      "pt": "Disponível para mudar de cidade ou país",
+      "es": "Disponible para cambiar de ciudad o país"
     }
   },
   "cvFile": "assets/cv.pdf"

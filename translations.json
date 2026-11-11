@@ -43,7 +43,8 @@
     },
     "participation": {
       "back_to_about": "Back to About",
-      "external_links": "External Links"
+      "external_links": "External Links",
+      "related_project": "Related project"
     },
     "footer": {
       "copyright": "© 2026 Carlota Azenha da Rocha. All rights reserved."
@@ -93,7 +94,8 @@
     },
     "participation": {
       "back_to_about": "Voltar a Sobre",
-      "external_links": "Links Externos"
+      "external_links": "Links Externos",
+      "related_project": "Projeto relacionado"
     },
     "footer": {
       "copyright": "© 2026 Carlota Azenha da Rocha. Todos os direitos reservados."
@@ -143,7 +145,8 @@
     },
     "participation": {
       "back_to_about": "Volver a Sobre mí",
-      "external_links": "Enlaces Externos"
+      "external_links": "Enlaces Externos",
+      "related_project": "Proyecto relacionado"
     },
     "footer": {
       "copyright": "© 2026 Carlota Azenha da Rocha. Todos los derechos reservados."

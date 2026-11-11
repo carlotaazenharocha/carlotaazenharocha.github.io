@@ -4,3 +4,7 @@
 projects/*/TEXTO_PROJETO.txt
 projects/*/concept
 thesis/*.pdf
+
+# Old portfolio (reference only, ~350 MB)
+Portfolio.pdf
+participations/*/INFO.txt

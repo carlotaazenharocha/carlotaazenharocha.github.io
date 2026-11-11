@@ -434,6 +434,115 @@
       },
       "images": [],
       "externalLinks": []
+    },
+    {
+      "id": "exposicao-evora-monte",
+      "type": "exhibition",
+      "title": {
+        "en": "Ducal Palace Exhibition",
+        "pt": "Exposição Paço Ducal",
+        "es": "Exposición Palacio Ducal"
+      },
+      "date": "2022-12",
+      "dateDisplay": {
+        "en": "December 10, 2022 – January 10, 2023",
+        "pt": "10 de dezembro de 2022 – 10 de janeiro de 2023",
+        "es": "10 de diciembre de 2022 – 10 de enero de 2023"
+      },
+      "location": {
+        "en": "Tower of the Ducal Palace of Évoramonte, Estremoz, Portugal",
+        "pt": "Torre do Paço Ducal de Évoramonte, Estremoz, Portugal",
+        "es": "Torre del Palacio Ducal de Évoramonte, Estremoz, Portugal"
+      },
+      "institution": {
+        "en": "University of Évora",
+        "pt": "Universidade de Évora",
+        "es": "Universidad de Évora"
+      },
+      "role": {
+        "en": "Organisation | Presentation | Participation",
+        "pt": "Organização | Apresentação | Participação",
+        "es": "Organización | Presentación | Participación"
+      },
+      "description": {
+        "en": "The temporary exhibition dedicated to the “Interpretive Centre in Évora Monte”, held in the tower of the Ducal Palace of Évoramonte, brought together work developed by second-year Architecture students at the University of Évora. The exhibition highlighted projects by the five students with the strongest academic performance, presented through physical models, technical drawings and watercolour drawings, alongside graphic work by other students.\n\nPreparing the exhibition involved organising and selecting the work to be displayed, as well as defining its layout and arrangement within the exhibition space. The entire process, from the exhibition concept to the final installation, aimed to create a coherent reading of the projects and highlight the diversity of the students’ proposals.",
+        "pt": "A exposição temporária dedicada ao «Centro Interpretativo em Évora Monte», realizada na Torre do Paço Ducal de Évoramonte, reuniu os trabalhos desenvolvidos pelos estudantes do 2.º ano de Arquitetura da Universidade de Évora. A mostra destacou os projetos dos cinco estudantes com melhor desempenho académico, apresentados através de maquetes e desenhos técnicos e em aguarela, incluindo ainda trabalhos gráficos de outros estudantes.\n\nA preparação da exposição envolveu a organização e seleção dos trabalhos a apresentar, bem como a definição da sua disposição e articulação no espaço expositivo. Todo o processo, desde a conceção da exposição à montagem final, procurou construir uma leitura coerente dos trabalhos e valorizar a diversidade das propostas desenvolvidas pelos estudantes.",
+        "es": "La exposición temporal dedicada al «Centro Interpretativo en Évora Monte», celebrada en la torre del Palacio Ducal de Évoramonte, reunió los trabajos desarrollados por los estudiantes de segundo año de Arquitectura de la Universidad de Évora. La muestra destacó los proyectos de los cinco estudiantes con mejor rendimiento académico, presentados mediante maquetas, dibujos técnicos y dibujos en acuarela, además de trabajos gráficos de otros estudiantes.\n\nLa preparación de la exposición implicó la organización y selección de los trabajos que se iban a presentar, así como la definición de su disposición y articulación en el espacio expositivo. Todo el proceso, desde la concepción de la exposición hasta el montaje final, buscó construir una lectura coherente de los trabajos y poner en valor la diversidad de las propuestas desarrolladas por los estudiantes."
+      },
+      "tags": [
+        "exposição",
+        "maquetes",
+        "desenho",
+        "Évoramonte"
+      ],
+      "images": [
+        {
+          "src": "participations/exposicao-evora-monte/01-cartaz.jpg",
+          "caption": {
+            "en": "Exhibition poster, designed by Carlota Rocha",
+            "pt": "Cartaz da exposição, desenvolvido por Carlota Rocha",
+            "es": "Cartel de la exposición, desarrollado por Carlota Rocha"
+          }
+        },
+        {
+          "src": "participations/exposicao-evora-monte/02-maquete-centro-interpretativo.jpg",
+          "caption": {
+            "en": "Model of the interpretive centre on display. Photo: Municipality of Estremoz",
+            "pt": "Maquete do centro interpretativo em exposição. Fotografia: Município de Estremoz",
+            "es": "Maqueta del centro interpretativo en la exposición. Fotografía: Municipio de Estremoz"
+          }
+        },
+        {
+          "src": "participations/exposicao-evora-monte/03-apresentacao-maquete.jpg",
+          "caption": {
+            "en": "Presenting the model. Photo: Municipality of Estremoz",
+            "pt": "Apresentação da maquete. Fotografia: Município de Estremoz",
+            "es": "Presentación de la maqueta. Fotografía: Municipio de Estremoz"
+          }
+        },
+        {
+          "src": "participations/exposicao-evora-monte/04-visita-exposicao.jpg",
+          "caption": {
+            "en": "Visit to the exhibition. Photo: Municipality of Estremoz",
+            "pt": "Visita à exposição. Fotografia: Município de Estremoz",
+            "es": "Visita a la exposición. Fotografía: Municipio de Estremoz"
+          }
+        },
+        {
+          "src": "participations/exposicao-evora-monte/05-maquete-vila.jpg",
+          "caption": {
+            "en": "Model of the village. Photo: Municipality of Estremoz",
+            "pt": "Maquete da vila. Fotografia: Município de Estremoz",
+            "es": "Maqueta de la villa. Fotografía: Municipio de Estremoz"
+          }
+        },
+        {
+          "src": "participations/exposicao-evora-monte/06-aguarela-rua.jpg",
+          "caption": {
+            "en": "Watercolour of a street in Évoramonte, by Carlota Rocha. Photo: Municipality of Estremoz",
+            "pt": "Aguarela de uma rua de Évoramonte, da autoria de Carlota Rocha. Fotografia: Município de Estremoz",
+            "es": "Acuarela de una calle de Évoramonte, de Carlota Rocha. Fotografía: Municipio de Estremoz"
+          }
+        }
+      ],
+      "projects": [
+        "04-centro-interpretativo"
+      ],
+      "note": {
+        "en": "Exhibition conceived and organised by Carlota Rocha.",
+        "pt": "Exposição idealizada e organizada por Carlota Rocha.",
+        "es": "Exposición ideada y organizada por Carlota Rocha."
+      },
+      "externalLinks": [
+        {
+          "url": "https://adefesa.org/2023/01/05/exposicao-na-torre-paco-ducal-de-evora-monte/",
+          "label": {
+            "en": "Article about the exhibition at the Tower of the Ducal Palace of Évora Monte",
+            "pt": "Notícia sobre a exposição na Torre do Paço Ducal de Évora Monte",
+            "es": "Noticia sobre la exposición en la Torre del Palacio Ducal de Évora Monte"
+          }
+        }
+      ]
     }
   ],
   "types": {
@@ -466,6 +575,11 @@
       "en": "Program",
       "pt": "Programa",
       "es": "Programa"
+    },
+    "exhibition": {
+      "en": "Exhibition",
+      "pt": "Exposição",
+      "es": "Exposición"
     }
   }
 }

@@ -239,7 +239,21 @@ async function initProjectPage() {
       .join('');
   }
 
-
+  // Participations linked to the project (e.g. an exhibition of it): one sentence
+  // before the metadata, with {link} replaced by a link to the participation
+  const relatedContainer = document.getElementById('project-related');
+  if (relatedContainer) {
+    relatedContainer.innerHTML = '';
+    if (project.participations && project.participations.length > 0) {
+      const participations = await loadParticipationsData();
+      relatedContainer.innerHTML = project.participations.map(link => {
+        const participation = participations?.participations.find(p => p.id === link.id);
+        if (!participation) return '';
+        const anchor = `<a href="participation.html?id=${participation.id}">${getText(participation.title)}</a>`;
+        return `<p>${getText(link.text).replace('{link}', anchor)}</p>`;
+      }).join('');
+    }
+  }
 
   // Populate images
   const contentContainer = document.getElementById('project-content');
@@ -280,8 +294,12 @@ function renderImages(container, images) {
     const layoutClass = { full: 'full-width', half: 'half-width' }[image.layout] || 'inset';
     const imageDiv = document.createElement('div');
     imageDiv.className = `project-image ${layoutClass}`;
+    // Videos play silently in a loop like an image, without controls
+    const media = image.type === 'video'
+      ? `<video src="${image.src}" autoplay muted loop playsinline disablepictureinpicture preload="metadata"></video>`
+      : `<img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">`;
     imageDiv.innerHTML = `
-      <img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">
+      ${media}
       <div class="image-caption">${getText(image.caption)}</div>
     `;
 
@@ -546,7 +564,12 @@ function updateAboutPage() {
   // Update education section
   const educationContainer = document.getElementById('education-section');
   if (educationContainer && aboutData.education) {
-    educationContainer.innerHTML = aboutData.education.map(edu => `
+    // Newest first: by the year it ends, then the year it starts
+    const years = edu => (getText(edu.date).match(/\d{4}/g) || ['0']).map(Number);
+    const education = [...aboutData.education].sort((a, b) =>
+      Math.max(...years(b)) - Math.max(...years(a)) || Math.min(...years(b)) - Math.min(...years(a))
+    );
+    educationContainer.innerHTML = education.map(edu => `
       <div class="cv-item">
         <div class="cv-date">${getText(edu.date)}</div>
         <div class="cv-title">${getText(edu.title)}</div>
@@ -558,8 +581,9 @@ function updateAboutPage() {
   // Update publications section
   const publicationsContainer = document.getElementById('publications-section');
   if (publicationsContainer && aboutData.publications) {
-    // Publications with a url open in a new tab
-    publicationsContainer.innerHTML = aboutData.publications.map(pub => {
+    // Newest first; publications with a url open in a new tab
+    const publications = [...aboutData.publications].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    publicationsContainer.innerHTML = publications.map(pub => {
       const content = `
         <div class="cv-date">${pub.date}</div>
         <div class="cv-title">${getText(pub.title)}${pub.url ? ' ↗' : ''}</div>
@@ -611,6 +635,7 @@ function updateAboutPage() {
       <div class="contact-item">
         <div class="contact-label">${labels.contact_labels.location}</div>
         <div class="contact-value">${getText(aboutData.contact.location)}</div>
+        ${aboutData.contact.availability ? `<div class="contact-note">${getText(aboutData.contact.availability)}</div>` : ''}
       </div>
       <div class="contact-item">
         <div class="contact-label">${labels.contact_labels.linkedin}</div>
@@ -637,9 +662,9 @@ function updateParticipationsSection() {
   container.innerHTML = sorted.map(p => {
     return `
       <a href="participation.html?id=${p.id}" class="cv-item cv-item-link">
-        <div class="cv-date">${getText(p.dateDisplay)}</div>
         <div class="cv-title">${getText(p.title)} <span class="link-arrow">→</span></div>
         <div class="cv-institution">${getText(p.location)} · ${getText(p.institution)}</div>
+        <div class="cv-date cv-date--below">${getText(p.dateDisplay)}</div>
       </a>
     `;
   }).join('');
@@ -687,13 +712,20 @@ async function initParticipationPage() {
       <div class="meta-item">${getText(participation.dateDisplay)}</div>
       <div class="meta-item">${getText(participation.location)}</div>
       <div class="meta-item">${getText(participation.institution)}</div>
+      ${participation.role ? `<div class="meta-item">${getText(participation.role)}</div>` : ''}
     `;
+  }
+
+  // Short note on the author's role, below the meta line
+  const noteContainer = document.getElementById('participation-note');
+  if (noteContainer) {
+    noteContainer.textContent = participation.note ? getText(participation.note) : '';
   }
 
   // Description
   const descContainer = document.getElementById('participation-description');
   if (descContainer) {
-    descContainer.innerHTML = `<p>${getText(participation.description)}</p>`;
+    descContainer.innerHTML = paragraphs(participation.description);
   }
 
   // Images
@@ -707,17 +739,35 @@ async function initParticipationPage() {
     `).join('');
   }
 
-  // External links
+  // Related projects and external links
   const linksContainer = document.getElementById('participation-links');
-  if (linksContainer && participation.externalLinks && participation.externalLinks.length > 0) {
-    linksContainer.innerHTML = `
-      <h3>${t('participation.external_links')}</h3>
-      <ul class="external-links-list">
-        ${participation.externalLinks.map(link => `
-          <li><a href="${link.url}" target="_blank" rel="noopener">${getText(link.label)} ↗</a></li>
-        `).join('')}
-      </ul>
-    `;
+  if (linksContainer) {
+    let html = '';
+    if (participation.projects && participation.projects.length > 0) {
+      const projectsData = await loadProjectsData();
+      const related = (projectsData?.projects || []).filter(p => participation.projects.includes(p.id));
+      if (related.length > 0) {
+        html += `
+          <h3>${t('participation.related_project')}</h3>
+          <ul class="external-links-list">
+            ${related.map(p => `
+              <li><a href="project.html?id=${p.id}">${getText(p.title)} →</a></li>
+            `).join('')}
+          </ul>
+        `;
+      }
+    }
+    if (participation.externalLinks && participation.externalLinks.length > 0) {
+      html += `
+        <h3>${t('participation.external_links')}</h3>
+        <ul class="external-links-list">
+          ${participation.externalLinks.map(link => `
+            <li><a href="${link.url}" target="_blank" rel="noopener">${getText(link.label)} ↗</a></li>
+          `).join('')}
+        </ul>
+      `;
+    }
+    linksContainer.innerHTML = html;
   }
 
   // Back link

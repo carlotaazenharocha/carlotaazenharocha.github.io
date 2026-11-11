@@ -39,18 +39,17 @@ python3 -m http.server 8000
 3. Content rendered based on current language
 4. Language toggle updates preference and re-renders (no page reload)
 
-## Current Projects (9 total)
+## Current Projects (8 total)
 
 | ID | Title (EN) | Location |
 |----|-----------|----------|
 | 01-atlas-case-studies | Atlas Case Studies | Évora |
 | 02-rock-oporto-palace | Rock Oporto Palace | Porto |
 | 03-beber-a-terra | Drink the Soil | Alcácer do Sal |
-| 04-casa-do-arco | Arch House | Évoramonte |
+| 04-centro-interpretativo | Interpretive Centre in Évora Monte | Évoramonte |
 | 05-dispositivo-urbano | Urban Device | Porto |
 | 06-solar-sao-joao | Solar de S. João Square | Almeida |
 | 07-capillas-san-bruno | Capillas de San Bruno | Seville |
-| 09-cafetaria-centro-interpretativo | Interpretive Center Cafeteria | Évoramonte |
 | 10-master-lisboa | Water Reservoir Tower | Lisbon |
 
 ## Adding a New Project

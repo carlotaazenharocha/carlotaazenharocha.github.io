@@ -591,17 +591,6 @@
       },
       "items": [
         {
-          "title": "Convento da Tomina: contributos para a compreensão da sua identidade patrimonial",
-          "authors": "Rocha, C. & Aleixo, S.",
-          "year": "2025",
-          "venue": {
-            "en": "XI Seminar of the Collaborative Laboratory: Urban Dynamics, Heritage, Arts — Anthology of essays, pp. 335–348",
-            "pt": "XI Seminário do Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes — Antologia de ensaios, pp. 335–348",
-            "es": "XI Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes — Antología de ensayos, pp. 335–348"
-          },
-          "url": "https://repositorio.iscte-iul.pt/entities/publication/1ad02647-07bf-4342-a9b6-2101a4ab41ca"
-        },
-        {
           "title": "Convento da Tomina: da identidade patrimonial à estratégia de intervenção",
           "authors": "Rocha, C. & Aleixo, S.",
           "year": "2026",
@@ -611,6 +600,17 @@
             "es": "XII Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes"
           },
           "url": "https://dspace.uevora.pt/rdpc/handle/10174/40438"
+        },
+        {
+          "title": "Convento da Tomina: contributos para a compreensão da sua identidade patrimonial",
+          "authors": "Rocha, C. & Aleixo, S.",
+          "year": "2025",
+          "venue": {
+            "en": "XI Seminar of the Collaborative Laboratory: Urban Dynamics, Heritage, Arts — Anthology of essays, pp. 335–348",
+            "pt": "XI Seminário do Laboratório Colaborativo: Dinâmicas Urbanas, Património, Artes — Antologia de ensaios, pp. 335–348",
+            "es": "XI Seminario del Laboratorio Colaborativo: Dinámicas Urbanas, Patrimonio, Artes — Antología de ensayos, pp. 335–348"
+          },
+          "url": "https://repositorio.iscte-iul.pt/entities/publication/1ad02647-07bf-4342-a9b6-2101a4ab41ca"
         }
       ],
       "linkLabel": {
