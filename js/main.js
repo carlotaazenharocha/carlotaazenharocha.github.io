@@ -707,7 +707,7 @@ function updateAboutPage() {
   if (contactContainer && aboutData.contact) {
     contactContainer.innerHTML = `
       <h3>${labels.contact}</h3>
-      <div class="contact-item">
+      <div class="contact-item contact-item--name">
         <div class="contact-label">${labels.contact_labels.name}</div>
         <div class="contact-value">${aboutData.contact.name}</div>
       </div>
@@ -717,7 +717,7 @@ function updateAboutPage() {
           <a href="mailto:${aboutData.contact.email}">${aboutData.contact.email}</a>
         </div>
       </div>
-      <div class="contact-item">
+      <div class="contact-item contact-item--location">
         <div class="contact-label">${labels.contact_labels.location}</div>
         <div class="contact-value">${getText(aboutData.contact.location)}</div>
         ${aboutData.contact.availability ? `<div class="contact-note">${getText(aboutData.contact.availability)}</div>` : ''}
@@ -731,8 +731,28 @@ function updateAboutPage() {
     `;
   }
 
+  // Presentation card for phones and tablets (hidden on desktop)
+  renderAboutCard(labels);
+
   // Update footer
   updateFooter();
+}
+
+// Photo, name and location at the top of the About page on phones and
+// tablets (the CV button and the contacts move to the end of the page)
+function renderAboutCard(labels) {
+  const card = document.getElementById('about-card');
+  const contact = aboutData.contact;
+  if (!card || !contact) return;
+  const photo = document.querySelector('.profile-image');
+  card.innerHTML = `
+    ${photo ? `<img src="${photo.getAttribute('src')}" alt="${contact.name}" class="about-card-photo">` : ''}
+    <div>
+      <h1 class="about-card-name">${contact.name}</h1>
+      <p class="about-card-location">${getText(contact.location)}</p>
+      ${contact.availability ? `<p class="about-card-note">${getText(contact.availability)}</p>` : ''}
+    </div>
+  `;
 }
 
 function updateParticipationsSection() {

@@ -1259,7 +1259,8 @@ footer {
   text-decoration: none;
   color: inherit;
   padding: 0.25rem 0;
-  margin: -0.25rem 0;
+  /* Same space between items as .cv-item, which this shorthand would cancel */
+  margin: -0.25rem 0 1.25rem;
   transition: opacity 0.2s ease;
 }
 
@@ -1771,4 +1772,102 @@ footer {
 .phase-next,
 .publication-note {
   text-align: justify;
+}
+
+/* ============================================
+   ABOUT PAGE ON PHONES AND TABLETS
+   One column: a presentation card (photo, name, location), the text,
+   the CV sections, skills and languages, and at the very end the CV
+   button and the contacts
+   ============================================ */
+
+.about-card {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* Children of both columns take part in one ordered column */
+  .about-main,
+  .about-sidebar {
+    display: contents;
+  }
+
+  .about-card { display: grid; gap: 1.25rem; order: 0; margin-bottom: 3rem; }
+  #about-intro { order: 1; }
+  .about-main h2[data-section="education"], #education-section { order: 2; }
+  .about-main h2[data-section="participations"], #participations-list { order: 3; }
+  .about-main h2[data-section="publications"], #publications-section { order: 4; }
+  .about-main h2[data-section="thesis"], #thesis-section { order: 5; }
+  .about-main h2[data-section="skills"], #skills-section { order: 6; }
+  .about-main h2[data-section="languages"], #languages-section { order: 7; }
+  .about-main > .cv-download { order: 8; align-self: flex-start; margin-top: 3rem; }
+  #contact-section { order: 9; margin-top: 3.5rem; }
+
+  /* Same heading as the other sections */
+  #contact-section h3 {
+    font-size: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  /* Photo, name and location are already in the card */
+  .about-sidebar .profile-image-container,
+  #contact-section .contact-item--name,
+  #contact-section .contact-item--location {
+    display: none;
+  }
+
+  .about-card-photo {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: 30% 20%;
+  }
+
+  .about-card-name {
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0 0 0.4rem;
+  }
+
+  .about-card-location,
+  .about-card-note {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  /* Lighter text and headings, like the project pages */
+  .about-main p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #444444;
+  }
+
+  .about-main h2 {
+    font-size: 0.75rem;
+    margin: 3.5rem 0 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  /* Languages on one line */
+  .languages-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+  }
+
+  .language-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
