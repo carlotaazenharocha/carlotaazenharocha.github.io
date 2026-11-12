@@ -360,6 +360,51 @@ main {
   margin: 0;
 }
 
+/* Parts: a project that brings together separate works opens each one
+   with a numbered heading, its own text and details */
+.project-part {
+  margin: 8rem 0 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-text);
+}
+
+.project-part:first-child {
+  margin-top: 0;
+}
+
+.project-part-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+}
+
+.project-part-number {
+  font-size: clamp(1.5rem, 2.4vw, 2.25rem);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--color-text-secondary);
+}
+
+.project-part-title {
+  font-size: clamp(1.5rem, 2.4vw, 2.25rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+}
+
+.project-part-subtitle {
+  margin: 0.6rem 0 0;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+/* The first section of a part sits closer to the part's opening */
+.project-part + .project-section-title {
+  margin-top: 0;
+}
+
 .project-image video {
   display: block;
   width: 100%;
@@ -465,6 +510,24 @@ main {
 
 .project-image.half-width img {
   width: 100%;
+}
+
+/* Row of photos at the same height, each width following its shape ("row": "equal") */
+.project-image-row--equal {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-image-row--equal .project-image {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .project-image-row--equal {
+    flex-direction: column;
+    gap: 4rem;
+  }
 }
 
 @media (max-width: 768px) {

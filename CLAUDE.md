@@ -47,7 +47,7 @@ python3 -m http.server 8000
 | 02-rock-oporto-palace | Rock Oporto Palace | Porto |
 | 03-beber-a-terra | Drink the Soil | Alcácer do Sal |
 | 04-centro-interpretativo | Interpretive Centre in Évora Monte | Évoramonte |
-| 05-dispositivo-urbano | Urban Device | Porto |
+| 05-dispositivo-urbano | Urban Devices | Évora |
 | 06-solar-sao-joao | Solar de S. João Square | Almeida |
 | 07-capillas-san-bruno | Capillas de San Bruno | Seville |
 | 10-master-lisboa | Water Reservoir Tower | Lisbon |

@@ -259,7 +259,7 @@ async function initProjectPage() {
   const contentContainer = document.getElementById('project-content');
   if (contentContainer) {
     contentContainer.innerHTML = '';
-    renderImages(contentContainer, project.images);
+    renderImages(contentContainer, project.images, project.parts);
   }
 
   // Setup navigation
@@ -279,9 +279,45 @@ async function initProjectPage() {
 }
 
 // Render a list of images into a container (used by project and research pages)
-function renderImages(container, images) {
+// Opening of one part of a project that brings together separate works:
+// number, title, context line, its own text and details
+function renderPart(part, number) {
+  const header = document.createElement('div');
+  header.className = 'project-part';
+  const details = ['institution', 'teachers']
+    .filter(field => part[field])
+    .map(field => `
+      <div class="metadata-item">
+        <dt class="metadata-label">${t(`project.metadata_labels.${field}`)}</dt>
+        <dd class="metadata-value">${getText(part[field])}</dd>
+      </div>
+    `).join('');
+  header.innerHTML = `
+    <div class="project-part-heading">
+      <span class="project-part-number">${String(number).padStart(2, '0')}</span>
+      <div>
+        <h2 class="project-part-title">${getText(part.title)}</h2>
+        ${part.subtitle ? `<p class="project-part-subtitle">${getText(part.subtitle)}</p>` : ''}
+      </div>
+    </div>
+    <div class="project-intro-body">
+      <div class="project-concept">${paragraphs(part.text)}</div>
+      ${details ? `<dl class="project-metadata">${details}</dl>` : ''}
+    </div>
+  `;
+  return header;
+}
+
+function renderImages(container, images, parts = []) {
   let row = null;
   images.forEach(image => {
+    // Optional part opening before this image (its sections follow it)
+    const part = image.part && parts.find(item => item.id === image.part);
+    if (part) {
+      container.appendChild(renderPart(part, parts.indexOf(part) + 1));
+      row = null;
+    }
+
     // Optional section heading before this image
     if (image.section) {
       const heading = document.createElement('h2');
@@ -315,12 +351,19 @@ function renderImages(container, images) {
       }, { once: true });
     }
 
-    // Consecutive half-width images share a row
+    // Consecutive half-width images share a row; "row" on an image starts a
+    // new row ("equal": same height, each width following the photo's shape)
     if (image.layout === 'half') {
-      if (!row) {
+      if (!row || image.row) {
         row = document.createElement('div');
-        row.className = 'project-image-row';
+        row.className = `project-image-row${image.row ? ` project-image-row--${image.row}` : ''}`;
         container.appendChild(row);
+      }
+      // In an equal-height row each photo's width follows its shape
+      if (row.classList.contains('project-image-row--equal')) {
+        const img = imageDiv.querySelector('img');
+        const grow = () => { imageDiv.style.flex = `${img.naturalWidth / img.naturalHeight} 1 0`; };
+        if (img.complete && img.naturalWidth) grow(); else img.addEventListener('load', grow, { once: true });
       }
       row.appendChild(imageDiv);
     } else {

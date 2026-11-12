@@ -547,8 +547,19 @@ function addProject(project, index) {
     label: metadataLabel(field),
     value: getText(project[field])
   })), 'project-rules');
+  // A project made of parts: each part's text, then the closing paragraphs
   const text = el('div', 'project-text');
-  rest.forEach(paragraph => text.appendChild(el('p', null, paragraph)));
+  const closing = project.parts?.length ? rest.slice(-1) : [];
+  rest.slice(0, rest.length - closing.length).forEach(paragraph => text.appendChild(el('p', null, paragraph)));
+  (project.parts || []).forEach((part, i) => {
+    paragraphs(part.text).forEach((paragraph, j) => {
+      const node = el('p');
+      if (j === 0) node.appendChild(el('strong', 'part-label', `${String(i + 1).padStart(2, '0')} ${getText(part.title)}. `));
+      node.append(paragraph);
+      text.appendChild(node);
+    });
+  });
+  closing.forEach(paragraph => text.appendChild(el('p', null, paragraph)));
 
   const titleBlock = el('div', 'project-title');
   titleBlock.append(el('h2', 'heading', heading), el('div', 'project-name', title));
@@ -572,10 +583,18 @@ function addProject(project, index) {
 
   // Images already on the first page are left out, but their section carries on
   const used = new Set([cover, ...extra.map(image => image.src)]);
+  // In a project made of parts, the section label also names the part
+  const parts = project.parts || [];
   const remaining = [];
   let section = null;
+  let part = null;
   (project.images || []).forEach(image => {
-    if (image.section) section = image.section;
+    const opens = image.part && parts.find(item => item.id === image.part);
+    if (opens) part = opens;
+    if (image.section || opens) {
+      const name = getText(image.section);
+      section = part ? [getText(part.title), name].filter(Boolean).join(' — ') : name;
+    }
     if (image.type === 'video' || !available(image.src) || used.has(image.src)) return;
     remaining.push(section ? { ...image, section } : image);
     section = null;

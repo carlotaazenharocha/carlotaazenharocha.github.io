@@ -804,46 +804,228 @@
     {
       "id": "05-dispositivo-urbano",
       "title": {
-        "en": "Urban Device",
-        "pt": "Dispositivo Urbano",
-        "es": "Dispositivo Urbano"
+        "en": "Urban Devices",
+        "pt": "Dispositivos Urbanos",
+        "es": "Dispositivos Urbanos"
       },
-      "year": "2020",
+      "year": "2020–2021",
       "location": {
-        "en": "Porto, Portugal",
-        "pt": "Porto, Portugal",
-        "es": "Oporto, Portugal"
+        "en": "Évora, Portugal",
+        "pt": "Évora, Portugal",
+        "es": "Évora, Portugal"
       },
       "typology": {
-        "en": "Installation / Sensory",
-        "pt": "Instalação / Sensorial",
-        "es": "Instalación / Sensorial"
+        "en": "Installation / Public Space",
+        "pt": "Instalação / Espaço Público",
+        "es": "Instalación / Espacio Público"
       },
-      "thumbnail": "projects/05-dispositivo-urbano/hero.jpeg",
-      "hero": "projects/05-dispositivo-urbano/hero.jpeg",
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "thumbnail": "projects/05-dispositivo-urbano/10-folly-fotomontagens.jpg",
+      "hero": "projects/05-dispositivo-urbano/03-maquete-alcado.jpg",
       "concept": {
-        "en": "This project explored touch as a receiver of architectural experience, drawing reference from the works of Kengo Kuma and his rhythmic use of wood. The objective was to awaken physical awareness through textural contrasts and spatial compression.\n\nThe journey was structured into three moments:\n- Entrance: A diagonal construction with a distinct texture that demanded careful walking, elevating the project and allowing passage.\n- Corridor: A flat, dark, central parallelepiped volume where spatial narrowing and the absence of light made touch indispensable.\n- Light and Matter: The end of the journey revealed a vertical wooden slat structure that filtered light beams, creating shadows and inviting tactile and visual exploration of materiality.\n\nThe exercise culminated in a dialogue between \"seeing\" and \"feeling\", where architecture asserted itself as a device for sensory stimulation.",
-        "pt": "Este projeto explorou o tato como recetor da experiência arquitetónica, utilizando como referência as obras de Kengo Kuma e o seu uso rítmico da madeira. O objetivo foi despertar a consciência física através de contrastes de textura e compressão espacial.\n\nO percurso estruturou-se em três momentos:\n- Entrada: Uma construção diagonal com uma textura particular que obrigava a um caminhar atento, elevando o projeto e permitindo a passagem.\n- Corredor: Um volume central paralelepipédico plano e em obscuridade, onde o estreitamento do espaço e a ausência de luz tornavam o tato indispensável.\n- Luz e Matéria: O final do percurso revelava uma estrutura de ripas de madeira vertical que filtrava os raios de luz, criando jogos de sombra e convidando à exploração tátil e visual da materialidade.\n\nO exercício culminou num diálogo entre o \"ver\" e o \"sentir\", onde a arquitetura se afirmou como um dispositivo de estimulação sensorial.",
-        "es": "Este proyecto exploró el tacto como receptor de la experiencia arquitectónica, tomando como referencia las obras de Kengo Kuma y su uso rítmico de la madera. El objetivo fue despertar la conciencia física a través de contrastes texturales y compresión espacial.\n\nEl recorrido se estructuró en tres momentos:\n- Entrada: Una construcción diagonal con una textura distintiva que exigía un caminar cuidadoso, elevando el proyecto y permitiendo el paso.\n- Corredor: Un volumen paralelepípedo central plano y oscuro donde el estrechamiento espacial y la ausencia de luz hacían el tacto indispensable.\n- Luz y Materia: El final del recorrido revelaba una estructura de listones de madera verticales que filtraba los rayos de luz, creando sombras e invitando a la exploración táctil y visual de la materialidad.\n\nEl ejercicio culminó en un diálogo entre \"ver\" y \"sentir\", donde la arquitectura se afirmó como un dispositivo de estimulación sensorial."
+        "en": "The project focuses on the design of urban devices for the city of Évora, exploring the relationship between architecture, heritage, public space and sensory experience. The two exercises brought together here sought to understand different ways of intervening in the city through structures capable of arousing curiosity, highlighting local characteristics and suggesting new ways of appropriating space.\n\nThe exercises made it possible to explore different scales, materials and construction methods, developing a reflection on the role of architecture in enhancing heritage and transforming the everyday experience of urban space.",
+        "pt": "O projeto desenvolve-se no âmbito da conceção de dispositivos urbanos para a cidade de Évora, explorando a relação entre arquitetura, património, espaço público e experiência sensorial. Os dois exercícios aqui reunidos procuraram compreender diferentes formas de intervir na cidade, através de estruturas capazes de despertar a curiosidade, valorizar características locais e propor novas formas de apropriação do espaço.\n\nOs exercícios permitiram explorar diferentes escalas, materiais e formas de construção, desenvolvendo uma reflexão sobre o papel da arquitetura na valorização do património e na transformação da experiência quotidiana do espaço urbano.",
+        "es": "El proyecto se desarrolla en el ámbito del diseño de dispositivos urbanos para la ciudad de Évora, explorando la relación entre arquitectura, patrimonio, espacio público y experiencia sensorial. Los dos ejercicios aquí reunidos buscaron comprender distintas formas de intervenir en la ciudad mediante estructuras capaces de despertar la curiosidad, poner en valor las características locales y proponer nuevas formas de apropiación del espacio.\n\nLos ejercicios permitieron explorar diferentes escalas, materiales y formas de construcción, desarrollando una reflexión sobre el papel de la arquitectura en la valorización del patrimonio y en la transformación de la experiencia cotidiana del espacio urbano."
       },
+      "parts": [
+        {
+          "id": "experienciar",
+          "title": {
+            "en": "Experienciar",
+            "pt": "Experienciar",
+            "es": "Experienciar"
+          },
+          "subtitle": {
+            "en": "Sensory device · University of Évora",
+            "pt": "Dispositivo sensorial · Universidade de Évora",
+            "es": "Dispositivo sensorial · Universidad de Évora"
+          },
+          "text": {
+            "en": "“Experienciar” explores touch as a guiding element of architectural experience, seeking to heighten the user's physical awareness through contrasts in texture, light and spatial compression. The device is organised as a sequential route, marked by a diagonal entrance, a central corridor kept almost entirely in darkness, and a vertical structure of wooden slats that filters natural light, creating changing patterns of light and shadow.",
+            "pt": "«Experienciar» explora o tato como elemento orientador da experiência arquitetónica, procurando despertar a consciência física do utilizador através de contrastes de textura, luz e compressão espacial. O dispositivo organiza-se como um percurso sequencial, marcado por uma entrada diagonal, um corredor central quase totalmente na obscuridade e uma estrutura vertical de ripas de madeira que filtra a luz natural, criando diferentes jogos de luz e sombra.",
+            "es": "«Experienciar» explora el tacto como elemento orientador de la experiencia arquitectónica, buscando despertar la conciencia física del usuario mediante contrastes de textura, luz y compresión espacial. El dispositivo se organiza como un recorrido secuencial, marcado por una entrada diagonal, un corredor central casi totalmente a oscuras y una estructura vertical de listones de madera que filtra la luz natural y crea distintos juegos de luz y sombra."
+          },
+          "institution": {
+            "en": "University of Évora",
+            "pt": "Universidade de Évora",
+            "es": "Universidad de Évora"
+          },
+          "teachers": "Sofia Aleixo | João Santa Rita"
+        },
+        {
+          "id": "urban-follies",
+          "title": {
+            "en": "Urban Follies",
+            "pt": "Urban Follies",
+            "es": "Urban Follies"
+          },
+          "subtitle": {
+            "en": "International workshop WS3b / Ephemeral Architecture · group work with students from Alicante",
+            "pt": "Workshop internacional WS3b / Ephemeral Architecture · trabalho de grupo com estudantes de Alicante",
+            "es": "Taller internacional WS3b / Ephemeral Architecture · trabajo en grupo con estudiantes de Alicante"
+          },
+          "text": {
+            "en": "This exercise was developed within the framework of the University of Universities (UOU), as part of the international workshop “WS3b / Ephemeral Architecture: Urban Follies”, in collaboration with students from Alicante. The work began with an interpretation of Évora's spaces and heritage values through the design of follies: artistic structures intended to arouse curiosity and draw attention to specific places in the city.\n\nThe proposal sought to enhance a residential area that is little explored by tourist routes, recognising its potential as a place for gathering and spending time. The intervention consisted of a sheltered space formed by eight inclined walls of different dimensions, measuring 22.5 metres in length, 13 metres in width and 6 metres in height.",
+            "pt": "Este exercício foi desenvolvido no âmbito da University of Universities (UOU), integrado no workshop internacional «WS3b / Ephemeral Architecture: Urban Follies», em colaboração com estudantes de Alicante. O trabalho partiu da interpretação dos espaços e valores patrimoniais de Évora através da conceção de follies: construções de expressão artística, concebidas para despertar a curiosidade e chamar a atenção para determinados lugares da cidade.\n\nA proposta procurou valorizar um espaço de carácter residencial e pouco explorado pelos circuitos turísticos, reconhecendo o seu potencial enquanto lugar de permanência e convívio. A intervenção consistiu num espaço protegido, formado por oito paredes inclinadas de diferentes dimensões, com 22,5 metros de comprimento, 13 metros de largura e 6 metros de altura.",
+            "es": "Este ejercicio se desarrolló en el marco de University of Universities (UOU), integrado en el taller internacional «WS3b / Ephemeral Architecture: Urban Follies», en colaboración con estudiantes de Alicante. El trabajo partió de la interpretación de los espacios y valores patrimoniales de Évora mediante el diseño de follies: construcciones de expresión artística concebidas para despertar la curiosidad y llamar la atención sobre determinados lugares de la ciudad.\n\nLa propuesta buscó poner en valor un espacio de carácter residencial y poco frecuentado por los circuitos turísticos, reconociendo su potencial como lugar de permanencia y encuentro. La intervención consistió en un espacio protegido, formado por ocho paredes inclinadas de diferentes dimensiones, con 22,5 metros de longitud, 13 metros de anchura y 6 metros de altura."
+          },
+          "institution": {
+            "en": "University of Universities (UOU)",
+            "pt": "University of Universities (UOU)",
+            "es": "University of Universities (UOU)"
+          },
+          "teachers": "Sofia Aleixo | Joana Vilhena"
+        }
+      ],
       "images": [
         {
-          "src": "projects/05-dispositivo-urbano/vista-frontal.jpeg",
+          "part": "experienciar",
+          "section": {
+            "en": "Model",
+            "pt": "Maquete",
+            "es": "Maqueta"
+          },
+          "src": "projects/05-dispositivo-urbano/03-maquete-alcado.jpg",
           "caption": {
-            "en": "Front view",
-            "pt": "Vista frontal",
-            "es": "Vista frontal"
+            "en": "Model, elevation",
+            "pt": "Maquete, alçado",
+            "es": "Maqueta, alzado"
           },
           "layout": "full"
         },
         {
-          "src": "projects/05-dispositivo-urbano/vista-superior.jpeg",
+          "src": "projects/05-dispositivo-urbano/01-maquete-torre-ripas.jpg",
           "caption": {
-            "en": "Top view",
-            "pt": "Vista superior",
-            "es": "Vista superior"
+            "en": "Model, tower of wooden slats",
+            "pt": "Maquete, torre de ripas de madeira",
+            "es": "Maqueta, torre de listones de madera"
+          },
+          "layout": "half",
+          "row": "equal"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/04-maquete-interior-corredor.jpg",
+          "caption": {
+            "en": "Model, inside the corridor",
+            "pt": "Maquete, interior do corredor",
+            "es": "Maqueta, interior del corredor"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/05-maquete-escada.jpg",
+          "caption": {
+            "en": "Model, stair beneath the corridor",
+            "pt": "Maquete, escada sob o corredor",
+            "es": "Maqueta, escalera bajo el corredor"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/06-maquete-vista-superior.jpg",
+          "caption": {
+            "en": "Model, top view",
+            "pt": "Maquete, vista superior",
+            "es": "Maqueta, vista superior"
           },
           "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Drawings",
+            "pt": "Desenhos",
+            "es": "Dibujos"
+          },
+          "src": "projects/05-dispositivo-urbano/07-alcado.jpg",
+          "caption": {
+            "en": "Elevation",
+            "pt": "Alçado",
+            "es": "Alzado"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/08-planta.jpg",
+          "caption": {
+            "en": "Plan",
+            "pt": "Planta",
+            "es": "Planta"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/09-perspetivas-corredor.jpg",
+          "caption": {
+            "en": "Perspectives inside the corridor",
+            "pt": "Perspetivas do interior do corredor",
+            "es": "Perspectivas del interior del corredor"
+          },
+          "layout": "inset"
+        },
+        {
+          "part": "urban-follies",
+          "section": {
+            "en": "Photomontages",
+            "pt": "Fotomontagens",
+            "es": "Fotomontajes"
+          },
+          "src": "projects/05-dispositivo-urbano/10-folly-fotomontagens.jpg",
+          "caption": {
+            "en": "Folly, photomontages in the square",
+            "pt": "Folly, fotomontagens na praça",
+            "es": "Folly, fotomontajes en la plaza"
+          },
+          "layout": "inset"
+        },
+        {
+          "section": {
+            "en": "Model",
+            "pt": "Maquete",
+            "es": "Maqueta"
+          },
+          "src": "projects/05-dispositivo-urbano/11-folly-maquete.jpg",
+          "caption": {
+            "en": "Folly, model",
+            "pt": "Folly, maquete",
+            "es": "Folly, maqueta"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/12-folly-maquete-contexto.jpg",
+          "caption": {
+            "en": "Folly, model in its setting",
+            "pt": "Folly, maquete no contexto",
+            "es": "Folly, maqueta en su contexto"
+          },
+          "layout": "half"
+        },
+        {
+          "section": {
+            "en": "Drawings",
+            "pt": "Desenhos",
+            "es": "Dibujos"
+          },
+          "src": "projects/05-dispositivo-urbano/13-folly-alcado.jpg",
+          "caption": {
+            "en": "Folly, elevation with human scale",
+            "pt": "Folly, alçado com escala humana",
+            "es": "Folly, alzado con escala humana"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/14-folly-planta.jpg",
+          "caption": {
+            "en": "Folly, plan of the eight inclined walls",
+            "pt": "Folly, planta das oito paredes inclinadas",
+            "es": "Folly, planta de las ocho paredes inclinadas"
+          },
+          "layout": "inset"
         }
       ]
     },

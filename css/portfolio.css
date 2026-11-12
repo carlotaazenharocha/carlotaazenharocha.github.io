@@ -313,6 +313,11 @@ button {
   column-gap: calc(5mm * var(--u));
 }
 
+.project-text .part-label {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .project-text p + p {
   margin-top: 0.6em;
 }
