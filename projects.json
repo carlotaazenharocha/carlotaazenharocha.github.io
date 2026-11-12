@@ -62,9 +62,9 @@
         },
         {
           "section": {
-            "en": "Drawings",
-            "pt": "Desenhos",
-            "es": "Dibujos"
+            "en": "Plans",
+            "pt": "Plantas",
+            "es": "Plantas"
           },
           "src": "projects/01-atlas-case-studies/ENTREGA_1_200.jpg",
           "caption": {
@@ -90,13 +90,18 @@
             "pt": "Cortes, 1:200",
             "es": "Secciones, 1:200"
           },
-          "layout": "full"
+          "layout": "full",
+          "section": {
+            "en": "Sections",
+            "pt": "Cortes",
+            "es": "Secciones"
+          }
         },
         {
           "section": {
-            "en": "Models",
-            "pt": "Maquetes",
-            "es": "Maquetas"
+            "en": "Model",
+            "pt": "Maquete",
+            "es": "Maqueta"
           },
           "src": "projects/01-atlas-case-studies/6.jpg",
           "caption": {
@@ -220,9 +225,9 @@
         },
         {
           "section": {
-            "en": "Drawings",
-            "pt": "Desenhos",
-            "es": "Dibujos"
+            "en": "Plans",
+            "pt": "Plantas",
+            "es": "Plantas"
           },
           "src": "projects/02-rock-oporto-palace/04-planta-piso-0.jpg",
           "caption": {
@@ -257,7 +262,12 @@
             "pt": "Corte AA, 1:500",
             "es": "Sección AA, 1:500"
           },
-          "layout": "full"
+          "layout": "full",
+          "section": {
+            "en": "Sections",
+            "pt": "Cortes",
+            "es": "Secciones"
+          }
         },
         {
           "src": "projects/02-rock-oporto-palace/08-corte-bb.jpg",
@@ -365,9 +375,9 @@
         },
         {
           "section": {
-            "en": "Models",
-            "pt": "Maquetes",
-            "es": "Maquetas"
+            "en": "Model",
+            "pt": "Maquete",
+            "es": "Maqueta"
           },
           "src": "projects/02-rock-oporto-palace/20-maquete-parque.jpg",
           "caption": {
@@ -500,9 +510,9 @@
         },
         {
           "section": {
-            "en": "Drawings",
-            "pt": "Desenhos",
-            "es": "Dibujos"
+            "en": "Plans",
+            "pt": "Plantas",
+            "es": "Plantas"
           },
           "src": "projects/03-beber-a-terra/03-planta-implantacao.jpg",
           "caption": {
@@ -528,7 +538,12 @@
             "pt": "Corte AA: blocos de terra compactada, da cor da muralha",
             "es": "Sección AA: bloques de tierra compactada, del color de la muralla"
           },
-          "layout": "full"
+          "layout": "full",
+          "section": {
+            "en": "Sections",
+            "pt": "Cortes",
+            "es": "Secciones"
+          }
         },
         {
           "src": "projects/03-beber-a-terra/06-corte-bb.jpg",
@@ -568,9 +583,9 @@
         },
         {
           "section": {
-            "en": "References",
-            "pt": "Referências",
-            "es": "Referencias"
+            "en": "Reference",
+            "pt": "Referência",
+            "es": "Referencia"
           },
           "src": "projects/03-beber-a-terra/10-referencia-banco.jpg",
           "caption": {
@@ -653,9 +668,9 @@
         },
         {
           "section": {
-            "en": "Drawings",
-            "pt": "Desenhos",
-            "es": "Dibujos"
+            "en": "Sections",
+            "pt": "Cortes",
+            "es": "Secciones"
           },
           "src": "projects/04-centro-interpretativo/04-corte-geral-vila.jpg",
           "caption": {
@@ -735,9 +750,9 @@
         },
         {
           "section": {
-            "en": "Models",
-            "pt": "Maquetes",
-            "es": "Maquetas"
+            "en": "Model",
+            "pt": "Maquete",
+            "es": "Maqueta"
           },
           "src": "projects/04-centro-interpretativo/12-maquete-vila.jpg",
           "caption": {
@@ -878,12 +893,52 @@
             "pt": "University of Universities (UOU)",
             "es": "University of Universities (UOU)"
           },
-          "teachers": "Sofia Aleixo | Joana Vilhena"
+          "teachers": "Sofia Aleixo | Joana Vilhena",
+          "publication": {
+            "url": "https://revistes.ua.es/uou/issue/view/978",
+            "label": {
+              "pt": "UOU scientific journal, n.º 02 (2021): Follies",
+              "en": "UOU scientific journal, no. 02 (2021): Follies",
+              "es": "UOU scientific journal, n.º 02 (2021): Follies"
+            }
+          }
         }
       ],
       "images": [
         {
           "part": "experienciar",
+          "section": {
+            "en": "Drawings",
+            "pt": "Desenhos",
+            "es": "Dibujos"
+          },
+          "src": "projects/05-dispositivo-urbano/07-alcado.jpg",
+          "caption": {
+            "en": "Elevation",
+            "pt": "Alçado",
+            "es": "Alzado"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/08-planta.jpg",
+          "caption": {
+            "en": "Plan",
+            "pt": "Planta",
+            "es": "Planta"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/09-perspetivas-corredor.jpg",
+          "caption": {
+            "en": "Perspectives inside the corridor",
+            "pt": "Perspetivas do interior do corredor",
+            "es": "Perspectivas del interior del corredor"
+          },
+          "layout": "inset"
+        },
+        {
           "section": {
             "en": "Model",
             "pt": "Maquete",
@@ -935,38 +990,6 @@
           "layout": "full"
         },
         {
-          "section": {
-            "en": "Drawings",
-            "pt": "Desenhos",
-            "es": "Dibujos"
-          },
-          "src": "projects/05-dispositivo-urbano/07-alcado.jpg",
-          "caption": {
-            "en": "Elevation",
-            "pt": "Alçado",
-            "es": "Alzado"
-          },
-          "layout": "inset"
-        },
-        {
-          "src": "projects/05-dispositivo-urbano/08-planta.jpg",
-          "caption": {
-            "en": "Plan",
-            "pt": "Planta",
-            "es": "Planta"
-          },
-          "layout": "inset"
-        },
-        {
-          "src": "projects/05-dispositivo-urbano/09-perspetivas-corredor.jpg",
-          "caption": {
-            "en": "Perspectives inside the corridor",
-            "pt": "Perspetivas do interior do corredor",
-            "es": "Perspectivas del interior del corredor"
-          },
-          "layout": "inset"
-        },
-        {
           "part": "urban-follies",
           "section": {
             "en": "Photomontages",
@@ -978,6 +1001,29 @@
             "en": "Folly, photomontages in the square",
             "pt": "Folly, fotomontagens na praça",
             "es": "Folly, fotomontajes en la plaza"
+          },
+          "layout": "inset"
+        },
+        {
+          "section": {
+            "en": "Drawings",
+            "pt": "Desenhos",
+            "es": "Dibujos"
+          },
+          "src": "projects/05-dispositivo-urbano/13-folly-alcado.jpg",
+          "caption": {
+            "en": "Folly, elevation with human scale",
+            "pt": "Folly, alçado com escala humana",
+            "es": "Folly, alzado con escala humana"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "projects/05-dispositivo-urbano/14-folly-planta.jpg",
+          "caption": {
+            "en": "Folly, plan of the eight inclined walls",
+            "pt": "Folly, planta das oito paredes inclinadas",
+            "es": "Folly, planta de las ocho paredes inclinadas"
           },
           "layout": "inset"
         },
@@ -1003,29 +1049,6 @@
             "es": "Folly, maqueta en su contexto"
           },
           "layout": "half"
-        },
-        {
-          "section": {
-            "en": "Drawings",
-            "pt": "Desenhos",
-            "es": "Dibujos"
-          },
-          "src": "projects/05-dispositivo-urbano/13-folly-alcado.jpg",
-          "caption": {
-            "en": "Folly, elevation with human scale",
-            "pt": "Folly, alçado com escala humana",
-            "es": "Folly, alzado con escala humana"
-          },
-          "layout": "inset"
-        },
-        {
-          "src": "projects/05-dispositivo-urbano/14-folly-planta.jpg",
-          "caption": {
-            "en": "Folly, plan of the eight inclined walls",
-            "pt": "Folly, planta das oito paredes inclinadas",
-            "es": "Folly, planta de las ocho paredes inclinadas"
-          },
-          "layout": "inset"
         }
       ]
     },
@@ -1056,6 +1079,15 @@
       },
       "images": [
         {
+          "src": "projects/06-master-lisboa/reservatorio_plantas.jpg",
+          "caption": {
+            "en": "Floor plans",
+            "pt": "Plantas",
+            "es": "Plantas"
+          },
+          "layout": "full"
+        },
+        {
           "src": "projects/06-master-lisboa/reservatorio_corte2.jpg",
           "caption": {
             "en": "Architectural section - Detail",
@@ -1063,13 +1095,273 @@
             "es": "Sección arquitectónica - Detalle"
           },
           "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "07-estacao",
+      "title": {
+        "pt": "Fundação de um Lugar | Estação Ferroviária EUROBEC",
+        "en": "Founding a Place | EUROBEC Railway Station",
+        "es": "Fundación de un Lugar | Estación Ferroviaria EUROBEC"
+      },
+      "year": "2024–2025",
+      "location": {
+        "pt": "EUROBEC",
+        "en": "EUROBEC",
+        "es": "EUROBEC"
+      },
+      "typology": {
+        "en": "Infrastructure / Transport",
+        "pt": "Infraestrutura / Transportes",
+        "es": "Infraestructura / Transportes"
+      },
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "University of Évora",
+        "pt": "Universidade de Évora",
+        "es": "Universidad de Évora"
+      },
+      "teachers": "João Soares | Daniel Jiménez",
+      "thumbnail": "projects/07-estacao/20-maquete-planta.jpg",
+      "hero": "projects/07-estacao/19-maquete-conjunto.jpg",
+      "concept": {
+        "en": "The project addresses the challenge of designing a high-speed passenger railway station for EUROBEC, conceived not merely as a transport infrastructure, but as an opportunity to establish a new territorial landmark and create relationships between people, the city and the landscape. The exercise is structured around three fundamental concepts — landscape, transfer and station — seeking to reconcile the functional demands of mobility with the creation of a place defined by identity and permanence.\n\nThe proposal challenges the idea of the station as a space exclusively associated with transit and speed, transforming it into a place for meeting, pausing and contemplation. To this end, the scenographic work of Adolphe Appia served as the main conceptual reference, exploring the articulation of planes, volumes, stairways and light in the creation of different environments. Architecture is conceived as a sequence of settings in which bodily movement and spatial perception remain continuously connected.\n\nThe route unfolds through a sequence of spaces at different levels, gradually approaching the natural landscape. As one descends, the river becomes increasingly close. This descent becomes an architectural narrative in which each level offers different ways to pause, observe and engage with the surroundings.\n\nIn this way, the station moves beyond its strictly operational function, seeking to transform a space of passage into a place of opportunity.",
+        "pt": "O projeto parte do desafio de conceber uma estação ferroviária de passageiros do TGV para a EUROBEC, entendida não apenas como uma infraestrutura de transporte, mas como uma oportunidade para estabelecer uma nova referência territorial e criar relações entre pessoas, cidade e paisagem. O exercício desenvolve-se em torno de três conceitos fundamentais — paisagem, transferência e estação — procurando conciliar as exigências funcionais da mobilidade com a criação de um espaço de identidade e permanência.\n\nA proposta procura contrariar a ideia da estação como um espaço exclusivamente associado à passagem e à velocidade, transformando-a num lugar de encontro, pausa e contemplação. Para isso, as cenografias de Adolphe Appia constituíram a principal referência conceptual, explorando a articulação entre planos, volumes, escadas e luz na construção de diferentes ambientes. A arquitetura é pensada como uma sucessão de cenários, onde o movimento do corpo e a perceção do espaço se relacionam continuamente.\n\nO percurso desenvolve-se através de uma sequência de espaços a diferentes cotas, estabelecendo uma aproximação progressiva à paisagem natural. À medida que se desce, torna-se cada vez mais próxima a presença do rio. Esta descida transforma-se numa narrativa arquitetónica, em que cada nível proporciona diferentes formas de permanecer, observar e estabelecer contacto com a envolvente.\n\nDesta forma, a estação ultrapassa a sua função estritamente operacional, procurando transformar um espaço de passagem num lugar de oportunidade.",
+        "es": "El proyecto parte del desafío de diseñar una estación ferroviaria de pasajeros de alta velocidad para EUROBEC, entendida no solo como una infraestructura de transporte, sino también como una oportunidad para establecer una nueva referencia territorial y crear relaciones entre las personas, la ciudad y el paisaje. El ejercicio se desarrolla en torno a tres conceptos fundamentales — paisaje, transferencia y estación — buscando conciliar las exigencias funcionales de la movilidad con la creación de un espacio de identidad y permanencia.\n\nLa propuesta busca cuestionar la idea de la estación como un espacio exclusivamente asociado al tránsito y la velocidad, transformándola en un lugar de encuentro, pausa y contemplación. Para ello, las escenografías de Adolphe Appia constituyeron la principal referencia conceptual, explorando la articulación entre planos, volúmenes, escaleras y luz en la construcción de diferentes ambientes. La arquitectura se concibe como una sucesión de escenarios, donde el movimiento del cuerpo y la percepción del espacio se relacionan continuamente.\n\nEl recorrido se desarrolla mediante una secuencia de espacios a diferentes cotas, estableciendo una aproximación progresiva al paisaje natural. A medida que se desciende, la presencia del río se hace cada vez más cercana. Este descenso se convierte en una narrativa arquitectónica, en la que cada nivel ofrece diferentes formas de permanecer, observar y establecer contacto con el entorno.\n\nDe este modo, la estación supera su función estrictamente operativa, buscando transformar un espacio de paso en un lugar de oportunidad."
+      },
+      "images": [
+        {
+          "section": {
+            "en": "Site and strategy",
+            "pt": "Lugar e estratégia",
+            "es": "Lugar y estrategia"
+          },
+          "src": "projects/07-estacao/01-planta-corte-sintese.jpg",
+          "caption": {
+            "en": "Synthesis plan-section, scale 1:1000",
+            "pt": "Planta-corte síntese, E 1.1000",
+            "es": "Planta-sección síntesis, E 1.1000"
+          },
+          "layout": "inset"
         },
         {
-          "src": "projects/06-master-lisboa/reservatorio_plantas.jpg",
+          "src": "projects/07-estacao/02-implantacao.jpg",
           "caption": {
-            "en": "Floor plans",
+            "en": "Site plan, scale 1:5000",
+            "pt": "Implantação, E 1.5000",
+            "es": "Emplazamiento, E 1.5000"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Plans",
             "pt": "Plantas",
             "es": "Plantas"
+          },
+          "src": "projects/07-estacao/03-planta-cobertura.jpg",
+          "caption": {
+            "en": "Roof plan, scale 1:500",
+            "pt": "Planta de cobertura, E 1.500",
+            "es": "Planta de cubierta, E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/04-planta-piso-superior.jpg",
+          "caption": {
+            "en": "Upper floor plan, scale 1:500",
+            "pt": "Planta do piso superior, E 1.500",
+            "es": "Planta de la planta superior, E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/05-planta-plataformas.jpg",
+          "caption": {
+            "en": "Platform level plan, scale 1:500",
+            "pt": "Planta ao nível das plataformas, E 1.500",
+            "es": "Planta a nivel de los andenes, E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/06-planta-piso-inferior.jpg",
+          "caption": {
+            "en": "Lower floor plan, scale 1:500",
+            "pt": "Planta do piso inferior, E 1.500",
+            "es": "Planta de la planta inferior, E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Sections",
+            "pt": "Cortes",
+            "es": "Secciones"
+          },
+          "src": "projects/07-estacao/07-corte-longitudinal-aa.jpg",
+          "caption": {
+            "en": "Longitudinal section AA', scale 1:500",
+            "pt": "Corte longitudinal AA', E 1.500",
+            "es": "Sección longitudinal AA', E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/08-corte-longitudinal-bb.jpg",
+          "caption": {
+            "en": "Longitudinal section BB', scale 1:500",
+            "pt": "Corte longitudinal BB', E 1.500",
+            "es": "Sección longitudinal BB', E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/09-corte-transversal-cc.jpg",
+          "caption": {
+            "en": "Cross section CC', scale 1:500",
+            "pt": "Corte transversal CC', E 1.500",
+            "es": "Sección transversal CC', E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Model",
+            "pt": "Maquete",
+            "es": "Maqueta"
+          },
+          "src": "projects/07-estacao/19-maquete-conjunto.jpg",
+          "caption": {
+            "en": "Project models",
+            "pt": "Maquetes do projeto",
+            "es": "Maquetas del proyecto"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/20-maquete-planta.jpg",
+          "caption": {
+            "en": "Model, top view",
+            "pt": "Maquete, vista superior",
+            "es": "Maqueta, vista superior"
+          },
+          "layout": "full"
+        },
+        {
+          "row": "equal",
+          "src": "projects/07-estacao/21-maquete-perspetiva.jpg",
+          "caption": {
+            "en": "Model, perspective",
+            "pt": "Maquete, perspetiva",
+            "es": "Maqueta, perspectiva"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/07-estacao/22-maquete-pormenor.jpg",
+          "caption": {
+            "en": "Model, platform detail",
+            "pt": "Maquete, pormenor das plataformas",
+            "es": "Maqueta, detalle de los andenes"
+          },
+          "layout": "half"
+        },
+        {
+          "section": {
+            "en": "Process",
+            "pt": "Processo",
+            "es": "Proceso"
+          },
+          "row": "equal",
+          "src": "projects/07-estacao/10-processo-paisagem.jpg",
+          "caption": {
+            "en": "Landscape",
+            "pt": "Paisagem",
+            "es": "Paisaje"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/07-estacao/11-processo-estacao.jpg",
+          "caption": {
+            "en": "Station",
+            "pt": "Estação",
+            "es": "Estación"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/07-estacao/12-processo-transfer.jpg",
+          "caption": {
+            "en": "Transfer",
+            "pt": "Transfer",
+            "es": "Transfer"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/07-estacao/13-processo-colagem.jpg",
+          "caption": {
+            "en": "Collage",
+            "pt": "Colagem",
+            "es": "Collage"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/14-processo-fotomontagem.jpg",
+          "caption": {
+            "en": "Photomontage",
+            "pt": "Fotomontagem",
+            "es": "Fotomontaje"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/15-processo-esquema-aereo.jpg",
+          "caption": {
+            "en": "Diagram over aerial photograph",
+            "pt": "Esquema sobre fotografia aérea",
+            "es": "Esquema sobre fotografía aérea"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/18-esquisso-implantacao.jpg",
+          "caption": {
+            "en": "Site plan sketch",
+            "pt": "Esquisso de implantação",
+            "es": "Croquis de emplazamiento"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "projects/07-estacao/17-esquisso-processo.jpg",
+          "caption": {
+            "en": "Study sketches",
+            "pt": "Esquissos de estudo",
+            "es": "Croquis de estudio"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Reference",
+            "pt": "Referência",
+            "es": "Referencia"
+          },
+          "src": "projects/07-estacao/16-referencia-appia.jpg",
+          "caption": {
+            "en": "Scenographies, Adolphe Appia",
+            "pt": "Cenografias, Adolphe Appia",
+            "es": "Escenografías, Adolphe Appia"
           },
           "layout": "full"
         }

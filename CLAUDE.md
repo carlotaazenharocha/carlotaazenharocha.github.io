@@ -39,7 +39,7 @@ python3 -m http.server 8000
 3. Content rendered based on current language
 4. Language toggle updates preference and re-renders (no page reload)
 
-## Current Projects (6) and Other Work (2)
+## Current Projects (7) and Other Work (2)
 
 | ID | Title (EN) | Location |
 |----|-----------|----------|
@@ -49,6 +49,7 @@ python3 -m http.server 8000
 | 04-centro-interpretativo | Interpretive Centre in Évora Monte | Évoramonte |
 | 05-dispositivo-urbano | Urban Devices | Évora |
 | 06-master-lisboa | Water Reservoir Tower | Lisbon |
+| 07-estacao | Founding a Place (EUROBEC Railway Station) | EUROBEC |
 
 Other work (folder `projects/outros-trabalhos/`, shown under "Outros trabalhos"):
 

@@ -17,7 +17,8 @@
         "typology": "Typology",
         "context": "Context",
         "institution": "Institution",
-        "teachers": "Professors"
+        "teachers": "Professors",
+        "publication": "Publication"
       }
     },
     "about": {
@@ -69,7 +70,8 @@
         "typology": "Tipologia",
         "context": "Contexto",
         "institution": "Instituição",
-        "teachers": "Docentes"
+        "teachers": "Docentes",
+        "publication": "Publicação"
       }
     },
     "about": {
@@ -121,7 +123,8 @@
         "typology": "Tipología",
         "context": "Contexto",
         "institution": "Institución",
-        "teachers": "Docentes"
+        "teachers": "Docentes",
+        "publication": "Publicación"
       }
     },
     "about": {

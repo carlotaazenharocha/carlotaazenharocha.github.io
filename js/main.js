@@ -325,7 +325,12 @@ function renderPart(part, number) {
         <dt class="metadata-label">${t(`project.metadata_labels.${field}`)}</dt>
         <dd class="metadata-value">${getText(part[field])}</dd>
       </div>
-    `).join('');
+    `).join('') + (part.publication ? `
+      <div class="metadata-item">
+        <dt class="metadata-label">${t('project.metadata_labels.publication')}</dt>
+        <dd class="metadata-value"><a href="${part.publication.url}" target="_blank" rel="noopener">${getText(part.publication.label)} ↗</a></dd>
+      </div>
+    ` : '');
   header.innerHTML = `
     <div class="project-part-heading">
       <span class="project-part-number">${String(number).padStart(2, '0')}</span>

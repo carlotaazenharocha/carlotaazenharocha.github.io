@@ -360,6 +360,12 @@ main {
   margin: 0;
 }
 
+.metadata-value a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 /* Parts: a project that brings together separate works opens each one
    with a numbered heading, its own text and details */
 .project-part {
