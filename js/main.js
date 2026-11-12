@@ -154,15 +154,49 @@ async function initHomepage() {
 
   gridContainer.innerHTML = '';
 
-  data.projects.forEach(project => {
-    const card = createProjectCard(project);
-    gridContainer.appendChild(card);
+  // Projects fill the grid; other work (studies, surveys, exercises) follows
+  data.projects.filter(project => !isOtherWork(project)).forEach(project => {
+    gridContainer.appendChild(createProjectCard(project));
   });
+  renderOtherWork(data.projects.filter(isOtherWork));
 
   // Add fade-in animation
   setTimeout(() => {
     gridContainer.classList.add('loading');
   }, 100);
+}
+
+// Other work (studies, surveys, exercises) lives in projects/outros-trabalhos/
+const OTHER_WORK_FOLDER = 'projects/outros-trabalhos/';
+
+function isOtherWork(project) {
+  return (project.thumbnail || '').startsWith(OTHER_WORK_FOLDER);
+}
+
+function renderOtherWork(works) {
+  const section = document.getElementById('other-work');
+  if (!section) return;
+  section.innerHTML = '';
+  if (!works.length) return;
+
+  section.innerHTML = `<h2 class="other-work-title">${t('projects.other_title')}</h2>`;
+
+  // Small cards with the title and details always visible below
+  const container = document.createElement('div');
+  container.className = 'other-work-items';
+  works.forEach(work => {
+    const item = document.createElement('a');
+    item.href = `project.html?id=${work.id}`;
+    item.className = 'other-work-item fade-in';
+    const title = getText(work.title);
+    item.innerHTML = `
+      <div class="other-work-image"><img src="${work.thumbnail}" alt="${title}" loading="lazy"></div>
+      <div class="other-work-name">${title}</div>
+      <div class="other-work-meta">${[getText(work.typology), work.year].filter(Boolean).join(' · ')}</div>
+    `;
+    container.appendChild(item);
+  });
+  section.appendChild(container);
 }
 
 function createProjectCard(project) {
@@ -515,7 +549,10 @@ async function initResearchPage() {
   initScrollAnimations();
 }
 
-function setupProjectNavigation(projects, currentId) {
+function setupProjectNavigation(allProjects, currentId) {
+  // Previous / next stay within the same group (projects or other work)
+  const current = allProjects.find(p => p.id === currentId);
+  const projects = allProjects.filter(p => isOtherWork(p) === isOtherWork(current));
   const currentIndex = projects.findIndex(p => p.id === currentId);
   const prevProject = currentIndex > 0 ? projects[currentIndex - 1] : null;
   const nextProject = currentIndex < projects.length - 1 ? projects[currentIndex + 1] : null;

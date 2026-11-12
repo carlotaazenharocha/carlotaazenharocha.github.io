@@ -1030,144 +1030,7 @@
       ]
     },
     {
-      "id": "06-solar-sao-joao",
-      "title": {
-        "en": "Solar de S. João Square",
-        "pt": "Praça e Solar de S. João",
-        "es": "Plaza y Solar de S. João"
-      },
-      "year": "2023-2024",
-      "location": {
-        "en": "Almeida, Guarda, Portugal",
-        "pt": "Almeida, Guarda, Portugal",
-        "es": "Almeida, Guarda, Portugal"
-      },
-      "typology": {
-        "en": "Heritage / Research",
-        "pt": "Património / Investigação",
-        "es": "Patrimonio / Investigación"
-      },
-      "thumbnail": "projects/06-solar-sao-joao/hero.png",
-      "hero": "projects/06-solar-sao-joao/hero.png",
-      "concept": {
-        "en": "Morphological and typological study of the Praça and Solar de S. João in Almeida, developed within the fortified perimeter of the historic border town. The research analyzes the dialectic between public void and built fabric, examining the evolution of the 16th-century 'terreiro' into a consolidated square framed on its northern boundary by the 1726 manor house.\n\nFrom an architectural perspective, the Solar de S. João exemplifies northern Portuguese manor architecture. Its primary façade demonstrates a balanced composition anchored by corner pilasters, a crowning cornice, and a central portal crowned by a balconied window and family coat of arms, featuring padded apron window surrounds that alternate between straight lintels and segmental arches.\n\nInternally, the analysis reveals a deliberate spatial grammar: on the ground floor, an intentional misalignment between the main portal and the two-flight monumental stair (featuring a window-seat landing) buffers visual permeability. On the piano nobile, circulation relies on classical enfilade alignments that establish visual axes across sequential rooms toward the exterior square. The square distribution room ('sala vaga') acts as a core compositional module, framing views directly aligned with entrance thresholds. With the historical demolition of the central pillory and chapel, the solar remains the primary architectural anchor defining the urban scale and skyline of the square.",
-        "pt": "Estudo morfológico e tipológico da Praça e Solar de S. João em Almeida, inseridos na estrutura urbana da vila fortificada. A investigação aborda a dialética entre o vazio público e a frente edificada, examinando a evolução do terreiro quinhentista para uma praça consolidada que tem no solar setecentista (1726) o seu remate norte.\n\nAo nível arquitetónico, o Solar de S. João afirma-se como um exemplar representativo da casa senhorial portuguesa. A sua fachada organiza-se numa composição centralizada balizada por pilastras nos cunhais e cornija de remate, enfatizando o eixo do portal e janela de sacada encimada por pedra de armas, com vãos de avental almofadado que alternam vergas retas e arcos abatidos.\n\nEspacialmente, destaca-se o desencontro intencional no piso térreo entre o acesso exterior e o arranque da escadaria nobre de dois lances com namoradeira, controlando a permeabilidade visual. No piso nobre, a organização desenvolve-se através do princípio da enfilade, articulando eixos visuais longitudinais e transversais em relação à praça. A «sala vaga» quadrada funciona como módulo central de distribuição, onde a relação entre portas e vãos exteriores assegura continuidade espacial e enquadramento visual. Com o desaparecimento do pelourinho e da capela que outrora ocupavam o terreiro, o solar assume-se como a principal âncora de escala e referência urbana do conjunto.",
-        "es": "Estudio morfológico y tipológico de la Plaza y Solar de S. João en Almeida, desarrollado dentro del perímetro fortificado de la histórica ciudad fronteriza. La investigación analiza la dialéctica entre el vacío público y el tejido edificado, examinando la evolución del 'terreiro' del siglo XVI hacia una plaza consolidada enmarcada en su límite norte por la casa solariega de 1726.\n\nDesde una perspectiva arquitectónica, el Solar de S. João ejemplifica la arquitectura de casas solariegas del norte de Portugal. Su fachada principal demuestra una composición equilibrada anclada por pilastras esquineras, una cornisa de coronación y un portal central coronado por una ventana con balcón y escudo familiar, con recercos de ventana almohadillados que alternan entre dinteles rectos y arcos rebajados.\n\nInternamente, el análisis revela una gramática espacial deliberada: en la planta baja, un desalineamiento intencional entre el portal principal y la escalera monumental de dos tramos (con un rellano con asiento de ventana) amortigua la permeabilidad visual. En el piano nobile, la circulación se basa en alineaciones clásicas en enfilade que establecen ejes visuales a través de habitaciones secuenciales hacia la plaza exterior. La sala de distribución cuadrada ('sala vaga') actúa como módulo compositivo central, enmarcando vistas directamente alineadas con los umbrales de entrada. Con la demolición histórica del pelourinho central y la capilla, el solar permanece como el principal ancla arquitectónica que define la escala urbana y el horizonte de la plaza."
-      },
-      "images": [
-        {
-          "src": "projects/06-solar-sao-joao/planta.jpg",
-          "caption": {
-            "en": "Floor plan analysis",
-            "pt": "Análise da planta",
-            "es": "Análisis de la planta"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/06-solar-sao-joao/painel.jpg",
-          "caption": {
-            "en": "Research panel",
-            "pt": "Painel de investigação",
-            "es": "Panel de investigación"
-          },
-          "layout": "full"
-        }
-      ]
-    },
-    {
-      "id": "07-capillas-san-bruno",
-      "title": {
-        "en": "Capillas de San Bruno",
-        "pt": "Capillas de San Bruno",
-        "es": "Capillas de San Bruno"
-      },
-      "year": "2022",
-      "location": {
-        "en": "Seville, Spain",
-        "pt": "Sevilha, Espanha",
-        "es": "Sevilla, España"
-      },
-      "typology": {
-        "en": "Heritage / Survey",
-        "pt": "Património / Levantamento",
-        "es": "Patrimonio / Levantamiento"
-      },
-      "thumbnail": "projects/07-Capillas-de-San-Bruno/axonometria.png",
-      "hero": "projects/07-Capillas-de-San-Bruno/axonometria.png",
-      "concept": {
-        "en": "Architectural survey and geometric analysis of the Capilla de San Bruno at the Monasterio de la Cartuja de Santa María de las Cuevas in Seville, developed within the academic framework of the Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). The study explores the spatial, stereotomic, and structural transitions within this historic monastic complex, articulated through vaulted spaces, monumental thresholds, and an irregular colonnade.\n\nThe spatial system is defined by two contiguous vaulted bays: a quadripartite ribbed vault with painted mural decorations and sculpted corbels, and an adjacent hemispherical sail vault/dome over pendentives, pierced by high clerestory openings and lanterns. This dominant verticality establishes a clear compression-decompression dialogue with the adjoining ambulatory and lower connecting corridors.\n\nAt the boundary between circulation and vaulted chambers, the transition is mediated by a series of marble columns featuring distinct base moldings, plinth heights, and column shaft proportions (cataloged from Column 1 to Column 4, including engaged corner elements). The investigation documents the stone stereotomy, wall stratigraphy (uncovering fresco fragments and historic ceramic wainscots), and the geometric survey across sections and axonometry, registering the structural layers and tectonic logic that define the chapel's architectural experience.",
-        "pt": "Levantamento arquitetónico e análise geométrica da Capilla de San Bruno, no Monasterio de la Cartuja de Santa María de las Cuevas em Sevilha, desenvolvido no âmbito académico da Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). O estudo explora as transições espaciais, estereotómicas e estruturais deste conjunto histórico monástico, articulado entre tramos abobadados, passagens de escala e uma colunata de morfologia mista.\n\nO sistema espacial estrutura-se através de dois volumes cobertos contíguos: um tramo em abóbada de cruzaria com nervuras pintadas que descarregam em mísulas murais esculpidas, e uma cúpula/abóbada hemisférica sobre pendentes com iluminação zenital e vãos alteados. Esta verticalidade dominante estabelece um diálogo de compressão e descompressão com a galeria de circulação e os corredores adjacentes.\n\nNo limiar entre o percurso de circulação e os espaços abobadados, a transição estrutural é resolvida por um conjunto de colunas em mármore com bases, plintos e fustes diferenciados (sistematizados nos tipos 1 a 4, incluindo meias-colunas embebidas). A investigação decodifica a estereotomia das peças líticas, a estratigrafia parietal (evidenciando frescos murais e azulejaria histórica) e o rigor métrico das secções transversais e axadrezamento axonométrico, registando a sobreposição temporal e a lógica tectónica da capela.",
-        "es": "Levantamiento arquitectónico y análisis geométrico de la Capilla de San Bruno en el Monasterio de la Cartuja de Santa María de las Cuevas en Sevilla, desarrollado en el marco académico de la Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). El estudio explora las transiciones espaciales, estereotómicas y estructurales de este histórico complejo monástico, articulado a través de espacios abovedados, umbrales monumentales y una columnata irregular.\n\nEl sistema espacial está definido por dos tramos abovedados contiguos: una bóveda de crucería cuatripartita con decoraciones murales pintadas y ménsulas esculpidas, y una cúpula hemisférica adyacente sobre pechinas, perforada por altos vanos de claristorio y linternas. Esta verticalidad dominante establece un claro diálogo de compresión-descompresión con el deambulatorio contiguo y los corredores de conexión inferiores.\n\nEn el límite entre la circulación y las cámaras abovedadas, la transición está mediada por una serie de columnas de mármol con molduras de base distintivas, alturas de plinto y proporciones de fuste (catalogadas de la Columna 1 a la Columna 4, incluyendo elementos de esquina embebidos). La investigación documenta la estereotomía de la piedra, la estratigrafía mural (descubriendo fragmentos de frescos y arrimaderos cerámicos históricos) y el levantamiento geométrico a través de secciones y axonometría, registrando las capas estructurales y la lógica tectónica que definen la experiencia arquitectónica de la capilla."
-      },
-      "images": [
-        {
-          "src": "projects/07-Capillas-de-San-Bruno/seccao1.png",
-          "caption": {
-            "en": "Section 1",
-            "pt": "Secção 1",
-            "es": "Sección 1"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-Capillas-de-San-Bruno/seccao2.png",
-          "caption": {
-            "en": "Section 2",
-            "pt": "Secção 2",
-            "es": "Sección 2"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-Capillas-de-San-Bruno/seccao3.png",
-          "caption": {
-            "en": "Section 3",
-            "pt": "Secção 3",
-            "es": "Sección 3"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-Capillas-de-San-Bruno/colunas0.png",
-          "caption": {
-            "en": "Column survey - Overview",
-            "pt": "Levantamento das colunas - Geral",
-            "es": "Levantamiento de columnas - General"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-Capillas-de-San-Bruno/colunas1.png",
-          "caption": {
-            "en": "Column survey - Type 1",
-            "pt": "Levantamento das colunas - Tipo 1",
-            "es": "Levantamiento de columnas - Tipo 1"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-Capillas-de-San-Bruno/colunas2.png",
-          "caption": {
-            "en": "Column survey - Type 2",
-            "pt": "Levantamento das colunas - Tipo 2",
-            "es": "Levantamiento de columnas - Tipo 2"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-Capillas-de-San-Bruno/colunas3.png",
-          "caption": {
-            "en": "Column survey - Type 3",
-            "pt": "Levantamento das colunas - Tipo 3",
-            "es": "Levantamiento de columnas - Tipo 3"
-          },
-          "layout": "full"
-        }
-      ]
-    },
-    {
-      "id": "10-master-lisboa",
+      "id": "06-master-lisboa",
       "title": {
         "en": "Water Reservoir Tower",
         "pt": "Reservatório / Torre de Água",
@@ -1184,8 +1047,8 @@
         "pt": "Infraestrutura / Paisagem",
         "es": "Infraestructura / Paisaje"
       },
-      "thumbnail": "projects/10-master-lisboa/reservatorio_corte.jpg",
-      "hero": "projects/10-master-lisboa/reservatorio_corte.jpg",
+      "thumbnail": "projects/06-master-lisboa/reservatorio_corte.jpg",
+      "hero": "projects/06-master-lisboa/reservatorio_corte.jpg",
       "concept": {
         "en": "Conceived within the context of a Master's program in Lisbon, this collaborative project explores the monumental and infrastructural dimension of hydraulic architecture on sloping topography. The proposal is structured as a vertical monolith—spanning between elevations +33.00m and +70.00m—that operates simultaneously as a water reservoir tower and a landscape threshold.\n\nThe tectonic strategy is defined by an exterior concrete envelope sheltering a suspended, massive cistern vessel whose base curves softly to negotiate hydraulic loads. The spatial section reveals an intentional vertical progression: a technical lower plinth anchoring the structure into the embankment, an open vertical shaft framing circulation stairs and maintenance shafts, and an upper crowning plane that caps the void.\n\nAt the ground level, the retaining base interacts with a large exterior water basin, translating internal hydraulic storage into an open public or landscape plane. The dialogue between massive retaining walls, stereotomic weight, and the ethereal reflection of water establishes an infrastructure that transcends its purely utilitarian purpose to become a permanent landmark in the territory.",
         "pt": "Desenvolvido em ambiente colaborativo no âmbito de um mestrado em Lisboa, o projeto explora a escala infraestrutural e a monumentalidade da arquitetura da água numa encosta acentuada. A proposta materializa-se através de um monólito vertical — vencendo um desnível entre as cotas +33.00m e +70.00m — que articula as funções de torre de água/reservatório com a mediação topográfica do território.\n\nA estratégia tectónica assenta numa caixa perimetral de betão que encerra no seu interior um vaso de contenção suspenso e maciço, cujo fundo curvo otimiza as tensões do peso e volume da água. Em corte, a transição entre cotas evidencia um núcleo de circulação vertical (escadas e couretes técnicas), um nível inferior de embasamento técnico enterrado no declive e um remate superior vazado que regula a iluminação zenital do vazio vertical.\n\nNa cota inferior (+33.00m), o edifício ancora-se ao terreno estendendo-se num espelho de água exterior de grande dimensão, projetando a presença da matéria líquida para o espaço aberto. O contraste entre a massa cega dos paramentos murários e o plano horizontal da água transforma a infraestrutura técnica num elemento de contenção e contemplação paisagística.",
@@ -1193,7 +1056,7 @@
       },
       "images": [
         {
-          "src": "projects/10-master-lisboa/reservatorio_corte2.jpg",
+          "src": "projects/06-master-lisboa/reservatorio_corte2.jpg",
           "caption": {
             "en": "Architectural section - Detail",
             "pt": "Corte arquitetónico - Pormenor",
@@ -1202,11 +1065,148 @@
           "layout": "full"
         },
         {
-          "src": "projects/10-master-lisboa/reservatorio_plantas.jpg",
+          "src": "projects/06-master-lisboa/reservatorio_plantas.jpg",
           "caption": {
             "en": "Floor plans",
             "pt": "Plantas",
             "es": "Plantas"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "01-solar-sao-joao",
+      "title": {
+        "en": "Solar de S. João Square",
+        "pt": "Praça e Solar de S. João",
+        "es": "Plaza y Solar de S. João"
+      },
+      "year": "2023-2024",
+      "location": {
+        "en": "Almeida, Guarda, Portugal",
+        "pt": "Almeida, Guarda, Portugal",
+        "es": "Almeida, Guarda, Portugal"
+      },
+      "typology": {
+        "en": "Heritage / Research",
+        "pt": "Património / Investigação",
+        "es": "Patrimonio / Investigación"
+      },
+      "thumbnail": "projects/outros-trabalhos/01-solar-sao-joao/hero.png",
+      "hero": "projects/outros-trabalhos/01-solar-sao-joao/hero.png",
+      "concept": {
+        "en": "Morphological and typological study of the Praça and Solar de S. João in Almeida, developed within the fortified perimeter of the historic border town. The research analyzes the dialectic between public void and built fabric, examining the evolution of the 16th-century 'terreiro' into a consolidated square framed on its northern boundary by the 1726 manor house.\n\nFrom an architectural perspective, the Solar de S. João exemplifies northern Portuguese manor architecture. Its primary façade demonstrates a balanced composition anchored by corner pilasters, a crowning cornice, and a central portal crowned by a balconied window and family coat of arms, featuring padded apron window surrounds that alternate between straight lintels and segmental arches.\n\nInternally, the analysis reveals a deliberate spatial grammar: on the ground floor, an intentional misalignment between the main portal and the two-flight monumental stair (featuring a window-seat landing) buffers visual permeability. On the piano nobile, circulation relies on classical enfilade alignments that establish visual axes across sequential rooms toward the exterior square. The square distribution room ('sala vaga') acts as a core compositional module, framing views directly aligned with entrance thresholds. With the historical demolition of the central pillory and chapel, the solar remains the primary architectural anchor defining the urban scale and skyline of the square.",
+        "pt": "Estudo morfológico e tipológico da Praça e Solar de S. João em Almeida, inseridos na estrutura urbana da vila fortificada. A investigação aborda a dialética entre o vazio público e a frente edificada, examinando a evolução do terreiro quinhentista para uma praça consolidada que tem no solar setecentista (1726) o seu remate norte.\n\nAo nível arquitetónico, o Solar de S. João afirma-se como um exemplar representativo da casa senhorial portuguesa. A sua fachada organiza-se numa composição centralizada balizada por pilastras nos cunhais e cornija de remate, enfatizando o eixo do portal e janela de sacada encimada por pedra de armas, com vãos de avental almofadado que alternam vergas retas e arcos abatidos.\n\nEspacialmente, destaca-se o desencontro intencional no piso térreo entre o acesso exterior e o arranque da escadaria nobre de dois lances com namoradeira, controlando a permeabilidade visual. No piso nobre, a organização desenvolve-se através do princípio da enfilade, articulando eixos visuais longitudinais e transversais em relação à praça. A «sala vaga» quadrada funciona como módulo central de distribuição, onde a relação entre portas e vãos exteriores assegura continuidade espacial e enquadramento visual. Com o desaparecimento do pelourinho e da capela que outrora ocupavam o terreiro, o solar assume-se como a principal âncora de escala e referência urbana do conjunto.",
+        "es": "Estudio morfológico y tipológico de la Plaza y Solar de S. João en Almeida, desarrollado dentro del perímetro fortificado de la histórica ciudad fronteriza. La investigación analiza la dialéctica entre el vacío público y el tejido edificado, examinando la evolución del 'terreiro' del siglo XVI hacia una plaza consolidada enmarcada en su límite norte por la casa solariega de 1726.\n\nDesde una perspectiva arquitectónica, el Solar de S. João ejemplifica la arquitectura de casas solariegas del norte de Portugal. Su fachada principal demuestra una composición equilibrada anclada por pilastras esquineras, una cornisa de coronación y un portal central coronado por una ventana con balcón y escudo familiar, con recercos de ventana almohadillados que alternan entre dinteles rectos y arcos rebajados.\n\nInternamente, el análisis revela una gramática espacial deliberada: en la planta baja, un desalineamiento intencional entre el portal principal y la escalera monumental de dos tramos (con un rellano con asiento de ventana) amortigua la permeabilidad visual. En el piano nobile, la circulación se basa en alineaciones clásicas en enfilade que establecen ejes visuales a través de habitaciones secuenciales hacia la plaza exterior. La sala de distribución cuadrada ('sala vaga') actúa como módulo compositivo central, enmarcando vistas directamente alineadas con los umbrales de entrada. Con la demolición histórica del pelourinho central y la capilla, el solar permanece como el principal ancla arquitectónica que define la escala urbana y el horizonte de la plaza."
+      },
+      "images": [
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/planta.jpg",
+          "caption": {
+            "en": "Floor plan analysis",
+            "pt": "Análise da planta",
+            "es": "Análisis de la planta"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/painel.jpg",
+          "caption": {
+            "en": "Research panel",
+            "pt": "Painel de investigação",
+            "es": "Panel de investigación"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "02-capillas-san-bruno",
+      "title": {
+        "en": "Capillas de San Bruno",
+        "pt": "Capillas de San Bruno",
+        "es": "Capillas de San Bruno"
+      },
+      "year": "2022",
+      "location": {
+        "en": "Seville, Spain",
+        "pt": "Sevilha, Espanha",
+        "es": "Sevilla, España"
+      },
+      "typology": {
+        "en": "Heritage / Survey",
+        "pt": "Património / Levantamento",
+        "es": "Patrimonio / Levantamiento"
+      },
+      "thumbnail": "projects/outros-trabalhos/02-capillas-san-bruno/axonometria.png",
+      "hero": "projects/outros-trabalhos/02-capillas-san-bruno/axonometria.png",
+      "concept": {
+        "en": "Architectural survey and geometric analysis of the Capilla de San Bruno at the Monasterio de la Cartuja de Santa María de las Cuevas in Seville, developed within the academic framework of the Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). The study explores the spatial, stereotomic, and structural transitions within this historic monastic complex, articulated through vaulted spaces, monumental thresholds, and an irregular colonnade.\n\nThe spatial system is defined by two contiguous vaulted bays: a quadripartite ribbed vault with painted mural decorations and sculpted corbels, and an adjacent hemispherical sail vault/dome over pendentives, pierced by high clerestory openings and lanterns. This dominant verticality establishes a clear compression-decompression dialogue with the adjoining ambulatory and lower connecting corridors.\n\nAt the boundary between circulation and vaulted chambers, the transition is mediated by a series of marble columns featuring distinct base moldings, plinth heights, and column shaft proportions (cataloged from Column 1 to Column 4, including engaged corner elements). The investigation documents the stone stereotomy, wall stratigraphy (uncovering fresco fragments and historic ceramic wainscots), and the geometric survey across sections and axonometry, registering the structural layers and tectonic logic that define the chapel's architectural experience.",
+        "pt": "Levantamento arquitetónico e análise geométrica da Capilla de San Bruno, no Monasterio de la Cartuja de Santa María de las Cuevas em Sevilha, desenvolvido no âmbito académico da Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). O estudo explora as transições espaciais, estereotómicas e estruturais deste conjunto histórico monástico, articulado entre tramos abobadados, passagens de escala e uma colunata de morfologia mista.\n\nO sistema espacial estrutura-se através de dois volumes cobertos contíguos: um tramo em abóbada de cruzaria com nervuras pintadas que descarregam em mísulas murais esculpidas, e uma cúpula/abóbada hemisférica sobre pendentes com iluminação zenital e vãos alteados. Esta verticalidade dominante estabelece um diálogo de compressão e descompressão com a galeria de circulação e os corredores adjacentes.\n\nNo limiar entre o percurso de circulação e os espaços abobadados, a transição estrutural é resolvida por um conjunto de colunas em mármore com bases, plintos e fustes diferenciados (sistematizados nos tipos 1 a 4, incluindo meias-colunas embebidas). A investigação decodifica a estereotomia das peças líticas, a estratigrafia parietal (evidenciando frescos murais e azulejaria histórica) e o rigor métrico das secções transversais e axadrezamento axonométrico, registando a sobreposição temporal e a lógica tectónica da capela.",
+        "es": "Levantamiento arquitectónico y análisis geométrico de la Capilla de San Bruno en el Monasterio de la Cartuja de Santa María de las Cuevas en Sevilla, desarrollado en el marco académico de la Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). El estudio explora las transiciones espaciales, estereotómicas y estructurales de este histórico complejo monástico, articulado a través de espacios abovedados, umbrales monumentales y una columnata irregular.\n\nEl sistema espacial está definido por dos tramos abovedados contiguos: una bóveda de crucería cuatripartita con decoraciones murales pintadas y ménsulas esculpidas, y una cúpula hemisférica adyacente sobre pechinas, perforada por altos vanos de claristorio y linternas. Esta verticalidad dominante establece un claro diálogo de compresión-descompresión con el deambulatorio contiguo y los corredores de conexión inferiores.\n\nEn el límite entre la circulación y las cámaras abovedadas, la transición está mediada por una serie de columnas de mármol con molduras de base distintivas, alturas de plinto y proporciones de fuste (catalogadas de la Columna 1 a la Columna 4, incluyendo elementos de esquina embebidos). La investigación documenta la estereotomía de la piedra, la estratigrafía mural (descubriendo fragmentos de frescos y arrimaderos cerámicos históricos) y el levantamiento geométrico a través de secciones y axonometría, registrando las capas estructurales y la lógica tectónica que definen la experiencia arquitectónica de la capilla."
+      },
+      "images": [
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/seccao1.png",
+          "caption": {
+            "en": "Section 1",
+            "pt": "Secção 1",
+            "es": "Sección 1"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/seccao2.png",
+          "caption": {
+            "en": "Section 2",
+            "pt": "Secção 2",
+            "es": "Sección 2"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/seccao3.png",
+          "caption": {
+            "en": "Section 3",
+            "pt": "Secção 3",
+            "es": "Sección 3"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas0.png",
+          "caption": {
+            "en": "Column survey - Overview",
+            "pt": "Levantamento das colunas - Geral",
+            "es": "Levantamiento de columnas - General"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas1.png",
+          "caption": {
+            "en": "Column survey - Type 1",
+            "pt": "Levantamento das colunas - Tipo 1",
+            "es": "Levantamiento de columnas - Tipo 1"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas2.png",
+          "caption": {
+            "en": "Column survey - Type 2",
+            "pt": "Levantamento das colunas - Tipo 2",
+            "es": "Levantamiento de columnas - Tipo 2"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas3.png",
+          "caption": {
+            "en": "Column survey - Type 3",
+            "pt": "Levantamento das colunas - Tipo 3",
+            "es": "Levantamiento de columnas - Tipo 3"
           },
           "layout": "full"
         }

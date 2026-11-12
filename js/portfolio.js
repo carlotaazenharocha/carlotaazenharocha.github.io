@@ -18,7 +18,7 @@ const LABELS = {
   pt: {
     portfolio: 'Portfólio', introduction: 'Introdução', education: 'Formação', participations: 'Participações',
     skills: 'Competências', software: 'Software', learning: 'Em aprendizagem', languages: 'Línguas',
-    publications: 'Publicações', research: 'Investigação', project: 'Projeto', thanks: 'Obrigada',
+    publications: 'Publicações', research: 'Investigação', project: 'Projeto', otherWork: 'Outros trabalhos', thanks: 'Obrigada',
     contact: 'Contacto', email: 'Email', location: 'Localização', mobility: 'Mobilidade', page: 'Pág.',
     role: 'Arquitetura', native: 'Nativa',
     tagline: 'Projetos académicos, desenhos, maquetes e processo de projeto.'
@@ -26,7 +26,7 @@ const LABELS = {
   en: {
     portfolio: 'Portfolio', introduction: 'Introduction', education: 'Education', participations: 'Participations',
     skills: 'Skills', software: 'Software', learning: 'Learning', languages: 'Languages',
-    publications: 'Publications', research: 'Research', project: 'Project', thanks: 'Thank you',
+    publications: 'Publications', research: 'Research', project: 'Project', otherWork: 'Other work', thanks: 'Thank you',
     contact: 'Contact', email: 'Email', location: 'Location', mobility: 'Mobility', page: 'p.',
     role: 'Architecture', native: 'Native',
     tagline: 'Academic projects, drawings, models and design process.'
@@ -34,7 +34,7 @@ const LABELS = {
   es: {
     portfolio: 'Portafolio', introduction: 'Introducción', education: 'Formación', participations: 'Participaciones',
     skills: 'Competencias', software: 'Software', learning: 'Aprendiendo', languages: 'Idiomas',
-    publications: 'Publicaciones', research: 'Investigación', project: 'Proyecto', thanks: 'Gracias',
+    publications: 'Publicaciones', research: 'Investigación', project: 'Proyecto', otherWork: 'Otros trabajos', thanks: 'Gracias',
     contact: 'Contacto', email: 'Email', location: 'Ubicación', mobility: 'Movilidad', page: 'Pág.',
     role: 'Arquitectura', native: 'Nativo',
     tagline: 'Proyectos académicos, dibujos, maquetas y proceso de proyecto.'
@@ -531,9 +531,18 @@ function chooseVariant(body, cover) {
   return choice.key;
 }
 
-function addProject(project, index) {
-  const number = String(index + 1);
-  const heading = `${label('project')} / ${number}`;
+// Other work (studies, surveys, exercises) lives in projects/outros-trabalhos/
+function isOtherWork(project) {
+  return (project.thumbnail || '').startsWith('projects/outros-trabalhos/');
+}
+
+// Heading of a project or other work, each group numbered on its own
+function chapterHeading(project, number) {
+  return `${label(isOtherWork(project) ? 'otherWork' : 'project')} / ${number}`;
+}
+
+function addProject(project, number) {
+  const heading = chapterHeading(project, number);
   const title = getText(project.title);
   const [lead, ...rest] = paragraphs(project.concept);
   const images = (project.images || []).filter(image => image.type !== 'video' && available(image.src));
@@ -768,9 +777,17 @@ async function renderPages() {
     entries.push({ title: getText(research.title), startPage: pageCount() + 1 });
     addResearch();
   }
-  selected.forEach((project, i) => {
-    entries.push({ title: `${label('project')} / ${i + 1} — ${getText(project.title)}`, startPage: pageCount() + 1 });
-    addProject(project, i);
+  // Projects first, then other work, each numbered from 1
+  const ordered = [
+    ...selected.filter(project => !isOtherWork(project)),
+    ...selected.filter(project => isOtherWork(project))
+  ];
+  const counters = {};
+  ordered.forEach(project => {
+    const group = isOtherWork(project) ? 'other' : 'project';
+    counters[group] = (counters[group] || 0) + 1;
+    entries.push({ title: `${chapterHeading(project, counters[group])} — ${getText(project.title)}`, startPage: pageCount() + 1 });
+    addProject(project, counters[group]);
   });
   if (index) fillIndex(index, entries);
 

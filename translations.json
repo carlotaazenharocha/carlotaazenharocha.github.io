@@ -6,7 +6,8 @@
       "about": "About"
     },
     "projects": {
-      "grid_title": "Selected Projects"
+      "grid_title": "Selected Projects",
+      "other_title": "Other work"
     },
     "project": {
       "metadata_labels": {
@@ -57,7 +58,8 @@
       "about": "Sobre"
     },
     "projects": {
-      "grid_title": "Projetos Selecionados"
+      "grid_title": "Projetos Selecionados",
+      "other_title": "Outros trabalhos"
     },
     "project": {
       "metadata_labels": {
@@ -108,7 +110,8 @@
       "about": "Sobre mí"
     },
     "projects": {
-      "grid_title": "Proyectos Seleccionados"
+      "grid_title": "Proyectos Seleccionados",
+      "other_title": "Otros trabajos"
     },
     "project": {
       "metadata_labels": {

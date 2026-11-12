@@ -786,6 +786,88 @@ footer {
 }
 
 /* ============================================
+   OTHER WORK (HOMEPAGE)
+   Studies, surveys and exercises after the projects grid
+   ============================================ */
+
+.other-work {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+}
+
+.other-work:empty {
+  display: none;
+}
+
+.other-work-title {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.other-work-item {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+/* Small cards: four per row, so they read as secondary to the projects */
+.other-work-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem 2rem;
+}
+
+.other-work-image {
+  overflow: hidden;
+  margin-bottom: 0.9rem;
+}
+
+.other-work-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.other-work-item:hover img {
+  transform: scale(1.02);
+}
+
+.other-work-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.other-work-meta {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 1024px) {
+  .other-work-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .other-work {
+    padding: 2rem 1rem 4rem;
+  }
+
+  .other-work-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+  }
+}
+
+/* ============================================
    RESPONSIVE
    ============================================ */
 

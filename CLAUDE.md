@@ -39,7 +39,7 @@ python3 -m http.server 8000
 3. Content rendered based on current language
 4. Language toggle updates preference and re-renders (no page reload)
 
-## Current Projects (8 total)
+## Current Projects (6) and Other Work (2)
 
 | ID | Title (EN) | Location |
 |----|-----------|----------|
@@ -48,15 +48,22 @@ python3 -m http.server 8000
 | 03-beber-a-terra | Drink the Soil | Alcácer do Sal |
 | 04-centro-interpretativo | Interpretive Centre in Évora Monte | Évoramonte |
 | 05-dispositivo-urbano | Urban Devices | Évora |
-| 06-solar-sao-joao | Solar de S. João Square | Almeida |
-| 07-capillas-san-bruno | Capillas de San Bruno | Seville |
-| 10-master-lisboa | Water Reservoir Tower | Lisbon |
+| 06-master-lisboa | Water Reservoir Tower | Lisbon |
+
+Other work (folder `projects/outros-trabalhos/`, shown under "Outros trabalhos"):
+
+| ID | Title (EN) | Location |
+|----|-----------|----------|
+| 01-solar-sao-joao | Solar de S. João Square | Almeida |
+| 02-capillas-san-bruno | Capillas de San Bruno | Seville |
 
 ## Adding a New Project
 
 1. Create folder: `projects/NN-project-name/` (NN = number)
 2. Add images: `thumbnail.jpg` (or use hero), `hero.jpg`, additional content images
 3. Add entry to `projects.json` following existing structure
+
+Studies, surveys and exercises go in `projects/outros-trabalhos/NN-name/` instead: any entry whose thumbnail is in that folder appears under "Outros trabalhos" on the homepage (and in its own chapter of the portfolio PDF).
 4. Push to GitHub → auto-deploys to GitHub Pages
 
 ## Key Implementation Details
