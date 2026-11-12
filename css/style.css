@@ -43,6 +43,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.3s ease, color 0.3s ease;
+  /* Safety net: nothing wider than the screen can make the page pan sideways on phones */
+  overflow-x: clip;
 }
 
 img {
@@ -484,7 +486,7 @@ main {
 }
 
 .project-image.inset img {
-  max-width: 900px;
+  max-width: min(900px, 100%);
   margin: 0 auto;
 }
 

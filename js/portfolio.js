@@ -920,7 +920,7 @@ function initControls() {
 document.addEventListener('DOMContentLoaded', async () => {
   const [projectsJson, translationsJson, aboutJson, researchJson, participationsJson] = await Promise.all(
     ['projects.json', 'translations.json', 'about.json', 'research.json', 'participations.json'].map(file =>
-      fetch(file).then(response => response.json()).catch(() => null)
+      fetch(file, { cache: 'no-cache' }).then(response => response.json()).catch(() => null)
     )
   );
   projects = projectsJson?.projects || [];

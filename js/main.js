@@ -96,7 +96,7 @@ function getText(obj) {
 // Fetch projects data
 async function loadProjectsData() {
   try {
-    const response = await fetch('projects.json');
+    const response = await fetch('projects.json', { cache: 'no-cache' });
     projectsData = await response.json();
     return projectsData;
   } catch (error) {
@@ -108,7 +108,7 @@ async function loadProjectsData() {
 // Fetch translations data
 async function loadTranslations() {
   try {
-    const response = await fetch('translations.json');
+    const response = await fetch('translations.json', { cache: 'no-cache' });
     translationsData = await response.json();
     return translationsData;
   } catch (error) {
@@ -120,7 +120,7 @@ async function loadTranslations() {
 // Fetch participations data
 async function loadParticipationsData() {
   try {
-    const response = await fetch('participations.json');
+    const response = await fetch('participations.json', { cache: 'no-cache' });
     participationsData = await response.json();
     return participationsData;
   } catch (error) {
@@ -132,7 +132,7 @@ async function loadParticipationsData() {
 // Fetch about data
 async function loadAboutData() {
   try {
-    const response = await fetch('about.json');
+    const response = await fetch('about.json', { cache: 'no-cache' });
     aboutData = await response.json();
     return aboutData;
   } catch (error) {
@@ -513,7 +513,7 @@ function renderResearchSection(section) {
 async function loadResearchData() {
   if (!researchData) {
     try {
-      const response = await fetch('research.json');
+      const response = await fetch('research.json', { cache: 'no-cache' });
       researchData = await response.json();
     } catch (error) {
       console.error('Error loading research data:', error);
