@@ -941,39 +941,39 @@ function updateParticipationsSection() {
   const container = document.getElementById('participations-list');
   if (!container || !participationsData) return;
 
-  // Sort participations by date (newest first)
-  const sorted = [...participationsData.participations].sort((a, b) => b.date.localeCompare(a.date));
   const item = p => `
-      <a href="participation.html?id=${p.id}" class="cv-item cv-item-link">
+      <a href="participation.html?id=${p.id}" class="cv-item cv-item-link visible">
         <div class="cv-title">${getText(p.title)} <span class="link-arrow">→</span></div>
         <div class="cv-institution">${getText(p.location)} · ${getText(p.institution)}</div>
         <div class="cv-date cv-date--below">${getText(p.dateDisplay)}</div>
       </a>
     `;
 
-  // The highlighted ones show first; the others open with a button
-  const featured = sorted.filter(p => p.featured);
-  const others = sorted.filter(p => !p.featured);
-  if (!featured.length || !others.length) {
-    container.innerHTML = sorted.map(item).join('');
+  // All of them by date, newest first; the highlighted ones by their rank
+  // ("featured": 1, 2, ...). The list opens on the highlights, and "see all"
+  // shows every participation by date
+  const byDate = [...participationsData.participations].sort((a, b) => b.date.localeCompare(a.date));
+  const featured = byDate.filter(p => p.featured).sort((a, b) => Number(a.featured) - Number(b.featured));
+  if (!featured.length || featured.length === byDate.length) {
+    container.innerHTML = byDate.map(item).join('');
     return;
   }
+
   const labels = translationsData[currentLanguage].about;
+  const others = byDate.length - featured.length;
   container.innerHTML = `
-    ${featured.map(item).join('')}
-    <div class="participations-more" id="participations-more" hidden>${others.map(item).join('')}</div>
-    <button type="button" class="participations-toggle" aria-expanded="false" aria-controls="participations-more">
-      ${labels.participations_more} (${others.length})
-    </button>
+    <div class="participations-items">${featured.map(item).join('')}</div>
+    <button type="button" class="participations-toggle" aria-expanded="false">${labels.participations_more} (${others})</button>
   `;
-  const more = container.querySelector('.participations-more');
+  const list = container.querySelector('.participations-items');
   const toggle = container.querySelector('.participations-toggle');
   toggle.addEventListener('click', () => {
-    const open = more.hidden;
-    more.hidden = !open;
+    const open = toggle.getAttribute('aria-expanded') !== 'true';
+    list.innerHTML = (open ? byDate : featured).map(item).join('');
     toggle.setAttribute('aria-expanded', String(open));
-    toggle.textContent = open ? labels.participations_less : `${labels.participations_more} (${others.length})`;
-    if (open) more.querySelectorAll('.cv-item').forEach(el => el.classList.add('visible'));
+    toggle.textContent = open ? labels.participations_less : `${labels.participations_more} (${others})`;
+    // Closing again: back to where the list starts
+    if (!open) container.scrollIntoView({ block: 'nearest' });
   });
 }
 

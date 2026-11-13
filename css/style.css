@@ -2322,13 +2322,9 @@ footer {
 }
 
 /* Participations: the highlighted ones, then a button that shows the others */
-.participations-more {
+.participations-items {
   display: flex;
   flex-direction: column;
-}
-
-.participations-more[hidden] {
-  display: none;
 }
 
 .participations-toggle {

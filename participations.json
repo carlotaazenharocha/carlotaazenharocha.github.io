@@ -3,13 +3,13 @@
     {
       "id": "refazer-paisagens",
       "type": "seminar",
-      "featured": true,
+      "featured": 2,
       "title": {
         "en": "Seminario Internazionale di Progettazione «Refazer Paisagens»",
         "pt": "Seminario Internazionale di Progettazione «Refazer Paisagens»",
         "es": "Seminario Internazionale di Progettazione «Refazer Paisagens»"
       },
-      "date": "2022-07",
+      "date": "2022-07-19",
       "dateDisplay": {
         "en": "July 19–29, 2022",
         "pt": "19 a 29 de julho de 2022",
@@ -117,7 +117,7 @@
         "pt": "You(th) Work for Sustainability",
         "es": "You(th) Work for Sustainability"
       },
-      "date": "2022-09",
+      "date": "2022-09-01",
       "dateDisplay": {
         "en": "September 1-10, 2022",
         "pt": "1-10 de setembro de 2022",
@@ -149,7 +149,7 @@
         "pt": "Biomaterials Creative Lab",
         "es": "Biomaterials Creative Lab"
       },
-      "date": "2022-10",
+      "date": "2022-10-04",
       "dateDisplay": {
         "en": "October 4, 2022",
         "pt": "4 de outubro de 2022",
@@ -205,13 +205,13 @@
     {
       "id": "cipa-congress",
       "type": "volunteering",
-      "featured": true,
+      "featured": 3,
       "title": {
         "en": "CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira",
         "pt": "CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira",
         "es": "CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira"
       },
-      "date": "2022-09",
+      "date": "2022-09-29",
       "dateDisplay": {
         "en": "September 29–30, 2022",
         "pt": "29 e 30 de setembro de 2022",
@@ -303,7 +303,7 @@
     {
       "id": "jornadas-autoconstrucao",
       "type": "workshop",
-      "featured": true,
+      "featured": 7,
       "title": {
         "en": "Jornadas da Autoconstrução",
         "pt": "Jornadas da Autoconstrução",
@@ -393,7 +393,7 @@
     {
       "id": "arquitectos-herramienta",
       "type": "workshop",
-      "featured": true,
+      "featured": 6,
       "title": {
         "en": "7.º Encuentro de Arquitectos de Herramienta en Mano",
         "pt": "7.º Encuentro de Arquitectos de Herramienta en Mano",
@@ -541,7 +541,7 @@
         "pt": "Protected Areas: A Playground for the Inclusion of Young People",
         "es": "Protected Areas: A Playground for the Inclusion of Young People"
       },
-      "date": "2024-09",
+      "date": "2024-09-16",
       "dateDisplay": {
         "en": "September 16–25, 2024",
         "pt": "16 a 25 de setembro de 2024",
@@ -642,12 +642,13 @@
     {
       "id": "heritage-camp-almeida",
       "type": "volunteering",
+      "featured": 4,
       "title": {
         "en": "Heritage Camp Almeida",
         "pt": "Heritage Camp Almeida",
         "es": "Heritage Camp Almeida"
       },
-      "date": "2025-10",
+      "date": "2025-10-05",
       "dateDisplay": {
         "en": "October 5–11, 2025",
         "pt": "5 a 11 de outubro de 2025",
@@ -760,13 +761,13 @@
     {
       "id": "floods-opportunity",
       "type": "program",
-      "featured": true,
+      "featured": 1,
       "title": {
         "en": "Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence",
         "pt": "Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence",
         "es": "Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence"
       },
-      "date": "2025-07",
+      "date": "2025-07-14",
       "dateDisplay": {
         "en": "July 14–25, 2025",
         "pt": "14 a 25 de julho de 2025",
@@ -868,13 +869,13 @@
     {
       "id": "exposicao-evora-monte",
       "type": "exhibition",
-      "featured": true,
+      "featured": 5,
       "title": {
         "en": "Ducal Palace Exhibition",
         "pt": "Exposição Paço Ducal",
         "es": "Exposición Palacio Ducal"
       },
-      "date": "2022-12",
+      "date": "2022-12-10",
       "dateDisplay": {
         "en": "December 10, 2022 – January 10, 2023",
         "pt": "10 de dezembro de 2022 – 10 de janeiro de 2023",
@@ -983,7 +984,7 @@
         "pt": "Open House Porto",
         "es": "Open House Porto"
       },
-      "date": "2024-07",
+      "date": "2024-07-06",
       "dateDisplay": {
         "en": "July 6–7, 2024",
         "pt": "6–7 de julho de 2024",
