@@ -1,0 +1,212 @@
+/* ============================================
+   SKETCHBOOKS (js/caderno.js): leporello
+   The sketchbook unfolded into one long strip, pages folded alternately
+   ============================================ */
+
+:root {
+  --sb-paper: #f8f5ef;
+}
+
+.sb-hand {
+  font-family: 'Architects Daughter', 'Inter', cursive;
+  font-weight: 400;
+}
+
+.sb-lep {
+  --lep-height: clamp(300px, calc(100vh - 20rem), 680px);
+  /* The strip runs to the edges of the screen */
+  margin: 0 calc(50% - 50vw);
+}
+
+.sb-lep-track {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2rem 0 1rem;
+  scrollbar-width: thin;
+  cursor: grab;
+  overscroll-behavior-x: contain;
+}
+
+.sb-lep-track.is-dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+
+.sb-lep-strip {
+  display: flex;
+  align-items: flex-start;
+  width: max-content;
+  padding: 0 max(2rem, calc(50vw - 700px));
+  perspective: 2400px;
+}
+
+.sb-lep-group {
+  display: flex;
+  flex-direction: column;
+  cursor: zoom-in;
+}
+
+.sb-lep-pages {
+  display: flex;
+  height: var(--lep-height);
+  filter: drop-shadow(0 14px 18px rgba(0, 0, 0, 0.12));
+}
+
+.sb-lep-page {
+  position: relative;
+  height: 100%;
+  aspect-ratio: 1000 / 1414;
+  background: var(--sb-paper);
+}
+
+/* Scanned drawings on white: multiplied, the paper shows through */
+.sb-lep-page img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+/* Folded in zigzag: each page tilts against its neighbour */
+.sb-lep-page.is-odd {
+  transform: rotateY(7deg);
+  transform-origin: right center;
+}
+
+.sb-lep-page.is-even {
+  transform: rotateY(-7deg);
+  transform-origin: left center;
+}
+
+.sb-lep-page::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sb-lep-page.is-odd::after {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.07), transparent 30%, transparent 85%, rgba(0, 0, 0, 0.1));
+}
+
+.sb-lep-page.is-even::after {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.05), transparent 25%);
+}
+
+.sb-lep-label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-top: 1.25rem;
+  margin-right: 1px;
+  padding: 0.6rem 0.25rem 0;
+  border-top: 1px solid var(--color-text);
+}
+
+.sb-lep-label-pages {
+  grid-row: span 2;
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary);
+}
+
+.sb-lep-label-site {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.sb-lep-label-place {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
+/* A marker where each journey begins */
+.sb-lep-journey {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  flex: 0 0 auto;
+  width: 9rem;
+  height: var(--lep-height);
+  margin: 0 2.5rem;
+  padding: 0 0 1rem 1rem;
+  border-left: 1px solid var(--color-text);
+}
+
+.sb-lep-journey-num {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.sb-lep-journey-date {
+  font-size: 1.4rem;
+}
+
+.sb-lep-journey-places {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.sb-lep-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 1rem auto 0;
+  padding: 0 2rem;
+}
+
+.sb-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  background: none;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.sb-arrow:disabled {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.sb-lep-progress {
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.sb-lep-progress span {
+  display: block;
+  width: 0;
+  height: 1px;
+  background: var(--color-text);
+  transition: width 0.15s linear;
+}
+
+.sb-lep-hint {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .sb-lep {
+    --lep-height: clamp(260px, 58vh, 480px);
+  }
+
+  .sb-lep-journey {
+    width: 7rem;
+    margin: 0 1.5rem;
+  }
+}

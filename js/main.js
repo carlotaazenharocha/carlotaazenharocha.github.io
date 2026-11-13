@@ -158,7 +158,7 @@ async function initHomepage() {
   data.projects.filter(project => !isOtherWork(project)).forEach(project => {
     gridContainer.appendChild(createProjectCard(project));
   });
-  renderOtherWork(data.projects.filter(isOtherWork));
+  renderOtherWork(data.projects.filter(project => isOtherWork(project) && !isSketchbook(project)));
 
   // Add fade-in animation
   setTimeout(() => {
@@ -173,21 +173,41 @@ function isOtherWork(project) {
   return (project.thumbnail || '').startsWith(OTHER_WORK_FOLDER);
 }
 
+// Sketchbooks live with the other work but are shown on the About page
+function isSketchbook(project) {
+  return Boolean(project.sketchbook);
+}
+
+// Projects, other work and sketchbooks each have their own previous / next
+function projectGroup(project) {
+  return isSketchbook(project) ? 'sketchbook' : isOtherWork(project) ? 'other' : 'project';
+}
+
 function renderOtherWork(works) {
   const section = document.getElementById('other-work');
   if (!section) return;
   section.innerHTML = '';
   if (!works.length) return;
 
-  section.innerHTML = `<h2 class="other-work-title">${t('projects.other_title')}</h2>`;
+  // Title with the slider arrows on the right
+  const arrow = (direction, points) => `
+    <button type="button" class="other-work-arrow" data-direction="${direction}" aria-label="${t(`projects.${direction < 0 ? 'previous' : 'next'}`)}">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="${points}"/></svg>
+    </button>`;
+  section.innerHTML = `
+    <div class="other-work-header">
+      <h2 class="other-work-title">${t('projects.other_title')}</h2>
+      <div class="other-work-arrows">${arrow(-1, '15 18 9 12 15 6')}${arrow(1, '9 18 15 12 9 6')}</div>
+    </div>
+  `;
 
-  // Small cards with the title and details always visible below
+  // Slider of small cards (swipe, trackpad or arrows), title and details below each
   const container = document.createElement('div');
-  container.className = 'other-work-items';
+  container.className = 'other-work-items fade-in';
   works.forEach(work => {
     const item = document.createElement('a');
     item.href = `project.html?id=${work.id}`;
-    item.className = 'other-work-item fade-in';
+    item.className = 'other-work-item';
     const title = getText(work.title);
     item.innerHTML = `
       <div class="other-work-image"><img src="${work.thumbnail}" alt="${title}" loading="lazy"></div>
@@ -197,7 +217,32 @@ function renderOtherWork(works) {
     container.appendChild(item);
   });
   section.appendChild(container);
+  setupOtherWorkSlider(section, container);
 }
+
+// Arrows move the slider by one card; each is disabled at its end and both
+// are hidden when every card already fits
+function setupOtherWorkSlider(section, track) {
+  const arrows = section.querySelectorAll('.other-work-arrow');
+  const update = () => {
+    const max = track.scrollWidth - track.clientWidth;
+    section.classList.toggle('other-work--static', max <= 1);
+    arrows[0].disabled = track.scrollLeft <= 1;
+    arrows[1].disabled = track.scrollLeft >= max - 1;
+  };
+  arrows.forEach(button => button.addEventListener('click', () => {
+    const card = track.querySelector('.other-work-item');
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    track.scrollBy({ left: Number(button.dataset.direction) * (card.offsetWidth + gap), behavior: 'smooth' });
+  }));
+  track.addEventListener('scroll', update, { passive: true });
+  // The section is rebuilt on language change: keep a single resize listener
+  window.removeEventListener('resize', otherWorkResize);
+  otherWorkResize = update;
+  window.addEventListener('resize', otherWorkResize);
+  update();
+}
+let otherWorkResize = null;
 
 function createProjectCard(project) {
   const card = document.createElement('a');
@@ -261,7 +306,7 @@ async function initProjectPage() {
 // Populate metadata (fields missing from a project are skipped)
   const metadataContainer = document.getElementById('project-metadata');
   if (metadataContainer) {
-    const fields = ['year', 'location', 'typology', 'context', 'institution', 'teachers'];
+    const fields = ['year', 'location', 'typology', 'context', 'institution', 'teachers', 'authors'];
     metadataContainer.innerHTML = fields
       .filter(field => project[field])
       .map(field => `
@@ -293,7 +338,15 @@ async function initProjectPage() {
   const contentContainer = document.getElementById('project-content');
   if (contentContainer) {
     contentContainer.innerHTML = '';
-    renderImages(contentContainer, project.images, project.parts);
+    // A sketchbook has its own presentation (js/caderno.js)
+    if (project.sketchbook && typeof renderSketchbook === 'function') {
+      renderSketchbook(contentContainer, project);
+      // Sketchbooks are listed on the About page
+      document.querySelectorAll('nav a').forEach(link =>
+        link.classList.toggle('active', link.getAttribute('href') === 'about.html'));
+    } else {
+      renderImages(contentContainer, project.images, project.parts);
+    }
   }
 
   // Setup navigation
@@ -347,14 +400,32 @@ function renderPart(part, number) {
   return header;
 }
 
+// Width of a photo in a flex row following its shape, so the row keeps one height
+function growByShape(imageDiv) {
+  const img = imageDiv.querySelector('img');
+  const grow = () => { imageDiv.style.flex = `${img.naturalWidth / img.naturalHeight} 1 0`; };
+  if (img.complete && img.naturalWidth) grow(); else img.addEventListener('load', grow, { once: true });
+}
+
+// A mosaic names its arrangement and optional modifiers, e.g. "justified-2 narrow":
+// grid-3, grid-2, row-4, uniform (3 columns of equal cells, each drawing whole),
+// justified[-n] (rows of n whole pictures at one height, 3 by default), masonry,
+// scroll (one row that scrolls sideways); narrow keeps
+// it to the width of an inset image
+const MOSAIC_ROW = 3;
+
 function renderImages(container, images, parts = []) {
   let row = null;
+  let mosaic = null;
+  let mosaicRow = MOSAIC_ROW;
   images.forEach(image => {
+
     // Optional part opening before this image (its sections follow it)
     const part = image.part && parts.find(item => item.id === image.part);
     if (part) {
       container.appendChild(renderPart(part, parts.indexOf(part) + 1));
       row = null;
+      mosaic = null;
     }
 
     // Optional section heading before this image
@@ -364,14 +435,21 @@ function renderImages(container, images, parts = []) {
       heading.textContent = getText(image.section);
       container.appendChild(heading);
       row = null;
+      mosaic = null;
     }
 
-    const layoutClass = { full: 'full-width', half: 'half-width' }[image.layout] || 'inset';
+    const layoutClass = { full: 'full-width', half: 'half-width', tile: 'tile' }[image.layout] || 'inset';
     const imageDiv = document.createElement('div');
     imageDiv.className = `project-image ${layoutClass}`;
-    // Videos play silently in a loop like an image, without controls
-    const media = image.type === 'video'
-      ? `<video src="${image.src}" autoplay muted loop playsinline disablepictureinpicture preload="metadata"></video>`
+    // Videos play silently in a loop like an image, without controls; with
+    // "controls" (an interview, say) they wait to be played, with sound
+    const video = image.controls
+      ? `<video src="${image.src}" controls playsinline preload="metadata"></video>`
+      : `<video src="${image.src}" autoplay muted loop playsinline disablepictureinpicture preload="metadata"></video>`;
+    // A Vimeo video plays in Vimeo's own player, with sound and controls
+    const vimeo = `<div class="video-embed"><iframe src="https://player.vimeo.com/video/${image.vimeo}?dnt=1" title="${getText(image.caption)}" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div>`;
+    const media = image.type === 'video' ? video
+      : image.type === 'vimeo' ? vimeo
       : `<img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">`;
     imageDiv.innerHTML = `
       ${media}
@@ -390,6 +468,35 @@ function renderImages(container, images, parts = []) {
       }, { once: true });
     }
 
+    // Consecutive "tile" images form a mosaic of small pictures; "mosaic" on an
+    // image starts a new one and names its arrangement (grid-3, grid-2, ...)
+    if (image.layout === 'tile') {
+      row = null;
+      if (!mosaic || image.mosaic) {
+        const [arrangement, ...modifiers] = (image.mosaic || 'grid-3').split(/\s+/);
+        const [, justifiedRow] = arrangement.match(/^justified-(\d)$/) || [];
+        mosaicRow = Number(justifiedRow) || MOSAIC_ROW;
+        mosaic = document.createElement('div');
+        mosaic.className = ['project-mosaic', `project-mosaic--${justifiedRow ? 'justified' : arrangement}`,
+          ...modifiers.map(modifier => `project-mosaic--${modifier}`)].join(' ');
+        container.appendChild(mosaic);
+      }
+      if (mosaic.classList.contains('project-mosaic--justified')) {
+        let line = mosaic.lastElementChild;
+        if (!line || line.children.length >= mosaicRow) {
+          line = document.createElement('div');
+          line.className = 'project-mosaic-row';
+          mosaic.appendChild(line);
+        }
+        growByShape(imageDiv);
+        line.appendChild(imageDiv);
+      } else {
+        mosaic.appendChild(imageDiv);
+      }
+      return;
+    }
+    mosaic = null;
+
     // Consecutive half-width images share a row; "row" on an image starts a
     // new row ("equal": same height, each width following the photo's shape)
     if (image.layout === 'half') {
@@ -399,11 +506,7 @@ function renderImages(container, images, parts = []) {
         container.appendChild(row);
       }
       // In an equal-height row each photo's width follows its shape
-      if (row.classList.contains('project-image-row--equal')) {
-        const img = imageDiv.querySelector('img');
-        const grow = () => { imageDiv.style.flex = `${img.naturalWidth / img.naturalHeight} 1 0`; };
-        if (img.complete && img.naturalWidth) grow(); else img.addEventListener('load', grow, { once: true });
-      }
+      if (row.classList.contains('project-image-row--equal')) growByShape(imageDiv);
       row.appendChild(imageDiv);
     } else {
       row = null;
@@ -555,9 +658,9 @@ async function initResearchPage() {
 }
 
 function setupProjectNavigation(allProjects, currentId) {
-  // Previous / next stay within the same group (projects or other work)
+  // Previous / next stay within the same group (projects, other work or sketchbooks)
   const current = allProjects.find(p => p.id === currentId);
-  const projects = allProjects.filter(p => isOtherWork(p) === isOtherWork(current));
+  const projects = allProjects.filter(p => projectGroup(p) === projectGroup(current));
   const currentIndex = projects.findIndex(p => p.id === currentId);
   const prevProject = currentIndex > 0 ? projects[currentIndex - 1] : null;
   const nextProject = currentIndex < projects.length - 1 ? projects[currentIndex + 1] : null;
@@ -583,7 +686,8 @@ async function initAboutPage() {
   // Load about data and participations data
   await Promise.all([
     loadAboutData(),
-    loadParticipationsData()
+    loadParticipationsData(),
+    loadProjectsData()
   ]);
 
   // Update page content
@@ -701,6 +805,7 @@ function updateAboutPage() {
 
   // Update participations section
   updateParticipationsSection();
+  updateSketchbooksSection();
 
   // Update contact section
   const contactContainer = document.getElementById('contact-section');
@@ -775,6 +880,23 @@ function updateParticipationsSection() {
   }).join('');
 }
 
+// Sketchbooks: one line each, like the participations, opening its page (the leporello)
+function updateSketchbooksSection() {
+  const container = document.getElementById('sketchbooks-section');
+  if (!container || !projectsData) return;
+  const books = projectsData.projects.filter(isSketchbook);
+  const heading = document.querySelector('[data-section="sketchbooks"]');
+  if (heading) heading.hidden = !books.length;
+  container.hidden = !books.length;
+  container.innerHTML = books.map(book => `
+    <a href="project.html?id=${book.id}" class="cv-item cv-item-link">
+      <div class="cv-title">${getText(book.title)} <span class="link-arrow">→</span></div>
+      <div class="cv-institution">${getText(book.sketchbook.summary)}</div>
+      <div class="cv-date cv-date--below">${book.year}</div>
+    </a>
+  `).join('');
+}
+
 // ============================================
 // PARTICIPATION PAGE
 // ============================================
@@ -816,8 +938,11 @@ async function initParticipationPage() {
     metaContainer.innerHTML = `
       <div class="meta-item">${getText(participation.dateDisplay)}</div>
       <div class="meta-item">${getText(participation.location)}</div>
-      <div class="meta-item">${getText(participation.institution)}</div>
+      <div class="meta-item">${participation.institutionUrl
+        ? `<a href="${participation.institutionUrl}" target="_blank" rel="noopener">${getText(participation.institution)} ↗</a>`
+        : getText(participation.institution)}</div>
       ${participation.role ? `<div class="meta-item">${getText(participation.role)}</div>` : ''}
+      ${participation.eventUrl ? `<div class="meta-item"><a href="${participation.eventUrl}" target="_blank" rel="noopener">${getText(participation.eventName)} ↗</a></div>` : ''}
     `;
   }
 
@@ -836,12 +961,21 @@ async function initParticipationPage() {
   // Images
   const imagesContainer = document.getElementById('participation-images');
   if (imagesContainer && participation.images && participation.images.length > 0) {
-    imagesContainer.innerHTML = participation.images.map(img => `
-      <div class="participation-image">
-        <img src="${img.src}" alt="${getText(img.caption || '')}" loading="lazy">
-        ${img.caption ? `<div class="image-caption">${getText(img.caption)}</div>` : ''}
-      </div>
-    `).join('');
+    // Images with a "layout" are arranged like a project's: rows at one height,
+    // mosaics, videos; otherwise a mosaic of whole images in columns
+    const arranged = participation.images.some(img => img.layout);
+    imagesContainer.classList.toggle('participation-images--arranged', arranged);
+    if (arranged) {
+      imagesContainer.innerHTML = '';
+      renderImages(imagesContainer, participation.images);
+    } else {
+      imagesContainer.innerHTML = participation.images.map(img => `
+        <div class="participation-image">
+          <img src="${img.src}" alt="${getText(img.caption || '')}" loading="lazy">
+          ${img.caption ? `<div class="image-caption">${getText(img.caption)}</div>` : ''}
+        </div>
+      `).join('');
+    }
   }
 
   // Related projects and external links

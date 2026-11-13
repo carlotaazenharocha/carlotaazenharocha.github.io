@@ -39,7 +39,7 @@ python3 -m http.server 8000
 3. Content rendered based on current language
 4. Language toggle updates preference and re-renders (no page reload)
 
-## Current Projects (7) and Other Work (2)
+## Current Projects (6), Other Work and Sketchbooks
 
 | ID | Title (EN) | Location |
 |----|-----------|----------|
@@ -48,15 +48,27 @@ python3 -m http.server 8000
 | 03-beber-a-terra | Drink the Soil | Alcácer do Sal |
 | 04-centro-interpretativo | Interpretive Centre in Évora Monte | Évoramonte |
 | 05-dispositivo-urbano | Urban Devices | Évora |
-| 06-master-lisboa | Water Reservoir Tower | Lisbon |
 | 07-estacao | Founding a Place (EUROBEC Railway Station) | EUROBEC |
 
-Other work (folder `projects/outros-trabalhos/`, shown under "Outros trabalhos"):
+Other work (folder `projects/outros-trabalhos/`, shown under "Outros trabalhos" as a slider on the homepage; the sketchbooks, 06 and 07, are shown instead as cards in a "Cadernos" section of the About page):
 
 | ID | Title (EN) | Location |
 |----|-----------|----------|
-| 01-solar-sao-joao | Solar de S. João Square | Almeida |
-| 02-capillas-san-bruno | Capillas de San Bruno | Seville |
+| 01-solar-sao-joao | São João Square and Manor House | Almeida |
+| 02-capillas-san-bruno | Survey of the Chapels of Saint Bruno and Saint Catherine | Seville |
+| 03-espaco-verde-leoes | Escape in the Open Space of Colégio dos Leões | Évora |
+| 05-taller | Urban Regeneration of the Polígono de San Pablo | Seville |
+| 04-valencina | Urban Analysis, Valencina de la Concepción | Seville |
+| 06-caderno-de-viagem | Travel Sketchbook | Portugal |
+| 07-cuaderno-caligrafico | Calligraphic Notebook of Architectural Heritage | Seville |
+
+Image captions (including the drawing scale, e.g. "E 1.100" / "scale 1:100") live in the JSON only, never inside the images.
+
+Videos: `"type": "video"` plays a local MP4 silently in a loop (add `"controls": true` for sound and controls); `"type": "vimeo", "vimeo": "<id>"` embeds Vimeo's player. Participations use the same layouts when their images have `layout`.
+
+Image layouts: `full`, `half` (consecutive halves share a row; `"row": "equal"` keeps one height), `inset`, and `tile` (consecutive tiles form a mosaic; `"mosaic"` on the first names the arrangement: `grid-3`, `grid-2`, `grid-2-narrow`, `row-4`, `uniform` (equal cells, drawings whole), `justified` or `justified-N` (N per row), `masonry`, `scroll` (one row scrolling sideways), plus the modifier `narrow`, e.g. `"justified-2 narrow"`).
+
+A project with `"sketchbook"` (06, 07) is rendered by `js/caderno.js` + `css/caderno.css` as a leporello (horizontal folded strip) instead of the image list: each image has `pages` (two for a spread, one for a single page) and `site`; `place` and `date` group a travel sketchbook into journeys; `sketchbook.cover` opens the strip.
 
 ## Adding a New Project
 

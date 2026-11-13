@@ -1053,52 +1053,6 @@
       ]
     },
     {
-      "id": "06-master-lisboa",
-      "title": {
-        "en": "Water Reservoir Tower",
-        "pt": "Reservatório / Torre de Água",
-        "es": "Depósito / Torre de Agua"
-      },
-      "year": "2022",
-      "location": {
-        "en": "Lisbon, Portugal",
-        "pt": "Lisboa, Portugal",
-        "es": "Lisboa, Portugal"
-      },
-      "typology": {
-        "en": "Infrastructure / Landscape",
-        "pt": "Infraestrutura / Paisagem",
-        "es": "Infraestructura / Paisaje"
-      },
-      "thumbnail": "projects/06-master-lisboa/reservatorio_corte.jpg",
-      "hero": "projects/06-master-lisboa/reservatorio_corte.jpg",
-      "concept": {
-        "en": "Conceived within the context of a Master's program in Lisbon, this collaborative project explores the monumental and infrastructural dimension of hydraulic architecture on sloping topography. The proposal is structured as a vertical monolith—spanning between elevations +33.00m and +70.00m—that operates simultaneously as a water reservoir tower and a landscape threshold.\n\nThe tectonic strategy is defined by an exterior concrete envelope sheltering a suspended, massive cistern vessel whose base curves softly to negotiate hydraulic loads. The spatial section reveals an intentional vertical progression: a technical lower plinth anchoring the structure into the embankment, an open vertical shaft framing circulation stairs and maintenance shafts, and an upper crowning plane that caps the void.\n\nAt the ground level, the retaining base interacts with a large exterior water basin, translating internal hydraulic storage into an open public or landscape plane. The dialogue between massive retaining walls, stereotomic weight, and the ethereal reflection of water establishes an infrastructure that transcends its purely utilitarian purpose to become a permanent landmark in the territory.",
-        "pt": "Desenvolvido em ambiente colaborativo no âmbito de um mestrado em Lisboa, o projeto explora a escala infraestrutural e a monumentalidade da arquitetura da água numa encosta acentuada. A proposta materializa-se através de um monólito vertical — vencendo um desnível entre as cotas +33.00m e +70.00m — que articula as funções de torre de água/reservatório com a mediação topográfica do território.\n\nA estratégia tectónica assenta numa caixa perimetral de betão que encerra no seu interior um vaso de contenção suspenso e maciço, cujo fundo curvo otimiza as tensões do peso e volume da água. Em corte, a transição entre cotas evidencia um núcleo de circulação vertical (escadas e couretes técnicas), um nível inferior de embasamento técnico enterrado no declive e um remate superior vazado que regula a iluminação zenital do vazio vertical.\n\nNa cota inferior (+33.00m), o edifício ancora-se ao terreno estendendo-se num espelho de água exterior de grande dimensão, projetando a presença da matéria líquida para o espaço aberto. O contraste entre a massa cega dos paramentos murários e o plano horizontal da água transforma a infraestrutura técnica num elemento de contenção e contemplação paisagística.",
-        "es": "Concebido en el contexto de un programa de Máster en Lisboa, este proyecto colaborativo explora la dimensión monumental e infraestructural de la arquitectura hidráulica en topografía en pendiente. La propuesta se estructura como un monolito vertical—abarcando entre las cotas +33.00m y +70.00m—que opera simultáneamente como torre de depósito de agua y umbral paisajístico.\n\nLa estrategia tectónica está definida por una envolvente exterior de hormigón que alberga un vaso de cisterna masivo y suspendido cuya base se curva suavemente para negociar las cargas hidráulicas. La sección espacial revela una progresión vertical intencional: un plinto técnico inferior que ancla la estructura al terraplén, un hueco vertical abierto que enmarca escaleras de circulación y conductos de mantenimiento, y un plano de coronación superior que remata el vacío.\n\nA nivel del suelo, la base de contención interactúa con una gran lámina de agua exterior, traduciendo el almacenamiento hidráulico interno en un plano abierto público o paisajístico. El diálogo entre los muros de contención masivos, el peso estereotómico y el reflejo etéreo del agua establece una infraestructura que trasciende su propósito puramente utilitario para convertirse en un hito permanente en el territorio."
-      },
-      "images": [
-        {
-          "src": "projects/06-master-lisboa/reservatorio_plantas.jpg",
-          "caption": {
-            "en": "Floor plans",
-            "pt": "Plantas",
-            "es": "Plantas"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/06-master-lisboa/reservatorio_corte2.jpg",
-          "caption": {
-            "en": "Architectural section - Detail",
-            "pt": "Corte arquitetónico - Pormenor",
-            "es": "Sección arquitectónica - Detalle"
-          },
-          "layout": "full"
-        }
-      ]
-    },
-    {
       "id": "07-estacao",
       "title": {
         "pt": "Fundação de um Lugar | Estação Ferroviária EUROBEC",
@@ -1334,22 +1288,23 @@
           "layout": "full"
         },
         {
-          "src": "projects/07-estacao/18-esquisso-implantacao.jpg",
-          "caption": {
-            "en": "Site plan sketch",
-            "pt": "Esquisso de implantação",
-            "es": "Croquis de emplazamiento"
-          },
-          "layout": "inset"
-        },
-        {
           "src": "projects/07-estacao/17-esquisso-processo.jpg",
           "caption": {
             "en": "Study sketches",
             "pt": "Esquissos de estudo",
             "es": "Croquis de estudio"
           },
-          "layout": "full"
+          "layout": "half",
+          "row": "equal"
+        },
+        {
+          "src": "projects/07-estacao/18-esquisso-implantacao.jpg",
+          "caption": {
+            "en": "Site plan sketch",
+            "pt": "Esquisso de implantação",
+            "es": "Croquis de emplazamiento"
+          },
+          "layout": "half"
         },
         {
           "section": {
@@ -1370,11 +1325,11 @@
     {
       "id": "01-solar-sao-joao",
       "title": {
-        "en": "Solar de S. João Square",
-        "pt": "Praça e Solar de S. João",
-        "es": "Plaza y Solar de S. João"
+        "en": "São João Square and Manor House",
+        "pt": "Praça e Solar de São João",
+        "es": "Plaza y Solar de São João"
       },
-      "year": "2023-2024",
+      "year": "2023–2024",
       "location": {
         "en": "Almeida, Guarda, Portugal",
         "pt": "Almeida, Guarda, Portugal",
@@ -1385,122 +1340,1249 @@
         "pt": "Património / Investigação",
         "es": "Patrimonio / Investigación"
       },
-      "thumbnail": "projects/outros-trabalhos/01-solar-sao-joao/hero.png",
-      "hero": "projects/outros-trabalhos/01-solar-sao-joao/hero.png",
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "Faculty of Architecture of the University of Porto (FAUP)",
+        "pt": "Faculdade de Arquitectura da Universidade do Porto (FAUP)",
+        "es": "Facultad de Arquitectura de la Universidad de Oporto (FAUP)"
+      },
+      "teachers": "João Luís Marques",
+      "authors": "Ana Peneirol | Carlota Rocha | Carlos Marrero | Carolina Varejão",
+      "thumbnail": "projects/outros-trabalhos/01-solar-sao-joao/00-thumbnail.jpg",
+      "hero": "projects/outros-trabalhos/01-solar-sao-joao/03-fotomontagem-1.jpg",
       "concept": {
-        "en": "Morphological and typological study of the Praça and Solar de S. João in Almeida, developed within the fortified perimeter of the historic border town. The research analyzes the dialectic between public void and built fabric, examining the evolution of the 16th-century 'terreiro' into a consolidated square framed on its northern boundary by the 1726 manor house.\n\nFrom an architectural perspective, the Solar de S. João exemplifies northern Portuguese manor architecture. Its primary façade demonstrates a balanced composition anchored by corner pilasters, a crowning cornice, and a central portal crowned by a balconied window and family coat of arms, featuring padded apron window surrounds that alternate between straight lintels and segmental arches.\n\nInternally, the analysis reveals a deliberate spatial grammar: on the ground floor, an intentional misalignment between the main portal and the two-flight monumental stair (featuring a window-seat landing) buffers visual permeability. On the piano nobile, circulation relies on classical enfilade alignments that establish visual axes across sequential rooms toward the exterior square. The square distribution room ('sala vaga') acts as a core compositional module, framing views directly aligned with entrance thresholds. With the historical demolition of the central pillory and chapel, the solar remains the primary architectural anchor defining the urban scale and skyline of the square.",
-        "pt": "Estudo morfológico e tipológico da Praça e Solar de S. João em Almeida, inseridos na estrutura urbana da vila fortificada. A investigação aborda a dialética entre o vazio público e a frente edificada, examinando a evolução do terreiro quinhentista para uma praça consolidada que tem no solar setecentista (1726) o seu remate norte.\n\nAo nível arquitetónico, o Solar de S. João afirma-se como um exemplar representativo da casa senhorial portuguesa. A sua fachada organiza-se numa composição centralizada balizada por pilastras nos cunhais e cornija de remate, enfatizando o eixo do portal e janela de sacada encimada por pedra de armas, com vãos de avental almofadado que alternam vergas retas e arcos abatidos.\n\nEspacialmente, destaca-se o desencontro intencional no piso térreo entre o acesso exterior e o arranque da escadaria nobre de dois lances com namoradeira, controlando a permeabilidade visual. No piso nobre, a organização desenvolve-se através do princípio da enfilade, articulando eixos visuais longitudinais e transversais em relação à praça. A «sala vaga» quadrada funciona como módulo central de distribuição, onde a relação entre portas e vãos exteriores assegura continuidade espacial e enquadramento visual. Com o desaparecimento do pelourinho e da capela que outrora ocupavam o terreiro, o solar assume-se como a principal âncora de escala e referência urbana do conjunto.",
-        "es": "Estudio morfológico y tipológico de la Plaza y Solar de S. João en Almeida, desarrollado dentro del perímetro fortificado de la histórica ciudad fronteriza. La investigación analiza la dialéctica entre el vacío público y el tejido edificado, examinando la evolución del 'terreiro' del siglo XVI hacia una plaza consolidada enmarcada en su límite norte por la casa solariega de 1726.\n\nDesde una perspectiva arquitectónica, el Solar de S. João ejemplifica la arquitectura de casas solariegas del norte de Portugal. Su fachada principal demuestra una composición equilibrada anclada por pilastras esquineras, una cornisa de coronación y un portal central coronado por una ventana con balcón y escudo familiar, con recercos de ventana almohadillados que alternan entre dinteles rectos y arcos rebajados.\n\nInternamente, el análisis revela una gramática espacial deliberada: en la planta baja, un desalineamiento intencional entre el portal principal y la escalera monumental de dos tramos (con un rellano con asiento de ventana) amortigua la permeabilidad visual. En el piano nobile, la circulación se basa en alineaciones clásicas en enfilade que establecen ejes visuales a través de habitaciones secuenciales hacia la plaza exterior. La sala de distribución cuadrada ('sala vaga') actúa como módulo compositivo central, enmarcando vistas directamente alineadas con los umbrales de entrada. Con la demolición histórica del pelourinho central y la capilla, el solar permanece como el principal ancla arquitectónica que define la escala urbana y el horizonte de la plaza."
+        "en": "The work was developed as part of the History of Portuguese Architecture course and focused on São João Square and Manor House, located within the fortified town of Almeida. The research sought to understand the historical and architectural evolution of this ensemble, examining the relationship between the public space and the manor house that defines the northern side of the square.\n\nThe analysis began with documentary and bibliographic research, complemented by site visits and architectural surveys, plans, sections, elevations and diagrams of spatial relationships. The study of the square traced its transformation from the formation of the former open square in the sixteenth century to subsequent changes in its configuration and urban significance, marked by the presence and later disappearance of the Chapel of São João and the relocation of the pillory.\n\nIn parallel, the study of the manor house sought to interpret the organisation of its interior spaces, the functional hierarchy of its different floors and the visual relationships established through circulation axes. Characteristic elements of manor-house architecture were examined, including the staircase, the noble floor, the arrangement of rooms in <em>enfilade</em>, the composition of the main façade and changes to the private outdoor spaces.\n\nThe research highlighted the importance of São João Manor House in defining the identity of the square, showing how architectural and urban transformations have altered the perception and use of this space over time. It thus constituted an exercise in interpreting built heritage, bringing together historical knowledge, direct observation and the graphic representation of architecture.",
+        "pt": "O trabalho desenvolveu-se no âmbito da unidade curricular de História da Arquitetura Portuguesa, tendo como objeto de estudo a Praça e o Solar de São João, localizados no interior da vila fortificada de Almeida. A investigação procurou compreender a evolução histórica e arquitetónica deste conjunto, analisando a relação entre o espaço público e a casa senhorial que define a frente norte da praça.\n\nA análise partiu da investigação documental e bibliográfica, complementada por visitas ao local e pela realização de levantamentos arquitetónicos, plantas, cortes, alçados e esquemas de relações espaciais. O estudo da praça permitiu acompanhar a sua transformação desde a formação do antigo terreiro, no século XVI, até às alterações da sua configuração e significado urbano, marcadas pela presença e posterior desaparecimento da Capela de São João e pela transferência do pelourinho.\n\nParalelamente, o estudo do solar procurou interpretar a organização dos espaços interiores, a hierarquia funcional dos diferentes pisos e as relações visuais estabelecidas através dos eixos de circulação. Foram analisados elementos característicos da arquitetura senhorial, como a escadaria, o piso nobre, a disposição dos compartimentos em <em>enfilade</em>, a composição da fachada principal e as transformações dos espaços exteriores privados.\n\nA investigação permitiu reconhecer a importância do Solar de São João na definição da identidade da praça, evidenciando a forma como as transformações arquitetónicas e urbanas alteraram a leitura e a vivência deste espaço ao longo do tempo, consistindo num exercício de interpretação do património construído, articulando o conhecimento histórico com a observação direta e a representação gráfica da arquitetura.",
+        "es": "El trabajo se desarrolló en el marco de la asignatura de Historia de la Arquitectura Portuguesa y tuvo como objeto de estudio la Plaza y el Solar de São João, situados en el interior de la villa fortificada de Almeida. La investigación buscó comprender la evolución histórica y arquitectónica de este conjunto, analizando la relación entre el espacio público y la casa señorial que define el frente norte de la plaza.\n\nEl análisis partió de la investigación documental y bibliográfica, complementada con visitas al lugar y la realización de levantamientos arquitectónicos, plantas, secciones, alzados y esquemas de relaciones espaciales. El estudio de la plaza permitió seguir su transformación desde la formación del antiguo espacio abierto, en el siglo XVI, hasta los cambios en su configuración y significado urbano, marcados por la presencia y posterior desaparición de la Capilla de São João y por el traslado del pelourinho o picota.\n\nParalelamente, el estudio de la casa señorial buscó interpretar la organización de los espacios interiores, la jerarquía funcional de las distintas plantas y las relaciones visuales establecidas mediante los ejes de circulación. Se analizaron elementos característicos de la arquitectura señorial, como la escalera, la planta noble, la disposición de las estancias en <em>enfilade</em>, la composición de la fachada principal y las transformaciones de los espacios exteriores privados.\n\nLa investigación permitió reconocer la importancia del Solar de São João en la definición de la identidad de la plaza, evidenciando cómo las transformaciones arquitectónicas y urbanas modificaron la lectura y la vivencia de este espacio a lo largo del tiempo. Constituyó así un ejercicio de interpretación del patrimonio construido, articulando el conocimiento histórico con la observación directa y la representación gráfica de la arquitectura."
       },
       "images": [
         {
-          "src": "projects/outros-trabalhos/01-solar-sao-joao/planta.jpg",
+          "section": {
+            "en": "The square",
+            "pt": "A praça",
+            "es": "La plaza"
+          },
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/01-analise-contexto.jpg",
           "caption": {
-            "en": "Floor plan analysis",
-            "pt": "Análise da planta",
-            "es": "Análisis de la planta"
+            "en": "Context analysis, scale 1:1000",
+            "pt": "Análise do contexto, E 1.1000",
+            "es": "Análisis del contexto, E 1.1000"
           },
           "layout": "full"
         },
         {
-          "src": "projects/outros-trabalhos/01-solar-sao-joao/painel.jpg",
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/02-desenho-praca.jpg",
           "caption": {
-            "en": "Research panel",
-            "pt": "Painel de investigação",
-            "es": "Panel de investigación"
+            "en": "Measured drawing of the square, scale 1:200; axonometry from “Da vila cercada à praça de guerra” by Margarida Tavares da Conceição",
+            "pt": "Desenho rigoroso da praça, E 1.200; axonometria retirada de «Da vila cercada à praça de guerra», de Margarida Tavares da Conceição",
+            "es": "Dibujo riguroso de la plaza, E 1.200; axonometría tomada de «Da vila cercada à praça de guerra», de Margarida Tavares da Conceição"
           },
           "layout": "full"
+        },
+        {
+          "mosaic": "justified-2 narrow",
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/03-fotomontagem-1.jpg",
+          "caption": {
+            "en": "Photomontage of the square, towards the manor house",
+            "pt": "Fotomontagem da praça, vista para o solar",
+            "es": "Fotomontaje de la plaza, hacia el solar"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/03-fotomontagem-2.jpg",
+          "caption": {
+            "en": "Photomontage of the square, from the manor house",
+            "pt": "Fotomontagem da praça, vista a partir do solar",
+            "es": "Fotomontaje de la plaza, desde el solar"
+          },
+          "layout": "tile"
+        },
+        {
+          "section": {
+            "en": "The manor house",
+            "pt": "O solar",
+            "es": "El solar"
+          },
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/04-plantas-solar.jpg",
+          "caption": {
+            "en": "Ground and first floor plans and longitudinal section BB', scale 1:100",
+            "pt": "Plantas do piso térreo e do 1.º piso e corte longitudinal BB', E 1.100",
+            "es": "Plantas baja y primera y sección longitudinal BB', E 1.100"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/05-cortes-alcado-solar.jpg",
+          "caption": {
+            "en": "Cross sections AA' and CC' and elevation of the manor house, scale 1:100",
+            "pt": "Cortes transversais AA' e CC' e alçado do solar, E 1.100",
+            "es": "Secciones transversales AA' y CC' y alzado del solar, E 1.100"
+          },
+          "layout": "full"
+        },
+        {
+          "mosaic": "uniform",
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/06-forma-funcao-planta-1.jpg",
+          "caption": {
+            "en": "Form–function relationship: first floor plan",
+            "pt": "Relação forma–função: planta do 1.º piso",
+            "es": "Relación forma–función: planta primera"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/06-forma-funcao-planta-2.jpg",
+          "caption": {
+            "en": "Form–function relationship: ground floor plan",
+            "pt": "Relação forma–função: planta do piso térreo",
+            "es": "Relación forma–función: planta baja"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/06-forma-funcao-corte-1.jpg",
+          "caption": {
+            "en": "Form–function relationship: section 1",
+            "pt": "Relação forma–função: corte 1",
+            "es": "Relación forma–función: sección 1"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/06-forma-funcao-corte-2.jpg",
+          "caption": {
+            "en": "Form–function relationship: section 2",
+            "pt": "Relação forma–função: corte 2",
+            "es": "Relación forma–función: sección 2"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/06-forma-funcao-corte-3.jpg",
+          "caption": {
+            "en": "Form–function relationship: section 3",
+            "pt": "Relação forma–função: corte 3",
+            "es": "Relación forma–función: sección 3"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/07-relacoes-planta-1.jpg",
+          "caption": {
+            "en": "Longitudinal and transverse visual relationships, first floor",
+            "pt": "Relações visuais longitudinais e transversais, 1.º piso",
+            "es": "Relaciones visuales longitudinales y transversales, planta primera"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/07-relacoes-esquema-1.jpg",
+          "caption": {
+            "en": "Doors, windows and distribution hall, first floor",
+            "pt": "Portas, janelas e átrio de distribuição, 1.º piso",
+            "es": "Puertas, ventanas y atrio de distribución, planta primera"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/07-relacoes-planta-2.jpg",
+          "caption": {
+            "en": "Longitudinal and transverse visual relationships, ground floor",
+            "pt": "Relações visuais longitudinais e transversais, piso térreo",
+            "es": "Relaciones visuales longitudinales y transversales, planta baja"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/07-relacoes-esquema-2.jpg",
+          "caption": {
+            "en": "Doors, windows and distribution hall, ground floor",
+            "pt": "Portas, janelas e átrio de distribuição, piso térreo",
+            "es": "Puertas, ventanas y atrio de distribución, planta baja"
+          },
+          "layout": "tile"
+        },
+        {
+          "section": {
+            "en": "Survey",
+            "pt": "Levantamento",
+            "es": "Levantamiento"
+          },
+          "mosaic": "scroll",
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/10-levantamento-fachada.jpg",
+          "caption": {
+            "en": "Survey of the main façade and details",
+            "pt": "Levantamento da fachada principal e pormenores",
+            "es": "Levantamiento de la fachada principal y detalles"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/09-croquis-levantamento.jpg",
+          "caption": {
+            "en": "Survey sketches of the floor plans",
+            "pt": "Croquis de levantamento das plantas",
+            "es": "Croquis de levantamiento de las plantas"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/11-levantamento-plantas-1.jpg",
+          "caption": {
+            "en": "Measured survey of the floor plans, sheet 1",
+            "pt": "Levantamento métrico das plantas, folha 1",
+            "es": "Levantamiento métrico de las plantas, hoja 1"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/12-levantamento-plantas-2.jpg",
+          "caption": {
+            "en": "Measured survey of the floor plans, sheet 2",
+            "pt": "Levantamento métrico das plantas, folha 2",
+            "es": "Levantamiento métrico de las plantas, hoja 2"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/01-solar-sao-joao/13-levantamento-praca.jpg",
+          "caption": {
+            "en": "Survey of the square's paving",
+            "pt": "Levantamento do pavimento da praça",
+            "es": "Levantamiento del pavimento de la plaza"
+          },
+          "layout": "tile"
         }
       ]
     },
     {
       "id": "02-capillas-san-bruno",
       "title": {
-        "en": "Capillas de San Bruno",
-        "pt": "Capillas de San Bruno",
-        "es": "Capillas de San Bruno"
+        "en": "Survey of the Chapels of Saint Bruno and Saint Catherine",
+        "pt": "Levantamento das Capelas de São Bruno e Santa Catarina",
+        "es": "Levantamiento de las Capillas de San Bruno y Santa Catalina"
       },
-      "year": "2022",
+      "year": "2023",
       "location": {
-        "en": "Seville, Spain",
-        "pt": "Sevilha, Espanha",
-        "es": "Sevilla, España"
+        "en": "Monastery of Santa María de las Cuevas, Seville, Spain",
+        "pt": "Mosteiro de Santa María de las Cuevas, Sevilha, Espanha",
+        "es": "Monasterio de Santa María de las Cuevas, Sevilla, España"
       },
       "typology": {
         "en": "Heritage / Survey",
         "pt": "Património / Levantamento",
         "es": "Patrimonio / Levantamiento"
       },
-      "thumbnail": "projects/outros-trabalhos/02-capillas-san-bruno/axonometria.png",
-      "hero": "projects/outros-trabalhos/02-capillas-san-bruno/axonometria.png",
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "University of Seville | Superior Technical School of Architecture of Seville (ETSAS)",
+        "pt": "Universidade de Sevilha | Escola Técnica Superior de Arquitetura de Sevilha (ETSAS)",
+        "es": "Universidad de Sevilla | Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS)"
+      },
+      "teachers": "José Joaquín Parra Bañón",
+      "thumbnail": "projects/outros-trabalhos/02-capillas-san-bruno/colunas-5.jpg",
+      "hero": "projects/outros-trabalhos/02-capillas-san-bruno/01-axonometria.jpg",
       "concept": {
-        "en": "Architectural survey and geometric analysis of the Capilla de San Bruno at the Monasterio de la Cartuja de Santa María de las Cuevas in Seville, developed within the academic framework of the Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). The study explores the spatial, stereotomic, and structural transitions within this historic monastic complex, articulated through vaulted spaces, monumental thresholds, and an irregular colonnade.\n\nThe spatial system is defined by two contiguous vaulted bays: a quadripartite ribbed vault with painted mural decorations and sculpted corbels, and an adjacent hemispherical sail vault/dome over pendentives, pierced by high clerestory openings and lanterns. This dominant verticality establishes a clear compression-decompression dialogue with the adjoining ambulatory and lower connecting corridors.\n\nAt the boundary between circulation and vaulted chambers, the transition is mediated by a series of marble columns featuring distinct base moldings, plinth heights, and column shaft proportions (cataloged from Column 1 to Column 4, including engaged corner elements). The investigation documents the stone stereotomy, wall stratigraphy (uncovering fresco fragments and historic ceramic wainscots), and the geometric survey across sections and axonometry, registering the structural layers and tectonic logic that define the chapel's architectural experience.",
-        "pt": "Levantamento arquitetónico e análise geométrica da Capilla de San Bruno, no Monasterio de la Cartuja de Santa María de las Cuevas em Sevilha, desenvolvido no âmbito académico da Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). O estudo explora as transições espaciais, estereotómicas e estruturais deste conjunto histórico monástico, articulado entre tramos abobadados, passagens de escala e uma colunata de morfologia mista.\n\nO sistema espacial estrutura-se através de dois volumes cobertos contíguos: um tramo em abóbada de cruzaria com nervuras pintadas que descarregam em mísulas murais esculpidas, e uma cúpula/abóbada hemisférica sobre pendentes com iluminação zenital e vãos alteados. Esta verticalidade dominante estabelece um diálogo de compressão e descompressão com a galeria de circulação e os corredores adjacentes.\n\nNo limiar entre o percurso de circulação e os espaços abobadados, a transição estrutural é resolvida por um conjunto de colunas em mármore com bases, plintos e fustes diferenciados (sistematizados nos tipos 1 a 4, incluindo meias-colunas embebidas). A investigação decodifica a estereotomia das peças líticas, a estratigrafia parietal (evidenciando frescos murais e azulejaria histórica) e o rigor métrico das secções transversais e axadrezamento axonométrico, registando a sobreposição temporal e a lógica tectónica da capela.",
-        "es": "Levantamiento arquitectónico y análisis geométrico de la Capilla de San Bruno en el Monasterio de la Cartuja de Santa María de las Cuevas en Sevilla, desarrollado en el marco académico de la Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS). El estudio explora las transiciones espaciales, estereotómicas y estructurales de este histórico complejo monástico, articulado a través de espacios abovedados, umbrales monumentales y una columnata irregular.\n\nEl sistema espacial está definido por dos tramos abovedados contiguos: una bóveda de crucería cuatripartita con decoraciones murales pintadas y ménsulas esculpidas, y una cúpula hemisférica adyacente sobre pechinas, perforada por altos vanos de claristorio y linternas. Esta verticalidad dominante establece un claro diálogo de compresión-descompresión con el deambulatorio contiguo y los corredores de conexión inferiores.\n\nEn el límite entre la circulación y las cámaras abovedadas, la transición está mediada por una serie de columnas de mármol con molduras de base distintivas, alturas de plinto y proporciones de fuste (catalogadas de la Columna 1 a la Columna 4, incluyendo elementos de esquina embebidos). La investigación documenta la estereotomía de la piedra, la estratigrafía mural (descubriendo fragmentos de frescos y arrimaderos cerámicos históricos) y el levantamiento geométrico a través de secciones y axonometría, registrando las capas estructurales y la lógica tectónica que definen la experiencia arquitectónica de la capilla."
+        "en": "The work was developed as part of the Drawing and Heritage course, focusing on the chapels of Saint Bruno of Cologne and Saint Catherine of Alexandria, located in the Carthusian Monastery of Santa María de las Cuevas in Seville, together with the access gallery connecting them. The exercise proposed a direct approach to architectural heritage, seeking to understand the configuration of its interior spaces through observation, measurement and drawing.\n\nThe survey began with hand-drawn sketches and the collection of dimensional and photographic data. This process made it possible to analyse the boundaries of the spaces, the geometry of the architectural elements and the relationships between the spaces.\n\nMore than an exercise in technical representation, the work explored drawing as a tool for understanding and interpreting built heritage, deepening the understanding of proportions, volumes and spatial relationships.",
+        "pt": "O trabalho desenvolveu-se no âmbito da unidade curricular de Desenho e Património, tendo como objeto de estudo as capelas de São Bruno de Colónia e de Santa Catarina de Alexandria, situadas no Mosteiro Cartuxo de Santa María de las Cuevas, em Sevilha, bem como a galeria de acesso que as articula. O exercício propôs uma aproximação direta à arquitetura patrimonial, procurando compreender a configuração dos seus espaços interiores através da observação, da medição e do desenho.\n\nO levantamento partiu da realização de croquis manuais e da recolha de dados métricos e fotográficos. Este processo permitiu analisar os limites do espaço, a geometria dos elementos arquitetónicos e as relações entre os espaços.\n\nMais do que um exercício de representação técnica, o trabalho explorou o desenho enquanto instrumento de conhecimento e interpretação do património construído, permitindo aprofundar a compreensão das proporções, volumetrias e relações espaciais.",
+        "es": "El trabajo se desarrolló en el marco de la asignatura de Dibujo y Patrimonio, teniendo como objeto de estudio las capillas de San Bruno de Colonia y de Santa Catalina de Alejandría, situadas en el Monasterio Cartujo de Santa María de las Cuevas, en Sevilla, así como la galería de acceso que las articula. El ejercicio propuso una aproximación directa a la arquitectura patrimonial, buscando comprender la configuración de sus espacios interiores mediante la observación, la medición y el dibujo.\n\nEl levantamiento partió de la realización de croquis a mano y de la recopilación de datos métricos y fotográficos. Este proceso permitió analizar los límites del espacio, la geometría de los elementos arquitectónicos y las relaciones entre los espacios.\n\nMás que un ejercicio de representación técnica, el trabajo exploró el dibujo como instrumento de conocimiento e interpretación del patrimonio construido, permitiendo profundizar en la comprensión de las proporciones, volumetrías y relaciones espaciales."
       },
       "images": [
         {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/seccao1.png",
+          "section": {
+            "en": "Drawings",
+            "pt": "Desenhos",
+            "es": "Dibujos"
+          },
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/01-axonometria.jpg",
           "caption": {
-            "en": "Section 1",
-            "pt": "Secção 1",
-            "es": "Sección 1"
+            "en": "Axonometric projection, scale 1:30",
+            "pt": "Perspetiva axonométrica, E 1.30",
+            "es": "Perspectiva axonométrica, E 1.30"
+          },
+          "layout": "inset"
+        },
+        {
+          "mosaic": "justified",
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/02-seccao-longitudinal-l1.jpg",
+          "caption": {
+            "en": "Longitudinal section L1, scale 1:40",
+            "pt": "Secção longitudinal L1, E 1.40",
+            "es": "Sección longitudinal L1, E 1.40"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/03-planta-pavimento-s1.jpg",
+          "caption": {
+            "en": "Floor plan S1, scale 1:40",
+            "pt": "Planta de pavimento S1, E 1.40",
+            "es": "Plano de suelo S1, E 1.40"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/04-seccao-longitudinal-l2.jpg",
+          "caption": {
+            "en": "Longitudinal section L2, scale 1:40",
+            "pt": "Secção longitudinal L2, E 1.40",
+            "es": "Sección longitudinal L2, E 1.40"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/05-planta-teto-s2.jpg",
+          "caption": {
+            "en": "Reflected ceiling plan S2, scale 1:40",
+            "pt": "Planta de teto S2, E 1.40",
+            "es": "Plano de techo S2, E 1.40"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/06-seccoes-transversais.jpg",
+          "caption": {
+            "en": "Cross sections T1, T2, T3 and T4, scale 1:40",
+            "pt": "Secções transversais T1, T2, T3 e T4, E 1.40",
+            "es": "Secciones transversales T1, T2, T3 y T4, E 1.40"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/07-colunas.jpg",
+          "caption": {
+            "en": "Detail drawing of the columns, scale 1:30",
+            "pt": "Desenho de pormenor das colunas, E 1.30",
+            "es": "Dibujo de detalle de las columnas, E 1.30"
+          },
+          "layout": "tile"
+        },
+        {
+          "section": {
+            "en": "Sketches",
+            "pt": "Croquis",
+            "es": "Croquis"
+          },
+          "mosaic": "justified",
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/08-croquis-1.jpg",
+          "caption": {
+            "en": "Survey sketches of the columns",
+            "pt": "Croquis de levantamento das colunas",
+            "es": "Croquis de levantamiento de las columnas"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/09-croquis-2.jpg",
+          "caption": {
+            "en": "Sketch of the longitudinal section",
+            "pt": "Croquis da secção longitudinal",
+            "es": "Croquis de la sección longitudinal"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/10-croquis-3.jpg",
+          "caption": {
+            "en": "Sketch of the column layout",
+            "pt": "Croquis da implantação das colunas",
+            "es": "Croquis de la disposición de las columnas"
+          },
+          "layout": "tile"
+        },
+        {
+          "section": {
+            "en": "Photographs",
+            "pt": "Fotografias",
+            "es": "Fotografías"
+          },
+          "mosaic": "justified-2",
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/14-foto-abobada-1.jpg",
+          "caption": {
+            "en": "Ribbed vault with mural painting",
+            "pt": "Abóbada de nervuras com pintura mural",
+            "es": "Bóveda de nervaduras con pintura mural"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/15-foto-abobada-2.jpg",
+          "caption": {
+            "en": "Vault with fragments of mural painting",
+            "pt": "Abóbada com fragmentos de pintura mural",
+            "es": "Bóveda con fragmentos de pintura mural"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "grid-3",
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas-1.jpg",
+          "caption": {
+            "en": "Measuring a column base",
+            "pt": "Medição da base de uma coluna",
+            "es": "Medición de la basa de una columna"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas-2.jpg",
+          "caption": {
+            "en": "Column base on a plinth",
+            "pt": "Base de coluna sobre plinto",
+            "es": "Basa de columna sobre plinto"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas-3.jpg",
+          "caption": {
+            "en": "Column base and plinth",
+            "pt": "Base e plinto de coluna",
+            "es": "Basa y plinto de columna"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas-4.jpg",
+          "caption": {
+            "en": "Column base on a pedestal",
+            "pt": "Base de coluna sobre pedestal",
+            "es": "Basa de columna sobre pedestal"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas-5.jpg",
+          "caption": {
+            "en": "Marble colonnade",
+            "pt": "Colunata de mármore",
+            "es": "Columnata de mármol"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas-6.jpg",
+          "caption": {
+            "en": "Colonnade beside the gallery",
+            "pt": "Colunata junto à galeria",
+            "es": "Columnata junto a la galería"
+          },
+          "layout": "tile"
+        }
+      ]
+    },
+    {
+      "id": "03-espaco-verde-leoes",
+      "title": {
+        "en": "Escape in the Open Space of Colégio dos Leões",
+        "pt": "A Evasão no Espaço Aberto do Colégio dos Leões",
+        "es": "La Evasión en el Espacio Abierto del Colégio dos Leões"
+      },
+      "year": "2023",
+      "location": {
+        "en": "Colégio dos Leões, Évora, Portugal",
+        "pt": "Colégio dos Leões, Évora, Portugal",
+        "es": "Colégio dos Leões, Évora, Portugal"
+      },
+      "typology": {
+        "en": "Public space / Landscape",
+        "pt": "Espaço público / Paisagismo",
+        "es": "Espacio público / Paisajismo"
+      },
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "University of Évora",
+        "pt": "Universidade de Évora",
+        "es": "Universidad de Évora"
+      },
+      "teachers": "Jorge Sá",
+      "thumbnail": "projects/outros-trabalhos/03-espaco-verde-leoes/05-vista-4.jpg",
+      "hero": "projects/outros-trabalhos/03-espaco-verde-leoes/01-painel-jardim-dos-leoes.jpg",
+      "concept": {
+        "en": "The project proposes the regeneration of the outdoor space at Colégio dos Leões in Évora, seeking to transform an open area into a place for lingering, gathering and well-being for the academic community. The intervention is based on the use of circular geometry, repeated in the arrangement of different seating areas, creating a shared architectural language for spaces intended for rest, social interaction and everyday activities.\n\nThe proposal values the existing vegetation, preserving the olive trees and introducing new ones to provide shade and improve thermal comfort, particularly important in the climate of the Alentejo region. The spatial arrangement includes semicircular benches, a table for socialising, working or eating, and a fountain as the central element of the composition.\n\nThrough the relationship between vegetation, water and the interplay of light and shadow, the project seeks to offer a sensory experience that invites pause and contemplation, providing students, teachers and staff with a place to escape the academic routine.",
+        "pt": "O projeto propõe a requalificação do espaço exterior do Colégio dos Leões, em Évora, procurando transformar uma área aberta num lugar de permanência, encontro e bem-estar para a comunidade académica. A intervenção parte da utilização de uma geometria circular, repetida na organização de diferentes zonas de estar, criando uma linguagem comum entre espaços destinados ao descanso, ao convívio e às atividades quotidianas.\n\nA proposta valoriza a vegetação existente, preservando as oliveiras e introduzindo novos exemplares para criar áreas de sombra e melhorar o conforto térmico, particularmente importante face às condições climáticas do Alentejo. A organização do espaço integra bancos semicirculares, uma mesa destinada ao convívio, ao trabalho ou às refeições, e uma fonte como elemento central da composição.\n\nAtravés da relação entre a vegetação, a água e os jogos de luz e sombra, o projeto procura proporcionar uma experiência sensorial que convida à pausa e à contemplação, oferecendo aos estudantes, docentes e funcionários um lugar de evasão da rotina académica.",
+        "es": "El proyecto propone la recualificación del espacio exterior del Colégio dos Leões, en Évora, buscando transformar una zona abierta en un lugar de estancia, encuentro y bienestar para la comunidad académica. La intervención parte del uso de una geometría circular, repetida en la organización de distintas zonas de estancia, creando un lenguaje común entre espacios destinados al descanso, la convivencia y las actividades cotidianas.\n\nLa propuesta pone en valor la vegetación existente, conservando los olivos e incorporando nuevos ejemplares para generar zonas de sombra y mejorar el confort térmico, especialmente importante dadas las condiciones climáticas del Alentejo. La organización del espacio incluye bancos semicirculares, una mesa destinada a la convivencia, el trabajo o las comidas, y una fuente como elemento central de la composición.\n\nA través de la relación entre la vegetación, el agua y los juegos de luces y sombras, el proyecto busca ofrecer una experiencia sensorial que invite a la pausa y la contemplación, proporcionando a estudiantes, docentes y personal un lugar de evasión de la rutina académica."
+      },
+      "images": [
+        {
+          "src": "projects/outros-trabalhos/03-espaco-verde-leoes/01-painel-jardim-dos-leoes.jpg",
+          "caption": {
+            "en": "Panel “Jardim dos Leões – Atmospheric Spaces”",
+            "pt": "Painel «Jardim dos Leões – Espaços Atmosféricos»",
+            "es": "Panel «Jardim dos Leões – Espacios Atmosféricos»"
           },
           "layout": "full"
         },
         {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/seccao2.png",
+          "mosaic": "grid-2",
+          "src": "projects/outros-trabalhos/03-espaco-verde-leoes/02-vista-1.jpg",
           "caption": {
-            "en": "Section 2",
-            "pt": "Secção 2",
-            "es": "Sección 2"
+            "en": "Central fountain and semicircular benches",
+            "pt": "Fonte central e bancos semicirculares",
+            "es": "Fuente central y bancos semicirculares"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/03-espaco-verde-leoes/03-vista-2.jpg",
+          "caption": {
+            "en": "Circular bench among the olive trees",
+            "pt": "Banco circular entre as oliveiras",
+            "es": "Banco circular entre los olivos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/03-espaco-verde-leoes/04-vista-3.jpg",
+          "caption": {
+            "en": "Seating area in the shade of the olive trees",
+            "pt": "Zona de estar à sombra das oliveiras",
+            "es": "Zona de estancia a la sombra de los olivos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/03-espaco-verde-leoes/05-vista-4.jpg",
+          "caption": {
+            "en": "General view of the garden",
+            "pt": "Vista geral do jardim",
+            "es": "Vista general del jardín"
+          },
+          "layout": "tile"
+        },
+        {
+          "type": "video",
+          "src": "projects/outros-trabalhos/03-espaco-verde-leoes/06-video.mp4",
+          "caption": {
+            "en": "Video of the garden",
+            "pt": "Vídeo do jardim",
+            "es": "Vídeo del jardín"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "05-taller",
+      "title": {
+        "en": "Urban Regeneration of the Polígono de San Pablo",
+        "pt": "Regeneração Urbana do Polígono de San Pablo",
+        "es": "Regeneración Urbana del Polígono de San Pablo"
+      },
+      "year": "2022–2023",
+      "location": {
+        "en": "Polígono de San Pablo, Seville, Spain",
+        "pt": "Polígono de San Pablo, Sevilha, Espanha",
+        "es": "Polígono de San Pablo, Sevilla, España"
+      },
+      "typology": {
+        "en": "Urban planning / Urban regeneration",
+        "pt": "Urbanismo / Regeneração urbana",
+        "es": "Urbanismo / Regeneración urbana"
+      },
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "University of Seville | Superior Technical School of Architecture of Seville (ETSAS)",
+        "pt": "Universidade de Sevilha | Escola Técnica Superior de Arquitetura de Sevilha (ETSAS)",
+        "es": "Universidad de Sevilla | Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS)"
+      },
+      "teachers": "Carmen de Tomás Medina",
+      "authors": "Carlota de Sousa Azenha da Rocha | Margarida Alves Pereira",
+      "thumbnail": "projects/outros-trabalhos/05-taller/07-praca-tomas-pavon.jpg",
+      "hero": "projects/outros-trabalhos/05-taller/07-praca-tomas-pavon.jpg",
+      "concept": {
+        "en": "The project proposes an urban regeneration strategy for the Polígono de San Pablo in Seville, seeking to improve the quality of public space, accessibility and residents’ living conditions. The intervention begins with an analysis of the existing urban structure and its division into four sectors, defined by the main road axes, with the aim of reorganising mobility and enhancing the neighbourhood’s open spaces.\n\nOne of the main strategies is to reduce car traffic within the area by concentrating it along two transverse routes and relocating parking to the periphery. This reorganisation frees up space for pedestrian and cycling routes, encouraging more sustainable and inclusive mobility. The proposal prioritises the continuity of pathways, universal accessibility and connections between public buildings, residential areas and existing green spaces.\n\nThe renewal of public space focuses on enhancing two main squares: Plaza Francisco Muñoz Kirri and Plaza de Tomás Pavón. These spaces are reimagined as places to meet and spend time, incorporating new seating areas, vegetation, street furniture and spaces associated with local commerce. Trees and water features are intended to help create cooler, more comfortable environments, encouraging social interaction and everyday use of outdoor space.\n\nThe proposal also introduces green façades, seeking to establish greater visual continuity between existing buildings and contribute to improved environmental conditions. The creation of urban gardens and sports areas complements this strategy, encouraging new forms of collective use and strengthening residents’ connection with nature.\n\nIn this way, the project seeks to transform the open spaces of the Polígono de San Pablo into a continuous network of routes, squares and green areas, bringing together mobility, sustainability and community life.",
+        "pt": "O projeto propõe uma estratégia de regeneração urbana para o Polígono de San Pablo, em Sevilha, procurando melhorar a qualidade do espaço público, a acessibilidade e as condições de vida dos habitantes. A intervenção parte da análise da estrutura urbana existente e da sua divisão em quatro setores, definidos pelos principais eixos viários, com o objetivo de reorganizar a mobilidade e valorizar os espaços livres do bairro.\n\nUma das principais estratégias consiste na redução da circulação automóvel no interior do conjunto, concentrando o tráfego em dois eixos transversais e deslocando o estacionamento para a periferia. Esta reorganização permite libertar espaço para percursos pedonais e cicláveis, promovendo uma mobilidade mais sustentável e inclusiva. A proposta privilegia a continuidade dos caminhos, a acessibilidade universal e a ligação entre os edifícios públicos, os espaços residenciais e as áreas verdes existentes.\n\nA requalificação do espaço público desenvolve-se através da valorização de duas praças principais: a Plaza Francisco Muñoz Kirri e a Plaza de Tomás Pavón. Estes espaços são repensados enquanto lugares de encontro e permanência, integrando novas áreas de estar, vegetação, mobiliário urbano e espaços associados ao comércio local. A presença de árvores e elementos de água procura contribuir para a criação de ambientes mais frescos e confortáveis, favorecendo o convívio e a utilização quotidiana do espaço exterior.\n\nA proposta integra ainda a introdução de fachadas vegetais, procurando estabelecer uma maior continuidade visual entre os edifícios existentes e contribuir para a melhoria das condições ambientais. A criação de hortas urbanas e espaços destinados à prática desportiva complementa esta estratégia, incentivando novas formas de apropriação coletiva e reforçando a relação dos habitantes com a natureza.\n\nDesta forma, o projeto procura transformar os espaços livres do Polígono de San Pablo numa rede contínua de percursos, praças e áreas verdes, onde a mobilidade, a sustentabilidade e a vida comunitária se articulam.",
+        "es": "El proyecto propone una estrategia de regeneración urbana para el Polígono de San Pablo, en Sevilla, con el objetivo de mejorar la calidad del espacio público, la accesibilidad y las condiciones de vida de sus habitantes. La intervención parte del análisis de la estructura urbana existente y de su división en cuatro sectores, definidos por los principales ejes viarios, con el fin de reorganizar la movilidad y poner en valor los espacios libres del barrio.\n\nUna de las principales estrategias consiste en reducir la circulación de automóviles en el interior del conjunto, concentrando el tráfico en dos ejes transversales y trasladando el aparcamiento a la periferia. Esta reorganización permite liberar espacio para recorridos peatonales y ciclistas, promoviendo una movilidad más sostenible e inclusiva. La propuesta prioriza la continuidad de los recorridos, la accesibilidad universal y la conexión entre los edificios públicos, las zonas residenciales y las áreas verdes existentes.\n\nLa recualificación del espacio público se desarrolla a través de la puesta en valor de dos plazas principales: la Plaza Francisco Muñoz Kirri y la Plaza de Tomás Pavón. Estos espacios se replantean como lugares de encuentro y permanencia, incorporando nuevas zonas de estancia, vegetación, mobiliario urbano y espacios vinculados al comercio local. La presencia de árboles y elementos de agua pretende contribuir a la creación de ambientes más frescos y confortables, favoreciendo la convivencia y el uso cotidiano del espacio exterior.\n\nLa propuesta incorpora también fachadas vegetales, buscando establecer una mayor continuidad visual entre los edificios existentes y contribuir a la mejora de las condiciones ambientales. La creación de huertos urbanos y espacios destinados a la práctica deportiva complementa esta estrategia, fomentando nuevas formas de apropiación colectiva y reforzando la relación de los habitantes con la naturaleza.\n\nDe este modo, el proyecto busca transformar los espacios libres del Polígono de San Pablo en una red continua de recorridos, plazas y áreas verdes, donde se articulan la movilidad, la sostenibilidad y la vida comunitaria."
+      },
+      "images": [
+        {
+          "section": {
+            "en": "Strategy",
+            "pt": "Estratégia",
+            "es": "Estrategia"
+          },
+          "src": "projects/outros-trabalhos/05-taller/01-evolucao-poligono.jpg",
+          "caption": {
+            "en": "Evolution of the Polígono de San Pablo in aerial photographs",
+            "pt": "Evolução do Polígono de San Pablo em fotografia aérea",
+            "es": "Evolución del Polígono de San Pablo en fotografía aérea"
           },
           "layout": "full"
         },
         {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/seccao3.png",
+          "src": "projects/outros-trabalhos/05-taller/02-plano-intervencoes.jpg",
           "caption": {
-            "en": "Section 3",
-            "pt": "Secção 3",
-            "es": "Sección 3"
+            "en": "Sectors and intervention areas",
+            "pt": "Setores e áreas de intervenção",
+            "es": "Sectores y áreas de intervención"
           },
           "layout": "full"
         },
         {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas0.png",
+          "section": {
+            "en": "Public space",
+            "pt": "Espaço público",
+            "es": "Espacio público"
+          },
+          "mosaic": "justified-2",
+          "src": "projects/outros-trabalhos/05-taller/05-praca-munoz-kirri.jpg",
           "caption": {
-            "en": "Column survey - Overview",
-            "pt": "Levantamento das colunas - Geral",
-            "es": "Levantamiento de columnas - General"
+            "en": "Plaza Francisco Muñoz Kirri",
+            "pt": "Plaza Francisco Muñoz Kirri",
+            "es": "Plaza Francisco Muñoz Kirri"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/05-taller/07-praca-tomas-pavon.jpg",
+          "caption": {
+            "en": "Plaza de Tomás Pavón",
+            "pt": "Plaza de Tomás Pavón",
+            "es": "Plaza de Tomás Pavón"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/05-taller/09-calle-las-sevillanas.jpg",
+          "caption": {
+            "en": "Calle Las Sevillanas: urban gardens",
+            "pt": "Calle Las Sevillanas: hortas urbanas",
+            "es": "Calle Las Sevillanas: huertos urbanos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/05-taller/03-praca-cartagenera.jpg",
+          "caption": {
+            "en": "Square next to Calle Cartagenera",
+            "pt": "Praça junto à Calle Cartagenera",
+            "es": "Plaza junto a la Calle Cartagenera"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified",
+          "src": "projects/outros-trabalhos/05-taller/06-seccao-munoz-kirri.jpg",
+          "caption": {
+            "en": "Section through Plaza Francisco Muñoz Kirri",
+            "pt": "Secção da Plaza Francisco Muñoz Kirri",
+            "es": "Sección de la Plaza Francisco Muñoz Kirri"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/05-taller/08-seccao-tomas-pavon.jpg",
+          "caption": {
+            "en": "Section through Plaza de Tomás Pavón",
+            "pt": "Secção da Plaza de Tomás Pavón",
+            "es": "Sección de la Plaza de Tomás Pavón"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/05-taller/04-seccao-cartagenera.jpg",
+          "caption": {
+            "en": "Section through the square next to Calle Cartagenera",
+            "pt": "Secção da praça junto à Calle Cartagenera",
+            "es": "Sección de la plaza junto a la Calle Cartagenera"
+          },
+          "layout": "tile"
+        }
+      ]
+    },
+    {
+      "id": "04-valencina",
+      "title": {
+        "en": "Urban Analysis | Valencina de la Concepción",
+        "pt": "Análise Urbanística | Valencina de la Concepción",
+        "es": "Análisis Urbanístico | Valencina de la Concepción"
+      },
+      "year": "2022–2023",
+      "location": {
+        "en": "Valencina de la Concepción, Seville, Spain",
+        "pt": "Valencina de la Concepción, Sevilha, Espanha",
+        "es": "Valencina de la Concepción, Sevilla, España"
+      },
+      "typology": {
+        "en": "Urban planning / Analysis",
+        "pt": "Urbanismo / Análise",
+        "es": "Urbanismo / Análisis"
+      },
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "University of Seville | Superior Technical School of Architecture of Seville (ETSAS)",
+        "pt": "Universidade de Sevilha | Escola Técnica Superior de Arquitetura de Sevilha (ETSAS)",
+        "es": "Universidad de Sevilla | Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS)"
+      },
+      "teachers": "Andrés Salazar Leo",
+      "authors": "Carlota Rocha | Emma Breteau | Margarida Pereira",
+      "thumbnail": "projects/outros-trabalhos/04-valencina/00-thumbnail.jpg",
+      "hero": "projects/outros-trabalhos/04-valencina/05-zona-sul.jpg",
+      "concept": {
+        "en": "The work was developed as part of an urban analysis of Valencina de la Concepción, a municipality in the Aljarafe region of Seville, seeking to understand its historical evolution, territorial structure and urban organisation. The study begins by examining the municipality’s geographical and heritage characteristics, marked by the presence of archaeological remains from the Chalcolithic period, alongside the urban and demographic transformations that have taken place over recent decades.\n\nThe investigation examines the evolution of the built fabric, the road network and land-use distribution, before focusing in greater detail on the southern part of the municipality.\n\nThe study characterises the main circulation routes, the hierarchy of streets, building typologies and the distribution of residential and commercial uses and public facilities. Through maps, photographs, diagrams and graphic representations, it seeks to understand the relationships between urban form, patterns of occupation and the organisation of public and private spaces.\n\nFinally, the analysis of planning instruments and urban regulations enabled a diagnosis of the southern area, identifying different land categories, constraints and opportunities for transformation. The work thus constitutes a critical reading of the territory, capable of informing future intervention strategies.",
+        "pt": "O trabalho desenvolve-se no âmbito da análise urbanística de Valencina de la Concepción, município situado na região de Aljarafe, em Sevilha, procurando compreender a sua evolução histórica, estrutura territorial e organização urbana. O estudo parte do reconhecimento das características geográficas e patrimoniais do município, marcado pela presença de vestígios arqueológicos do período Calcolítico, e pela análise das transformações urbanas e demográficas ocorridas ao longo das últimas décadas.\n\nA investigação desenvolve-se através da leitura da evolução do tecido edificado, da rede viária e da distribuição dos usos do solo, aprofundando posteriormente a análise da zona sul do município.\n\nO estudo integra a caracterização dos principais eixos de circulação, da hierarquia viária, das tipologias de edificação e da distribuição dos usos residenciais, comerciais e dos equipamentos coletivos. Através de cartografias, fotografias, esquemas e representações gráficas, procurou-se compreender as relações entre a forma urbana, os modos de ocupação e a organização dos espaços públicos e privados.\n\nPor fim, a análise dos instrumentos de planeamento e das condições urbanísticas permitiu desenvolver um diagnóstico da zona sul, identificando diferentes categorias de solo, condicionantes e possibilidades de transformação. O trabalho constitui, assim, um exercício de leitura crítica do território, capaz de fundamentar futuras estratégias de intervenção.",
+        "es": "El trabajo se desarrolla en el ámbito del análisis urbanístico de Valencina de la Concepción, municipio situado en la comarca del Aljarafe, en Sevilla, con el objetivo de comprender su evolución histórica, estructura territorial y organización urbana. El estudio parte del reconocimiento de las características geográficas y patrimoniales del municipio, marcado por la presencia de vestigios arqueológicos del periodo Calcolítico, y del análisis de las transformaciones urbanas y demográficas producidas a lo largo de las últimas décadas.\n\nLa investigación se desarrolla mediante la lectura de la evolución del tejido edificado, la red viaria y la distribución de los usos del suelo, profundizando posteriormente en el análisis de la zona sur del municipio.\n\nEl estudio incluye la caracterización de los principales ejes de circulación, la jerarquía viaria, las tipologías edificatorias y la distribución de los usos residenciales, comerciales y de los equipamientos colectivos. A través de cartografías, fotografías, esquemas y representaciones gráficas, se buscó comprender las relaciones entre la forma urbana, los modos de ocupación y la organización de los espacios públicos y privados.\n\nPor último, el análisis de los instrumentos de planeamiento y de las condiciones urbanísticas permitió desarrollar un diagnóstico de la zona sur, identificando diferentes categorías de suelo, condicionantes y posibilidades de transformación. El trabajo constituye, así, un ejercicio de lectura crítica del territorio, capaz de fundamentar futuras estrategias de intervención."
+      },
+      "images": [
+        {
+          "section": {
+            "en": "Historical evolution",
+            "pt": "Evolução histórica",
+            "es": "Evolución histórica"
+          },
+          "src": "projects/outros-trabalhos/04-valencina/02-evolucao-historica.jpg",
+          "caption": {
+            "en": "Historical evolution, from 1956 to the present",
+            "pt": "Evolução histórica, de 1956 até ao presente",
+            "es": "Evolución histórica, desde 1956 hasta el presente"
+          },
+          "layout": "half",
+          "row": "equal"
+        },
+        {
+          "src": "projects/outros-trabalhos/04-valencina/06-evolucao-zona-sul.jpg",
+          "caption": {
+            "en": "Historical evolution of the southern area",
+            "pt": "Evolução histórica da zona sul",
+            "es": "Evolución histórica de la zona sur"
+          },
+          "layout": "half"
+        },
+        {
+          "section": {
+            "en": "Southern area",
+            "pt": "Zona sul",
+            "es": "Zona sur"
+          },
+          "src": "projects/outros-trabalhos/04-valencina/05-zona-sul.jpg",
+          "caption": {
+            "en": "Southern study area",
+            "pt": "Zona sul em estudo",
+            "es": "Zona sur de estudio"
           },
           "layout": "full"
         },
         {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas1.png",
+          "src": "projects/outros-trabalhos/04-valencina/07-morfologias.jpg",
           "caption": {
-            "en": "Column survey - Type 1",
-            "pt": "Levantamento das colunas - Tipo 1",
-            "es": "Levantamiento de columnas - Tipo 1"
+            "en": "Urban morphologies, scale 1:6000",
+            "pt": "Morfologias urbanas, E 1.6000",
+            "es": "Morfologías urbanas, E 1.6000"
           },
           "layout": "full"
         },
         {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas2.png",
+          "src": "projects/outros-trabalhos/04-valencina/08-viario.jpg",
           "caption": {
-            "en": "Column survey - Type 2",
-            "pt": "Levantamento das colunas - Tipo 2",
-            "es": "Levantamiento de columnas - Tipo 2"
+            "en": "Interurban and urban roads, scale 1:6000",
+            "pt": "Viário interurbano e urbano, E 1.6000",
+            "es": "Viario interurbano y urbano, E 1.6000"
           },
           "layout": "full"
         },
         {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/colunas3.png",
+          "src": "projects/outros-trabalhos/04-valencina/09-viario-interurbano.jpg",
           "caption": {
-            "en": "Column survey - Type 3",
-            "pt": "Levantamento das colunas - Tipo 3",
-            "es": "Levantamiento de columnas - Tipo 3"
+            "en": "Interurban roads: street profiles, scale 1:6000",
+            "pt": "Viário interurbano: perfis de rua, E 1.6000",
+            "es": "Viario interurbano: perfiles de calle, E 1.6000"
           },
           "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/04-valencina/10-viario-urbano.jpg",
+          "caption": {
+            "en": "Urban roads: street profiles, scale 1:6000",
+            "pt": "Viário urbano: perfis de rua, E 1.6000",
+            "es": "Viario urbano: perfiles de calle, E 1.6000"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/04-valencina/11-tipologia-1.jpg",
+          "caption": {
+            "en": "Building typologies: detached and semi-detached, scale 1:6000",
+            "pt": "Tipologias de edificação: isolada e geminada, E 1.6000",
+            "es": "Tipologías edificatorias: aislada y pareada, E 1.6000"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/04-valencina/12-tipologia-2.jpg",
+          "caption": {
+            "en": "Building typologies: terraced and between party walls, scale 1:6000",
+            "pt": "Tipologias de edificação: em banda e entre empenas, E 1.6000",
+            "es": "Tipologías edificatorias: adosada y entre medianeras, E 1.6000"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "06-caderno-de-viagem",
+      "title": {
+        "en": "Travel Sketchbook",
+        "pt": "Caderno de Viagem",
+        "es": "Cuaderno de Viaje"
+      },
+      "year": "2023–2024",
+      "location": {
+        "en": "Portugal",
+        "pt": "Portugal",
+        "es": "Portugal"
+      },
+      "typology": {
+        "en": "Drawing / Heritage",
+        "pt": "Desenho / Património",
+        "es": "Dibujo / Patrimonio"
+      },
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "Faculty of Architecture of the University of Porto (FAUP)",
+        "pt": "Faculdade de Arquitectura da Universidade do Porto (FAUP)",
+        "es": "Facultad de Arquitectura de la Universidad de Oporto (FAUP)"
+      },
+      "thumbnail": "projects/outros-trabalhos/06-caderno-de-viagem/25-se-de-evora.jpg",
+      "hero": "projects/outros-trabalhos/06-caderno-de-viagem/25-se-de-evora.jpg",
+      "concept": {
+        "pt": "Caderno de viagem desenvolvido no âmbito da unidade curricular de História da Arquitetura Portuguesa, ao longo de quatro visitas realizadas entre dezembro de 2023 e junho de 2024. Em cada lugar, o desenho à mão levantada serviu para observar e registar a arquitetura: fachadas, portais, plantas, abóbadas e pormenores, acompanhados de notas sobre a história e a caracterização de cada edifício.\n\nO percurso reúne catorze lugares, da Cividade de Terroso e das igrejas de Vila do Conde às igrejas românicas de Marco, Vila Boa de Quires, Real e Travanca, até Alcobaça e Évora, compondo um registo pessoal da evolução da arquitetura portuguesa, do castro proto-histórico ao românico, ao gótico e ao manuelino.",
+        "en": "A travel sketchbook made for the History of Portuguese Architecture course over four visits between December 2023 and June 2024. At each place, freehand drawing was a way of observing and recording the architecture: façades, portals, plans, vaults and details, accompanied by notes on the history and character of each building.\n\nThe journey brings together fourteen places, from the Cividade de Terroso and the churches of Vila do Conde to the Romanesque churches of Marco, Vila Boa de Quires, Real and Travanca, and on to Alcobaça and Évora, forming a personal record of the evolution of Portuguese architecture, from the Iron Age hillfort to the Romanesque, the Gothic and the Manueline.",
+        "es": "Cuaderno de viaje desarrollado en el marco de la asignatura de Historia de la Arquitectura Portuguesa, a lo largo de cuatro visitas realizadas entre diciembre de 2023 y junio de 2024. En cada lugar, el dibujo a mano alzada sirvió para observar y registrar la arquitectura: fachadas, portadas, plantas, bóvedas y detalles, acompañados de notas sobre la historia y la caracterización de cada edificio.\n\nEl recorrido reúne catorce lugares, desde la Cividade de Terroso y las iglesias de Vila do Conde hasta las iglesias románicas de Marco, Vila Boa de Quires, Real y Travanca, y finalmente Alcobaça y Évora, componiendo un registro personal de la evolución de la arquitectura portuguesa, del castro protohistórico al románico, al gótico y al manuelino."
+      },
+      "sketchbook": {
+        "summary": {
+          "en": "A journey through Portuguese architecture · 14 places",
+          "pt": "Viagem pela arquitetura portuguesa · 14 lugares",
+          "es": "Un viaje por la arquitectura portuguesa · 14 lugares"
+        }
+      },
+      "images": [
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/01-cividade-de-terroso.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/01.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/02.jpg"
+          ],
+          "caption": {
+            "en": "Cividade de Terroso, Vila do Conde",
+            "pt": "Cividade de Terroso, Vila do Conde",
+            "es": "Cividade de Terroso, Vila do Conde"
+          },
+          "site": "Cividade de Terroso",
+          "place": "Vila do Conde",
+          "date": "2023-12-08",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/03-sao-pedro-de-rates.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/03.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/04.jpg"
+          ],
+          "caption": {
+            "en": "Igreja de São Pedro de Rates, Vila do Conde",
+            "pt": "Igreja de São Pedro de Rates, Vila do Conde",
+            "es": "Igreja de São Pedro de Rates, Vila do Conde"
+          },
+          "site": "Igreja de São Pedro de Rates",
+          "place": "Vila do Conde",
+          "date": "2023-12-08",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/05-santa-clara.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/05.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/06.jpg"
+          ],
+          "caption": {
+            "en": "Igreja do Convento de Santa Clara, Vila do Conde",
+            "pt": "Igreja do Convento de Santa Clara, Vila do Conde",
+            "es": "Igreja do Convento de Santa Clara, Vila do Conde"
+          },
+          "site": "Igreja do Convento de Santa Clara",
+          "place": "Vila do Conde",
+          "date": "2023-12-08",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/07-sao-joao-batista.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/07.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/08.jpg"
+          ],
+          "caption": {
+            "en": "Igreja de São João Batista, Vila do Conde",
+            "pt": "Igreja de São João Batista, Vila do Conde",
+            "es": "Igreja de São João Batista, Vila do Conde"
+          },
+          "site": "Igreja de São João Batista",
+          "place": "Vila do Conde",
+          "date": "2023-12-08",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/09-nossa-senhora-do-socorro.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/09.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/10.jpg"
+          ],
+          "caption": {
+            "en": "Capela de Nossa Senhora do Socorro, Vila do Conde",
+            "pt": "Capela de Nossa Senhora do Socorro, Vila do Conde",
+            "es": "Capela de Nossa Senhora do Socorro, Vila do Conde"
+          },
+          "site": "Capela de Nossa Senhora do Socorro",
+          "place": "Vila do Conde",
+          "date": "2023-12-08",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/11-sao-francisco-porto.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/11.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/12.jpg"
+          ],
+          "caption": {
+            "en": "Igreja de São Francisco, Porto",
+            "pt": "Igreja de São Francisco, Porto",
+            "es": "Igreja de São Francisco, Porto"
+          },
+          "site": "Igreja de São Francisco",
+          "place": "Porto",
+          "date": "2024-01-29",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/13-sao-nicolau.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/13.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/14.jpg"
+          ],
+          "caption": {
+            "en": "Igreja de São Nicolau, Marco",
+            "pt": "Igreja de São Nicolau, Marco",
+            "es": "Igreja de São Nicolau, Marco"
+          },
+          "site": "Igreja de São Nicolau",
+          "place": "Marco",
+          "date": "2024-06-02",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/15-santo-andre.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/15.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/16.jpg"
+          ],
+          "caption": {
+            "en": "Igreja de Santo André, Vila Boa de Quires",
+            "pt": "Igreja de Santo André, Vila Boa de Quires",
+            "es": "Igreja de Santo André, Vila Boa de Quires"
+          },
+          "site": "Igreja de Santo André",
+          "place": "Vila Boa de Quires",
+          "date": "2024-06-02",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/17-salvador-de-real.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/17.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/18.jpg"
+          ],
+          "caption": {
+            "en": "Igreja do Salvador, Real",
+            "pt": "Igreja do Salvador, Real",
+            "es": "Igreja do Salvador, Real"
+          },
+          "site": "Igreja do Salvador",
+          "place": "Real",
+          "date": "2024-06-02",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/19-travanca.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/19.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/20.jpg"
+          ],
+          "caption": {
+            "en": "Mosteiro de Travanca, Travanca",
+            "pt": "Mosteiro de Travanca, Travanca",
+            "es": "Mosteiro de Travanca, Travanca"
+          },
+          "site": "Mosteiro de Travanca",
+          "place": "Travanca",
+          "date": "2024-06-02",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/21-alcobaca.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/21.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/22.jpg"
+          ],
+          "caption": {
+            "en": "Igreja de Santa Maria, Alcobaça",
+            "pt": "Igreja de Santa Maria, Alcobaça",
+            "es": "Igreja de Santa Maria, Alcobaça"
+          },
+          "site": "Igreja de Santa Maria",
+          "place": "Alcobaça",
+          "date": "2024-06-15",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/23-loios.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/23.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/24.jpg"
+          ],
+          "caption": {
+            "en": "Convento dos Lóios, Évora",
+            "pt": "Convento dos Lóios, Évora",
+            "es": "Convento dos Lóios, Évora"
+          },
+          "site": "Convento dos Lóios",
+          "place": "Évora",
+          "date": "2024-06-15",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/25-se-de-evora.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/25.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/26.jpg"
+          ],
+          "caption": {
+            "en": "Sé Catedral de Évora, Évora",
+            "pt": "Sé Catedral de Évora, Évora",
+            "es": "Sé Catedral de Évora, Évora"
+          },
+          "site": "Sé Catedral de Évora",
+          "place": "Évora",
+          "date": "2024-06-15",
+          "layout": "full"
+        },
+        {
+          "src": "projects/outros-trabalhos/06-caderno-de-viagem/27-sao-francisco-evora.jpg",
+          "pages": [
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/27.jpg",
+            "projects/outros-trabalhos/06-caderno-de-viagem/paginas/28.jpg"
+          ],
+          "caption": {
+            "en": "Igreja de São Francisco, Évora",
+            "pt": "Igreja de São Francisco, Évora",
+            "es": "Igreja de São Francisco, Évora"
+          },
+          "site": "Igreja de São Francisco",
+          "place": "Évora",
+          "date": "2024-06-15",
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "07-cuaderno-caligrafico",
+      "title": {
+        "en": "Calligraphic Notebook of Architectural Heritage",
+        "pt": "Caderno Caligráfico de Património Arquitetónico",
+        "es": "Cuaderno Caligráfico de Patrimonio Arquitectónico"
+      },
+      "year": "2023",
+      "location": {
+        "en": "Seville, Spain",
+        "pt": "Sevilha, Espanha",
+        "es": "Sevilla, España"
+      },
+      "typology": {
+        "en": "Drawing / Heritage",
+        "pt": "Desenho / Património",
+        "es": "Dibujo / Patrimonio"
+      },
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "University of Seville | Superior Technical School of Architecture of Seville (ETSAS)",
+        "pt": "Universidade de Sevilha | Escola Técnica Superior de Arquitetura de Sevilha (ETSAS)",
+        "es": "Universidad de Sevilla | Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS)"
+      },
+      "teachers": "José Joaquín Parra Bañón",
+      "thumbnail": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/01.jpg",
+      "hero": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/00-capa.jpg",
+      "concept": {
+        "pt": "Caderno desenvolvido no âmbito da unidade curricular de Desenho e Património, na Escola Técnica Superior de Arquitetura de Sevilha. Ao longo do semestre, reuniu desenhos à mão levantada, notas manuscritas e colagens sobre arquitetura, pintura, escultura e azulejaria, tomando o património como ponto de partida do conhecimento.\n\nPara a concretização de uma ideia, o desenho exige rigor, concentração e, principalmente, prática. Mais do que um registo, o caderno é um exercício de observação, em que o desenho se afirma como a forma de comunicação da arquitetura.",
+        "en": "A notebook made for the Drawing and Heritage course at the Superior Technical School of Architecture of Seville. Over the semester it gathered freehand drawings, handwritten notes and collages on architecture, painting, sculpture and tilework, taking heritage as the starting point of knowledge.\n\nTo bring an idea to life, drawing demands rigour, concentration and, above all, practice. More than a record, the notebook is an exercise in observation, in which drawing asserts itself as the language of architecture.",
+        "es": "Cuaderno desarrollado en el marco de la asignatura de Dibujo y Patrimonio, en la Escuela Técnica Superior de Arquitectura de Sevilla. A lo largo del cuatrimestre reunió dibujos a mano alzada, notas manuscritas y collages sobre arquitectura, pintura, escultura y azulejería, tomando el patrimonio como punto de partida del conocimiento.\n\nPara materializar una idea, el dibujo exige rigor, concentración y, sobre todo, práctica. Más que un registro, el cuaderno es un ejercicio de observación, en el que el dibujo se afirma como la forma de comunicación de la arquitectura."
+      },
+      "sketchbook": {
+        "cover": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/00-capa.jpg",
+        "summary": {
+          "en": "Drawing and Heritage · Seville",
+          "pt": "Desenho e Património · Sevilha",
+          "es": "Dibujo y Patrimonio · Sevilla"
+        }
+      },
+      "images": [
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/01.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/01.jpg"
+          ],
+          "caption": {
+            "en": "Azulejos y geometrías",
+            "pt": "Azulejos y geometrías",
+            "es": "Azulejos y geometrías"
+          },
+          "site": "Azulejos y geometrías",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/02.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/02.jpg"
+          ],
+          "caption": {
+            "en": "CAAC, ex-Monasterio de la Cartuja de Santa María de las Cuevas",
+            "pt": "CAAC, ex-Monasterio de la Cartuja de Santa María de las Cuevas",
+            "es": "CAAC, ex-Monasterio de la Cartuja de Santa María de las Cuevas"
+          },
+          "site": "CAAC, ex-Monasterio de la Cartuja de Santa María de las Cuevas",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/03.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/03.jpg"
+          ],
+          "caption": {
+            "en": "Rutas y laberintos, Gerardo Delgado",
+            "pt": "Rutas y laberintos, Gerardo Delgado",
+            "es": "Rutas y laberintos, Gerardo Delgado"
+          },
+          "site": "Rutas y laberintos, Gerardo Delgado",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/04.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/04.jpg"
+          ],
+          "caption": {
+            "en": "Arquitectura pintada, Gerardo Delgado",
+            "pt": "Arquitectura pintada, Gerardo Delgado",
+            "es": "Arquitectura pintada, Gerardo Delgado"
+          },
+          "site": "Arquitectura pintada, Gerardo Delgado",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/05.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/05.jpg"
+          ],
+          "caption": {
+            "en": "Actuaciones e intervenciones en el patrimonio",
+            "pt": "Actuaciones e intervenciones en el patrimonio",
+            "es": "Actuaciones e intervenciones en el patrimonio"
+          },
+          "site": "Actuaciones e intervenciones en el patrimonio",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/06.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/06.jpg"
+          ],
+          "caption": {
+            "en": "Arquitecturas dibujadas",
+            "pt": "Arquitecturas dibujadas",
+            "es": "Arquitecturas dibujadas"
+          },
+          "site": "Arquitecturas dibujadas",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/07.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/07.jpg"
+          ],
+          "caption": {
+            "en": "Dibujo",
+            "pt": "Dibujo",
+            "es": "Dibujo"
+          },
+          "site": "Dibujo",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/08.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/08.jpg"
+          ],
+          "caption": {
+            "en": "Wassily Kandinsky, la abstracción en la danza",
+            "pt": "Wassily Kandinsky, la abstracción en la danza",
+            "es": "Wassily Kandinsky, la abstracción en la danza"
+          },
+          "site": "Wassily Kandinsky, la abstracción en la danza",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/09.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/09.jpg"
+          ],
+          "caption": {
+            "en": "Dibujos analíticos",
+            "pt": "Dibujos analíticos",
+            "es": "Dibujos analíticos"
+          },
+          "site": "Dibujos analíticos",
+          "layout": "inset"
+        },
+        {
+          "src": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/10.jpg",
+          "pages": [
+            "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/10.jpg"
+          ],
+          "caption": {
+            "en": "Arquitectura: crear espacios para las personas",
+            "pt": "Arquitectura: crear espacios para las personas",
+            "es": "Arquitectura: crear espacios para las personas"
+          },
+          "site": "Arquitectura: crear espacios para las personas",
+          "layout": "inset"
         }
       ]
     }

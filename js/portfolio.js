@@ -44,7 +44,7 @@ const LABELS = {
 const AUTHOR = 'Carlota Azenha da Rocha';
 const MONOGRAM = 'car';
 const WEBSITE = 'carlotaazenharocha.github.io';
-const METADATA_FIELDS = ['year', 'location', 'typology', 'context', 'institution', 'teachers'];
+const METADATA_FIELDS = ['year', 'location', 'typology', 'context', 'institution', 'teachers', 'authors'];
 const STORAGE_KEY = 'portfolio-builder-v2';
 
 let projects = [];

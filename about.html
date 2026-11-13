@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=5">
+  <link rel="stylesheet" href="css/style.css?v=6">
 </head>
 <body>
   <!-- Fixed Header -->
@@ -83,8 +83,9 @@
         <h2 data-section="thesis">Thesis</h2>
         <div id="thesis-section" class="cv-section"></div>
 
-        <!-- CV Download -->
-        <a href="assets/cv.pdf" id="cv-download-btn" class="cv-download" download>Download Full CV (PDF)</a>
+        <!-- Sketchbooks - projects with "sketchbook" in projects.json -->
+        <h2 data-section="sketchbooks">Sketchbooks</h2>
+        <div id="sketchbooks-section" class="cv-section sketchbooks-section"></div>
       </div>
 
       <div class="about-sidebar">
@@ -94,6 +95,9 @@
 
         <!-- Contact - Loaded from about.json -->
         <div id="contact-section" class="contact-info"></div>
+
+        <!-- CV Download, below the contacts -->
+        <a href="assets/cv.pdf" id="cv-download-btn" class="cv-download" download>Download Full CV (PDF)</a>
       </div>
     </div>
   </main>
@@ -104,6 +108,6 @@
   </footer>
 
   <!-- JavaScript -->
-  <script src="js/main.js?v=5"></script>
+  <script src="js/main.js?v=6"></script>
 </body>
 </html>

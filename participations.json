@@ -36,15 +36,15 @@
       "id": "refazer-paisagens",
       "type": "seminar",
       "title": {
-        "en": "International Seminar: Refazer Paisagens",
-        "pt": "Seminário Internacional: Refazer Paisagens",
-        "es": "Seminario Internacional: Refazer Paisagens"
+        "en": "Seminario Internazionale di Progettazione «Refazer Paisagens»",
+        "pt": "Seminario Internazionale di Progettazione «Refazer Paisagens»",
+        "es": "Seminario Internazionale di Progettazione «Refazer Paisagens»"
       },
       "date": "2022-07",
       "dateDisplay": {
-        "en": "July 19-29, 2022",
-        "pt": "19-29 de julho de 2022",
-        "es": "19-29 de julio de 2022"
+        "en": "July 19–29, 2022",
+        "pt": "19 a 29 de julho de 2022",
+        "es": "19 al 29 de julio de 2022"
       },
       "location": {
         "en": "Lisbon, Portugal",
@@ -52,16 +52,92 @@
         "es": "Lisboa, Portugal"
       },
       "institution": {
-        "en": "Lisbon City Council",
-        "pt": "Câmara Municipal de Lisboa",
-        "es": "Ayuntamiento de Lisboa"
+        "en": "O Centro do Mundo — Associação Cultural",
+        "pt": "O Centro do Mundo — Associação Cultural",
+        "es": "O Centro do Mundo — Associação Cultural"
       },
       "description": {
-        "en": "Participation in the Seminario Internazionale di Progettazione \"Refazer Paisagens\", held in Lisbon between July 19-29, 2022, dedicated to the requalification of critical urban areas with a focus on flooding issues, developed in collaboration with recently graduated Italian architects. The activity involved studying the site through visits and photographic documentation, followed by the development of intervention proposals in group work that included the design of a water reservoir, finalizing with the presentation of proposals to the Lisbon City Council.",
-        "pt": "Participação no Seminario Internazionale di Progettazione \"Refazer Paisagens\", realizado em Lisboa entre 19 e 29 de julho de 2022, dedicado à requalificação de áreas urbanas críticas com enfoque na problemática das cheias, desenvolvido em colaboração com arquitetos italianos recém-formados. A atividade envolveu o estudo do local através de visitas e registo fotográfico, seguido do desenvolvimento, em trabalho de grupo, de propostas de intervenção que incluíram o projeto de um reservatório de água, finalizando com a apresentação final das propostas à Câmara Municipal de Lisboa.",
-        "es": "Participación en el Seminario Internazionale di Progettazione \"Refazer Paisagens\", realizado en Lisboa entre el 19 y el 29 de julio de 2022, dedicado a la recualificación de áreas urbanas críticas con enfoque en la problemática de las inundaciones, desarrollado en colaboración con arquitectos italianos recién graduados. La actividad involucró el estudio del lugar a través de visitas y registro fotográfico, seguido del desarrollo de propuestas de intervención en trabajo grupal que incluyeron el diseño de un reservorio de agua, finalizando con la presentación de las propuestas al Ayuntamiento de Lisboa."
+        "pt": "Participação no Seminario Internazionale di Progettazione «Refazer Paisagens», realizado em Lisboa, dedicado à reabilitação ambiental e à resolução de conflitos periurbanos, tendo como território de estudo o Vale de Chelas.\n\nO seminário propôs uma reflexão sobre a regeneração deste território, marcado por sucessivas transformações urbanas e industriais e integrado numa das principais bacias hidrográficas de Lisboa. A proposta procurou conciliar a valorização do património natural e cultural com a recuperação ambiental, dando particular atenção à gestão da água e à vulnerabilidade do território perante episódios de precipitação intensa e possíveis cheias.\n\nNo âmbito do trabalho desenvolvido, foi concebida uma proposta de reservatório de água, explorando a sua integração na paisagem e o seu potencial na retenção e gestão das águas pluviais. A intervenção procurou, assim, relacionar uma infraestrutura hídrica com a regeneração ambiental do Vale de Chelas, contribuindo para uma reflexão sobre a adaptação da cidade aos desafios climáticos.",
+        "en": "Participation in the Seminario Internazionale di Progettazione «Refazer Paisagens», held in Lisbon and dedicated to environmental rehabilitation and the resolution of peri-urban conflicts, focusing on Vale de Chelas.\n\nThe seminar encouraged reflection on the regeneration of this area, shaped by successive urban and industrial transformations and located within one of Lisbon’s main river basins. The proposal sought to combine the enhancement of natural and cultural heritage with environmental restoration, paying particular attention to water management and the area's vulnerability to heavy rainfall and potential flooding.\n\nAs part of the work, a water reservoir was proposed, exploring its integration into the landscape and its potential for retaining and managing stormwater. The intervention thus sought to connect water infrastructure with the environmental regeneration of Vale de Chelas, contributing to a reflection on the city's adaptation to climate-related challenges.",
+        "es": "Participación en el Seminario Internazionale di Progettazione «Refazer Paisagens», celebrado en Lisboa y dedicado a la rehabilitación ambiental y a la resolución de conflictos periurbanos, teniendo como área de estudio el Valle de Chelas.\n\nEl seminario propuso una reflexión sobre la regeneración de este territorio, marcado por sucesivas transformaciones urbanas e industriales e integrado en una de las principales cuencas hidrográficas de Lisboa. La propuesta buscó conciliar la valorización del patrimonio natural y cultural con la recuperación ambiental, prestando especial atención a la gestión del agua y a la vulnerabilidad del territorio ante episodios de precipitaciones intensas y posibles inundaciones.\n\nEn el marco del trabajo desarrollado, se diseñó una propuesta de depósito de agua, explorando su integración en el paisaje y su potencial para la retención y gestión de las aguas pluviales. De este modo, la intervención buscó relacionar una infraestructura hidráulica con la regeneración ambiental del Valle de Chelas, contribuyendo a la reflexión sobre la adaptación de la ciudad a los desafíos climáticos."
       },
-      "images": [],
+      "images": [
+        {
+          "mosaic": "justified-2",
+          "src": "participations/01-master-lisboa/01-localizacao-vale-de-chelas.jpg",
+          "caption": {
+            "en": "Location of Vale de Chelas in Lisbon",
+            "pt": "Localização do Vale de Chelas em Lisboa",
+            "es": "Ubicación del Valle de Chelas en Lisboa"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/01-master-lisboa/02-planta-proposta.jpg",
+          "caption": {
+            "en": "Plan of the proposal for Vale de Chelas",
+            "pt": "Planta da proposta para o Vale de Chelas",
+            "es": "Planta de la propuesta para el Valle de Chelas"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/01-master-lisboa/03-corte-vale.jpg",
+          "caption": {
+            "en": "Section through the valley with the reservoir",
+            "pt": "Corte do vale com o reservatório",
+            "es": "Sección del valle con el depósito"
+          },
+          "layout": "full"
+        },
+        {
+          "mosaic": "justified-2",
+          "src": "participations/01-master-lisboa/04-fotomontagem-1.jpg",
+          "caption": {
+            "en": "Photomontage of the reservoir in the valley",
+            "pt": "Fotomontagem do reservatório no vale",
+            "es": "Fotomontaje del depósito en el valle"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/01-master-lisboa/05-fotomontagem-2.jpg",
+          "caption": {
+            "en": "Photomontage of the reservoir, aerial view",
+            "pt": "Fotomontagem do reservatório, vista aérea",
+            "es": "Fotomontaje del depósito, vista aérea"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified",
+          "src": "participations/01-master-lisboa/06-reservatorio-plantas.jpg",
+          "caption": {
+            "en": "Floor plans of the reservoir",
+            "pt": "Plantas do reservatório",
+            "es": "Plantas del depósito"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/01-master-lisboa/07-reservatorio-implantacao.jpg",
+          "caption": {
+            "en": "General plan of the reservoir",
+            "pt": "Planta geral do reservatório",
+            "es": "Planta general del depósito"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/01-master-lisboa/08-reservatorio-corte.jpg",
+          "caption": {
+            "en": "Section through the reservoir",
+            "pt": "Corte do reservatório",
+            "es": "Sección del depósito"
+          },
+          "layout": "tile"
+        }
+      ],
       "externalLinks": []
     },
     {
@@ -116,57 +192,160 @@
         "es": "Évora, Portugal"
       },
       "institution": {
-        "en": "Arteria Lab, Colégio dos Leões",
-        "pt": "Arteria Lab, Colégio dos Leões",
-        "es": "Arteria Lab, Colégio dos Leões"
+        "en": "Cultivamos Cultura | _ARTERIA_LAB, Colégio dos Leões",
+        "pt": "Cultivamos Cultura | _ARTERIA_LAB, Colégio dos Leões",
+        "es": "Cultivamos Cultura | _ARTERIA_LAB, Colégio dos Leões"
       },
       "description": {
-        "en": "Participation in the workshop \"Biomaterials Creative Lab\", held at Arteria Lab, in Colégio dos Leões, Évora, on October 4, 2022. The practical workshop was dedicated to experimenting with biomaterials and exploring their potential in creative and design contexts. The activity included experiments in preparing bioplastics and bioceramics, as well as discussing biomimicry principles, analyzing properties found in natural materials — such as the high water repellency observed on some biological surfaces, including insect wings — and exploring possible applications of these principles in developing sustainable solutions for design and architecture.",
-        "pt": "Participação no workshop \"Biomaterials Creative Lab\", realizado no Arteria Lab, no Colégio dos Leões, em Évora, no dia 4 de outubro de 2022. O workshop, de caráter prático, foi dedicado à experimentação de biomateriais e à exploração do seu potencial em contextos criativos e de design. No âmbito da atividade foram realizadas experiências de preparação de bioplásticos e biocerâmicas, bem como a discussão de princípios de biomimética, analisando propriedades presentes em materiais naturais — como a elevada repelência à água observada em algumas superfícies biológicas, incluindo asas de insetos — e explorando possíveis aplicações destes princípios no desenvolvimento de soluções sustentáveis para o design e para a arquitetura.",
-        "es": "Participación en el taller \"Biomaterials Creative Lab\", realizado en Arteria Lab, en el Colégio dos Leões, Évora, el 4 de octubre de 2022. El taller práctico estuvo dedicado a la experimentación con biomateriales y la exploración de su potencial en contextos creativos y de diseño. La actividad incluyó experimentos de preparación de bioplásticos y biocerámicas, así como la discusión de principios de biomimética, analizando propiedades presentes en materiales naturales — como la alta repelencia al agua observada en algunas superficies biológicas, incluyendo alas de insectos — y explorando posibles aplicaciones de estos principios en el desarrollo de soluciones sostenibles para el diseño y la arquitectura."
+        "pt": "Participação no workshop «Biomaterials Creative Lab», promovido pela Cultivamos Cultura e pelo _ARTERIA_LAB, realizado no Colégio dos Leões, em Évora, dedicado à investigação e experimentação de biomateriais e à exploração do seu potencial em contextos artísticos, de arquitetura e de design.\n\nO workshop explorou a relação entre natureza, ciência e criação artística, destacando um projeto de investigação biomimética inspirado nas propriedades das asas dos insetos. Através do estudo da sua capacidade de repelir a água e de manter as superfícies limpas, foram apresentadas possibilidades de aplicação destes princípios no desenvolvimento de estruturas insufláveis e materiais com propriedades hidrorrepelentes. Este exemplo evidenciou como a observação de mecanismos naturais pode inspirar soluções inovadoras e mais sustentáveis.\n\nA componente prática incluiu experiências de preparação de bioplásticos e biocerâmicas, permitindo explorar materiais alternativos e diferentes processos de produção. A experiência proporcionou, assim, uma reflexão sobre o potencial da biomimética e da experimentação material na criação de novas soluções para a arquitetura, a arte e o design.",
+        "en": "Participation in the «Biomaterials Creative Lab» workshop, organised by Cultivamos Cultura and _ARTERIA_LAB at Colégio dos Leões in Évora, dedicated to the research and experimentation of biomaterials and the exploration of their potential in artistic, architectural and design contexts.\n\nThe workshop explored the relationship between nature, science and artistic creation, highlighting a biomimetic research project inspired by the properties of insect wings. Through the study of their ability to repel water and keep surfaces clean, potential applications of these principles in the development of inflatable structures and water-repellent materials were presented. This example demonstrated how observing natural mechanisms can inspire innovative and more sustainable solutions.\n\nThe practical component included experiments in preparing bioplastics and bioceramics, allowing participants to explore alternative materials and different production processes. The experience thus encouraged reflection on the potential of biomimicry and material experimentation in creating new solutions for architecture, art and design.",
+        "es": "Participación en el taller «Biomaterials Creative Lab», promovido por Cultivamos Cultura y _ARTERIA_LAB, celebrado en el Colégio dos Leões, en Évora, dedicado a la investigación y experimentación con biomateriales y a la exploración de su potencial en contextos artísticos, arquitectónicos y de diseño.\n\nEl taller exploró la relación entre naturaleza, ciencia y creación artística, destacando un proyecto de investigación biomimética inspirado en las propiedades de las alas de los insectos. Mediante el estudio de su capacidad para repeler el agua y mantener limpias las superficies, se presentaron posibles aplicaciones de estos principios en el desarrollo de estructuras hinchables y materiales hidrorrepelentes. Este ejemplo puso de manifiesto cómo la observación de mecanismos naturales puede inspirar soluciones innovadoras y más sostenibles.\n\nLa parte práctica incluyó experimentos de preparación de bioplásticos y biocerámicas, lo que permitió explorar materiales alternativos y diferentes procesos de producción. La experiencia propició así una reflexión sobre el potencial de la biomímesis y la experimentación material en la creación de nuevas soluciones para la arquitectura, el arte y el diseño."
       },
-      "images": [],
+      "images": [
+        {
+          "mosaic": "justified",
+          "src": "participations/biomaterials-lab/01-experiencias-bioplasticos.jpeg",
+          "caption": {
+            "en": "Experiments in preparing bioplastics",
+            "pt": "Experiências de preparação de bioplásticos",
+            "es": "Experimentos de preparación de bioplásticos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/biomaterials-lab/02-estruturas-insuflaveis.jpeg",
+          "caption": {
+            "en": "Water-repellent inflatable structures inspired by insect wings",
+            "pt": "Estruturas insufláveis hidrorrepelentes inspiradas nas asas dos insetos",
+            "es": "Estructuras hinchables hidrorrepelentes inspiradas en las alas de los insectos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/biomaterials-lab/03-aplicacao-urbana.jpeg",
+          "caption": {
+            "en": "Applying biomimetic principles in urban space",
+            "pt": "Aplicação dos princípios biomiméticos no espaço urbano",
+            "es": "Aplicación de los principios biomiméticos en el espacio urbano"
+          },
+          "layout": "tile"
+        }
+      ],
       "externalLinks": []
     },
     {
       "id": "cipa-congress",
       "type": "volunteering",
       "title": {
-        "en": "CIPA|M — International Congress for Architectural and Landscape Heritage",
-        "pt": "CIPA|M — Congresso Internacional sobre Património Arquitetónico e Paisagístico",
-        "es": "CIPA|M — Congreso Internacional sobre Patrimonio Arquitectónico y Paisajístico"
+        "en": "CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira",
+        "pt": "CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira",
+        "es": "CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira"
       },
       "date": "2022-09",
       "dateDisplay": {
-        "en": "September 29-30, 2022",
-        "pt": "29-30 de setembro de 2022",
-        "es": "29-30 de septiembre de 2022"
+        "en": "September 29–30, 2022",
+        "pt": "29 e 30 de setembro de 2022",
+        "es": "29 y 30 de septiembre de 2022"
       },
       "location": {
-        "en": "Malagueira, Évora, Portugal",
-        "pt": "Malagueira, Évora, Portugal",
-        "es": "Malagueira, Évora, Portugal"
+        "en": "Jorge Araújo Library, Colégio dos Leões, Évora, Portugal",
+        "pt": "Biblioteca Jorge Araújo, Colégio dos Leões, Évora, Portugal",
+        "es": "Biblioteca Jorge Araújo, Colégio dos Leões, Évora, Portugal"
       },
       "institution": {
-        "en": "University of Évora",
-        "pt": "Universidade de Évora",
-        "es": "Universidad de Évora"
+        "en": "Malagueira.pt | Heritage for All",
+        "pt": "Malagueira.pt | Heritage for All",
+        "es": "Malagueira.pt | Heritage for All"
+      },
+      "institutionUrl": "https://malagueira.pt/",
+      "eventUrl": "https://cipa.malagueira.uevora.pt/",
+      "eventName": {
+        "en": "CIPA | M",
+        "pt": "CIPA | M",
+        "es": "CIPA | M"
       },
       "description": {
-        "en": "Integration in the volunteer team of CIPA|M — International Congress for Architectural and Landscape Heritage, held at the Library of Colégio dos Leões, at the University of Évora, on September 29-30, 2022. The congress, dedicated to architectural and landscape heritage, took place in the context of Malagueira, in tribute to architect Álvaro Siza Vieira, promoting reflection on the Malagueira Neighborhood project. Tasks developed included supporting the organization of the event, welcoming participants and speakers, collaborating in setting up spaces and providing logistical support necessary for the congress operation.",
-        "pt": "Integração na equipa de voluntários do CIPA|M — International Congress for Architectural and Landscape Heritage, realizado na Biblioteca do Colégio dos Leões, na Universidade de Évora, nos dias 29 e 30 de setembro de 2022. O congresso, dedicado ao património arquitetónico e paisagístico, teve lugar no contexto da Malagueira, em homenagem ao arquiteto Álvaro Siza Vieira, promovendo a reflexão sobre o projeto do Bairro da Malagueira. No âmbito desta participação foram desenvolvidas tarefas de apoio à organização do evento, incluindo o acolhimento de participantes e oradores, colaboração na montagem dos espaços e apoio logístico necessário ao funcionamento do congresso.",
-        "es": "Integración en el equipo de voluntarios del CIPA|M — Congreso Internacional sobre Patrimonio Arquitectónico y Paisajístico, realizado en la Biblioteca del Colégio dos Leões, en la Universidad de Évora, los días 29 y 30 de septiembre de 2022. El congreso, dedicado al patrimonio arquitectónico y paisajístico, tuvo lugar en el contexto de Malagueira, en homenaje al arquitecto Álvaro Siza Vieira, promoviendo la reflexión sobre el proyecto del Barrio de Malagueira. Las tareas desarrolladas incluyeron el apoyo a la organización del evento, la recepción de participantes y ponentes, la colaboración en el montaje de espacios y el apoyo logístico necesario para el funcionamiento del congreso."
+        "pt": "Participação na equipa de organização do CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira, realizado nos dias 29 e 30 de setembro de 2022, na Biblioteca Jorge Araújo, no Colégio dos Leões, em Évora.\n\nO congresso, integrado no projeto «Malagueira — Património de Todos», promoveu a reflexão e o debate em torno do património arquitetónico e paisagístico, com particular enfoque no Bairro da Malagueira, projetado pelo arquiteto Álvaro Siza Vieira, e na sua valorização enquanto referência da arquitetura contemporânea.\n\nA participação envolveu o apoio à organização e ao funcionamento do evento, incluindo o acolhimento de participantes e oradores, a preparação dos espaços e a colaboração nas atividades logísticas necessárias à realização do congresso.",
+        "en": "Participation in the organising team of CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira, held on September 29 and 30, 2022, at the Jorge Araújo Library, Colégio dos Leões, in Évora.\n\nThe congress, part of the “Malagueira — Heritage for All” project, encouraged reflection and debate on architectural and landscape heritage, with a particular focus on the Malagueira neighbourhood, designed by architect Álvaro Siza Vieira, and on its significance as a landmark of contemporary architecture.\n\nThe participation involved supporting the organisation and running of the event, welcoming participants and speakers, preparing the spaces, and assisting with the logistical activities required for the congress.",
+        "es": "Participación en el equipo de organización del CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira, celebrado los días 29 y 30 de septiembre de 2022 en la Biblioteca Jorge Araújo, en el Colégio dos Leões, Évora.\n\nEl congreso, integrado en el proyecto «Malagueira — Património de Todos», promovió la reflexión y el debate en torno al patrimonio arquitectónico y paisajístico, con especial atención al barrio de la Malagueira, proyectado por el arquitecto Álvaro Siza Vieira, y a su valoración como referente de la arquitectura contemporánea.\n\nLa participación consistió en apoyar la organización y el desarrollo del evento, incluyendo la recepción de participantes y ponentes, la preparación de los espacios y la colaboración en las tareas logísticas necesarias para la celebración del congreso."
       },
-      "images": [],
+      "images": [
+        {
+          "mosaic": "justified-2",
+          "src": "participations/cipa-congress/01-sessao.jpg",
+          "caption": {
+            "en": "Congress session",
+            "pt": "Sessão do congresso",
+            "es": "Sesión del congreso"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/cipa-congress/04-exposicao-desenhos.jpg",
+          "caption": {
+            "en": "Drawings on display during the congress",
+            "pt": "Desenhos expostos durante o congresso",
+            "es": "Dibujos expuestos durante el congreso"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified-2",
+          "src": "participations/cipa-congress/02-exposicao-1.jpg",
+          "caption": {
+            "en": "Exhibition of models and drawings",
+            "pt": "Exposição de maquetas e desenhos",
+            "es": "Exposición de maquetas y dibujos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/cipa-congress/03-exposicao-2.jpg",
+          "caption": {
+            "en": "Models on display",
+            "pt": "Maquetas em exposição",
+            "es": "Maquetas en exposición"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified",
+          "src": "participations/cipa-congress/05-visita.jpg",
+          "caption": {
+            "en": "Congress participants",
+            "pt": "Participantes do congresso",
+            "es": "Participantes del congreso"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/cipa-congress/06-visita-2.jpg",
+          "caption": {
+            "en": "Presentation during the congress",
+            "pt": "Apresentação durante o congresso",
+            "es": "Presentación durante el congreso"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/cipa-congress/07-certificado.jpg",
+          "caption": {
+            "en": "Certificate of participation in the organisation",
+            "pt": "Certificado de participação na organização",
+            "es": "Certificado de participación en la organización"
+          },
+          "layout": "tile"
+        }
+      ],
       "externalLinks": []
     },
     {
       "id": "jornadas-autoconstrucao",
-      "type": "volunteering",
+      "type": "workshop",
       "title": {
         "en": "Jornadas da Autoconstrução",
         "pt": "Jornadas da Autoconstrução",
-        "es": "Jornadas de la Autoconstrucción"
+        "es": "Jornadas da Autoconstrução"
       },
       "date": "2023-08",
       "dateDisplay": {
@@ -175,9 +354,9 @@
         "es": "Agosto de 2023"
       },
       "location": {
-        "en": "Montemor-o-Novo, Évora, Portugal",
-        "pt": "Montemor-o-Novo, Évora, Portugal",
-        "es": "Montemor-o-Novo, Évora, Portugal"
+        "en": "Casa Branca, Portugal",
+        "pt": "Casa Branca, Portugal",
+        "es": "Casa Branca, Portugal"
       },
       "institution": {
         "en": "Jornadas da Autoconstrução",
@@ -185,18 +364,20 @@
         "es": "Jornadas da Autoconstrução"
       },
       "description": {
-        "en": "Volunteer participation in the Jornadas da Autoconstrução in Montemor-o-Novo, Évora. The experience involved intensive hands-on activities related to traditional and ecological building and restoration techniques, such as lime slaking, wall chipping/preparation, lime scratch-coat application, polished lime finish (cal estanhada), clay plastering, and handmade tile laying.",
-        "pt": "Participação como voluntária nas Jornadas da Autoconstrução em Montemor-o-Novo, Évora. A experiência envolveu atividades práticas intensivas ligadas a técnicas tradicionais e ecológicas de construção e restauro de edifícios, tais como o apagamento de cal, picagem de paredes, aplicação de emboço e acabamento de cal estanhada, aplicação de reboco de argila e assentamento de azulejos artesanais.",
-        "es": "Participación como voluntaria en las Jornadas da Autoconstrução en Montemor-o-Novo, Évora. La experiencia incluyó actividades prácticas intensivas vinculadas a técnicas tradicionales y ecológicas de construcción y restauración, tales como el apagado de cal, picado de paredes, aplicación de enfoscado de cal, acabado de cal estañada, aplicación de revoque de arcilla y colocación de azulejos artesanales."
+        "pt": "Participação nas «Jornadas da Autoconstrução», realizadas em Casa Branca, em 2023, dedicadas à experimentação de técnicas construtivas tradicionais e sustentáveis, privilegiando a utilização de materiais naturais e de baixo impacto ambiental.\n\nA atividade desenvolveu-se através de uma intervenção prática numa antiga estação ferroviária, entretanto transformada num espaço de apoio à criação artística. Os trabalhos realizados incluíram a preparação e aplicação de argamassas de cal e argila, execução de rebocos e emboços, picagem de paredes e aplicação de azulejos artesanais.\n\nA experiência decorreu sob orientação da arquiteta Tânia Teixeira, permitindo aprofundar o contacto direto com os materiais e os processos de construção, valorizando o saber-fazer artesanal e a recuperação de técnicas tradicionais enquanto estratégias de reabilitação e sustentabilidade do património construído.",
+        "en": "Participation in «Jornadas da Autoconstrução», held in Casa Branca in 2023, dedicated to experimenting with traditional and sustainable construction techniques, with an emphasis on natural materials and low environmental impact.\n\nThe activity involved hands-on work at a former railway station that had been converted into a space supporting artistic creation. The work included preparing and applying lime and clay mortars, carrying out plastering and base-coat work, removing existing wall finishes, and installing handcrafted ceramic tiles.\n\nThe experience took place under the guidance of architect Tânia Teixeira, offering direct engagement with materials and construction processes and highlighting craftsmanship and the recovery of traditional techniques as approaches to rehabilitation and the sustainability of built heritage.",
+        "es": "Participación en las «Jornadas da Autoconstrução», celebradas en Casa Branca en 2023, dedicadas a la experimentación con técnicas constructivas tradicionales y sostenibles, privilegiando el uso de materiales naturales y de bajo impacto ambiental.\n\nLa actividad se desarrolló mediante una intervención práctica en una antigua estación ferroviaria, posteriormente transformada en un espacio de apoyo a la creación artística. Los trabajos realizados incluyeron la preparación y aplicación de morteros de cal y arcilla, la ejecución de revocos y enfoscados, el picado de paredes y la colocación de azulejos artesanales.\n\nLa experiencia se realizó bajo la orientación de la arquitecta Tânia Teixeira, permitiendo profundizar en el contacto directo con los materiales y los procesos constructivos, valorando el saber hacer artesanal y la recuperación de técnicas tradicionales como estrategias de rehabilitación y sostenibilidad del patrimonio construido."
       },
       "images": [
         {
-          "src": "participations/jornadas-autoconstrucao/image1.jpeg",
+          "mosaic": "justified",
+          "src": "participations/jornadas-autoconstrucao/image3.jpeg",
           "caption": {
-            "en": "Handmade tile installation",
-            "pt": "Aplicação de azulejos artesanais",
-            "es": "Aplicación de azulejos artesanales"
-          }
+            "en": "Chipping and preparing wall",
+            "pt": "Picar parede",
+            "es": "Picado de pared"
+          },
+          "layout": "tile"
         },
         {
           "src": "participations/jornadas-autoconstrucao/image2.jpeg",
@@ -204,31 +385,8 @@
             "en": "Lime slaking",
             "pt": "Apagar cal",
             "es": "Apagado de cal"
-          }
-        },
-        {
-          "src": "participations/jornadas-autoconstrucao/image3.jpeg",
-          "caption": {
-            "en": "Chipping and preparing wall",
-            "pt": "Picar parede",
-            "es": "Picado de pared"
-          }
-        },
-        {
-          "src": "participations/jornadas-autoconstrucao/image4.jpeg",
-          "caption": {
-            "en": "Application of clay plaster",
-            "pt": "Aplicação do reboco de argila",
-            "es": "Aplicación del revoque de arcilla"
-          }
-        },
-        {
-          "src": "participations/jornadas-autoconstrucao/image5.jpeg",
-          "caption": {
-            "en": "Polished lime plaster (cal estanhada)",
-            "pt": "Cal estanhada",
-            "es": "Cal estañada"
-          }
+          },
+          "layout": "tile"
         },
         {
           "src": "participations/jornadas-autoconstrucao/image6.jpeg",
@@ -236,7 +394,36 @@
             "en": "Application of lime base coat / scratch coat",
             "pt": "Aplicação do emboço de cal",
             "es": "Aplicación del enfoscado de cal"
-          }
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified",
+          "src": "participations/jornadas-autoconstrucao/image4.jpeg",
+          "caption": {
+            "en": "Application of clay plaster",
+            "pt": "Aplicação do reboco de argila",
+            "es": "Aplicación del revoque de arcilla"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/jornadas-autoconstrucao/image7.jpeg",
+          "caption": {
+            "en": "Plastering a wall from the scaffold",
+            "pt": "Reboco de parede a partir do andaime",
+            "es": "Revoco de pared desde el andamio"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/jornadas-autoconstrucao/image1.jpeg",
+          "caption": {
+            "en": "Handmade tile installation",
+            "pt": "Aplicação de azulejos artesanais",
+            "es": "Aplicación de azulejos artesanales"
+          },
+          "layout": "tile"
         }
       ],
       "externalLinks": []
@@ -245,9 +432,9 @@
       "id": "arquitectos-herramienta",
       "type": "workshop",
       "title": {
-        "en": "7th Gathering of Hands-On Architects (Encuentro de Arquitectos de Herramienta en mano)",
-        "pt": "7.º Encuentro de Arquitectos de Herramienta en mano",
-        "es": "7.º Encuentro de Arquitectos de Herramienta en mano"
+        "en": "7.º Encuentro de Arquitectos de Herramienta en Mano",
+        "pt": "7.º Encuentro de Arquitectos de Herramienta en Mano",
+        "es": "7.º Encuentro de Arquitectos de Herramienta en Mano"
       },
       "date": "2024-08",
       "dateDisplay": {
@@ -256,36 +443,49 @@
         "es": "Agosto de 2024"
       },
       "location": {
-        "en": "Ariza, Aragon, Spain",
-        "pt": "Ariza, Aragão, Espanha",
-        "es": "Ariza, Aragón, España"
+        "en": "Ariza, Spain",
+        "pt": "Ariza, Espanha",
+        "es": "Ariza, España"
       },
       "institution": {
-        "en": "Colectivo opción18",
-        "pt": "Colectivo opción18",
-        "es": "Colectivo opción18"
+        "en": "Colectivo Opción 18",
+        "pt": "Colectivo Opción 18",
+        "es": "Colectivo Opción 18"
       },
       "description": {
-        "en": "Participation in the \"7th Gathering of Hands-On Architects\" (7.º Encuentro de Arquitectos de Herramienta en mano), organised by Colectivo opción18 in Ariza, Aragon. The initiative focused on collaborative architecture and hands-on community building, combining practical on-site construction with collective reflection. Activities included dry stone construction workshops, the design and assembly of urban timber structures/devices, and exchange sessions among architect-builders.",
-        "pt": "Participação no \"7.º Encuentro de Arquitectos de Herramienta en mano\", promovido pelo Colectivo opción18 em Ariza, Aragão. A iniciativa focou-se na prática colaborativa de arquitetura e autoconstrução em espaço comunitário, combinando trabalho prático em obra com reflexão partilhada. As atividades incluíram a participação em workshops práticos, nomeadamente de construção em pedra seca, a conceção e montagem de dispositivos urbanos em madeira e momentos de debate e partilha entre arquitetos construtores.",
-        "es": "Participación en el \"7.º Encuentro de Arquitectos de Herramienta en mano\", organizado por el Colectivo opción18 en Ariza, Aragón. El encuentro estuvo centrado en la práctica colaborativa de arquitectura y autoconstrucción comunitaria, uniendo el trabajo práctico de obra con la reflexión colectiva. Las actividades incluyeron la participación en talleres de piedra seca, el diseño y montaje de dispositivos urbanos y espacios de encuentro y debate entre arquitect@s constructores."
+        "pt": "Participação no «7.º Encuentro de Arquitectos de Herramienta en Mano», realizado em Ariza, Espanha, em 2024, um encontro internacional dedicado à arquitetura participativa, à construção manual e à reflexão sobre a sustentabilidade, orientado pelo coletivo Opción 18.\n\nA iniciativa reuniu participantes de diferentes países, promovendo a partilha de conhecimentos e experiências através de debates e workshops práticos. As atividades incluíram a construção de muros em pedra seca, a produção de sabão natural e o desenvolvimento de dispositivos urbanos concebidos a partir das necessidades identificadas junto da comunidade local.\n\nO encontro permitiu explorar a relação entre arquitetura, técnicas construtivas tradicionais e participação comunitária, valorizando o trabalho manual e o envolvimento direto com o território e os seus habitantes.",
+        "en": "Participation in the «7.º Encuentro de Arquitectos de Herramienta en Mano», held in Ariza, Spain, in 2024, an international gathering dedicated to participatory architecture, hands-on construction and reflection on sustainability, led by the Opción 18 collective.\n\nThe event brought together participants from different countries, encouraging the exchange of knowledge and experience through discussions and practical workshops. Activities included building dry-stone walls, making natural soap and developing urban installations designed in response to needs identified with the local community.\n\nThe gathering provided an opportunity to explore the relationship between architecture, traditional building techniques and community participation, highlighting manual work and direct engagement with the territory and its inhabitants.",
+        "es": "Participación en el «7.º Encuentro de Arquitectos de Herramienta en Mano», celebrado en Ariza, España, en 2024, un encuentro internacional dedicado a la arquitectura participativa, la construcción manual y la reflexión sobre la sostenibilidad, coordinado por el colectivo Opción 18.\n\nLa iniciativa reunió a participantes de distintos países, fomentando el intercambio de conocimientos y experiencias mediante debates y talleres prácticos. Las actividades incluyeron la construcción de muros de piedra seca, la elaboración de jabón natural y el desarrollo de dispositivos urbanos concebidos a partir de las necesidades identificadas junto a la comunidad local.\n\nEl encuentro permitió explorar la relación entre arquitectura, técnicas constructivas tradicionales y participación comunitaria, poniendo en valor el trabajo manual y la implicación directa con el territorio y sus habitantes."
       },
       "images": [
         {
+          "type": "vimeo",
+          "vimeo": "1055924348",
+          "caption": {
+            "en": "Video of the gathering",
+            "pt": "Vídeo do encontro",
+            "es": "Vídeo del encuentro"
+          },
+          "layout": "full"
+        },
+        {
+          "mosaic": "justified",
           "src": "participations/arquitectos-herramienta/image1.jpeg",
           "caption": {
             "en": "Dry stone workshop",
             "pt": "Workshop de pedra seca",
             "es": "Taller de piedra seca"
-          }
+          },
+          "layout": "tile"
         },
         {
           "src": "participations/arquitectos-herramienta/image2.jpeg",
           "caption": {
             "en": "Gathering and community meeting",
             "pt": "Encontro e assembleia comunitária",
-            "es": "Encuentro"
-          }
+            "es": "Encuentro y asamblea comunitaria"
+          },
+          "layout": "tile"
         },
         {
           "src": "participations/arquitectos-herramienta/image3.jpeg",
@@ -293,19 +493,30 @@
             "en": "Urban structure / device construction",
             "pt": "Construção de dispositivo urbano",
             "es": "Dispositivo urbano"
-          }
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified-2",
+          "src": "participations/arquitectos-herramienta/image4.jpeg",
+          "caption": {
+            "en": "Preparing the timber for the urban installations",
+            "pt": "Preparação da madeira para os dispositivos urbanos",
+            "es": "Preparación de la madera para los dispositivos urbanos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/arquitectos-herramienta/image5.jpeg",
+          "caption": {
+            "en": "Building a timber urban installation",
+            "pt": "Construção de um dispositivo urbano em madeira",
+            "es": "Construcción de un dispositivo urbano de madera"
+          },
+          "layout": "tile"
         }
       ],
-      "externalLinks": [
-        {
-          "url": "https://vimeo.com/1055924348",
-          "label": {
-            "en": "Watch gathering video on Vimeo",
-            "pt": "Ver vídeo do encontro no Vimeo",
-            "es": "Ver vídeo del encuentro en Vimeo"
-          }
-        }
-      ]
+      "externalLinks": []
     },
     {
       "id": "ryseing-ideas",
@@ -407,33 +618,108 @@
       "id": "floods-opportunity",
       "type": "program",
       "title": {
-        "en": "Floods as an Opportunity II",
-        "pt": "Floods as an Opportunity II",
-        "es": "Floods as an Opportunity II"
+        "en": "Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence",
+        "pt": "Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence",
+        "es": "Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence"
       },
       "date": "2025-07",
       "dateDisplay": {
-        "en": "July 14-25, 2025",
-        "pt": "14-25 de julho de 2025",
-        "es": "14-25 de julio de 2025"
+        "en": "July 14–25, 2025",
+        "pt": "14 a 25 de julho de 2025",
+        "es": "14 al 25 de julio de 2025"
       },
       "location": {
-        "en": "Florence, Italy",
-        "pt": "Florença, Itália",
-        "es": "Florencia, Italia"
+        "en": "Florence and Prato, Italy",
+        "pt": "Florença e Prato, Itália",
+        "es": "Florencia y Prato, Italia"
       },
       "institution": {
-        "en": "Università degli Studi di Firenze",
-        "pt": "Università degli Studi di Firenze",
-        "es": "Università degli Studi di Firenze"
+        "en": "Università degli Studi di Firenze | Dipartimento di Architettura (DIDA)",
+        "pt": "Università degli Studi di Firenze | Dipartimento di Architettura (DIDA)",
+        "es": "Università degli Studi di Firenze | Dipartimento di Architettura (DIDA)"
       },
       "description": {
-        "en": "Participation in the Floods as an Opportunity II program, part of the Blended Intensive Programme (BIP) Erasmus+, held in 2025, with an online conference phase between July 14-18 and a presential laboratory in Florence between July 21-25, organized by the Architecture Department of Università degli Studi di Firenze. The program brought together 23 students of different nationalities, namely from Portugal, Germany, Italy and Spain, promoting work in international teams under the guidance of professors from participating institutions. Activities focused on in-situ analysis of flooding problems, definition of mitigation strategies and elaboration of urban and architectural proposals oriented towards reducing flood impacts and adapting territories to climate change.",
-        "pt": "Participação no programa Floods as an Opportunity II, integrado no Blended Intensive Programme (BIP) Erasmus+, realizado em 2025, com uma fase online de conferências entre 14 e 18 de julho e um laboratório presencial, em Florença, entre 21 e 25 de julho, organizado pelo Departamento de Arquitetura da Università degli Studi di Firenze. O programa reuniu 23 estudantes de diferentes nacionalidades, nomeadamente de Portugal, Alemanha, Itália e Espanha, promovendo o trabalho em equipas internacionais sob orientação de docentes das instituições participantes. As atividades centraram-se na análise in situ dos problemas associados às inundações, na definição de estratégias de mitigação e na elaboração de propostas urbanas e arquitetónicas orientadas para a redução dos impactos das cheias e para a adaptação dos territórios às alterações climáticas.",
-        "es": "Participación en el programa Floods as an Opportunity II, integrado en el Blended Intensive Programme (BIP) Erasmus+, realizado en 2025, con una fase online de conferencias entre el 14 y el 18 de julio y un laboratorio presencial en Florencia entre el 21 y el 25 de julio, organizado por el Departamento de Arquitectura de la Università degli Studi di Firenze. El programa reunió a 23 estudiantes de diferentes nacionalidades, principalmente de Portugal, Alemania, Italia y España, promoviendo el trabajo en equipos internacionales bajo la orientación de profesores de las instituciones participantes. Las actividades se centraron en el análisis in situ de los problemas asociados a las inundaciones, la definición de estrategias de mitigación y la elaboración de propuestas urbanas y arquitectónicas orientadas a la reducción de los impactos de las crecidas y la adaptación de los territorios al cambio climático."
+        "pt": "Participação no programa internacional «Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence», integrado no Blended Intensive Programme (BIP) Erasmus+, organizado pela Università degli Studi di Firenze, em colaboração com diferentes instituições académicas europeias.\n\nO programa centrou-se na cidade de Prato, na região da Toscana, particularmente afetada por episódios de precipitação intensa e inundações. Através de visitas ao território, análise das condições urbanas e ambientais e trabalho em equipas internacionais, procurou-se compreender as causas e consequências das cheias, identificando as vulnerabilidades existentes e as possibilidades de adaptação.\n\nO laboratório presencial, realizado entre 21 e 25 de julho de 2025, deu continuidade a uma primeira fase de conferências online, promovendo o desenvolvimento de estratégias urbanas e arquitetónicas orientadas para a mitigação dos impactos das inundações. O trabalho explorou a relação entre os sistemas hídricos, a ocupação urbana e a paisagem, procurando compreender de que forma o desenho do território pode contribuir para uma maior resiliência face às alterações climáticas.\n\nA experiência permitiu aprofundar a reflexão sobre o papel da arquitetura e do urbanismo na adaptação de territórios vulneráveis, através de uma metodologia colaborativa que articulou investigação, observação direta e desenvolvimento de propostas de intervenção.",
+        "en": "Participation in the international programme “Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence”, part of the Erasmus+ Blended Intensive Programme (BIP), organised by the Università degli Studi di Firenze in collaboration with several European academic institutions.\n\nThe programme focused on the city of Prato, in Tuscany, which has been particularly affected by episodes of heavy rainfall and flooding. Through site visits, analysis of urban and environmental conditions, and work in international teams, the participants sought to understand the causes and consequences of flooding, identifying existing vulnerabilities and opportunities for adaptation.\n\nThe in-person workshop, held from 21 to 25 July 2025, followed an initial series of online lectures and encouraged the development of urban and architectural strategies aimed at mitigating the impacts of flooding. The work explored the relationship between water systems, urban development and the landscape, examining how territorial design can contribute to greater resilience in the face of climate change.\n\nThe experience offered an opportunity to deepen reflection on the role of architecture and urbanism in adapting vulnerable territories, through a collaborative methodology combining research, direct observation and the development of intervention proposals.",
+        "es": "Participación en el programa internacional «Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence», integrado en el Blended Intensive Programme (BIP) Erasmus+, organizado por la Università degli Studi di Firenze en colaboración con distintas instituciones académicas europeas.\n\nEl programa se centró en la ciudad de Prato, en la región de Toscana, especialmente afectada por episodios de precipitaciones intensas e inundaciones. A través de visitas al territorio, del análisis de las condiciones urbanas y ambientales y del trabajo en equipos internacionales, se buscó comprender las causas y consecuencias de las inundaciones, identificando las vulnerabilidades existentes y las posibilidades de adaptación.\n\nEl taller presencial, realizado del 21 al 25 de julio de 2025, dio continuidad a una primera fase de conferencias en línea y promovió el desarrollo de estrategias urbanas y arquitectónicas orientadas a mitigar los impactos de las inundaciones. El trabajo exploró la relación entre los sistemas hídricos, la ocupación urbana y el paisaje, buscando comprender cómo el diseño del territorio puede contribuir a una mayor resiliencia frente al cambio climático.\n\nLa experiencia permitió profundizar en la reflexión sobre el papel de la arquitectura y el urbanismo en la adaptación de territorios vulnerables, mediante una metodología colaborativa que articuló investigación, observación directa y desarrollo de propuestas de intervención."
       },
-      "images": [],
-      "externalLinks": []
+      "images": [
+        {
+          "mosaic": "justified-4",
+          "src": "participations/floods-opportunity/01-trabalho-em-grupo.jpg",
+          "caption": {
+            "en": "Team work on the territory of Prato",
+            "pt": "Trabalho em equipa sobre o território de Prato",
+            "es": "Trabajo en equipo sobre el territorio de Prato"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/floods-opportunity/02-discussao.jpg",
+          "caption": {
+            "en": "Discussing the proposals",
+            "pt": "Discussão das propostas",
+            "es": "Discusión de las propuestas"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/floods-opportunity/03-apresentacao.jpg",
+          "caption": {
+            "en": "Presenting the work",
+            "pt": "Apresentação do trabalho",
+            "es": "Presentación del trabajo"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/floods-opportunity/04-desenhos.jpg",
+          "caption": {
+            "en": "Territorial analysis drawings",
+            "pt": "Desenhos de análise do território",
+            "es": "Dibujos de análisis del territorio"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified",
+          "src": "participations/floods-opportunity/05-grupo-maqueta.jpg",
+          "caption": {
+            "en": "Working group with the final drawing",
+            "pt": "Grupo de trabalho com o desenho final",
+            "es": "Grupo de trabajo con el dibujo final"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/floods-opportunity/06-desenho-territorio.jpg",
+          "caption": {
+            "en": "Drawing of the territory along the river",
+            "pt": "Desenho do território ao longo do rio",
+            "es": "Dibujo del territorio a lo largo del río"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/floods-opportunity/07-esquisso.jpg",
+          "caption": {
+            "en": "Sketch of the proposal",
+            "pt": "Esquisso da proposta",
+            "es": "Boceto de la propuesta"
+          },
+          "layout": "tile"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://diariodosul.pt/2025/07/29/flood-a-2a-edicao-do-blended-intensive-programme-bip-erasmus-em-arquitectura-este-ano-com-laboratorio-presencial-em-florenca/",
+          "label": {
+            "en": "Diário do Sul article about the programme",
+            "pt": "Artigo do Diário do Sul sobre o programa",
+            "es": "Artículo de Diário do Sul sobre el programa"
+          }
+        }
+      ]
     },
     {
       "id": "exposicao-evora-monte",
@@ -543,6 +829,100 @@
           }
         }
       ]
+    },
+    {
+      "id": "open-house-porto",
+      "type": "volunteering",
+      "title": {
+        "en": "Open House Porto",
+        "pt": "Open House Porto",
+        "es": "Open House Porto"
+      },
+      "date": "2024-07",
+      "dateDisplay": {
+        "en": "July 6–7, 2024",
+        "pt": "6–7 de julho de 2024",
+        "es": "6–7 de julio de 2024"
+      },
+      "location": {
+        "en": "Porto, Portugal",
+        "pt": "Porto, Portugal",
+        "es": "Oporto, Portugal"
+      },
+      "institution": {
+        "en": "Casa da Arquitectura",
+        "pt": "Casa da Arquitectura",
+        "es": "Casa da Arquitectura"
+      },
+      "eventUrl": "https://2024.openhouseporto.com/",
+      "eventName": {
+        "en": "Open House Porto 2024",
+        "pt": "Open House Porto 2024",
+        "es": "Open House Porto 2024"
+      },
+      "description": {
+        "en": "Participation in Open House Porto, a weekend of free visits to more than 60 architectural spaces in Maia, Matosinhos, Porto and Vila Nova de Gaia.",
+        "pt": "Participação no Open House Porto, um fim de semana de visitas gratuitas a mais de 60 espaços de arquitetura na Maia, em Matosinhos, no Porto e em Vila Nova de Gaia.",
+        "es": "Participación en Open House Porto, un fin de semana de visitas gratuitas a más de 60 espacios de arquitectura en Maia, Matosinhos, Oporto y Vila Nova de Gaia."
+      },
+      "images": [
+        {
+          "type": "video",
+          "src": "participations/02-open-house/01-video-open-house-porto.mp4",
+          "controls": true,
+          "caption": {
+            "en": "Open House Porto promotional video",
+            "pt": "Vídeo de apresentação do Open House Porto",
+            "es": "Vídeo de presentación de Open House Porto"
+          },
+          "layout": "inset"
+        }
+      ],
+      "externalLinks": []
+    },
+    {
+      "id": "entrevista-goncalo-m-tavares",
+      "type": "project",
+      "title": {
+        "en": "Ask the Artist: Gonçalo M. Tavares",
+        "pt": "Pergunta ao Artista: Gonçalo M. Tavares",
+        "es": "Pregunta al Artista: Gonçalo M. Tavares"
+      },
+      "date": "2024-07",
+      "dateDisplay": {
+        "en": "2024",
+        "pt": "2024",
+        "es": "2024"
+      },
+      "location": {
+        "en": "Matosinhos, Portugal",
+        "pt": "Matosinhos, Portugal",
+        "es": "Matosinhos, Portugal"
+      },
+      "institution": {
+        "en": "Casa da Arquitectura",
+        "pt": "Casa da Arquitectura",
+        "es": "Casa da Arquitectura"
+      },
+      "description": {
+        "en": "Interview with the writer Gonçalo M. Tavares for the series “Ask the Artist” by Casa da Arquitectura, on the creative process, drawing and writing.",
+        "pt": "Entrevista ao escritor Gonçalo M. Tavares, no âmbito da série «Pergunta ao Artista», da Casa da Arquitectura, sobre o processo criativo, o desenho e a escrita.",
+        "es": "Entrevista al escritor Gonçalo M. Tavares en la serie «Pregunta al Artista» de la Casa da Arquitectura, sobre el proceso creativo, el dibujo y la escritura."
+      },
+      "images": [
+        {
+          "type": "video",
+          "src": "participations/03-entrevista-goncalo-m-tavares/01-entrevista-goncalo-m-tavares.mp4",
+          "controls": true,
+          "caption": {
+            "en": "Interview with Gonçalo M. Tavares",
+            "pt": "Entrevista a Gonçalo M. Tavares",
+            "es": "Entrevista a Gonçalo M. Tavares"
+          },
+          "layout": "inset"
+        }
+      ],
+      "externalLinks": []
     }
   ],
   "types": {
