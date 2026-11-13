@@ -694,6 +694,76 @@ main {
   }
 }
 
+/* A sideways strip: arrows above on the right, a fade at the edge while there is more */
+.project-scroll {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.project-scroll .project-mosaic {
+  margin-bottom: 0;
+}
+
+.project-scroll-arrows {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-scroll-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.project-scroll-arrow:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.project-scroll--static .project-scroll-arrows {
+  display: none;
+}
+
+.project-scroll::after {
+  content: '';
+  position: absolute;
+  top: 2.75rem;
+  right: 0;
+  bottom: 1rem;
+  width: 3rem;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--color-bg));
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-scroll--more::after {
+  opacity: 1;
+}
+
+/* "stack": on the phone, one picture per row so drawings stay legible */
+@media (max-width: 768px) {
+  .project-mosaic--stack .project-mosaic-row {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .project-mosaic--stack .project-mosaic-row > .project-image {
+    flex: none !important;
+    width: 100%;
+  }
+}
+
 /* Columns of whole photos stacked like a wall */
 .project-mosaic--masonry {
   columns: 3;
@@ -851,6 +921,37 @@ main {
   border-radius: 3px;
 }
 
+/* On the phone: two even columns, every tag the same width and aligned */
+@media (max-width: 768px) {
+  .skills-section {
+    gap: 1.5rem;
+  }
+
+  .skills-group {
+    width: 100%;
+  }
+
+  .skills-group h3 {
+    margin-bottom: 0.6rem;
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .skill-item {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+  }
+
+  .skill-item--wide {
+    grid-column: 1 / -1;
+  }
+}
+
 /* ============================================
    LANGUAGES SECTION
    ============================================ */
@@ -915,6 +1016,8 @@ main {
   position: sticky;
   top: 6rem;
   height: fit-content;
+  /* As wide as the line of her cities, so photo, contacts and CV button align */
+  max-width: 22.5rem;
 }
 
 .contact-info h3 {
@@ -971,6 +1074,22 @@ footer {
   padding: 2rem;
   text-align: center;
   font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+/* Who made the site: small and quiet, under the copyright */
+.site-credit {
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+  color: var(--color-text-tertiary);
+}
+
+.site-credit a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-credit a:hover {
   color: var(--color-text-secondary);
 }
 
@@ -1478,6 +1597,13 @@ footer {
 .profile-image {
   border-radius: 4px;
   display: block;
+  width: 100%;
+}
+
+/* The CV button as wide as the photo above it */
+.about-sidebar .cv-download {
+  display: block;
+  text-align: center;
 }
 
 /* ============================================
@@ -2047,18 +2173,18 @@ footer {
     display: contents;
   }
 
-  .about-card { display: grid; gap: 1.25rem; order: 0; margin-bottom: 3rem; }
+  .about-card { display: grid; gap: 1.25rem; order: 0; margin-bottom: 2rem; }
   #about-intro { order: 1; }
   .about-main h2[data-section="experience"], #experience-section { order: 2; }
-  .about-main h2[data-section="education"], #education-section { order: 2; }
-  .about-main h2[data-section="participations"], #participations-list { order: 3; }
-  .about-main h2[data-section="publications"], #publications-section { order: 4; }
-  .about-main h2[data-section="thesis"], #thesis-section { order: 5; }
-  .about-main h2[data-section="sketchbooks"], #sketchbooks-section { order: 6; }
-  .about-main h2[data-section="skills"], #skills-section { order: 7; }
-  .about-main h2[data-section="languages"], #languages-section { order: 8; }
-  #contact-section { order: 9; margin-top: 3.5rem; }
-  .about-sidebar .cv-download { order: 10; align-self: flex-start; margin-top: 2.5rem; }
+  .about-main h2[data-section="education"], #education-section { order: 3; }
+  .about-main h2[data-section="thesis"], #thesis-section { order: 4; }
+  .about-main h2[data-section="publications"], #publications-section { order: 5; }
+  .about-main h2[data-section="participations"], #participations-list { order: 6; }
+  .about-main h2[data-section="sketchbooks"], #sketchbooks-section { order: 7; }
+  .about-main h2[data-section="skills"], #skills-section { order: 8; }
+  .about-main h2[data-section="languages"], #languages-section { order: 9; }
+  #contact-section { order: 10; margin-top: 2.25rem; }
+  .about-sidebar .cv-download { order: 11; align-self: center; margin-top: 1.5rem; }
 
   /* Same heading as the other sections */
   #contact-section h3 {
@@ -2105,9 +2231,25 @@ footer {
 
   .about-main h2 {
     font-size: 0.75rem;
-    margin: 3.5rem 0 1.5rem;
-    padding-bottom: 0.75rem;
+    margin: 2.25rem 0 1rem;
+    padding-bottom: 0.6rem;
     border-bottom: 1px solid var(--color-border);
+  }
+
+  /* Tighter on the phone: one even step between sections */
+  .about-main .cv-section,
+  .about-main .skills-section,
+  .about-main .languages-section,
+  .about-main .participations-section {
+    margin-bottom: 0;
+  }
+
+  .about-main .cv-item {
+    margin-bottom: 1.1rem;
+  }
+
+  #contact-section h3 {
+    margin-bottom: 1rem;
   }
 
   /* Languages on one line */

@@ -220,6 +220,32 @@ function renderOtherWork(works) {
   setupOtherWorkSlider(section, container);
 }
 
+// Arrows of a sideways strip of pictures: one picture at a time, disabled at
+// each end, hidden when everything fits; a fade on the right while there is more
+function setupScrollStrip(strip, track) {
+  const arrows = strip.querySelectorAll('.project-scroll-arrow');
+  const update = () => {
+    const max = track.scrollWidth - track.clientWidth;
+    strip.classList.toggle('project-scroll--static', max <= 1);
+    strip.classList.toggle('project-scroll--more', track.scrollLeft < max - 1);
+    arrows[0].disabled = track.scrollLeft <= 1;
+    arrows[1].disabled = track.scrollLeft >= max - 1;
+  };
+  arrows.forEach(button => button.addEventListener('click', () => {
+    const items = [...track.querySelectorAll('.project-image')];
+    const left = track.scrollLeft;
+    const target = Number(button.dataset.direction) > 0
+      ? items.find(item => item.offsetLeft - track.offsetLeft > left + 4)
+      : [...items].reverse().find(item => item.offsetLeft - track.offsetLeft < left - 4);
+    track.scrollTo({ left: target ? target.offsetLeft - track.offsetLeft : 0, behavior: 'smooth' });
+  }));
+  track.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  // The pictures are added and load after the strip exists
+  track.addEventListener('load', update, true);
+  requestAnimationFrame(update);
+}
+
 // Arrows move the slider by one card; each is disabled at its end and both
 // are hidden when every card already fits
 function setupOtherWorkSlider(section, track) {
@@ -482,7 +508,23 @@ function renderImages(container, images, parts = []) {
         mosaic = document.createElement('div');
         mosaic.className = ['project-mosaic', `project-mosaic--${justifiedRow ? 'justified' : arrangement}`,
           ...modifiers.map(modifier => `project-mosaic--${modifier}`)].join(' ');
-        container.appendChild(mosaic);
+        if (arrangement === 'scroll') {
+          // A sideways strip gets arrows, like the other-work slider
+          const strip = document.createElement('div');
+          strip.className = 'project-scroll';
+          strip.innerHTML = `
+            <div class="project-scroll-arrows">
+              ${[-1, 1].map(direction => `
+                <button type="button" class="project-scroll-arrow" data-direction="${direction}" aria-label="${t(`projects.${direction < 0 ? 'previous' : 'next'}`)}">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="${direction < 0 ? '15 18 9 12 15 6' : '9 18 15 12 9 6'}"/></svg>
+                </button>`).join('')}
+            </div>`;
+          strip.appendChild(mosaic);
+          container.appendChild(strip);
+          setupScrollStrip(strip, mosaic);
+        } else {
+          container.appendChild(mosaic);
+        }
       }
       if (mosaic.classList.contains('project-mosaic--justified')) {
         let line = mosaic.lastElementChild;
@@ -723,6 +765,18 @@ function updateAboutPage() {
     }
   });
 
+  // A group's tags with the long ones last; with an odd number of short ones,
+  // the last short one also takes a whole row, so no row is left half empty
+  const skillList = skills => {
+    const names = skills.map(getText);
+    const short = names.filter(name => name.length <= 26);
+    const long = names.filter(name => name.length > 26);
+    return [
+      ...short.map((name, i) => `<span class="skill-item${short.length % 2 && i === short.length - 1 ? ' skill-item--wide' : ''}">${name}</span>`),
+      ...long.map(name => `<span class="skill-item skill-item--wide">${name}</span>`)
+    ].join('');
+  };
+
   // Update skills section
   const skillsContainer = document.getElementById('skills-section');
   if (skillsContainer && aboutData.skills) {
@@ -730,20 +784,20 @@ function updateAboutPage() {
       <div class="skills-group">
         <h3>${labels.skills_experienced}</h3>
         <div class="skills-list">
-          ${aboutData.skills.experienced.map(s => `<span class="skill-item">${s}</span>`).join('')}
+          ${skillList(aboutData.skills.experienced)}
         </div>
       </div>
       <div class="skills-group">
         <h3>${labels.skills_learning}</h3>
         <div class="skills-list">
-          ${aboutData.skills.learning.map(s => `<span class="skill-item">${s}</span>`).join('')}
+          ${skillList(aboutData.skills.learning)}
         </div>
       </div>
       ${aboutData.skills.practice ? `
       <div class="skills-group skills-group--wide">
         <h3>${labels.skills_practice}</h3>
         <div class="skills-list">
-          ${aboutData.skills.practice.map(s => `<span class="skill-item">${getText(s)}</span>`).join('')}
+          ${skillList(aboutData.skills.practice)}
         </div>
       </div>` : ''}
     `;
@@ -1117,6 +1171,18 @@ function updateFooter() {
   const footer = document.querySelector('footer p');
   if (footer && translationsData) {
     footer.textContent = t('footer.copyright');
+  }
+
+  // Who made the site, in a small line under the copyright
+  const container = document.querySelector('footer');
+  if (container && translationsData) {
+    let credit = container.querySelector('.site-credit');
+    if (!credit) {
+      credit = document.createElement('p');
+      credit.className = 'site-credit';
+      footer ? footer.after(credit) : container.prepend(credit);
+    }
+    credit.innerHTML = `${t('footer.credit')}: <a href="https://www.linkedin.com/in/joaoteixeira-jtx" target="_blank" rel="noopener">João Teixeira</a>`;
   }
 }
 

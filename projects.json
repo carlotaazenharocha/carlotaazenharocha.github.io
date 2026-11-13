@@ -127,7 +127,8 @@
             "pt": "Maquete física, praça",
             "es": "Maqueta física, plaza"
           },
-          "layout": "half"
+          "layout": "half",
+          "row": "equal"
         },
         {
           "src": "projects/01-atlas-case-studies/5.jpg",
@@ -215,13 +216,32 @@
           "layout": "full"
         },
         {
-          "src": "projects/02-rock-oporto-palace/02-esquemas-percursos.jpg",
+          "mosaic": "justified stack",
+          "src": "projects/02-rock-oporto-palace/02a-percursos-festival.jpg",
           "caption": {
-            "en": "Paths on festival days, everyday paths and axonometry of levels",
-            "pt": "Percursos em dias de festival, percursos regulares e axonometria de cotas",
-            "es": "Recorridos en días de festival, recorridos habituales y axonometría de cotas"
+            "en": "Routes on festival days",
+            "pt": "Percursos em dias de festival",
+            "es": "Recorridos en días de festival"
           },
-          "layout": "full"
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/02b-percursos-regulares.jpg",
+          "caption": {
+            "en": "Everyday routes through the site",
+            "pt": "Percursos regulares do espaço",
+            "es": "Recorridos habituales del espacio"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/02c-axonometria-cotas.jpg",
+          "caption": {
+            "en": "Axonometry: differences in level",
+            "pt": "Axonometria: diferenciação de cotas",
+            "es": "Axonometría: diferenciación de cotas"
+          },
+          "layout": "tile"
         },
         {
           "section": {
@@ -1612,7 +1632,7 @@
           "layout": "inset"
         },
         {
-          "mosaic": "justified",
+          "mosaic": "justified stack",
           "src": "projects/outros-trabalhos/02-capillas-san-bruno/02-seccao-longitudinal-l1.jpg",
           "caption": {
             "en": "Longitudinal section L1, scale 1:40",
@@ -1672,7 +1692,7 @@
             "pt": "Croquis",
             "es": "Croquis"
           },
-          "mosaic": "justified",
+          "mosaic": "justified stack",
           "src": "projects/outros-trabalhos/02-capillas-san-bruno/08-croquis-1.jpg",
           "caption": {
             "en": "Survey sketches of the columns",

@@ -1,38 +1,6 @@
 {
   "participations": [
     {
-      "id": "ephemeral-architecture",
-      "type": "workshop",
-      "title": {
-        "en": "Ephemeral Architecture: Urban Follies",
-        "pt": "Ephemeral Architecture: Urban Follies",
-        "es": "Ephemeral Architecture: Urban Follies"
-      },
-      "date": "2021-03",
-      "dateDisplay": {
-        "en": "March 2-11, 2021",
-        "pt": "2-11 de março de 2021",
-        "es": "2-11 de marzo de 2021"
-      },
-      "location": {
-        "en": "Online",
-        "pt": "Online",
-        "es": "Online"
-      },
-      "institution": {
-        "en": "University of Universities (UOU)",
-        "pt": "University of Universities (UOU)",
-        "es": "University of Universities (UOU)"
-      },
-      "description": {
-        "en": "Participation in the international workshop \"Ephemeral Architecture: Urban Follies\", promoted by the University of Universities (UOU), held online between March 2-11, 2021. Working groups composed of students from the University of Évora and the University of Alicante developed folly proposals for different spaces in the city of Évora, exploring ephemeral architecture as an instrument for interpreting urban space, culminating in the final presentation of the developed projects.",
-        "pt": "Participação no workshop internacional \"Ephemeral Architecture: Urban Follies\", promovido pela University of Universities (UOU), realizado em formato online entre o dia 2 e 11 de março de 2021, no qual foram desenvolvidas, em grupos de trabalho constituídos por estudantes da Universidade de Évora e da Universidade de Alicante, propostas de follies para diferentes espaços da cidade de Évora, explorando a arquitetura efémera como instrumento de interpretação do espaço urbano e culminando na apresentação final dos projetos desenvolvidos.",
-        "es": "Participación en el taller internacional \"Ephemeral Architecture: Urban Follies\", promovido por la University of Universities (UOU), realizado en formato online entre el 2 y el 11 de marzo de 2021. Grupos de trabajo compuestos por estudiantes de la Universidad de Évora y la Universidad de Alicante desarrollaron propuestas de follies para diferentes espacios de la ciudad de Évora, explorando la arquitectura efímera como instrumento de interpretación del espacio urbano, culminando en la presentación final de los proyectos desarrollados."
-      },
-      "images": [],
-      "externalLinks": []
-    },
-    {
       "id": "refazer-paisagens",
       "type": "seminar",
       "featured": true,
@@ -517,9 +485,9 @@
       "id": "ryseing-ideas",
       "type": "project",
       "title": {
-        "en": "RYSEING IDEAS – Clean Water and Sanitation",
-        "pt": "RYSEING IDEAS – Água Potável e Saneamento",
-        "es": "RYSEING IDEAS – Agua Potable y Saneamiento"
+        "en": "RYSEING IDEAS | CONTA A GOTA",
+        "pt": "RYSEING IDEAS | CONTA A GOTA",
+        "es": "RYSEING IDEAS | CONTA A GOTA"
       },
       "date": "2024-02",
       "dateDisplay": {
@@ -533,16 +501,36 @@
         "es": "Braga, Portugal"
       },
       "institution": {
-        "en": "Sustainable Development Goals",
-        "pt": "Objetivos de Desenvolvimento Sustentável",
-        "es": "Objetivos de Desarrollo Sostenible"
+        "en": "RYSE",
+        "pt": "RYSE",
+        "es": "RYSE"
       },
       "description": {
-        "en": "Participation in the \"RYSEING IDEAS\" project, developed in Braga within the framework of the Sustainable Development Goals, in February 2024. The project began with an in-person meeting, during which participants were divided to work on different SDGs, developing SDG 6 — Clean Water and Sanitation. Work continued online over several weeks, with proposal presentation moments. The developed proposal focused on raising awareness for sustainable water use, exploring rainwater reuse strategies and disseminating practices to reduce daily water consumption. The project sought to encourage public participation through outreach initiatives, promoting collective reflection on the importance of responsible water resource management facing current climate challenges.",
-        "pt": "Participação no projeto \"RYSEING IDEAS\", desenvolvido em Braga no âmbito dos Objetivos de Desenvolvimento Sustentável, em fevereiro de 2024. O projeto iniciou-se com um encontro presencial, durante o qual os participantes foram divididos para trabalhar diferentes ODS, tendo sido desenvolvido o ODS 6 — Água Potável e Saneamento. O trabalho prosseguiu em formato online ao longo de várias semanas, com momentos de apresentação das propostas. A proposta desenvolvida incidiu na sensibilização para o uso sustentável da água, explorando estratégias de reutilização de águas pluviais e divulgação de práticas para reduzir o consumo hídrico no quotidiano. O projeto procurou incentivar a participação pública através de iniciativas de divulgação, promovendo uma reflexão coletiva sobre a importância da gestão responsável dos recursos hídricos face aos atuais desafios climáticos.",
-        "es": "Participación en el proyecto \"RYSEING IDEAS\", desarrollado en Braga en el marco de los Objetivos de Desarrollo Sostenible, en febrero de 2024. El proyecto comenzó con un encuentro presencial, durante el cual los participantes fueron divididos para trabajar diferentes ODS, desarrollando el ODS 6 — Agua Potable y Saneamiento. El trabajo continuó en formato online durante varias semanas, con momentos de presentación de propuestas. La propuesta desarrollada se centró en la sensibilización para el uso sostenible del agua, explorando estrategias de reutilización de aguas pluviales y difusión de prácticas para reducir el consumo hídrico en el día a día. El proyecto buscó incentivar la participación pública a través de iniciativas de divulgación, promoviendo una reflexión colectiva sobre la importancia de la gestión responsable de los recursos hídricos frente a los actuales desafíos climáticos."
+        "pt": "Participação no projeto «RYSEING IDEAS», realizado em Braga, em fevereiro de 2024, no âmbito dos Objetivos de Desenvolvimento Sustentável (ODS) das Nações Unidas, com especial enfoque no ODS 6 — Água Potável e Saneamento.\n\nO projeto desenvolvido, intitulado «Conta a Gota», partiu da problemática da escassez de água no Algarve e da necessidade de promover uma gestão mais sustentável dos recursos hídricos. A proposta centrou-se na criação de uma rede jovem de sensibilização ambiental, procurando incentivar a participação da comunidade e a adoção de práticas de consumo consciente, reutilização de água e aproveitamento das águas pluviais.\n\nForam exploradas diferentes estratégias, incluindo sistemas de recolha e armazenamento de águas pluviais, soluções de rega mais eficientes e reutilização de águas domésticas. A iniciativa integrou ainda o desenvolvimento de uma estratégia de comunicação digital, através de campanhas de sensibilização e de um desafio participativo nas redes sociais, denominado «#BlueSaviorChallenge», destinado a incentivar a partilha de soluções criativas para a poupança de água.\n\nO projeto procurou, assim, relacionar a gestão sustentável da água com a participação coletiva, promovendo uma reflexão sobre a importância dos recursos hídricos, da economia circular e da adaptação às alterações climáticas.",
+        "en": "Participation in the “RYSEING IDEAS” project, held in Braga in February 2024 within the framework of the United Nations Sustainable Development Goals (SDGs), with a particular focus on SDG 6 — Clean Water and Sanitation.\n\nThe project developed, entitled “Conta a Gota”, addressed water scarcity in the Algarve and the need to promote more sustainable management of water resources. The proposal focused on creating a youth-led environmental awareness network, encouraging community participation and the adoption of practices involving responsible water consumption, water reuse and rainwater harvesting.\n\nVarious strategies were explored, including rainwater collection and storage systems, more efficient irrigation solutions and the reuse of domestic water. The initiative also involved developing a digital communication strategy, with awareness campaigns and a participatory social media challenge called “#BlueSaviorChallenge”, intended to encourage people to share creative ways of saving water.\n\nThe project thus sought to connect sustainable water management with collective participation, encouraging reflection on the importance of water resources, the circular economy and adaptation to climate change.",
+        "es": "Participación en el proyecto «RYSEING IDEAS», realizado en Braga en febrero de 2024, en el marco de los Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas, con especial atención al ODS 6 — Agua Limpia y Saneamiento.\n\nEl proyecto desarrollado, titulado «Conta a Gota», partió de la problemática de la escasez de agua en el Algarve y de la necesidad de promover una gestión más sostenible de los recursos hídricos. La propuesta se centró en la creación de una red juvenil de sensibilización ambiental, con el objetivo de fomentar la participación de la comunidad y la adopción de prácticas de consumo responsable, reutilización del agua y aprovechamiento de las aguas pluviales.\n\nSe exploraron distintas estrategias, entre ellas sistemas de recogida y almacenamiento de aguas pluviales, soluciones de riego más eficientes y reutilización de aguas domésticas. La iniciativa incluyó también el desarrollo de una estrategia de comunicación digital mediante campañas de sensibilización y un reto participativo en redes sociales denominado «#BlueSaviorChallenge», destinado a incentivar el intercambio de soluciones creativas para ahorrar agua.\n\nDe este modo, el proyecto buscó relacionar la gestión sostenible del agua con la participación colectiva, promoviendo una reflexión sobre la importancia de los recursos hídricos, la economía circular y la adaptación al cambio climático."
       },
-      "images": [],
+      "images": [
+        {
+          "mosaic": "justified-2 stack",
+          "src": "participations/ryseing-ideas/01-there-is-rain.jpg",
+          "caption": {
+            "en": "“There is rain, there is change”: project presentation, SDG 6",
+            "pt": "«There is rain, there is change»: apresentação do projeto, ODS 6",
+            "es": "«There is rain, there is change»: presentación del proyecto, ODS 6"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/ryseing-ideas/02-eixos-do-projeto.jpg",
+          "caption": {
+            "en": "The four themes of the “Conta a Gota” project",
+            "pt": "Os quatro eixos do projeto «Conta a Gota»",
+            "es": "Los cuatro ejes del proyecto «Conta a Gota»"
+          },
+          "layout": "tile"
+        }
+      ],
       "externalLinks": []
     },
     {

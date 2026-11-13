@@ -57,7 +57,8 @@
       "related_project": "Related project"
     },
     "footer": {
-      "copyright": "© 2026 Carlota Azenha da Rocha. All rights reserved."
+      "copyright": "© 2026 Carlota Azenha da Rocha. All rights reserved.",
+      "credit": "Website"
     }
   },
   "pt": {
@@ -118,7 +119,8 @@
       "related_project": "Projeto relacionado"
     },
     "footer": {
-      "copyright": "© 2026 Carlota Azenha da Rocha. Todos os direitos reservados."
+      "copyright": "© 2026 Carlota Azenha da Rocha. Todos os direitos reservados.",
+      "credit": "Site"
     }
   },
   "es": {
@@ -179,7 +181,8 @@
       "related_project": "Proyecto relacionado"
     },
     "footer": {
-      "copyright": "© 2026 Carlota Azenha da Rocha. Todos los derechos reservados."
+      "copyright": "© 2026 Carlota Azenha da Rocha. Todos los derechos reservados.",
+      "credit": "Web"
     }
   }
 }

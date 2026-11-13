@@ -116,7 +116,8 @@ function picture(src, className = '') {
 // Thin labelled rules: label on the left, value on the right
 function rules(items, className = '') {
   const list = el('dl', `rules ${className}`);
-  items.forEach(item => {
+  // A row without a value (a field left out of about.json) is not shown
+  items.filter(item => item.value).forEach(item => {
     const row = el('div', 'rule');
     row.append(el('dt', null, item.label), el('dd', null, item.value || ''));
     list.appendChild(row);
