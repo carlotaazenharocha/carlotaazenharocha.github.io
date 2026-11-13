@@ -2346,3 +2346,22 @@ footer {
   background-color: var(--color-text);
   color: var(--color-bg);
 }
+
+/* Two vertical videos side by side: each centred in its half, caption under it */
+.project-image-row .project-image.half-width:has(.video-embed--vertical) {
+  justify-self: center;
+  width: fit-content;
+  max-width: 100%;
+}
+
+/* A link inside the About text (e.g. to the ceramics page) */
+.about-main #about-intro a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 3px;
+}
+
+.about-main #about-intro a:hover {
+  text-decoration-color: currentColor;
+}

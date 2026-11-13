@@ -119,9 +119,9 @@
       },
       "date": "2022-09-01",
       "dateDisplay": {
-        "en": "September 1-10, 2022",
-        "pt": "1-10 de setembro de 2022",
-        "es": "1-10 de septiembre de 2022"
+        "en": "September 1–10, 2022",
+        "pt": "1 a 10 de setembro de 2022",
+        "es": "1 al 10 de septiembre de 2022"
       },
       "location": {
         "en": "Golden Sands, Varna, Bulgaria",
@@ -129,16 +129,55 @@
         "es": "Golden Sands, Varna, Bulgaria"
       },
       "institution": {
-        "en": "Erasmus+",
-        "pt": "Erasmus+",
-        "es": "Erasmus+"
+        "en": "Dare to Scale Academy",
+        "pt": "Dare to Scale Academy",
+        "es": "Dare to Scale Academy"
       },
       "description": {
-        "en": "Participation in the youth exchange \"You(th) Work for Sustainability\", held in Golden Sands, Varna (Bulgaria), between September 1-10, 2022, under the Erasmus+ program. The activity developed through debates, group dynamics and moments of collective reflection centered on sustainability issues, promoting the sharing of ideas among participants from different cultural backgrounds and encouraging reflection on individual and collective roles in building a more sustainable world.",
-        "pt": "Participação no intercâmbio juvenil \"You(th) Work for Sustainability\", realizado em Golden Sands, Varna (Bulgária), entre 1 e 10 de setembro de 2022, no âmbito do programa Erasmus+. A atividade desenvolveu-se através de debates, dinâmicas de grupo e momentos de reflexão coletiva centrados em questões de sustentabilidade, promovendo a partilha de ideias entre participantes de diferentes contextos culturais e incentivando a reflexão sobre o papel individual e coletivo na construção de um mundo mais sustentável.",
-        "es": "Participación en el intercambio juvenil \"You(th) Work for Sustainability\", realizado en Golden Sands, Varna (Bulgaria), entre el 1 y el 10 de septiembre de 2022, en el marco del programa Erasmus+. La actividad se desarrolló a través de debates, dinámicas de grupo y momentos de reflexión colectiva centrados en cuestiones de sostenibilidad, promoviendo el intercambio de ideas entre participantes de diferentes contextos culturales e incentivando la reflexión sobre el papel individual y colectivo en la construcción de un mundo más sostenible."
+        "pt": "Participação no intercâmbio juvenil Erasmus+ «You(th) Work for Sustainability», realizado em Golden Sands, Varna, na Bulgária, entre 1 e 10 de setembro de 2022, promovido pela Dare to Scale Academy, dedicado ao desenvolvimento pessoal e profissional, à sustentabilidade e à participação ativa dos jovens na sociedade.\n\nO programa desenvolveu-se através de atividades colaborativas, debates e dinâmicas de grupo, promovendo a partilha de experiências entre participantes de diferentes contextos culturais. Entre os temas explorados destacou-se o conceito japonês de <em>Ikigai</em>, associado à procura de um propósito pessoal através da relação entre as paixões, as competências individuais, as necessidades da sociedade e as possibilidades de realização profissional.\n\nForam ainda abordadas questões relacionadas com a construção da identidade pessoal, a definição de objetivos e a preparação para o mercado de trabalho, incentivando os participantes a reconhecer as suas capacidades e a refletir sobre o seu percurso e contributo para a sociedade.\n\nA experiência promoveu o autoconhecimento, a cooperação intercultural e uma reflexão sobre a importância de conciliar a realização pessoal e profissional com uma atuação socialmente responsável e sustentável.",
+        "en": "Participation in the Erasmus+ youth exchange “You(th) Work for Sustainability”, held in Golden Sands, Varna, Bulgaria, from September 1 to 10, 2022, organised by Dare to Scale Academy, focusing on personal and professional development, sustainability and young people's active participation in society.\n\nThe programme involved collaborative activities, discussions and group exercises, encouraging participants from different cultural backgrounds to share experiences. Among the topics explored was the Japanese concept of <em>Ikigai</em>, associated with the search for personal purpose through the relationship between passions, individual skills, society's needs and opportunities for professional fulfilment.\n\nThe programme also addressed the development of personal identity, goal-setting and preparation for the job market, encouraging participants to recognise their abilities and reflect on their paths and contributions to society.\n\nThe experience fostered self-knowledge, intercultural cooperation and reflection on the importance of combining personal and professional fulfilment with socially responsible and sustainable action.",
+        "es": "Participación en el intercambio juvenil Erasmus+ «You(th) Work for Sustainability», celebrado en Golden Sands, Varna, Bulgaria, del 1 al 10 de septiembre de 2022, promovido por Dare to Scale Academy, dedicado al desarrollo personal y profesional, la sostenibilidad y la participación activa de los jóvenes en la sociedad.\n\nEl programa se desarrolló mediante actividades colaborativas, debates y dinámicas de grupo, fomentando el intercambio de experiencias entre participantes de diferentes contextos culturales. Entre los temas abordados destacó el concepto japonés de <em>Ikigai</em>, asociado a la búsqueda de un propósito personal mediante la relación entre las pasiones, las competencias individuales, las necesidades de la sociedad y las posibilidades de realización profesional.\n\nTambién se abordaron cuestiones relacionadas con la construcción de la identidad personal, la definición de objetivos y la preparación para el mercado laboral, animando a los participantes a reconocer sus capacidades y a reflexionar sobre su trayectoria y contribución a la sociedad.\n\nLa experiencia promovió el autoconocimiento, la cooperación intercultural y una reflexión sobre la importancia de conciliar la realización personal y profesional con una actuación socialmente responsable y sostenible."
       },
-      "images": [],
+      "images": [
+        {
+          "mosaic": "justified-2",
+          "src": "participations/youth-sustainability/01-grupo.jpg",
+          "caption": {
+            "en": "Exchange participants",
+            "pt": "Participantes do intercâmbio",
+            "es": "Participantes del intercambio"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/youth-sustainability/02-sessao.jpg",
+          "caption": {
+            "en": "Group discussion session",
+            "pt": "Sessão de debate em grupo",
+            "es": "Sesión de debate en grupo"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified-2",
+          "src": "participations/youth-sustainability/03-ikigai.jpg",
+          "caption": {
+            "en": "The concept of Ikigai",
+            "pt": "O conceito de Ikigai",
+            "es": "El concepto de Ikigai"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/youth-sustainability/04-trabalho-em-grupo.jpg",
+          "caption": {
+            "en": "Group work on skills",
+            "pt": "Trabalho em grupo sobre competências",
+            "es": "Trabajo en grupo sobre competencias"
+          },
+          "layout": "tile"
+        }
+      ],
       "externalLinks": []
     },
     {
@@ -980,25 +1019,25 @@
       "id": "open-house-porto",
       "type": "volunteering",
       "title": {
-        "en": "Open House Porto",
-        "pt": "Open House Porto",
-        "es": "Open House Porto"
+        "en": "Open House Porto | Casa da Arquitectura",
+        "pt": "Open House Porto | Casa da Arquitectura",
+        "es": "Open House Porto | Casa da Arquitectura"
       },
       "date": "2024-07-06",
       "dateDisplay": {
-        "en": "July 6–7, 2024",
-        "pt": "6–7 de julho de 2024",
-        "es": "6–7 de julio de 2024"
+        "en": "2022 and 2024",
+        "pt": "2022 e 2024",
+        "es": "2022 y 2024"
       },
       "location": {
-        "en": "Porto, Portugal",
-        "pt": "Porto, Portugal",
-        "es": "Oporto, Portugal"
+        "en": "Porto and metropolitan area, Portugal",
+        "pt": "Porto e área metropolitana, Portugal",
+        "es": "Oporto y área metropolitana, Portugal"
       },
       "institution": {
-        "en": "Casa da Arquitectura",
-        "pt": "Casa da Arquitectura",
-        "es": "Casa da Arquitectura"
+        "en": "Open House Porto | Casa da Arquitectura",
+        "pt": "Open House Porto | Casa da Arquitectura",
+        "es": "Open House Porto | Casa da Arquitectura"
       },
       "eventUrl": "https://2024.openhouseporto.com/",
       "eventName": {
@@ -1007,66 +1046,159 @@
         "es": "Open House Porto 2024"
       },
       "description": {
-        "en": "Participation in Open House Porto, a weekend of free visits to more than 60 architectural spaces in Maia, Matosinhos, Porto and Vila Nova de Gaia.",
-        "pt": "Participação no Open House Porto, um fim de semana de visitas gratuitas a mais de 60 espaços de arquitetura na Maia, em Matosinhos, no Porto e em Vila Nova de Gaia.",
-        "es": "Participación en Open House Porto, un fin de semana de visitas gratuitas a más de 60 espacios de arquitectura en Maia, Matosinhos, Oporto y Vila Nova de Gaia."
+        "pt": "Participação como voluntária nas edições de 2022 e 2024 do Open House Porto, iniciativa dedicada à divulgação da arquitetura e à aproximação do público ao património arquitetónico, através de visitas e atividades em diferentes espaços da cidade.\n\nNa edição de 2022, a participação incluiu a realização de visitas guiadas à Piscina das Marés e ao edifício Sousa Aroso, então em construção, bem como a colaboração na montagem de uma exposição. Estas atividades proporcionaram o contacto direto com diferentes contextos arquitetónicos, desde a valorização de uma obra de referência da arquitetura portuguesa até à compreensão dos processos de construção contemporâneos.\n\nEm 2024, a participação desenvolveu-se na Torre Lidador, através do acompanhamento de visitas e da dinamização de atividades de arquitetura dirigidas ao público infantil, procurando despertar o interesse das crianças pelo espaço construído e pela sua interpretação.\n\nParalelamente, a ligação à Casa da Arquitectura proporcionou a participação em entrevistas com o escritor Gonçalo M. Tavares e Ana Arazão, promovendo o contacto com diferentes perspetivas culturais e criativas e a reflexão sobre as relações entre arquitetura, literatura e outras formas de expressão artística.\n\nEstas experiências permitiram aprofundar o contacto com o património arquitetónico e com diferentes públicos, valorizando a comunicação, a mediação cultural e a participação ativa na divulgação da arquitetura.",
+        "en": "Participation as a volunteer in the 2022 and 2024 editions of Open House Porto, an initiative dedicated to promoting architecture and bringing the public closer to architectural heritage through visits and activities in different spaces across the city.\n\nIn 2022, the activities included leading guided tours of the Piscina das Marés swimming pools and the Sousa Aroso building, then under construction, as well as helping to set up an exhibition. These experiences offered direct contact with different architectural contexts, from highlighting a landmark work of Portuguese architecture to understanding contemporary construction processes.\n\nIn 2024, the participation took place at Torre Lidador, supporting visits and leading architecture activities for children, aiming to encourage their interest in the built environment and its interpretation.\n\nAlongside this, involvement with Casa da Arquitectura included participation in interviews with the writer Gonçalo M. Tavares and Ana Arazão, providing contact with different cultural and creative perspectives and encouraging reflection on the relationships between architecture, literature and other forms of artistic expression.\n\nThese experiences deepened engagement with architectural heritage and diverse audiences, highlighting communication, cultural mediation and active participation in promoting architecture.",
+        "es": "Participación como voluntaria en las ediciones de 2022 y 2024 de Open House Porto, una iniciativa dedicada a la difusión de la arquitectura y al acercamiento del público al patrimonio arquitectónico mediante visitas y actividades en diferentes espacios de la ciudad.\n\nEn la edición de 2022, la participación incluyó la realización de visitas guiadas a la Piscina das Marés y al edificio Sousa Aroso, entonces en construcción, así como la colaboración en el montaje de una exposición. Estas actividades permitieron un contacto directo con distintos contextos arquitectónicos, desde la puesta en valor de una obra de referencia de la arquitectura portuguesa hasta la comprensión de los procesos de construcción contemporáneos.\n\nEn 2024, la participación se desarrolló en la Torre Lidador, mediante el acompañamiento de visitas y la dinamización de actividades de arquitectura dirigidas al público infantil, con el objetivo de despertar el interés de los niños por el entorno construido y su interpretación.\n\nParalelamente, la vinculación con Casa da Arquitectura permitió participar en entrevistas con el escritor Gonçalo M. Tavares y Ana Arazão, favoreciendo el contacto con distintas perspectivas culturales y creativas y la reflexión sobre las relaciones entre arquitectura, literatura y otras formas de expresión artística.\n\nEstas experiencias permitieron profundizar en el contacto con el patrimonio arquitectónico y con diferentes públicos, poniendo en valor la comunicación, la mediación cultural y la participación activa en la difusión de la arquitectura."
       },
       "images": [
+        {
+          "mosaic": "justified",
+          "src": "participations/02-open-house/01-visita-piscina-das-mares.jpg",
+          "caption": {
+            "en": "Guided tour of the Piscina das Marés, 2022",
+            "pt": "Visita guiada à Piscina das Marés, 2022",
+            "es": "Visita guiada a la Piscina das Marés, 2022"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/02-open-house/02-visita-guiada.jpg",
+          "caption": {
+            "en": "Guided tour, Open House Porto 2022",
+            "pt": "Visita guiada, Open House Porto 2022",
+            "es": "Visita guiada, Open House Porto 2022"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/02-open-house/03-montagem-exposicao.jpg",
+          "caption": {
+            "en": "Setting up the exhibition, 2022",
+            "pt": "Montagem da exposição, 2022",
+            "es": "Montaje de la exposición, 2022"
+          },
+          "layout": "tile"
+        },
         {
           "type": "vimeo",
           "vimeo": "1246653385",
           "vertical": true,
           "loop": true,
           "caption": {
-            "en": "Open House Porto promotional video",
-            "pt": "Vídeo de apresentação do Open House Porto",
-            "es": "Vídeo de presentación de Open House Porto"
+            "en": "Open House Porto 2024 promotional video",
+            "pt": "Vídeo de apresentação do Open House Porto 2024",
+            "es": "Vídeo de presentación de Open House Porto 2024"
           },
-          "layout": "inset"
-        }
-      ],
-      "externalLinks": []
-    },
-    {
-      "id": "entrevista-goncalo-m-tavares",
-      "type": "project",
-      "title": {
-        "en": "Ask the Artist: Gonçalo M. Tavares",
-        "pt": "Pergunta ao Artista: Gonçalo M. Tavares",
-        "es": "Pregunta al Artista: Gonçalo M. Tavares"
-      },
-      "date": "2024-07",
-      "dateDisplay": {
-        "en": "2024",
-        "pt": "2024",
-        "es": "2024"
-      },
-      "location": {
-        "en": "Matosinhos, Portugal",
-        "pt": "Matosinhos, Portugal",
-        "es": "Matosinhos, Portugal"
-      },
-      "institution": {
-        "en": "Casa da Arquitectura",
-        "pt": "Casa da Arquitectura",
-        "es": "Casa da Arquitectura"
-      },
-      "description": {
-        "en": "Interview with the writer Gonçalo M. Tavares for the series “Ask the Artist” by Casa da Arquitectura, on the creative process, drawing and writing.",
-        "pt": "Entrevista ao escritor Gonçalo M. Tavares, no âmbito da série «Pergunta ao Artista», da Casa da Arquitectura, sobre o processo criativo, o desenho e a escrita.",
-        "es": "Entrevista al escritor Gonçalo M. Tavares en la serie «Pregunta al Artista» de la Casa da Arquitectura, sobre el proceso creativo, el dibujo y la escritura."
-      },
-      "images": [
+          "layout": "half"
+        },
         {
           "type": "vimeo",
           "vimeo": "1246660963",
           "vertical": true,
           "caption": {
-            "en": "Interview with Gonçalo M. Tavares",
-            "pt": "Entrevista a Gonçalo M. Tavares",
-            "es": "Entrevista a Gonçalo M. Tavares"
+            "en": "Interview with Gonçalo M. Tavares, Casa da Arquitectura",
+            "pt": "Entrevista a Gonçalo M. Tavares, Casa da Arquitectura",
+            "es": "Entrevista a Gonçalo M. Tavares, Casa da Arquitectura"
           },
-          "layout": "inset"
+          "layout": "half"
+        }
+      ],
+      "externalLinks": []
+    },
+    {
+      "id": "ceramica",
+      "type": "workshop",
+      "title": {
+        "en": "Ceramics | Material, Process and Creation",
+        "pt": "Cerâmica | Matéria, Processo e Criação",
+        "es": "Cerámica | Materia, Proceso y Creación"
+      },
+      "date": "2022-08",
+      "dateDisplay": {
+        "en": "August 2022",
+        "pt": "Agosto de 2022",
+        "es": "Agosto de 2022"
+      },
+      "location": {
+        "en": "Ericeira, Portugal",
+        "pt": "Ericeira, Portugal",
+        "es": "Ericeira, Portugal"
+      },
+      "institution": {
+        "en": "Sea Salt Collective | Luclay Ceramics",
+        "pt": "Sea Salt Collective | Luclay Ceramics",
+        "es": "Sea Salt Collective | Luclay Ceramics"
+      },
+      "description": {
+        "pt": "O interesse pela cerâmica tem vindo a crescer a partir de uma relação próxima com as artes e com os processos de criação manual. A pintura, o desenho e a experimentação de diferentes materiais sempre fizeram parte deste percurso, encontrando na cerâmica uma forma de expressão que reúne a criatividade, a sensibilidade artística e o contacto direto com a matéria.\n\nEm agosto de 2022, a participação em dois workshops na Ericeira — um de pintura de azulejos, promovido pelo Sea Salt Collective, e outro de cerâmica, realizado pela Luclay Ceramics — permitiu explorar diferentes formas de expressão artística através do barro e da decoração cerâmica, reforçando o interesse pelo trabalho manual e pelos processos artesanais.\n\nDesde então, este interesse tem sido aprofundado através de outras experiências de cerâmica e de roda de oleiro, com particular atenção à compreensão de todo o processo de transformação da matéria, desde a preparação e modelação do barro até à secagem, cozedura e acabamento das peças.\n\nEsta aproximação à cerâmica tem reforçado também a relação entre os materiais, a arquitetura e o património, especialmente pela valorização dos saberes tradicionais, pela reutilização de recursos e pela exploração de práticas mais sustentáveis.",
+        "en": "Interest in ceramics has continued to grow from a close connection with the arts and processes of making by hand. Painting, drawing and experimenting with different materials have always been part of this journey, with ceramics offering a form of expression that brings together creativity, artistic sensitivity and direct contact with the material.\n\nIn August 2022, participation in two workshops in Ericeira — one on tile painting, organised by Sea Salt Collective, and another on ceramics, held by Luclay Ceramics — provided opportunities to explore different forms of artistic expression through clay and ceramic decoration, strengthening an interest in manual work and artisanal processes.\n\nSince then, this interest has been developed further through other experiences in ceramics and pottery wheel throwing, with particular attention to understanding the entire process of transforming the material, from preparing and shaping the clay to drying, firing and finishing the pieces.\n\nThis engagement with ceramics has also strengthened the connection between materials, architecture and heritage, particularly through an appreciation of traditional knowledge, the reuse of resources and the exploration of more sustainable practices.",
+        "es": "El interés por la cerámica ha ido creciendo a partir de una estrecha relación con las artes y los procesos de creación manual. La pintura, el dibujo y la experimentación con distintos materiales siempre han formado parte de este recorrido, encontrando en la cerámica una forma de expresión que reúne creatividad, sensibilidad artística y contacto directo con la materia.\n\nEn agosto de 2022, la participación en dos talleres en Ericeira — uno de pintura de azulejos, promovido por Sea Salt Collective, y otro de cerámica, realizado por Luclay Ceramics — permitió explorar distintas formas de expresión artística a través del barro y la decoración cerámica, reforzando el interés por el trabajo manual y los procesos artesanales.\n\nDesde entonces, este interés se ha profundizado mediante otras experiencias de cerámica y torno de alfarero, prestando especial atención a la comprensión de todo el proceso de transformación de la materia, desde la preparación y el modelado del barro hasta el secado, la cocción y el acabado de las piezas.\n\nEste acercamiento a la cerámica también ha reforzado la relación entre los materiales, la arquitectura y el patrimonio, especialmente a través de la valoración de los saberes tradicionales, la reutilización de recursos y la exploración de prácticas más sostenibles."
+      },
+      "images": [
+        {
+          "mosaic": "justified-4",
+          "src": "participations/ceramica/01-workshop.jpg",
+          "caption": {
+            "en": "Outdoor ceramics workshop",
+            "pt": "Workshop de cerâmica ao ar livre",
+            "es": "Taller de cerámica al aire libre"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/ceramica/02-mesa.jpg",
+          "caption": {
+            "en": "Working at the table",
+            "pt": "Trabalho à mesa",
+            "es": "Trabajo en la mesa"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/ceramica/03-modelacao.jpg",
+          "caption": {
+            "en": "Shaping the clay",
+            "pt": "Modelação do barro",
+            "es": "Modelado del barro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/ceramica/04-vaso.jpg",
+          "caption": {
+            "en": "Building a vessel",
+            "pt": "Construção de um vaso",
+            "es": "Construcción de un jarrón"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified",
+          "src": "participations/ceramica/05-azulejo-detalhe.jpg",
+          "caption": {
+            "en": "Detail of a decorated piece",
+            "pt": "Pormenor de uma peça decorada",
+            "es": "Detalle de una pieza decorada"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/ceramica/06-placa.jpg",
+          "caption": {
+            "en": "Shaping a slab",
+            "pt": "Modelação de uma placa",
+            "es": "Modelado de una placa"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/ceramica/07-decoracao.jpg",
+          "caption": {
+            "en": "Decorating the pieces",
+            "pt": "Decoração das peças",
+            "es": "Decoración de las piezas"
+          },
+          "layout": "tile"
         }
       ],
       "externalLinks": []
