@@ -326,15 +326,6 @@
             "es": "Presentación durante el congreso"
           },
           "layout": "tile"
-        },
-        {
-          "src": "participations/cipa-congress/07-certificado.jpg",
-          "caption": {
-            "en": "Certificate of participation in the organisation",
-            "pt": "Certificado de participação na organização",
-            "es": "Certificado de participación en la organización"
-          },
-          "layout": "tile"
         }
       ],
       "externalLinks": []
