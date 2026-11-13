@@ -142,28 +142,21 @@ async function loadAboutData() {
 }
 
 // ============================================
-// HOMEPAGE - Projects Grid
+// HOMEPAGE
+// The projects as large cards in one row that scrolls sideways; the other
+// work below in the same kind of row with smaller cards, so the projects keep
+// the focus. Both rows run out to the right edge of the screen.
 // ============================================
 
 async function initHomepage() {
   const data = await loadProjectsData();
   if (!data) return;
 
-  const gridContainer = document.getElementById('projects-grid');
-  if (!gridContainer) return;
+  const container = document.getElementById('projects');
+  if (!container) return;
 
-  gridContainer.innerHTML = '';
-
-  // Projects fill the grid; other work (studies, surveys, exercises) follows
-  data.projects.filter(project => !isOtherWork(project)).forEach(project => {
-    gridContainer.appendChild(createProjectCard(project));
-  });
+  renderProjectStrip(container, data.projects.filter(project => !isOtherWork(project)));
   renderOtherWork(data.projects.filter(project => isOtherWork(project) && !isSketchbook(project)));
-
-  // Add fade-in animation
-  setTimeout(() => {
-    gridContainer.classList.add('loading');
-  }, 100);
 }
 
 // Other work (studies, surveys, exercises) lives in projects/outros-trabalhos/
@@ -183,41 +176,109 @@ function projectGroup(project) {
   return isSketchbook(project) ? 'sketchbook' : isOtherWork(project) ? 'other' : 'project';
 }
 
+// The bar below a row: a thin progress line and the previous / next arrows
+function stripBar(iconSize) {
+  const arrow = (direction, points) => `
+    <button type="button" class="strip-arrow" data-direction="${direction}" aria-label="${t(`projects.${direction < 0 ? 'previous' : 'next'}`)}">
+      <svg xmlns="http://www.w3.org/2000/svg" width="${iconSize}" height="${iconSize}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="${points}"/></svg>
+    </button>`;
+  return `
+    <div class="strip-bar">
+      <div class="strip-progress"><span></span></div>
+      <div class="strip-arrows">${arrow(-1, '15 18 9 12 15 6')}${arrow(1, '9 18 15 12 9 6')}</div>
+    </div>`;
+}
+
+// A row of cards that scrolls sideways: the arrows move one card at a time and
+// are disabled at each end, the line shows how far along the row is, and the
+// mouse can drag it (a drag does not open the card). The homepage is rebuilt
+// on a language change, so each row keeps a single resize listener.
+const stripResize = {};
+
+function setupStrip(name, section, track, cardSelector) {
+  const bar = section.querySelector('.strip-progress span');
+  const [prev, next] = section.querySelectorAll('.strip-arrow');
+  const update = () => {
+    const max = track.scrollWidth - track.clientWidth;
+    section.classList.toggle('strip--static', max <= 1);
+    bar.style.width = `${max > 0 ? ((track.scrollLeft + track.clientWidth) / track.scrollWidth) * 100 : 100}%`;
+    prev.disabled = track.scrollLeft <= 1;
+    next.disabled = track.scrollLeft >= max - 1;
+  };
+  const step = direction => {
+    const card = track.querySelector(cardSelector);
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    track.scrollBy({ left: direction * (card.offsetWidth + gap), behavior: 'smooth' });
+  };
+  prev.addEventListener('click', () => step(-1));
+  next.addEventListener('click', () => step(1));
+  track.addEventListener('scroll', update, { passive: true });
+  // The pictures load after the row exists
+  track.addEventListener('load', update, true);
+  window.removeEventListener('resize', stripResize[name]);
+  stripResize[name] = update;
+  window.addEventListener('resize', update);
+
+  let drag = null;
+  track.addEventListener('pointerdown', e => {
+    if (e.pointerType !== 'mouse') return;
+    drag = { x: e.clientX, left: track.scrollLeft, moved: false };
+  });
+  track.addEventListener('pointermove', e => {
+    if (!drag) return;
+    const dx = e.clientX - drag.x;
+    if (Math.abs(dx) > 5) { drag.moved = true; track.classList.add('is-dragging'); }
+    if (drag.moved) track.scrollLeft = drag.left - dx;
+  });
+  const endDrag = () => {
+    if (!drag) return;
+    track.classList.remove('is-dragging');
+    setTimeout(() => { drag = null; }, 0);
+  };
+  track.addEventListener('pointerup', endDrag);
+  track.addEventListener('pointerleave', endDrag);
+  track.addEventListener('click', e => { if (drag?.moved) e.preventDefault(); }, true);
+  track.addEventListener('dragstart', e => e.preventDefault());
+  requestAnimationFrame(update);
+}
+
+function renderProjectStrip(container, projects) {
+  const cards = projects.map((project, i) => {
+    const title = getText(project.title);
+    return `
+      <a class="ps-card" href="project.html?id=${project.id}">
+        <div class="ps-image"><img src="${project.thumbnail}" alt="${title}"${i > 2 ? ' loading="lazy"' : ''}></div>
+        <div class="ps-caption">
+          <span class="ps-num">${String(i + 1).padStart(2, '0')}</span>
+          <span class="ps-title">${title}</span>
+          <span class="ps-meta">${[getText(project.location), project.year].filter(Boolean).join(' · ')}</span>
+        </div>
+      </a>`;
+  }).join('');
+  container.innerHTML = `<div class="ps-track fade-in">${cards}</div>${stripBar(22)}`;
+  setupStrip('projects', container, container.querySelector('.ps-track'), '.ps-card');
+}
+
 function renderOtherWork(works) {
   const section = document.getElementById('other-work');
   if (!section) return;
   section.innerHTML = '';
   if (!works.length) return;
 
-  // Title with the slider arrows on the right
-  const arrow = (direction, points) => `
-    <button type="button" class="other-work-arrow" data-direction="${direction}" aria-label="${t(`projects.${direction < 0 ? 'previous' : 'next'}`)}">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="${points}"/></svg>
-    </button>`;
-  section.innerHTML = `
-    <div class="other-work-header">
-      <h2 class="other-work-title">${t('projects.other_title')}</h2>
-      <div class="other-work-arrows">${arrow(-1, '15 18 9 12 15 6')}${arrow(1, '9 18 15 12 9 6')}</div>
-    </div>
-  `;
-
-  // Slider of small cards (swipe, trackpad or arrows), title and details below each
-  const container = document.createElement('div');
-  container.className = 'other-work-items fade-in';
-  works.forEach(work => {
-    const item = document.createElement('a');
-    item.href = `project.html?id=${work.id}`;
-    item.className = 'other-work-item';
+  const cards = works.map(work => {
     const title = getText(work.title);
-    item.innerHTML = `
-      <div class="other-work-image"><img src="${work.thumbnail}" alt="${title}" loading="lazy"></div>
-      <div class="other-work-name">${title}</div>
-      <div class="other-work-meta">${[getText(work.typology), work.year].filter(Boolean).join(' · ')}</div>
-    `;
-    container.appendChild(item);
-  });
-  section.appendChild(container);
-  setupOtherWorkSlider(section, container);
+    return `
+      <a class="other-work-item" href="project.html?id=${work.id}">
+        <div class="other-work-image"><img src="${work.thumbnail}" alt="${title}" loading="lazy"></div>
+        <div class="other-work-name">${title}</div>
+        <div class="other-work-meta">${[getText(work.typology), work.year].filter(Boolean).join(' · ')}</div>
+      </a>`;
+  }).join('');
+  section.innerHTML = `
+    <div class="other-work-header"><h2 class="other-work-title">${t('projects.other_title')}</h2></div>
+    <div class="other-work-items fade-in">${cards}</div>
+    ${stripBar(20)}`;
+  setupStrip('other', section, section.querySelector('.other-work-items'), '.other-work-item');
 }
 
 // Arrows of a sideways strip of pictures: one picture at a time, disabled at
@@ -244,51 +305,6 @@ function setupScrollStrip(strip, track) {
   // The pictures are added and load after the strip exists
   track.addEventListener('load', update, true);
   requestAnimationFrame(update);
-}
-
-// Arrows move the slider by one card; each is disabled at its end and both
-// are hidden when every card already fits
-function setupOtherWorkSlider(section, track) {
-  const arrows = section.querySelectorAll('.other-work-arrow');
-  const update = () => {
-    const max = track.scrollWidth - track.clientWidth;
-    section.classList.toggle('other-work--static', max <= 1);
-    arrows[0].disabled = track.scrollLeft <= 1;
-    arrows[1].disabled = track.scrollLeft >= max - 1;
-  };
-  arrows.forEach(button => button.addEventListener('click', () => {
-    const card = track.querySelector('.other-work-item');
-    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
-    track.scrollBy({ left: Number(button.dataset.direction) * (card.offsetWidth + gap), behavior: 'smooth' });
-  }));
-  track.addEventListener('scroll', update, { passive: true });
-  // The section is rebuilt on language change: keep a single resize listener
-  window.removeEventListener('resize', otherWorkResize);
-  otherWorkResize = update;
-  window.addEventListener('resize', otherWorkResize);
-  update();
-}
-let otherWorkResize = null;
-
-function createProjectCard(project) {
-  const card = document.createElement('a');
-  card.href = `project.html?id=${project.id}`;
-  card.className = 'project-card';
-
-  const title = getText(project.title);
-  const year = project.year;
-
-  card.innerHTML = `
-    <img src="${project.thumbnail}" alt="${title}" loading="lazy">
-    <div class="project-overlay">
-      <div class="project-info">
-        <div class="project-title">${title}</div>
-        <div class="project-year">${year}</div>
-      </div>
-    </div>
-  `;
-
-  return card;
 }
 
 // ============================================
@@ -466,7 +482,8 @@ function renderImages(container, images, parts = []) {
 
     const layoutClass = { full: 'full-width', half: 'half-width', tile: 'tile' }[image.layout] || 'inset';
     const imageDiv = document.createElement('div');
-    imageDiv.className = `project-image ${layoutClass}`;
+    // "bleed": a full-width picture that runs to the edges of the screen
+    imageDiv.className = `project-image ${layoutClass}${image.bleed ? ' bleed' : ''}`;
     // Videos play silently in a loop like an image, without controls; with
     // "controls" (an interview, say) they wait to be played, with sound
     const video = image.controls
@@ -571,13 +588,15 @@ function paragraphs(text) {
   return getText(text).split(/\n\s*\n/).map(paragraph => `<p>${paragraph}</p>`).join('');
 }
 
-function sectionTitle(title) {
-  return `<h2 class="project-section-title">${getText(title)}</h2>`;
+// Each section of the research opens as a numbered chapter
+function chapterTitle(title, number) {
+  return `<h2 class="research-chapter"><span class="research-chapter-number">${String(number).padStart(2, '0')}</span><span class="research-chapter-title">${getText(title)}</span></h2>`;
 }
 
-function renderResearchSection(section) {
+function renderResearchSection(section, number) {
   const wrapper = document.createElement('section');
   wrapper.className = `research-section research-section--${section.type}`;
+  const sectionTitle = title => chapterTitle(title, number);
 
   if (section.type === 'text') {
     wrapper.innerHTML = `${sectionTitle(section.title)}<div class="research-text">${paragraphs(section.text)}</div>`;
@@ -595,6 +614,73 @@ function renderResearchSection(section) {
           </li>
         `).join('')}
       </ol>
+    `;
+    if (section.images) {
+      if (section.imagesTitle) wrapper.insertAdjacentHTML('beforeend', `<h3 class="research-subtitle-small">${getText(section.imagesTitle)}</h3>`);
+      renderImages(wrapper, section.images);
+      if (section.imagesNote) wrapper.insertAdjacentHTML('beforeend', `<p class="publication-note">${getText(section.imagesNote)}</p>`);
+    }
+  }
+
+  // The research question, large, and the method in short columns
+  if (section.type === 'question') {
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <blockquote class="research-question">${getText(section.question)}</blockquote>
+      <ol class="research-cards">
+        ${section.items.map(item => `
+          <li class="research-card">
+            <h3 class="research-card-title">${getText(item.title)}</h3>
+            <p class="research-card-text">${getText(item.text)}</p>
+          </li>`).join('')}
+      </ol>
+    `;
+  }
+
+  // Three columns: values at the origin, lost, and still enduring
+  if (section.type === 'values') {
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <div class="research-text">${paragraphs(section.text)}</div>
+      <div class="values-table" role="table">
+        <div class="values-row values-head" role="row">${section.columns.map(column => `<span role="columnheader">${getText(column)}</span>`).join('')}</div>
+        ${section.rows.map(row => `
+          <div class="values-row" role="row">${row.map((cell, i) => `<span role="cell" data-label="${getText(section.columns[i])}">${getText(cell)}</span>`).join('')}</div>`).join('')}
+      </div>
+      ${section.conclusion ? `<p class="values-conclusion">${getText(section.conclusion)}</p>` : ''}
+    `;
+  }
+
+  if (section.type === 'constraints') {
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <div class="research-text">${paragraphs(section.text)}</div>
+      <ol class="research-cards research-cards--two">
+        ${section.items.map(item => `
+          <li class="research-card">
+            <h3 class="research-card-title">${getText(item.title)}</h3>
+            <p class="research-card-text">${getText(item.text)}</p>
+          </li>`).join('')}
+      </ol>
+    `;
+  }
+
+  // Case studies, without pictures: what each one teaches and how it applies
+  if (section.type === 'cases') {
+    wrapper.innerHTML = `
+      ${sectionTitle(section.title)}
+      <div class="research-text">${paragraphs(section.text)}</div>
+      <ol class="cases">
+        ${section.items.map(item => `
+          <li class="case">
+            <h3 class="case-name">${item.name}</h3>
+            <div class="case-part"><span class="metadata-label">${getText(section.labels.principle)}</span><p>${getText(item.principle)}</p></div>
+            <div class="case-part"><span class="metadata-label">${getText(section.labels.application)}</span><p>${getText(item.application)}</p></div>
+          </li>`).join('')}
+      </ol>
+      ${section.criteria ? `
+        <h3 class="criteria-title">${getText(section.criteriaTitle)}</h3>
+        <ol class="criteria">${section.criteria.map(item => `<li>${getText(item)}</li>`).join('')}</ol>` : ''}
     `;
   }
 
@@ -679,9 +765,15 @@ async function initResearchPage() {
   document.getElementById('research-subtitle').textContent = getText(researchData.subtitle);
   document.getElementById('research-abstract').innerHTML = paragraphs(researchData.abstract);
 
+  // Opening picture, edge to edge, between the title and the abstract
+  const hero = document.getElementById('research-hero');
+  if (hero && researchData.hero) {
+    hero.innerHTML = `<img src="${researchData.hero.src}" alt="${getText(researchData.hero.caption)}"><figcaption class="image-caption">${getText(researchData.hero.caption)}</figcaption>`;
+  }
+
   const content = document.getElementById('research-content');
   content.innerHTML = '';
-  researchData.sections.forEach(section => content.appendChild(renderResearchSection(section)));
+  researchData.sections.forEach((section, index) => content.appendChild(renderResearchSection(section, index + 1)));
 
   document.getElementById('research-metadata').innerHTML = researchData.metadata.map(item => `
     <div class="metadata-item">
@@ -822,6 +914,9 @@ function updateAboutPage() {
         <div class="cv-date">${getText(job.date)}</div>
         <div class="cv-title">${getText(job.title)}</div>
         <div class="cv-institution">${[job.office, getText(job.location)].filter(Boolean).join(' · ')}</div>
+        ${job.summary ? `<p class="cv-summary">${getText(job.summary)}</p>` : ''}
+        ${job.tasks ? `<ul class="cv-tasks">${job.tasks.map(task => `<li>${getText(task)}</li>`).join('')}</ul>` : ''}
+        ${job.tools ? `<ul class="cv-tags">${job.tools.map(tool => `<li>${getText(tool)}</li>`).join('')}</ul>` : ''}
         ${job.note ? `<div class="cv-note">${getText(job.note)}</div>` : ''}
       </div>
     `).join('');
@@ -1290,7 +1385,7 @@ function initMobileMenu() {
 
 // Elements that fade in when they scroll into view
 const ANIMATED_ELEMENTS =
-  '.project-card, .project-image, .cv-item, .cv-item-link, ' +
+  '.project-image, .cv-item, .cv-item-link, ' +
   '.about-main h2, .skills-section, .languages-section, .cv-section, ' +
   '.participations-section, .fade-in, .participation-image';
 
@@ -1304,14 +1399,7 @@ function initScrollAnimations() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
-        // Add stagger delay for grid items
-        const delay = entry.target.classList.contains('project-card')
-          ? index * 100
-          : 0;
-
-        setTimeout(() => {
-          entry.target.classList.add('visible');
-        }, delay);
+        entry.target.classList.add('visible');
 
         observer.unobserve(entry.target);
       }

@@ -21,7 +21,7 @@ python3 -m http.server 8000
 ## Architecture
 
 ### Pages
-- **index.html** - Homepage with project grid (loaded dynamically from JSON)
+- **index.html** - Homepage: the projects in a row of large cards scrolling sideways, the other work below in a row of smaller cards (both from JSON, in the order of projects.json, most recent first)
 - **project.html** - Project detail template (uses query param `?id=01-atlas-case-studies`)
 - **about.html** - CV/bio page with participations list and sidebar contact info
 - **participation.html** - Participation detail template (uses query param `?id=participation-id`)
@@ -69,6 +69,10 @@ Videos: `"type": "video"` plays a local MP4 silently in a loop (add `"controls":
 Image layouts: `full`, `half` (consecutive halves share a row; `"row": "equal"` keeps one height), `inset`, and `tile` (consecutive tiles form a mosaic; `"mosaic"` on the first names the arrangement: `grid-3`, `grid-2`, `grid-2-narrow`, `row-4`, `uniform` (equal cells, drawings whole), `justified` or `justified-N` (N per row), `masonry`, `scroll` (one row scrolling sideways), plus the modifier `narrow`, e.g. `"justified-2 narrow"`).
 
 A project with `"sketchbook"` (06, 07) is rendered by `js/caderno.js` + `css/caderno.css` as a leporello (horizontal folded strip) instead of the image list: each image has `pages` (two for a spread, one for a single page) and `site`; `place` and `date` group a travel sketchbook into journeys; `sketchbook.cover` opens the strip.
+
+The research page (`research.html` + `research.json`, the Convento da Tomina) has section types `question`, `text`, `timeline` (may carry `images`, e.g. the before/now strip), `values` (three columns), `constraints`, `cases` (case studies without pictures, plus `criteria`), `phases`, `status`, `publications` and `contact`, and its own look: `hero` (an edge-to-edge opening picture), sections numbered as chapters, and `"bleed": true` on a full image to run it to the screen edges. Third-party photos carry the credit in the caption ("Fotografia de …").
+
+Images are at most 2400 px on the longer side; file names are lower case, no spaces or accents, numbered in order.
 
 ## Adding a New Project
 

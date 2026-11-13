@@ -4,12 +4,4 @@
 exclude:
   - README.md
   - CLAUDE.md
-  - BILINGUAL-GUIDE.md
-  - GETTING-STARTED.md
-  - QUICKSTART.md
-  - START-HERE.md
-  - STRUCTURE.md
-  - assets/CV-PLACEHOLDER.md
-  - thesis/*.txt
-  - participations/_template
   - .gitignore

@@ -33,7 +33,7 @@
       "images": [
         {
           "mosaic": "justified-2",
-          "src": "participations/01-master-lisboa/01-localizacao-vale-de-chelas.jpg",
+          "src": "participations/refazer-paisagens/01-localizacao-vale-de-chelas.jpg",
           "caption": {
             "en": "Location of Vale de Chelas in Lisbon",
             "pt": "Localização do Vale de Chelas em Lisboa",
@@ -42,7 +42,7 @@
           "layout": "tile"
         },
         {
-          "src": "participations/01-master-lisboa/02-planta-proposta.jpg",
+          "src": "participations/refazer-paisagens/02-planta-proposta.jpg",
           "caption": {
             "en": "Plan of the proposal for Vale de Chelas",
             "pt": "Planta da proposta para o Vale de Chelas",
@@ -51,7 +51,7 @@
           "layout": "tile"
         },
         {
-          "src": "participations/01-master-lisboa/03-corte-vale.jpg",
+          "src": "participations/refazer-paisagens/03-corte-vale.jpg",
           "caption": {
             "en": "Section through the valley with the reservoir",
             "pt": "Corte do vale com o reservatório",
@@ -61,7 +61,7 @@
         },
         {
           "mosaic": "justified-2",
-          "src": "participations/01-master-lisboa/04-fotomontagem-1.jpg",
+          "src": "participations/refazer-paisagens/04-fotomontagem-1.jpg",
           "caption": {
             "en": "Photomontage of the reservoir in the valley",
             "pt": "Fotomontagem do reservatório no vale",
@@ -70,7 +70,7 @@
           "layout": "tile"
         },
         {
-          "src": "participations/01-master-lisboa/05-fotomontagem-2.jpg",
+          "src": "participations/refazer-paisagens/05-fotomontagem-2.jpg",
           "caption": {
             "en": "Photomontage of the reservoir, aerial view",
             "pt": "Fotomontagem do reservatório, vista aérea",
@@ -80,7 +80,7 @@
         },
         {
           "mosaic": "justified",
-          "src": "participations/01-master-lisboa/06-reservatorio-plantas.jpg",
+          "src": "participations/refazer-paisagens/06-reservatorio-plantas.jpg",
           "caption": {
             "en": "Floor plans of the reservoir",
             "pt": "Plantas do reservatório",
@@ -89,7 +89,7 @@
           "layout": "tile"
         },
         {
-          "src": "participations/01-master-lisboa/07-reservatorio-implantacao.jpg",
+          "src": "participations/refazer-paisagens/07-reservatorio-implantacao.jpg",
           "caption": {
             "en": "General plan of the reservoir",
             "pt": "Planta geral do reservatório",
@@ -98,7 +98,7 @@
           "layout": "tile"
         },
         {
-          "src": "participations/01-master-lisboa/08-reservatorio-corte.jpg",
+          "src": "participations/refazer-paisagens/08-reservatorio-corte.jpg",
           "caption": {
             "en": "Section through the reservoir",
             "pt": "Corte do reservatório",
@@ -1053,7 +1053,7 @@
       "images": [
         {
           "mosaic": "justified",
-          "src": "participations/02-open-house/01-visita-piscina-das-mares.jpg",
+          "src": "participations/open-house-porto/01-visita-piscina-das-mares.jpg",
           "caption": {
             "en": "Guided tour of the Piscina das Marés, 2022",
             "pt": "Visita guiada à Piscina das Marés, 2022",
@@ -1062,7 +1062,7 @@
           "layout": "tile"
         },
         {
-          "src": "participations/02-open-house/02-visita-guiada.jpg",
+          "src": "participations/open-house-porto/02-visita-guiada.jpg",
           "caption": {
             "en": "Guided tour, Open House Porto 2022",
             "pt": "Visita guiada, Open House Porto 2022",
@@ -1071,7 +1071,7 @@
           "layout": "tile"
         },
         {
-          "src": "participations/02-open-house/03-montagem-exposicao.jpg",
+          "src": "participations/open-house-porto/03-montagem-exposicao.jpg",
           "caption": {
             "en": "Setting up the exhibition, 2022",
             "pt": "Montagem da exposição, 2022",

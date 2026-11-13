@@ -67,6 +67,81 @@
   ],
   "sections": [
     {
+      "type": "question",
+      "title": {
+        "pt": "Pergunta e método",
+        "en": "Question and method",
+        "es": "Pregunta y método"
+      },
+      "question": {
+        "pt": "De que modo podem os valores culturais, materiais e imateriais, associados ao património religioso em ruína, fundamentar critérios de salvaguarda que assegurem a sua continuidade e valorização sócio-cultural?",
+        "en": "How can the cultural values, tangible and intangible, of religious heritage in ruins ground safeguarding criteria that ensure its continuity and sociocultural valorisation?",
+        "es": "¿De qué modo pueden los valores culturales, materiales e inmateriales, asociados al patrimonio religioso en ruina, fundamentar criterios de salvaguarda que aseguren su continuidad y valorización sociocultural?"
+      },
+      "items": [
+        {
+          "title": {
+            "pt": "Caso de estudo",
+            "en": "Case study",
+            "es": "Caso de estudio"
+          },
+          "text": {
+            "pt": "O Convento da Tomina como caso de estudo, numa abordagem qualitativa e interpretativa: aplicar e testar num lugar concreto os conceitos e metodologias da investigação.",
+            "en": "The Convento da Tomina as a case study, in a qualitative and interpretive approach: applying and testing the concepts and methods of the research in a real place.",
+            "es": "El Convento da Tomina como caso de estudio, con un enfoque cualitativo e interpretativo: aplicar y probar en un lugar concreto los conceptos y metodologías de la investigación."
+          }
+        },
+        {
+          "title": {
+            "pt": "Trabalho de campo",
+            "en": "Fieldwork",
+            "es": "Trabajo de campo"
+          },
+          "text": {
+            "pt": "Visitas ao local, registo fotográfico e desenhos in loco, e o levantamento arquitetónico e topográfico com o topógrafo Rui Amaro, com o acesso organizado pelo biólogo Pedro Rocha.",
+            "en": "Site visits, photographic record and drawings on site, and the architectural and topographic survey with the surveyor Rui Amaro, with access arranged by the biologist Pedro Rocha.",
+            "es": "Visitas al lugar, registro fotográfico y dibujos in situ, y el levantamiento arquitectónico y topográfico con el topógrafo Rui Amaro, con el acceso organizado por el biólogo Pedro Rocha."
+          }
+        },
+        {
+          "title": {
+            "pt": "Arquivo e fontes",
+            "en": "Archives and sources",
+            "es": "Archivo y fuentes"
+          },
+          "text": {
+            "pt": "Manuscritos, desenhos do arquivo do ICNF, fotografias antigas e bibliografia, para reconstituir a história do conjunto.",
+            "en": "Manuscripts, drawings from the ICNF archive, old photographs and literature, to reconstruct the history of the ensemble.",
+            "es": "Manuscritos, dibujos del archivo del ICNF, fotografías antiguas y bibliografía, para reconstruir la historia del conjunto."
+          }
+        },
+        {
+          "title": {
+            "pt": "Comunidade",
+            "en": "Community",
+            "es": "Comunidad"
+          },
+          "text": {
+            "pt": "Entrevistas informais aos habitantes de Santo Aleixo da Restauração e caminhadas com a comunidade, para compreender os valores imateriais do lugar.",
+            "en": "Informal interviews with the people of Santo Aleixo da Restauração and walks with the community, to understand the intangible values of the place.",
+            "es": "Entrevistas informales a los habitantes de Santo Aleixo da Restauração y caminatas con la comunidad, para comprender los valores inmateriales del lugar."
+          }
+        },
+        {
+          "title": {
+            "pt": "Casos de estudo",
+            "en": "Case studies",
+            "es": "Casos de estudio"
+          },
+          "text": {
+            "pt": "A análise comparada de quatro intervenções em edifícios religiosos, para definir critérios de intervenção adequados à Tomina.",
+            "en": "A comparative analysis of four interventions in religious buildings, to define intervention criteria suited to the Tomina.",
+            "es": "El análisis comparado de cuatro intervenciones en edificios religiosos, para definir criterios de intervención adecuados a la Tomina."
+          }
+        }
+      ]
+    },
+    {
       "type": "text",
       "title": {
         "en": "The place",
@@ -80,44 +155,87 @@
       },
       "images": [
         {
-          "src": "research/images/01-enquadramento-territorial.jpg",
-          "placeholder": "Fig. 5 — Esquema de enquadramento territorial (Contenda, fronteira, distâncias). Esquema da autora.",
+          "src": "research/images/02-enquadramento-territorial.jpg",
           "caption": {
-            "en": "Territorial framework of the convent",
-            "pt": "Enquadramento territorial do Convento",
-            "es": "Encuadre territorial del Convento"
+            "pt": "Localização do Convento nos limites da Herdade da Contenda, junto à fronteira",
+            "en": "Location of the convent on the edge of the Herdade da Contenda, by the border",
+            "es": "Ubicación del Convento en los límites de la Herdade da Contenda, junto a la frontera"
+          },
+          "layout": "half",
+          "row": "equal"
+        },
+        {
+          "src": "research/images/03-carta-perimetro-contenda.jpg",
+          "layout": "half",
+          "caption": {
+            "pt": "Carta de localização do Perímetro Florestal da Contenda, com o Convento a vermelho, 1:25 000. Elaborada por João Ribeiro (2009)",
+            "en": "Location map of the Contenda forest area, with the convent in red, 1:25,000. Drawn by João Ribeiro (2009)",
+            "es": "Mapa de localización del Perímetro Forestal de la Contenda, con el Convento en rojo, 1:25 000. Elaborado por João Ribeiro (2009)"
+          }
+        },
+        {
+          "src": "research/images/04-paisagem-arborizada.jpg",
+          "caption": {
+            "pt": "O Convento escondido na paisagem arborizada da Contenda",
+            "en": "The convent hidden in the wooded landscape of the Contenda",
+            "es": "El Convento escondido en el paisaje arbolado de la Contenda"
           },
           "layout": "full"
         },
         {
-          "src": "research/images/02-vista-geral-encosta.jpg",
-          "placeholder": "Fig. 28 — Vista geral do conjunto na encosta. Fotografia da autora.",
+          "src": "research/images/05-torre-vista-encosta.jpg",
           "caption": {
-            "en": "The convent on the hillside",
-            "pt": "O Convento na encosta",
-            "es": "El Convento en la ladera"
+            "pt": "A torre sineira vista a partir da encosta",
+            "en": "The bell tower seen from the slope",
+            "es": "El campanario visto desde la ladera"
           },
-          "layout": "full"
+          "layout": "tile",
+          "mosaic": "justified-3"
         },
         {
-          "src": "research/images/03-paisagem.jpg",
-          "placeholder": "Fig. 32 — Edifício na paisagem de afloramentos rochosos. Fotografia da autora.",
-          "caption": {
-            "en": "The building in the landscape",
-            "pt": "O edifício na paisagem",
-            "es": "El edificio en el paisaje"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "research/images/04-torre-sineira.jpg",
-          "placeholder": "Fig. 30 — Fachada com a torre sineira. Fotografia da autora.",
+          "src": "research/images/06-torre-sineira.jpg",
           "caption": {
             "en": "Bell tower",
             "pt": "Torre sineira",
             "es": "Campanario"
           },
-          "layout": "half"
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/07-paisagem.jpg",
+          "caption": {
+            "pt": "Vista parcial do edifício em ruína, a nordeste, com as paredes em alvenaria de pedra e os afloramentos rochosos",
+            "en": "Partial view of the ruined building from the northeast, with its stone masonry walls and the rocky outcrops",
+            "es": "Vista parcial del edificio en ruina desde el noreste, con los muros de mampostería de piedra y los afloramientos rocosos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/08-alvenaria-afloramento.jpg",
+          "caption": {
+            "pt": "Estrutura de alvenaria junto ao afloramento rochoso",
+            "en": "Masonry structure against the rocky outcrop",
+            "es": "Estructura de mampostería junto al afloramiento rocoso"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/09-vista-geral-ruina.jpg",
+          "caption": {
+            "pt": "O Convento em ruína e a sua envolvente",
+            "en": "The ruined convent and its surroundings",
+            "es": "El Convento en ruina y su entorno"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/10-muro-afloramento.jpg",
+          "caption": {
+            "pt": "Vestígios de muros junto ao afloramento",
+            "en": "Traces of walls by the outcrop",
+            "es": "Vestigios de muros junto al afloramiento"
+          },
+          "layout": "tile"
         }
       ]
     },
@@ -284,165 +402,90 @@
             "es": "?"
           }
         }
-      ]
-    },
-    {
-      "type": "text",
-      "title": {
-        "en": "Survey",
-        "pt": "Levantamento",
-        "es": "Levantamiento"
+      ],
+      "imagesTitle": {
+        "pt": "Antes / agora",
+        "en": "Before / now",
+        "es": "Antes / ahora"
       },
-      "text": {
-        "en": "Until this research, there were no reliable drawings of the convent. The architectural and topographic survey carried out on site — together with drawings made in loco — produced an up-to-date set of plans, elevations and sections, and the relationship of the building with the slope and the stream.",
-        "pt": "Até esta investigação não existia documentação gráfica fiável do Convento. O levantamento arquitetónico e topográfico realizado no local — a par dos desenhos feitos in loco — permitiu produzir um conjunto atualizado de plantas, alçados e cortes, e a relação do edifício com a encosta e a ribeira.",
-        "es": "Hasta esta investigación no existía documentación gráfica fiable del Convento. El levantamiento arquitectónico y topográfico realizado en el lugar — junto con los dibujos hechos in situ — permitió elaborar un conjunto actualizado de plantas, alzados y secciones, y la relación del edificio con la ladera y el arroyo."
+      "imagesNote": {
+        "pt": "Fotografias antigas partilhadas pela Junta de Freguesia de Santo Aleixo da Restauração.",
+        "en": "Old photographs shared by the Junta de Freguesia of Santo Aleixo da Restauração.",
+        "es": "Fotografías antiguas compartidas por la Junta de Freguesia de Santo Aleixo da Restauração."
       },
       "images": [
         {
-          "src": "research/images/05-desenhos-in-loco.jpg",
-          "placeholder": "Fig. 41 — Planta e cortes desenhados in loco. Desenho da autora.",
+          "src": "research/images/11-antes-1955-fachada.jpg",
           "caption": {
-            "en": "Plan and sections drawn on site",
-            "pt": "Planta e cortes desenhados in loco",
-            "es": "Planta y secciones dibujadas in situ"
+            "pt": "Antes · c. 1955 — a fachada da igreja ainda completa",
+            "en": "Before · c. 1955 — the church façade still complete",
+            "es": "Antes · c. 1955 — la fachada de la iglesia aún completa"
           },
-          "layout": "half"
+          "layout": "tile",
+          "mosaic": "scroll"
         },
         {
-          "src": "research/images/06-espaco-liturgico-regral.jpg",
-          "placeholder": "Fig. 40 — Esquema: espaço litúrgico (vermelho) e zona regral (rosa). Esquema da autora.",
+          "src": "research/images/06-torre-sineira.jpg",
           "caption": {
-            "en": "Liturgical space and conventual area",
-            "pt": "Espaço litúrgico e zona regral",
-            "es": "Espacio litúrgico y zona conventual"
+            "pt": "Agora · a fachada principal desapareceu; resta a torre sineira",
+            "en": "Now · the main façade is gone; the bell tower remains",
+            "es": "Ahora · la fachada principal ha desaparecido; queda el campanario"
           },
-          "layout": "half"
+          "layout": "tile"
         },
         {
-          "src": "research/images/07-planta-implantacao.jpg",
-          "placeholder": "Fig. 68 — Planta de implantação e envolvente, com relevo e ribeira (1:1000). Desenho da autora.",
+          "src": "research/images/12-antes-junta-vista-frontal.jpg",
           "caption": {
-            "en": "Site plan, 1:1000",
-            "pt": "Planta de implantação, 1:1000",
-            "es": "Planta de emplazamiento, 1:1000"
+            "pt": "Antes · a torre e a fachada principal, já degradadas",
+            "en": "Before · the tower and the main façade, already decaying",
+            "es": "Antes · la torre y la fachada principal, ya degradadas"
           },
-          "layout": "full"
+          "layout": "tile"
         },
         {
-          "src": "research/images/08-plantas.jpg",
-          "placeholder": "Fig. 69 — Planta de cobertura e planta de piso. Desenho da autora.",
+          "src": "research/images/13-vista-frontal.jpg",
           "caption": {
-            "en": "Roof plan and floor plan",
-            "pt": "Planta de cobertura e planta de piso",
-            "es": "Planta de cubierta y planta de piso"
+            "pt": "Agora · vista frontal da igreja e da torre sineira",
+            "en": "Now · front view of the church and the bell tower",
+            "es": "Ahora · vista frontal de la iglesia y del campanario"
           },
-          "layout": "full"
+          "layout": "tile"
         },
         {
-          "src": "research/images/09-alcados-frontal-tardoz.jpg",
-          "placeholder": "Fig. 70 — Alçados frontal e tardoz. Desenho da autora.",
+          "src": "research/images/14-antes-junta-fachada-colapso.jpg",
           "caption": {
-            "en": "Front and rear elevations",
-            "pt": "Alçados frontal e tardoz",
-            "es": "Alzados frontal y posterior"
+            "pt": "Antes · a fachada da igreja em risco de colapso",
+            "en": "Before · the church façade at risk of collapse",
+            "es": "Antes · la fachada de la iglesia en riesgo de colapso"
           },
-          "layout": "full"
+          "layout": "tile"
         },
         {
-          "src": "research/images/10-alcados-sudeste-noroeste.jpg",
-          "placeholder": "Fig. 71 — Alçados sudeste e noroeste. Desenho da autora.",
+          "src": "research/images/15-ruinas-igreja.jpg",
           "caption": {
-            "en": "South-east and north-west elevations",
-            "pt": "Alçados sudeste e noroeste",
-            "es": "Alzados sureste y noroeste"
+            "pt": "Agora · as ruínas da igreja, com a torre sineira",
+            "en": "Now · the ruins of the church, with the bell tower",
+            "es": "Ahora · las ruinas de la iglesia, con el campanario"
           },
-          "layout": "full"
+          "layout": "tile"
         },
         {
-          "src": "research/images/11-cortes.jpg",
-          "placeholder": "Fig. 72 — Cortes transversal e longitudinal. Desenho da autora.",
+          "src": "research/images/16-antes-junta-paisagem.jpg",
           "caption": {
-            "en": "Cross and longitudinal sections",
-            "pt": "Cortes transversal e longitudinal",
-            "es": "Secciones transversal y longitudinal"
+            "pt": "Antes · o Convento visto ao longe na paisagem",
+            "en": "Before · the convent seen from afar in the landscape",
+            "es": "Antes · el Convento visto a lo lejos en el paisaje"
           },
-          "layout": "full"
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "title": {
-        "en": "Current state",
-        "pt": "Estado atual",
-        "es": "Estado actual"
-      },
-      "text": {
-        "en": "The church and the conventual wing have lost their roofs; the bell tower, the arch of the chancel, niches, vaults and part of the walls still stand. Vegetation has taken over the interior spaces, and the walls continue to collapse.",
-        "pt": "A igreja e a zona regral perderam as coberturas; mantêm-se a torre sineira, o arco da capela-mor, nichos, abóbadas e parte dos paramentos. A vegetação ocupa os espaços interiores e as paredes continuam a desmoronar.",
-        "es": "La iglesia y la zona conventual han perdido sus cubiertas; se mantienen el campanario, el arco de la capilla mayor, hornacinas, bóvedas y parte de los muros. La vegetación ocupa los espacios interiores y los muros siguen derrumbándose."
-      },
-      "images": [
-        {
-          "src": "research/images/12-ruinas-igreja.jpg",
-          "placeholder": "Fig. 46 — Ruínas da igreja com a torre sineira ao fundo. Fotografia da autora.",
-          "caption": {
-            "en": "Ruins of the church, with the bell tower",
-            "pt": "Ruínas da igreja, com a torre sineira",
-            "es": "Ruinas de la iglesia, con el campanario"
-          },
-          "layout": "full"
+          "layout": "tile"
         },
         {
-          "src": "research/images/13-arco-capela-mor.jpg",
-          "placeholder": "Fig. 47 — Arco entre a nave e a capela-mor. Fotografia da autora.",
+          "src": "research/images/04-paisagem-arborizada.jpg",
           "caption": {
-            "en": "Arch between the nave and the chancel",
-            "pt": "Arco entre a nave e a capela-mor",
-            "es": "Arco entre la nave y la capilla mayor"
+            "pt": "Agora · o Convento escondido entre os pinheiros",
+            "en": "Now · the convent hidden among the pines",
+            "es": "Ahora · el Convento escondido entre los pinos"
           },
-          "layout": "half"
-        },
-        {
-          "src": "research/images/14-zona-regral.jpg",
-          "placeholder": "Fig. 51 — Zona regral, com vãos e paramentos. Fotografia da autora.",
-          "caption": {
-            "en": "Conventual area",
-            "pt": "Zona regral",
-            "es": "Zona conventual"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "research/images/15-cisterna.jpg",
-          "placeholder": "Fig. 82 — Interior da cisterna. Fotografia da autora.",
-          "caption": {
-            "en": "Cistern",
-            "pt": "Cisterna",
-            "es": "Cisterna"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "research/images/16-passagem-abobadada.jpg",
-          "placeholder": "Fig. 83 — Passagem abobadada no interior. Fotografia da autora.",
-          "caption": {
-            "en": "Vaulted passage",
-            "pt": "Passagem abobadada",
-            "es": "Pasaje abovedado"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "research/images/17-vista-aerea.jpg",
-          "placeholder": "Fig. 52 ou 94 — Vista aérea do conjunto. Fotografia de Pedro Rocha ou Rui Amaro (pedir autorização e indicar o crédito na legenda).",
-          "caption": {
-            "en": "Aerial view",
-            "pt": "Vista aérea",
-            "es": "Vista aérea"
-          },
-          "layout": "full"
+          "layout": "tile"
         }
       ]
     },
@@ -460,24 +503,805 @@
       },
       "images": [
         {
-          "src": "research/images/18-guioes.jpg",
-          "placeholder": "Fig. 38 — Guiões da festa de Nossa Senhora das Necessidades. Fotografia da autora.",
+          "src": "research/images/17-guioes.jpg",
           "caption": {
             "en": "Processional banners of the Festa da Tomina",
             "pt": "Guiões da Festa da Tomina",
             "es": "Estandartes de la Festa da Tomina"
           },
-          "layout": "half"
+          "layout": "half",
+          "row": "equal"
         },
         {
-          "src": "research/images/19-caminhada.jpg",
-          "placeholder": "Fig. 56 — Caminhada pelo percurso tradicional, com o guião. Fotografia da autora (evitar caras reconhecíveis sem consentimento).",
+          "src": "research/images/18-caminhada.jpg",
           "caption": {
             "en": "Walk along the traditional path to the convent",
             "pt": "Caminhada pelo percurso tradicional até ao Convento",
             "es": "Caminata por el recorrido tradicional hasta el Convento"
           },
           "layout": "half"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "en": "Current state",
+        "pt": "Estado atual",
+        "es": "Estado actual"
+      },
+      "text": {
+        "en": "The church and the conventual wing have lost their roofs; the bell tower, the arch of the chancel, niches, vaults and part of the walls still stand. Vegetation has taken over the interior spaces, and the walls continue to collapse.",
+        "pt": "A igreja e a zona regral perderam as coberturas; mantêm-se a torre sineira, o arco da capela-mor, nichos, abóbadas e parte dos paramentos. A vegetação ocupa os espaços interiores e as paredes continuam a desmoronar.",
+        "es": "La iglesia y la zona conventual han perdido sus cubiertas; se mantienen el campanario, el arco de la capilla mayor, hornacinas, bóvedas y parte de los muros. La vegetación ocupa los espacios interiores y los muros siguen derrumbándose."
+      },
+      "images": [
+        {
+          "src": "research/images/15-ruinas-igreja.jpg",
+          "caption": {
+            "en": "Ruins of the church, with the bell tower",
+            "pt": "Ruínas da igreja, com a torre sineira",
+            "es": "Ruinas de la iglesia, con el campanario"
+          },
+          "layout": "tile",
+          "mosaic": "scroll"
+        },
+        {
+          "src": "research/images/19-arco-capela-mor.jpg",
+          "caption": {
+            "en": "Arch between the nave and the chancel",
+            "pt": "Arco entre a nave e a capela-mor",
+            "es": "Arco entre la nave y la capilla mayor"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/20-torre-sineira-cobertura.jpg",
+          "caption": {
+            "pt": "Torre sineira, com a cobertura e os elementos decorativos que restam. Fotografia de Pedro Rocha",
+            "en": "Bell tower, with its roof and remaining decorative elements. Photo: Pedro Rocha",
+            "es": "Campanario, con la cubierta y los elementos decorativos que quedan. Fotografía de Pedro Rocha"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/21-zona-regral.jpg",
+          "caption": {
+            "pt": "Vestígios da zona regral, com paredes e vãos ainda reconhecíveis",
+            "en": "Remains of the regular quarters, with walls and openings still recognisable",
+            "es": "Vestigios de la zona regular, con muros y vanos aún reconocibles"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/22-cisterna.jpg",
+          "caption": {
+            "en": "Cistern",
+            "pt": "Cisterna",
+            "es": "Cisterna"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/23-passagem-abobadada.jpg",
+          "caption": {
+            "en": "Vaulted passage",
+            "pt": "Passagem abobadada",
+            "es": "Pasaje abovedado"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/24-interior-abobada.jpg",
+          "caption": {
+            "pt": "Interior com abóbada e revestimentos degradados. Fotografia de Pedro Rocha",
+            "en": "Interior with a vault and decayed renders. Photo: Pedro Rocha",
+            "es": "Interior con bóveda y revestimientos degradados. Fotografía de Pedro Rocha"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/25-passagem-sob-arco.jpg",
+          "caption": {
+            "pt": "Passagem sob arco, com alvenaria de pedra e tijolo à vista. Fotografia de Pedro Rocha",
+            "en": "Arched passage, with exposed stone and brick masonry. Photo: Pedro Rocha",
+            "es": "Paso bajo arco, con mampostería de piedra y ladrillo vistos. Fotografía de Pedro Rocha"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/26-interior-vegetacao.jpg",
+          "caption": {
+            "pt": "Espaço interior em ruína, tomado pela vegetação. Fotografia de Pedro Rocha",
+            "en": "Ruined interior, taken over by vegetation. Photo: Pedro Rocha",
+            "es": "Espacio interior en ruina, invadido por la vegetación. Fotografía de Pedro Rocha"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/13-vista-frontal.jpg",
+          "caption": {
+            "pt": "Vista frontal da igreja e da torre sineira",
+            "en": "Front view of the church and the bell tower",
+            "es": "Vista frontal de la iglesia y del campanario"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/27-igreja-torre.jpg",
+          "caption": {
+            "pt": "A fachada principal da igreja e a torre",
+            "en": "The main façade of the church and the tower",
+            "es": "La fachada principal de la iglesia y la torre"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/28-fachada-lateral.jpg",
+          "caption": {
+            "pt": "Fachada lateral da igreja, com vão em arco e revestimento degradado",
+            "en": "Side façade of the church, with an arched opening and decayed render",
+            "es": "Fachada lateral de la iglesia, con vano en arco y revestimiento degradado"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/29-corpo-ruina.jpg",
+          "caption": {
+            "pt": "Um dos corpos do Convento em ruína",
+            "en": "One of the ruined volumes of the convent",
+            "es": "Uno de los cuerpos del Convento en ruina"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/30-vaos-parede.jpg",
+          "caption": {
+            "pt": "Vãos de porta e janela numa parede em ruína",
+            "en": "Door and window openings in a ruined wall",
+            "es": "Vanos de puerta y ventana en un muro en ruina"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/31-boca-forno.jpg",
+          "caption": {
+            "pt": "Boca do forno da casa, identificado por Pedro Rocha",
+            "en": "Mouth of the house oven, identified by Pedro Rocha",
+            "es": "Boca del horno de la casa, identificado por Pedro Rocha"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/32-vao-paisagem.jpg",
+          "caption": {
+            "pt": "Um vão de porta enquadra a paisagem",
+            "en": "A doorway frames the landscape",
+            "es": "Un vano de puerta enmarca el paisaje"
+          },
+          "layout": "tile"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "pt": "Vista aérea",
+        "en": "From above",
+        "es": "Vista aérea"
+      },
+      "text": {
+        "pt": "Os voos de drone revelam o que do chão não se vê: a igreja e a zona regral sem coberturas, os compartimentos tomados pela vegetação e o modo como o conjunto se agarra à encosta rochosa, sobre a Ribeira de Pae Joanes. Foram a base do levantamento fotogramétrico que deu origem aos desenhos.",
+        "en": "The drone flights reveal what cannot be seen from the ground: the church and the conventual area without roofs, the rooms taken over by vegetation, and the way the ensemble clings to the rocky slope above the Pae Joanes stream. They were the basis of the photogrammetric survey behind the drawings.",
+        "es": "Los vuelos de dron revelan lo que no se ve desde el suelo: la iglesia y la zona regular sin cubiertas, las estancias invadidas por la vegetación y el modo en que el conjunto se aferra a la ladera rocosa, sobre la Ribera de Pae Joanes. Fueron la base del levantamiento fotogramétrico que dio origen a los dibujos."
+      },
+      "images": [
+        {
+          "src": "research/images/33-aerea-implantacao-encosta.jpg",
+          "caption": {
+            "pt": "O Convento e a sua implantação na encosta rochosa. Fotografia de Rui Amaro",
+            "en": "The convent and its setting on the rocky slope. Photo: Rui Amaro",
+            "es": "El Convento y su implantación en la ladera rocosa. Fotografía de Rui Amaro"
+          },
+          "layout": "tile",
+          "mosaic": "scroll"
+        },
+        {
+          "src": "research/images/34-aerea-igreja-zona-regral.jpg",
+          "caption": {
+            "pt": "Vista oblíqua da igreja e da zona regral, com os muros e arcos que restam. Fotografia de Rui Amaro",
+            "en": "Oblique view of the church and the conventual area, with the remaining walls and arches. Photo: Rui Amaro",
+            "es": "Vista oblicua de la iglesia y la zona regular, con los muros y arcos que quedan. Fotografía de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/35-aerea-zona-regral.jpg",
+          "caption": {
+            "pt": "A zona regral, com o interior ocupado pela vegetação. Fotografia de Rui Amaro",
+            "en": "The conventual area, its interior overgrown. Photo: Rui Amaro",
+            "es": "La zona regular, con el interior ocupado por la vegetación. Fotografía de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/36-aerea-torre-sineira.jpg",
+          "caption": {
+            "pt": "A torre sineira e os corpos adjacentes. Fotografia de Rui Amaro",
+            "en": "The bell tower and the adjoining volumes. Photo: Rui Amaro",
+            "es": "El campanario y los cuerpos adyacentes. Fotografía de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/37-aerea-compartimentos.jpg",
+          "caption": {
+            "pt": "Compartimentos sem cobertura e muros interiores. Fotografia de Rui Amaro",
+            "en": "Roofless rooms and interior walls. Photo: Rui Amaro",
+            "es": "Estancias sin cubierta y muros interiores. Fotografía de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/38-aerea-compartimentos-murados.jpg",
+          "caption": {
+            "pt": "Compartimentos murados, ocupados por vegetação. Fotografia de Pedro Rocha",
+            "en": "Walled rooms, overgrown. Photo: Pedro Rocha",
+            "es": "Estancias amuralladas, ocupadas por la vegetación. Fotografía de Pedro Rocha"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/39-aerea-implantacao.jpg",
+          "caption": {
+            "pt": "O Convento na envolvente, junto à ribeira. Fotografia de Pedro Rocha",
+            "en": "The convent in its surroundings, by the stream. Photo: Pedro Rocha",
+            "es": "El Convento en su entorno, junto a la ribera. Fotografía de Pedro Rocha"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/40-aerea-envolvente.jpg",
+          "caption": {
+            "pt": "A envolvente, com vestígios de estruturas entre a vegetação. Fotografia de Rui Amaro",
+            "en": "The surroundings, with traces of structures among the vegetation. Photo: Rui Amaro",
+            "es": "El entorno, con vestigios de estructuras entre la vegetación. Fotografía de Rui Amaro"
+          },
+          "layout": "tile"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "en": "Survey",
+        "pt": "Levantamento",
+        "es": "Levantamiento"
+      },
+      "text": {
+        "en": "Until this research, there were no reliable drawings of the convent. The architectural and topographic survey carried out on site — together with drawings made in loco — produced an up-to-date set of plans, elevations and sections, and the relationship of the building with the slope and the stream.",
+        "pt": "Até esta investigação não existia documentação gráfica fiável do Convento. O levantamento arquitetónico e topográfico realizado no local — a par dos desenhos feitos in loco — permitiu produzir um conjunto atualizado de plantas, alçados e cortes, e a relação do edifício com a encosta e a ribeira.",
+        "es": "Hasta esta investigación no existía documentación gráfica fiable del Convento. El levantamiento arquitectónico y topográfico realizado en el lugar — junto con los dibujos hechos in situ — permitió elaborar un conjunto actualizado de plantas, alzados y secciones, y la relación del edificio con la ladera y el arroyo."
+      },
+      "images": [
+        {
+          "src": "research/images/41-desenhos-in-loco.jpg",
+          "caption": {
+            "en": "Plan and sections drawn on site",
+            "pt": "Planta e cortes desenhados in loco",
+            "es": "Planta y secciones dibujadas in situ"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/42-espaco-liturgico-regral.jpg",
+          "caption": {
+            "en": "Liturgical space and conventual area",
+            "pt": "Espaço litúrgico e zona regral",
+            "es": "Espacio litúrgico y zona conventual"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "research/images/43-modelo-texturizado.jpg",
+          "caption": {
+            "pt": "Modelo fotogramétrico texturizado, a partir das imagens de drone de Rui Amaro",
+            "en": "Textured photogrammetric model, from drone images by Rui Amaro",
+            "es": "Modelo fotogramétrico texturizado, a partir de las imágenes de dron de Rui Amaro"
+          },
+          "layout": "tile",
+          "mosaic": "justified-4"
+        },
+        {
+          "src": "research/images/44-modelo-alcado.jpg",
+          "caption": {
+            "pt": "Modelo recortado: fachada principal, a partir das imagens de drone de Rui Amaro",
+            "en": "Trimmed model: main façade, from drone images by Rui Amaro",
+            "es": "Modelo recortado: fachada principal, a partir de las imágenes de dron de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/45-nuvem-torre.jpg",
+          "caption": {
+            "pt": "Nuvem de pontos: torre sineira, a partir das imagens de drone de Rui Amaro",
+            "en": "Point cloud: bell tower, from drone images by Rui Amaro",
+            "es": "Nube de puntos: campanario, a partir de las imágenes de dron de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/46-nuvem-alcado.jpg",
+          "caption": {
+            "pt": "Nuvem de pontos: alçado, a partir das imagens de drone de Rui Amaro",
+            "en": "Point cloud: elevation, from drone images by Rui Amaro",
+            "es": "Nube de puntos: alzado, a partir de las imágenes de dron de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/47-nuvem-tardoz.jpg",
+          "caption": {
+            "pt": "Nuvem de pontos: alçado tardoz, a partir das imagens de drone de Rui Amaro",
+            "en": "Point cloud: rear elevation, from drone images by Rui Amaro",
+            "es": "Nube de puntos: alzado trasero, a partir de las imágenes de dron de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/48-nuvem-planta.jpg",
+          "caption": {
+            "pt": "Nuvem de pontos: planta, a partir das imagens de drone de Rui Amaro",
+            "en": "Point cloud: plan, from drone images by Rui Amaro",
+            "es": "Nube de puntos: planta, a partir de las imágenes de dron de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/49-nuvem-planta-cobertura.jpg",
+          "caption": {
+            "pt": "Nuvem de pontos: cobertura, a partir das imagens de drone de Rui Amaro",
+            "en": "Point cloud: roof, from drone images by Rui Amaro",
+            "es": "Nube de puntos: cubierta, a partir de las imágenes de dron de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/50-nuvem-planta-piso.jpg",
+          "caption": {
+            "pt": "Nuvem de pontos: piso, a partir das imagens de drone de Rui Amaro",
+            "en": "Point cloud: floor, from drone images by Rui Amaro",
+            "es": "Nube de puntos: planta de piso, a partir de las imágenes de dron de Rui Amaro"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/51-planta-implantacao.jpg",
+          "caption": {
+            "pt": "Planta de implantação e envolvente, com o relevo e a Ribeira de Pae Joanes, 1:600",
+            "en": "Site plan and surroundings, with the relief and the Pae Joanes stream, 1:600",
+            "es": "Plano de emplazamiento y entorno, con el relieve y la Ribera de Pae Joanes, 1:600"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/52-plantas.jpg",
+          "caption": {
+            "en": "Roof plan and floor plan, 1:250",
+            "pt": "Planta de cobertura e planta de piso, 1:250",
+            "es": "Planta de cubierta y planta de piso, 1:250"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "research/images/53-alcado-frontal.jpg",
+          "caption": {
+            "pt": "Alçado frontal, 1:250",
+            "en": "Front elevation, 1:250",
+            "es": "Alzado frontal, 1:250"
+          },
+          "layout": "tile",
+          "mosaic": "scroll drawings"
+        },
+        {
+          "src": "research/images/54-alcado-tardoz.jpg",
+          "caption": {
+            "pt": "Alçado tardoz, 1:250",
+            "en": "Rear elevation, 1:250",
+            "es": "Alzado trasero, 1:250"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/55-alcado-sudeste.jpg",
+          "caption": {
+            "pt": "Alçado sudeste, 1:250",
+            "en": "South-east elevation, 1:250",
+            "es": "Alzado sureste, 1:250"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/56-alcado-noroeste.jpg",
+          "caption": {
+            "pt": "Alçado noroeste, 1:250",
+            "en": "North-west elevation, 1:250",
+            "es": "Alzado noroeste, 1:250"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/57-corte-transversal.jpg",
+          "caption": {
+            "pt": "Corte transversal, 1:250",
+            "en": "Cross section, 1:250",
+            "es": "Sección transversal, 1:250"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "research/images/58-corte-longitudinal.jpg",
+          "caption": {
+            "pt": "Corte longitudinal, 1:250",
+            "en": "Longitudinal section, 1:250",
+            "es": "Sección longitudinal, 1:250"
+          },
+          "layout": "tile"
+        }
+      ]
+    },
+    {
+      "type": "values",
+      "title": {
+        "pt": "Valores do Convento",
+        "en": "Values of the convent",
+        "es": "Valores del Convento"
+      },
+      "text": {
+        "pt": "A leitura dos valores culturais do Convento distingue três situações: os valores que o conjunto tinha na origem, os que se perderam com o abandono e os que, apesar da ruína, ainda perduram — nos vestígios materiais, na memória e nas práticas da comunidade.",
+        "en": "Reading the cultural values of the convent distinguishes three situations: the values the ensemble had at its origin, those lost with its abandonment, and those that, despite the ruin, still endure — in the material remains, in memory and in the practices of the community.",
+        "es": "La lectura de los valores culturales del Convento distingue tres situaciones: los valores que el conjunto tenía en su origen, los que se perdieron con el abandono y los que, pese a la ruina, aún perduran — en los vestigios materiales, en la memoria y en las prácticas de la comunidad."
+      },
+      "columns": [
+        {
+          "pt": "Originais",
+          "en": "Original",
+          "es": "Originales"
+        },
+        {
+          "pt": "Perdidos",
+          "en": "Lost",
+          "es": "Perdidos"
+        },
+        {
+          "pt": "Que perduram",
+          "en": "Enduring",
+          "es": "Que perduran"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "pt": "Implantação isolada e caráter eremítico",
+            "en": "Isolated setting and hermitic character",
+            "es": "Implantación aislada y carácter eremítico"
+          },
+          {
+            "pt": "Função conventual permanente",
+            "en": "Permanent conventual function",
+            "es": "Función conventual permanente"
+          },
+          {
+            "pt": "Relação entre o convento, o isolamento e a paisagem",
+            "en": "The relationship between the convent, isolation and landscape",
+            "es": "Relación entre el convento, el aislamiento y el paisaje"
+          }
+        ],
+        [
+          {
+            "pt": "Igreja, zona regral, celas, refeitório, cozinha, oficinas e sacristia",
+            "en": "Church, conventual area, cells, refectory, kitchen, workshops and sacristy",
+            "es": "Iglesia, zona regular, celdas, refectorio, cocina, talleres y sacristía"
+          },
+          {
+            "pt": "Coberturas, pavimentos e parte das compartimentações",
+            "en": "Roofs, floors and part of the partitions",
+            "es": "Cubiertas, pavimentos y parte de las compartimentaciones"
+          },
+          {
+            "pt": "Organização geral entre igreja e zona regral",
+            "en": "The overall layout of church and conventual area",
+            "es": "Organización general entre iglesia y zona regular"
+          }
+        ],
+        [
+          {
+            "pt": "Torre sineira, altares, sinos, imagens, painéis votivos e azulejos",
+            "en": "Bell tower, altars, bells, images, votive panels and tiles",
+            "es": "Campanario, altares, campanas, imágenes, exvotos y azulejos"
+          },
+          {
+            "pt": "Altares, sinos, azulejos e bens móveis",
+            "en": "Altars, bells, tiles and movable goods",
+            "es": "Altares, campanas, azulejos y bienes muebles"
+          },
+          {
+            "pt": "Torre sineira, arco triunfal, muros e vestígios das dependências",
+            "en": "Bell tower, triumphal arch, walls and traces of the rooms",
+            "es": "Campanario, arco triunfal, muros y vestigios de las dependencias"
+          }
+        ],
+        [
+          {
+            "pt": "Horta, vinha murada, cisterna",
+            "en": "Vegetable garden, walled vineyard, cistern",
+            "es": "Huerta, viña amurallada, cisterna"
+          },
+          {
+            "pt": "Utilização produtiva da horta, vinha e cisterna",
+            "en": "Productive use of garden, vineyard and cistern",
+            "es": "Uso productivo de la huerta, la viña y la cisterna"
+          },
+          {
+            "pt": "Muro da cerca, vestígios da cisterna",
+            "en": "Enclosure wall, traces of the cistern",
+            "es": "Muro de la cerca, vestigios de la cisterna"
+          }
+        ],
+        [
+          {
+            "pt": "Vida religiosa, assistência aos moribundos e práticas conventuais",
+            "en": "Religious life, care for the dying and conventual practices",
+            "es": "Vida religiosa, asistencia a los moribundos y prácticas conventuales"
+          },
+          {
+            "pt": "Presença dos frades e missão assistencial",
+            "en": "The friars and their mission of care",
+            "es": "Presencia de los frailes y misión asistencial"
+          },
+          {
+            "pt": "Memória da congregação e da sua missão",
+            "en": "Memory of the congregation and its mission",
+            "es": "Memoria de la congregación y de su misión"
+          }
+        ],
+        [
+          {
+            "pt": "Devoção, romaria e procissão até ao convento",
+            "en": "Devotion, pilgrimage and procession to the convent",
+            "es": "Devoción, romería y procesión hasta el convento"
+          },
+          {
+            "pt": "Percurso integral da procissão até à Tomina",
+            "en": "The full route of the procession to the Tomina",
+            "es": "Recorrido completo de la procesión hasta la Tomina"
+          },
+          {
+            "pt": "Festa anual, promessas e devoção a Nossa Senhora das Necessidades",
+            "en": "Annual festival, vows and devotion to Our Lady of the Necessities",
+            "es": "Fiesta anual, promesas y devoción a Nuestra Señora de las Necesidades"
+          }
+        ],
+        [
+          {
+            "pt": "Relação entre a congregação e a população local",
+            "en": "Relationship between the congregation and the local people",
+            "es": "Relación entre la congregación y la población local"
+          },
+          {
+            "pt": "Vivência quotidiana do convento",
+            "en": "Daily life of the convent",
+            "es": "Vida cotidiana del convento"
+          },
+          {
+            "pt": "Memória coletiva, narrativas orais e identidade local",
+            "en": "Collective memory, oral narratives and local identity",
+            "es": "Memoria colectiva, relatos orales e identidad local"
+          }
+        ]
+      ],
+      "conclusion": {
+        "pt": "A ruína e a perda da função conventual não eliminaram a relevância cultural do Convento, que a comunidade continua a reconhecer como referência histórica e identitária.",
+        "en": "The ruin and the loss of its conventual function have not erased the cultural relevance of the convent, which the community still recognises as a historical reference and a mark of identity.",
+        "es": "La ruina y la pérdida de la función conventual no han eliminado la relevancia cultural del Convento, que la comunidad sigue reconociendo como referencia histórica e identitaria."
+      }
+    },
+    {
+      "type": "constraints",
+      "title": {
+        "pt": "Condicionantes",
+        "en": "Constraints",
+        "es": "Condicionantes"
+      },
+      "text": {
+        "pt": "Qualquer intervenção no Convento está limitada por fatores ambientais, patrimoniais e territoriais — e é por isso que a estratégia avança por fases, com cautela.",
+        "en": "Any intervention in the convent is limited by environmental, heritage and territorial factors — which is why the strategy moves forward in phases, with caution.",
+        "es": "Cualquier intervención en el Convento está limitada por factores ambientales, patrimoniales y territoriales — por eso la estrategia avanza por fases, con cautela."
+      },
+      "items": [
+        {
+          "title": {
+            "pt": "Rede Natura 2000",
+            "en": "Natura 2000 network",
+            "es": "Red Natura 2000"
+          },
+          "text": {
+            "pt": "A Herdade da Contenda integra o Sítio Moura/Barrancos. O plano de gestão da zona especial de conservação condiciona a construção em solo rústico, a abertura de caminhos e qualquer alteração às linhas de água, incluindo a Ribeira de Pae Joanes.",
+            "en": "The Herdade da Contenda is part of the Moura/Barrancos Site. The management plan of the special conservation area restricts building on rural land, opening paths and any change to watercourses, including the Pae Joanes stream.",
+            "es": "La Herdade da Contenda forma parte del Sitio Moura/Barrancos. El plan de gestión de la zona especial de conservación condiciona la construcción en suelo rústico, la apertura de caminos y cualquier alteración de los cursos de agua, incluida la Ribera de Pae Joanes."
+          }
+        },
+        {
+          "title": {
+            "pt": "Estado de ruína",
+            "en": "State of ruin",
+            "es": "Estado de ruina"
+          },
+          "text": {
+            "pt": "A permanência apenas parcial das estruturas orienta a intervenção para a valorização dos vestígios, preservando a leitura histórica e espacial do lugar, sem reconstituição.",
+            "en": "Only part of the structures survive, which directs the intervention towards valuing the remains and preserving the historical and spatial reading of the place, without reconstruction.",
+            "es": "La permanencia solo parcial de las estructuras orienta la intervención hacia la valorización de los vestigios, preservando la lectura histórica y espacial del lugar, sin reconstrucción."
+          }
+        },
+        {
+          "title": {
+            "pt": "Acesso",
+            "en": "Access",
+            "es": "Acceso"
+          },
+          "text": {
+            "pt": "O caminho atravessa a Ribeira de Pae Joanes, que pode cortar o acesso em períodos de chuva intensa, e condiciona qualquer solução de percursos e de visita.",
+            "en": "The path crosses the Pae Joanes stream, which can cut off access in heavy rain, and constrains any route or visiting arrangement.",
+            "es": "El camino atraviesa la Ribera de Pae Joanes, que puede cortar el acceso en periodos de lluvia intensa, y condiciona cualquier solución de recorridos y de visita."
+          }
+        },
+        {
+          "title": {
+            "pt": "Propriedade privada",
+            "en": "Private ownership",
+            "es": "Propiedad privada"
+          },
+          "text": {
+            "pt": "O edifício é privado e não está abrangido pela gestão da Herdade. Qualquer ação depende de acordo com os proprietários; a Câmara Municipal de Moura propôs um protocolo para intervir na ruína, até agora sem resposta.",
+            "en": "The building is privately owned and not covered by the management of the Herdade. Any action depends on an agreement with the owners; the Moura Town Council has proposed a protocol to intervene in the ruin, so far without reply.",
+            "es": "El edificio es privado y no está incluido en la gestión de la Herdade. Cualquier acción depende de un acuerdo con los propietarios; el Ayuntamiento de Moura propuso un protocolo para intervenir en la ruina, hasta ahora sin respuesta."
+          }
+        }
+      ]
+    },
+    {
+      "type": "cases",
+      "title": {
+        "pt": "Casos de estudo",
+        "en": "Case studies",
+        "es": "Casos de estudio"
+      },
+      "text": {
+        "pt": "A estratégia nasce da comparação com quatro intervenções em edifícios religiosos. Não se trata de copiar soluções, mas de retirar princípios e verificar como se adaptam à Tomina.",
+        "en": "The strategy comes from comparing four interventions in religious buildings. The aim is not to copy solutions but to draw principles from them and test how they adapt to the Tomina.",
+        "es": "La estrategia nace de la comparación con cuatro intervenciones en edificios religiosos. No se trata de copiar soluciones, sino de extraer principios y comprobar cómo se adaptan a la Tomina."
+      },
+      "labels": {
+        "principle": {
+          "pt": "Princípio",
+          "en": "Principle",
+          "es": "Principio"
+        },
+        "application": {
+          "pt": "Na Tomina",
+          "en": "At the Tomina",
+          "es": "En la Tomina"
+        }
+      },
+      "items": [
+        {
+          "name": "Mosteiro de Santa Maria do Bouro",
+          "principle": {
+            "pt": "Adaptação funcional através de um novo programa compatível com a pré-existência.",
+            "en": "Functional adaptation through a new programme compatible with the existing building.",
+            "es": "Adaptación funcional mediante un nuevo programa compatible con la preexistencia."
+          },
+          "application": {
+            "pt": "Uma ruína pode acolher um novo uso, mas a escala deste programa não é transponível. Fica apenas definido que um uso futuro deverá preservar a organização espacial e os elementos identitários.",
+            "en": "A ruin can take on a new use, but the scale of this programme cannot be transferred. It only sets that any future use must preserve the spatial organisation and the elements of identity.",
+            "es": "Una ruina puede acoger un nuevo uso, pero la escala de este programa no es trasladable. Solo se establece que un uso futuro deberá preservar la organización espacial y los elementos identitarios."
+          }
+        },
+        {
+          "name": "Antiga Igreja de Corbera d'Ebre",
+          "principle": {
+            "pt": "Proteção da ruína com um elemento contemporâneo leve, estruturalmente autónomo e distinguível.",
+            "en": "Protecting the ruin with a light contemporary element, structurally independent and distinguishable.",
+            "es": "Protección de la ruina con un elemento contemporáneo ligero, estructuralmente autónomo y distinguible."
+          },
+          "application": {
+            "pt": "Uma cobertura leve sobre apoios independentes para proteger abóbadas e paramentos, apenas como hipótese a avaliar na última fase.",
+            "en": "A light roof on independent supports to protect vaults and walls, only as a possibility to assess in the last phase.",
+            "es": "Una cubierta ligera sobre apoyos independientes para proteger bóvedas y paramentos, solo como hipótesis a evaluar en la última fase."
+          }
+        },
+        {
+          "name": "Convento dos Capuchos de Alferrara",
+          "principle": {
+            "pt": "Estabilização da ruína, controlo da vegetação, manutenção periódica, percursos qualificados e envolvimento da comunidade.",
+            "en": "Stabilising the ruin, controlling vegetation, periodic maintenance, improved paths and community involvement.",
+            "es": "Estabilización de la ruina, control de la vegetación, mantenimiento periódico, recorridos cualificados e implicación de la comunidad."
+          },
+          "application": {
+            "pt": "Uma das referências mais próximas: primeiro consolidar, depois manter, percursos controlados e a comunidade a comunicar sinais de degradação.",
+            "en": "One of the closest references: first consolidate, then maintain, with controlled paths and the community reporting signs of decay.",
+            "es": "Una de las referencias más cercanas: primero consolidar, luego mantener, recorridos controlados y la comunidad comunicando señales de degradación."
+          }
+        },
+        {
+          "name": "Convento de Santa Cruz da Serra de Sintra",
+          "principle": {
+            "pt": "Intervenção mínima, compatibilidade material, conservação seletiva e respeito pela experiência espiritual e paisagística do lugar.",
+            "en": "Minimal intervention, material compatibility, selective conservation and respect for the spiritual and landscape experience of the place.",
+            "es": "Intervención mínima, compatibilidad material, conservación selectiva y respeto por la experiencia espiritual y paisajística del lugar."
+          },
+          "application": {
+            "pt": "Soluções compatíveis com a alvenaria de xisto e as argamassas de cal, conservando as marcas do tempo e a dimensão eremítica do Convento.",
+            "en": "Solutions compatible with the schist masonry and lime mortars, keeping the marks of time and the hermitic character of the convent.",
+            "es": "Soluciones compatibles con la mampostería de pizarra y los morteros de cal, conservando las huellas del tiempo y la dimensión eremítica del Convento."
+          }
+        }
+      ],
+      "criteriaTitle": {
+        "pt": "Critérios de intervenção",
+        "en": "Intervention criteria",
+        "es": "Criterios de intervención"
+      },
+      "criteria": [
+        {
+          "pt": "Conhecimento prévio",
+          "en": "Prior knowledge",
+          "es": "Conocimiento previo"
+        },
+        {
+          "pt": "Prioridade da consolidação",
+          "en": "Consolidation first",
+          "es": "Prioridad de la consolidación"
+        },
+        {
+          "pt": "Compatibilidade material",
+          "en": "Material compatibility",
+          "es": "Compatibilidad material"
+        },
+        {
+          "pt": "Intervenção mínima",
+          "en": "Minimal intervention",
+          "es": "Intervención mínima"
+        },
+        {
+          "pt": "Distinguibilidade e reversibilidade",
+          "en": "Distinguishability and reversibility",
+          "es": "Distinguibilidad y reversibilidad"
+        },
+        {
+          "pt": "Preservação da condição de ruína",
+          "en": "Keeping the condition of ruin",
+          "es": "Preservación de la condición de ruina"
+        },
+        {
+          "pt": "Integração territorial e ambiental",
+          "en": "Territorial and environmental integration",
+          "es": "Integración territorial y ambiental"
+        },
+        {
+          "pt": "Manutenção e monitorização",
+          "en": "Maintenance and monitoring",
+          "es": "Mantenimiento y monitorización"
+        },
+        {
+          "pt": "Continuidade da relação comunitária",
+          "en": "Continuity of the community bond",
+          "es": "Continuidad de la relación comunitaria"
+        },
+        {
+          "pt": "Compatibilidade com reutilização futura",
+          "en": "Compatibility with future reuse",
+          "es": "Compatibilidad con una reutilización futura"
         }
       ]
     },
@@ -644,5 +1468,13 @@
         "es": "Ponerse en contacto"
       }
     }
-  ]
+  ],
+  "hero": {
+    "src": "research/images/01-vista-geral-encosta.jpg",
+    "caption": {
+      "en": "The convent on the hillside",
+      "pt": "O Convento na encosta",
+      "es": "El Convento en la ladera"
+    }
+  }
 }

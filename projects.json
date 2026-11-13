@@ -29,8 +29,8 @@
         "es": "Universidad de Évora"
       },
       "teachers": "Daniel Jiménez | João Soares",
-      "thumbnail": "projects/01-atlas-case-studies/1.jpg",
-      "hero": "projects/01-atlas-case-studies/1.jpg",
+      "thumbnail": "projects/01-atlas-case-studies/00-maquete-torre.jpg",
+      "hero": "projects/01-atlas-case-studies/00-maquete-torre.jpg",
       "concept": {
         "en": "The project is developed around the theme of “Atlas Case Studies”, a research exercise that involves selecting emblematic architectural references and reinterpreting their principles in response to the proposed context and programme. The case studies include the Grândola Library and Archive, Casa de Caminha, House in Moledo, Farnsworth House, Pavilion House, Villa Savoye and the Vals Thermal Baths.\n\nThe intervention is based on an analysis of the urban fabric, the site's proximity to the railway line and its relationship with the historic centre, seeking to establish new pedestrian connections and enhance the existing structures. The proposal combines the rehabilitation of existing buildings with the introduction of new volumes accommodating researcher housing, a library archive, an auditorium, a shop, workspaces and administrative areas.\n\nThe overall layout is organised around two squares at different levels, defined according to different degrees of privacy while remaining connected to one another.\n\nThe square is defined by a pergola, conceived as a continuous element that gradually transforms: it begins as paving, extends into a balustrade and culminates as a roof. Inspired by the construction logic of Gerrit Rietveld’s chair, this sequence translates its principles into the architectural scale.\n\nThe residential tower is intended for researchers and is organised around different lengths of stay. The external walkway establishes a continuous visual relationship with the surroundings. The former factory is rehabilitated and converted into an archive and exhibition space, preserving its existing structure and reinterpreting the former silos as an entrance element.",
         "pt": "O projeto desenvolve-se a partir do tema «Atlas Case Studies», um exercício de investigação que propõe selecionar referências emblemáticas da arquitetura e reinterpretar os seus princípios, adaptando-os ao contexto e ao programa propostos. Entre os casos estudados encontram-se a Biblioteca e Arquivo de Grândola, a Casa de Caminha, a House in Moledo, a Farnsworth House, a Pavilion House, a Villa Savoye e as Termas de Vals.\n\nA intervenção parte da análise da malha urbana, da proximidade à linha férrea e da relação com o centro histórico, procurando estabelecer novas continuidades pedonais e valorizar as preexistências. A proposta articula a reabilitação de edifícios existentes com a introdução de novos volumes, destinados a habitação para investigadores, arquivo bibliotecário, auditório, loja, espaços de trabalho e áreas administrativas.\n\nA organização do conjunto estrutura-se em torno de duas praças situadas a cotas distintas e definidas segundo diferentes graus de privacidade, mas mantendo uma ligação entre si.\n\nA praça é delimitada por uma pérgola, concebida como um elemento contínuo que se transforma progressivamente: começa no pavimento, prolonga-se pela guarda e termina na cobertura. Inspirada na lógica construtiva da cadeira de Gerrit Rietveld, esta sequência transpõe os seus princípios para a escala arquitetónica.\n\nA torre de habitação destina-se a investigadores e organiza-se segundo diferentes períodos de permanência. O deambulatório exterior estabelece uma relação contínua de observação com a envolvente. A antiga fábrica é, por sua vez, reabilitada e transformada em arquivo e espaço expositivo, preservando a estrutura existente e reinterpretando os antigos silos como elemento de entrada.",
@@ -43,7 +43,7 @@
             "pt": "Lugar e estratégia",
             "es": "Lugar y estrategia"
           },
-          "src": "projects/01-atlas-case-studies/vermelhos_amarelos_1_500.jpg",
+          "src": "projects/01-atlas-case-studies/01-planta-implantacao-1-500.jpg",
           "caption": {
             "en": "Site plan, 1:500",
             "pt": "Planta de implantação, 1:500",
@@ -52,7 +52,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-atlas-case-studies/vermelhos_amarelos_1_500_cortes.jpg",
+          "src": "projects/01-atlas-case-studies/02-alcados-conjunto-1-500.jpg",
           "caption": {
             "en": "Site elevations, 1:500",
             "pt": "Alçados do conjunto, 1:500",
@@ -66,7 +66,7 @@
             "pt": "Plantas",
             "es": "Plantas"
           },
-          "src": "projects/01-atlas-case-studies/ENTREGA_1_200.jpg",
+          "src": "projects/01-atlas-case-studies/03-planta-geral-1-200.jpg",
           "caption": {
             "en": "General plan, 1:200",
             "pt": "Planta geral, 1:200",
@@ -75,7 +75,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-atlas-case-studies/ENTREGA 1_200_plantas3.jpg",
+          "src": "projects/01-atlas-case-studies/04-plantas-pisos-1-200.jpg",
           "caption": {
             "en": "Floor plans, 1:200",
             "pt": "Plantas dos pisos, 1:200",
@@ -84,7 +84,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-atlas-case-studies/ENTREGA 1_200_cortes.jpg",
+          "src": "projects/01-atlas-case-studies/05-cortes-1-200.jpg",
           "caption": {
             "en": "Sections, 1:200",
             "pt": "Cortes, 1:200",
@@ -103,7 +103,7 @@
             "pt": "Maquete",
             "es": "Maqueta"
           },
-          "src": "projects/01-atlas-case-studies/6.jpg",
+          "src": "projects/01-atlas-case-studies/06-maquete-conjunto.jpg",
           "caption": {
             "en": "Site model",
             "pt": "Maquete de conjunto",
@@ -112,7 +112,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-atlas-case-studies/2.jpg",
+          "src": "projects/01-atlas-case-studies/07-maquete-vista-aerea.jpg",
           "caption": {
             "en": "Physical model, aerial view",
             "pt": "Maquete física, vista aérea",
@@ -121,7 +121,7 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-atlas-case-studies/3.jpg",
+          "src": "projects/01-atlas-case-studies/08-maquete-praca.jpg",
           "caption": {
             "en": "Physical model, square",
             "pt": "Maquete física, praça",
@@ -131,7 +131,7 @@
           "row": "equal"
         },
         {
-          "src": "projects/01-atlas-case-studies/5.jpg",
+          "src": "projects/01-atlas-case-studies/09-maquete-pergola.jpg",
           "caption": {
             "en": "Physical model, pergola detail",
             "pt": "Maquete física, detalhe da pérgola",
@@ -145,7 +145,7 @@
             "pt": "Processo",
             "es": "Proceso"
           },
-          "src": "projects/01-atlas-case-studies/7.jpg",
+          "src": "projects/01-atlas-case-studies/10-esquissos-processo.jpg",
           "caption": {
             "en": "Process sketches",
             "pt": "Esquissos de processo",
@@ -154,11 +154,281 @@
           "layout": "full"
         },
         {
-          "src": "projects/01-atlas-case-studies/4.jpg",
+          "src": "projects/01-atlas-case-studies/11-painel-trabalho.jpg",
           "caption": {
             "en": "Working wall and study models",
             "pt": "Painel de trabalho e maquetes de estudo",
             "es": "Panel de trabajo y maquetas de estudio"
+          },
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "07-estacao",
+      "title": {
+        "pt": "Fundação de um Lugar | Estação Ferroviária EUROBEC",
+        "en": "Founding a Place | EUROBEC Railway Station",
+        "es": "Fundación de un Lugar | Estación Ferroviaria EUROBEC"
+      },
+      "year": "2024–2025",
+      "location": {
+        "pt": "EUROBEC",
+        "en": "EUROBEC",
+        "es": "EUROBEC"
+      },
+      "typology": {
+        "en": "Infrastructure / Transport",
+        "pt": "Infraestrutura / Transportes",
+        "es": "Infraestructura / Transportes"
+      },
+      "context": {
+        "en": "Academic",
+        "pt": "Académico",
+        "es": "Académico"
+      },
+      "institution": {
+        "en": "University of Évora",
+        "pt": "Universidade de Évora",
+        "es": "Universidad de Évora"
+      },
+      "teachers": "João Soares | Daniel Jiménez",
+      "thumbnail": "projects/07-estacao/20-maquete-planta.jpg",
+      "hero": "projects/07-estacao/19-maquete-conjunto.jpg",
+      "concept": {
+        "en": "The project addresses the challenge of designing a high-speed passenger railway station for EUROBEC, conceived not merely as a transport infrastructure, but as an opportunity to establish a new territorial landmark and create relationships between people, the city and the landscape. The exercise is structured around three fundamental concepts — landscape, transfer and station — seeking to reconcile the functional demands of mobility with the creation of a place defined by identity and permanence.\n\nThe proposal challenges the idea of the station as a space exclusively associated with transit and speed, transforming it into a place for meeting, pausing and contemplation. To this end, the scenographic work of Adolphe Appia served as the main conceptual reference, exploring the articulation of planes, volumes, stairways and light in the creation of different environments. Architecture is conceived as a sequence of settings in which bodily movement and spatial perception remain continuously connected.\n\nThe route unfolds through a sequence of spaces at different levels, gradually approaching the natural landscape. As one descends, the river becomes increasingly close. This descent becomes an architectural narrative in which each level offers different ways to pause, observe and engage with the surroundings.\n\nIn this way, the station moves beyond its strictly operational function, seeking to transform a space of passage into a place of opportunity.",
+        "pt": "O projeto parte do desafio de conceber uma estação ferroviária de passageiros do TGV para a EUROBEC, entendida não apenas como uma infraestrutura de transporte, mas como uma oportunidade para estabelecer uma nova referência territorial e criar relações entre pessoas, cidade e paisagem. O exercício desenvolve-se em torno de três conceitos fundamentais — paisagem, transferência e estação — procurando conciliar as exigências funcionais da mobilidade com a criação de um espaço de identidade e permanência.\n\nA proposta procura contrariar a ideia da estação como um espaço exclusivamente associado à passagem e à velocidade, transformando-a num lugar de encontro, pausa e contemplação. Para isso, as cenografias de Adolphe Appia constituíram a principal referência conceptual, explorando a articulação entre planos, volumes, escadas e luz na construção de diferentes ambientes. A arquitetura é pensada como uma sucessão de cenários, onde o movimento do corpo e a perceção do espaço se relacionam continuamente.\n\nO percurso desenvolve-se através de uma sequência de espaços a diferentes cotas, estabelecendo uma aproximação progressiva à paisagem natural. À medida que se desce, torna-se cada vez mais próxima a presença do rio. Esta descida transforma-se numa narrativa arquitetónica, em que cada nível proporciona diferentes formas de permanecer, observar e estabelecer contacto com a envolvente.\n\nDesta forma, a estação ultrapassa a sua função estritamente operacional, procurando transformar um espaço de passagem num lugar de oportunidade.",
+        "es": "El proyecto parte del desafío de diseñar una estación ferroviaria de pasajeros de alta velocidad para EUROBEC, entendida no solo como una infraestructura de transporte, sino también como una oportunidad para establecer una nueva referencia territorial y crear relaciones entre las personas, la ciudad y el paisaje. El ejercicio se desarrolla en torno a tres conceptos fundamentales — paisaje, transferencia y estación — buscando conciliar las exigencias funcionales de la movilidad con la creación de un espacio de identidad y permanencia.\n\nLa propuesta busca cuestionar la idea de la estación como un espacio exclusivamente asociado al tránsito y la velocidad, transformándola en un lugar de encuentro, pausa y contemplación. Para ello, las escenografías de Adolphe Appia constituyeron la principal referencia conceptual, explorando la articulación entre planos, volúmenes, escaleras y luz en la construcción de diferentes ambientes. La arquitectura se concibe como una sucesión de escenarios, donde el movimiento del cuerpo y la percepción del espacio se relacionan continuamente.\n\nEl recorrido se desarrolla mediante una secuencia de espacios a diferentes cotas, estableciendo una aproximación progresiva al paisaje natural. A medida que se desciende, la presencia del río se hace cada vez más cercana. Este descenso se convierte en una narrativa arquitectónica, en la que cada nivel ofrece diferentes formas de permanecer, observar y establecer contacto con el entorno.\n\nDe este modo, la estación supera su función estrictamente operativa, buscando transformar un espacio de paso en un lugar de oportunidad."
+      },
+      "images": [
+        {
+          "section": {
+            "en": "Site and strategy",
+            "pt": "Lugar e estratégia",
+            "es": "Lugar y estrategia"
+          },
+          "src": "projects/07-estacao/01-planta-corte-sintese.jpg",
+          "caption": {
+            "en": "Synthesis plan-section, scale 1:1000",
+            "pt": "Planta-corte síntese, E 1.1000",
+            "es": "Planta-sección síntesis, E 1.1000"
+          },
+          "layout": "inset"
+        },
+        {
+          "src": "projects/07-estacao/02-implantacao.jpg",
+          "caption": {
+            "en": "Site plan, scale 1:5000",
+            "pt": "Implantação, E 1.5000",
+            "es": "Emplazamiento, E 1.5000"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Plans",
+            "pt": "Plantas",
+            "es": "Plantas"
+          },
+          "src": "projects/07-estacao/03-planta-cobertura.jpg",
+          "caption": {
+            "en": "Roof plan, scale 1:500",
+            "pt": "Planta de cobertura, E 1.500",
+            "es": "Planta de cubierta, E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/04-planta-piso-superior.jpg",
+          "caption": {
+            "en": "Upper floor plan, scale 1:500",
+            "pt": "Planta do piso superior, E 1.500",
+            "es": "Planta de la planta superior, E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/05-planta-plataformas.jpg",
+          "caption": {
+            "en": "Platform level plan, scale 1:500",
+            "pt": "Planta ao nível das plataformas, E 1.500",
+            "es": "Planta a nivel de los andenes, E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/06-planta-piso-inferior.jpg",
+          "caption": {
+            "en": "Lower floor plan, scale 1:500",
+            "pt": "Planta do piso inferior, E 1.500",
+            "es": "Planta de la planta inferior, E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Sections",
+            "pt": "Cortes",
+            "es": "Secciones"
+          },
+          "src": "projects/07-estacao/07-corte-longitudinal-aa.jpg",
+          "caption": {
+            "en": "Longitudinal section AA', scale 1:500",
+            "pt": "Corte longitudinal AA', E 1.500",
+            "es": "Sección longitudinal AA', E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/08-corte-longitudinal-bb.jpg",
+          "caption": {
+            "en": "Longitudinal section BB', scale 1:500",
+            "pt": "Corte longitudinal BB', E 1.500",
+            "es": "Sección longitudinal BB', E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/09-corte-transversal-cc.jpg",
+          "caption": {
+            "en": "Cross section CC', scale 1:500",
+            "pt": "Corte transversal CC', E 1.500",
+            "es": "Sección transversal CC', E 1.500"
+          },
+          "layout": "full"
+        },
+        {
+          "section": {
+            "en": "Model",
+            "pt": "Maquete",
+            "es": "Maqueta"
+          },
+          "src": "projects/07-estacao/19-maquete-conjunto.jpg",
+          "caption": {
+            "en": "Project models",
+            "pt": "Maquetes do projeto",
+            "es": "Maquetas del proyecto"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/20-maquete-planta.jpg",
+          "caption": {
+            "en": "Model, top view",
+            "pt": "Maquete, vista superior",
+            "es": "Maqueta, vista superior"
+          },
+          "layout": "full"
+        },
+        {
+          "row": "equal",
+          "src": "projects/07-estacao/21-maquete-perspetiva.jpg",
+          "caption": {
+            "en": "Model, perspective",
+            "pt": "Maquete, perspetiva",
+            "es": "Maqueta, perspectiva"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/07-estacao/22-maquete-pormenor.jpg",
+          "caption": {
+            "en": "Model, platform detail",
+            "pt": "Maquete, pormenor das plataformas",
+            "es": "Maqueta, detalle de los andenes"
+          },
+          "layout": "half"
+        },
+        {
+          "section": {
+            "en": "Process",
+            "pt": "Processo",
+            "es": "Proceso"
+          },
+          "row": "equal",
+          "src": "projects/07-estacao/10-processo-paisagem.jpg",
+          "caption": {
+            "en": "Landscape",
+            "pt": "Paisagem",
+            "es": "Paisaje"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/07-estacao/11-processo-estacao.jpg",
+          "caption": {
+            "en": "Station",
+            "pt": "Estação",
+            "es": "Estación"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/07-estacao/12-processo-transfer.jpg",
+          "caption": {
+            "en": "Transfer",
+            "pt": "Transfer",
+            "es": "Transfer"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/07-estacao/13-processo-colagem.jpg",
+          "caption": {
+            "en": "Collage",
+            "pt": "Colagem",
+            "es": "Collage"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/14-processo-fotomontagem.jpg",
+          "caption": {
+            "en": "Photomontage",
+            "pt": "Fotomontagem",
+            "es": "Fotomontaje"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/15-processo-esquema-aereo.jpg",
+          "caption": {
+            "en": "Diagram over aerial photograph",
+            "pt": "Esquema sobre fotografia aérea",
+            "es": "Esquema sobre fotografía aérea"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/07-estacao/17-esquisso-processo.jpg",
+          "caption": {
+            "en": "Study sketches",
+            "pt": "Esquissos de estudo",
+            "es": "Croquis de estudio"
+          },
+          "layout": "half",
+          "row": "equal"
+        },
+        {
+          "src": "projects/07-estacao/18-esquisso-implantacao.jpg",
+          "caption": {
+            "en": "Site plan sketch",
+            "pt": "Esquisso de implantação",
+            "es": "Croquis de emplazamiento"
+          },
+          "layout": "half"
+        },
+        {
+          "section": {
+            "en": "Reference",
+            "pt": "Referência",
+            "es": "Referencia"
+          },
+          "src": "projects/07-estacao/16-referencia-appia.jpg",
+          "caption": {
+            "en": "Scenographies, Adolphe Appia",
+            "pt": "Cenografias, Adolphe Appia",
+            "es": "Escenografías, Adolphe Appia"
           },
           "layout": "full"
         }
@@ -646,7 +916,7 @@
         "es": "Universidad de Évora"
       },
       "teachers": "Pedro Matos Gameiro | Pedro Oliveira | Joana Vilhena | Paula Pinto",
-      "thumbnail": "projects/04-centro-interpretativo/01-fotomontagem-vila.jpg",
+      "thumbnail": "projects/04-centro-interpretativo/06-corte-alcado-rua.jpg",
       "hero": "projects/04-centro-interpretativo/01-fotomontagem-vila.jpg",
       "concept": {
         "pt": "O projeto «Centro Interpretativo em Évora Monte» desenvolve-se numa área próxima do Arco, estrutura pertencente à antiga Casa da Câmara, numa zona da vila marcada pela presença de preexistências e por algum estado de abandono. A proposta parte de um levantamento aprofundado do local, procurando compreender a sua configuração e o potencial de requalificação deste núcleo histórico.\n\nA intervenção organiza-se em dois volumes: uma cafetaria e um centro interpretativo. A cafetaria desenvolve-se a partir de um terraço preexistente, integrando um pátio na parte superior da cozinha, situada na zona posterior do edifício e acessível através de escadas. Um grande vão envidraçado na fachada principal, complementado por uma abertura elevada voltada para o terraço, favorece a entrada de luz natural e estabelece uma relação visual com o exterior. A esplanada prolonga o espaço interior para a paisagem, oferecendo uma vista sobre a Serra d’Ossa e criando uma nova área de permanência e convívio.\n\nO centro interpretativo prolonga a linha de referência do terraço até ao muro em ruína, reinterpretando-o através de um novo elemento arquitetónico que orienta os visitantes e restabelece a ligação entre duas ruas. Integra uma área de receção e duas salas destinadas a exposições temporárias, concebidas para proporcionar experiências espaciais distintas: uma sala de menor dimensão e com iluminação natural reduzida, com pé-direito duplo, e outra mais ampla e naturalmente iluminada, com pé-direito triplo. As instalações sanitárias são discretamente integradas nos patamares das escadas, preservando a leitura dos espaços expositivos.\n\nA implantação dos dois volumes define uma nova praça, que funciona como espaço de encontro e esplanada da cafetaria, procurando devolver dinamismo e vida social a esta zona de Évoramonte.",
@@ -859,7 +1129,7 @@
         "pt": "Académico",
         "es": "Académico"
       },
-      "thumbnail": "projects/05-dispositivo-urbano/10-folly-fotomontagens.jpg",
+      "thumbnail": "projects/05-dispositivo-urbano/07-alcado.jpg",
       "hero": "projects/05-dispositivo-urbano/03-maquete-alcado.jpg",
       "concept": {
         "en": "The project focuses on the design of urban devices for the city of Évora, exploring the relationship between architecture, heritage, public space and sensory experience. The two exercises brought together here sought to understand different ways of intervening in the city through structures capable of arousing curiosity, highlighting local characteristics and suggesting new ways of appropriating space.\n\nThe exercises made it possible to explore different scales, materials and construction methods, developing a reflection on the role of architecture in enhancing heritage and transforming the everyday experience of urban space.",
@@ -1069,276 +1339,6 @@
             "es": "Folly, maqueta en su contexto"
           },
           "layout": "half"
-        }
-      ]
-    },
-    {
-      "id": "07-estacao",
-      "title": {
-        "pt": "Fundação de um Lugar | Estação Ferroviária EUROBEC",
-        "en": "Founding a Place | EUROBEC Railway Station",
-        "es": "Fundación de un Lugar | Estación Ferroviaria EUROBEC"
-      },
-      "year": "2024–2025",
-      "location": {
-        "pt": "EUROBEC",
-        "en": "EUROBEC",
-        "es": "EUROBEC"
-      },
-      "typology": {
-        "en": "Infrastructure / Transport",
-        "pt": "Infraestrutura / Transportes",
-        "es": "Infraestructura / Transportes"
-      },
-      "context": {
-        "en": "Academic",
-        "pt": "Académico",
-        "es": "Académico"
-      },
-      "institution": {
-        "en": "University of Évora",
-        "pt": "Universidade de Évora",
-        "es": "Universidad de Évora"
-      },
-      "teachers": "João Soares | Daniel Jiménez",
-      "thumbnail": "projects/07-estacao/20-maquete-planta.jpg",
-      "hero": "projects/07-estacao/19-maquete-conjunto.jpg",
-      "concept": {
-        "en": "The project addresses the challenge of designing a high-speed passenger railway station for EUROBEC, conceived not merely as a transport infrastructure, but as an opportunity to establish a new territorial landmark and create relationships between people, the city and the landscape. The exercise is structured around three fundamental concepts — landscape, transfer and station — seeking to reconcile the functional demands of mobility with the creation of a place defined by identity and permanence.\n\nThe proposal challenges the idea of the station as a space exclusively associated with transit and speed, transforming it into a place for meeting, pausing and contemplation. To this end, the scenographic work of Adolphe Appia served as the main conceptual reference, exploring the articulation of planes, volumes, stairways and light in the creation of different environments. Architecture is conceived as a sequence of settings in which bodily movement and spatial perception remain continuously connected.\n\nThe route unfolds through a sequence of spaces at different levels, gradually approaching the natural landscape. As one descends, the river becomes increasingly close. This descent becomes an architectural narrative in which each level offers different ways to pause, observe and engage with the surroundings.\n\nIn this way, the station moves beyond its strictly operational function, seeking to transform a space of passage into a place of opportunity.",
-        "pt": "O projeto parte do desafio de conceber uma estação ferroviária de passageiros do TGV para a EUROBEC, entendida não apenas como uma infraestrutura de transporte, mas como uma oportunidade para estabelecer uma nova referência territorial e criar relações entre pessoas, cidade e paisagem. O exercício desenvolve-se em torno de três conceitos fundamentais — paisagem, transferência e estação — procurando conciliar as exigências funcionais da mobilidade com a criação de um espaço de identidade e permanência.\n\nA proposta procura contrariar a ideia da estação como um espaço exclusivamente associado à passagem e à velocidade, transformando-a num lugar de encontro, pausa e contemplação. Para isso, as cenografias de Adolphe Appia constituíram a principal referência conceptual, explorando a articulação entre planos, volumes, escadas e luz na construção de diferentes ambientes. A arquitetura é pensada como uma sucessão de cenários, onde o movimento do corpo e a perceção do espaço se relacionam continuamente.\n\nO percurso desenvolve-se através de uma sequência de espaços a diferentes cotas, estabelecendo uma aproximação progressiva à paisagem natural. À medida que se desce, torna-se cada vez mais próxima a presença do rio. Esta descida transforma-se numa narrativa arquitetónica, em que cada nível proporciona diferentes formas de permanecer, observar e estabelecer contacto com a envolvente.\n\nDesta forma, a estação ultrapassa a sua função estritamente operacional, procurando transformar um espaço de passagem num lugar de oportunidade.",
-        "es": "El proyecto parte del desafío de diseñar una estación ferroviaria de pasajeros de alta velocidad para EUROBEC, entendida no solo como una infraestructura de transporte, sino también como una oportunidad para establecer una nueva referencia territorial y crear relaciones entre las personas, la ciudad y el paisaje. El ejercicio se desarrolla en torno a tres conceptos fundamentales — paisaje, transferencia y estación — buscando conciliar las exigencias funcionales de la movilidad con la creación de un espacio de identidad y permanencia.\n\nLa propuesta busca cuestionar la idea de la estación como un espacio exclusivamente asociado al tránsito y la velocidad, transformándola en un lugar de encuentro, pausa y contemplación. Para ello, las escenografías de Adolphe Appia constituyeron la principal referencia conceptual, explorando la articulación entre planos, volúmenes, escaleras y luz en la construcción de diferentes ambientes. La arquitectura se concibe como una sucesión de escenarios, donde el movimiento del cuerpo y la percepción del espacio se relacionan continuamente.\n\nEl recorrido se desarrolla mediante una secuencia de espacios a diferentes cotas, estableciendo una aproximación progresiva al paisaje natural. A medida que se desciende, la presencia del río se hace cada vez más cercana. Este descenso se convierte en una narrativa arquitectónica, en la que cada nivel ofrece diferentes formas de permanecer, observar y establecer contacto con el entorno.\n\nDe este modo, la estación supera su función estrictamente operativa, buscando transformar un espacio de paso en un lugar de oportunidad."
-      },
-      "images": [
-        {
-          "section": {
-            "en": "Site and strategy",
-            "pt": "Lugar e estratégia",
-            "es": "Lugar y estrategia"
-          },
-          "src": "projects/07-estacao/01-planta-corte-sintese.jpg",
-          "caption": {
-            "en": "Synthesis plan-section, scale 1:1000",
-            "pt": "Planta-corte síntese, E 1.1000",
-            "es": "Planta-sección síntesis, E 1.1000"
-          },
-          "layout": "inset"
-        },
-        {
-          "src": "projects/07-estacao/02-implantacao.jpg",
-          "caption": {
-            "en": "Site plan, scale 1:5000",
-            "pt": "Implantação, E 1.5000",
-            "es": "Emplazamiento, E 1.5000"
-          },
-          "layout": "full"
-        },
-        {
-          "section": {
-            "en": "Plans",
-            "pt": "Plantas",
-            "es": "Plantas"
-          },
-          "src": "projects/07-estacao/03-planta-cobertura.jpg",
-          "caption": {
-            "en": "Roof plan, scale 1:500",
-            "pt": "Planta de cobertura, E 1.500",
-            "es": "Planta de cubierta, E 1.500"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/04-planta-piso-superior.jpg",
-          "caption": {
-            "en": "Upper floor plan, scale 1:500",
-            "pt": "Planta do piso superior, E 1.500",
-            "es": "Planta de la planta superior, E 1.500"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/05-planta-plataformas.jpg",
-          "caption": {
-            "en": "Platform level plan, scale 1:500",
-            "pt": "Planta ao nível das plataformas, E 1.500",
-            "es": "Planta a nivel de los andenes, E 1.500"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/06-planta-piso-inferior.jpg",
-          "caption": {
-            "en": "Lower floor plan, scale 1:500",
-            "pt": "Planta do piso inferior, E 1.500",
-            "es": "Planta de la planta inferior, E 1.500"
-          },
-          "layout": "full"
-        },
-        {
-          "section": {
-            "en": "Sections",
-            "pt": "Cortes",
-            "es": "Secciones"
-          },
-          "src": "projects/07-estacao/07-corte-longitudinal-aa.jpg",
-          "caption": {
-            "en": "Longitudinal section AA', scale 1:500",
-            "pt": "Corte longitudinal AA', E 1.500",
-            "es": "Sección longitudinal AA', E 1.500"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/08-corte-longitudinal-bb.jpg",
-          "caption": {
-            "en": "Longitudinal section BB', scale 1:500",
-            "pt": "Corte longitudinal BB', E 1.500",
-            "es": "Sección longitudinal BB', E 1.500"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/09-corte-transversal-cc.jpg",
-          "caption": {
-            "en": "Cross section CC', scale 1:500",
-            "pt": "Corte transversal CC', E 1.500",
-            "es": "Sección transversal CC', E 1.500"
-          },
-          "layout": "full"
-        },
-        {
-          "section": {
-            "en": "Model",
-            "pt": "Maquete",
-            "es": "Maqueta"
-          },
-          "src": "projects/07-estacao/19-maquete-conjunto.jpg",
-          "caption": {
-            "en": "Project models",
-            "pt": "Maquetes do projeto",
-            "es": "Maquetas del proyecto"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/20-maquete-planta.jpg",
-          "caption": {
-            "en": "Model, top view",
-            "pt": "Maquete, vista superior",
-            "es": "Maqueta, vista superior"
-          },
-          "layout": "full"
-        },
-        {
-          "row": "equal",
-          "src": "projects/07-estacao/21-maquete-perspetiva.jpg",
-          "caption": {
-            "en": "Model, perspective",
-            "pt": "Maquete, perspetiva",
-            "es": "Maqueta, perspectiva"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "projects/07-estacao/22-maquete-pormenor.jpg",
-          "caption": {
-            "en": "Model, platform detail",
-            "pt": "Maquete, pormenor das plataformas",
-            "es": "Maqueta, detalle de los andenes"
-          },
-          "layout": "half"
-        },
-        {
-          "section": {
-            "en": "Process",
-            "pt": "Processo",
-            "es": "Proceso"
-          },
-          "row": "equal",
-          "src": "projects/07-estacao/10-processo-paisagem.jpg",
-          "caption": {
-            "en": "Landscape",
-            "pt": "Paisagem",
-            "es": "Paisaje"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "projects/07-estacao/11-processo-estacao.jpg",
-          "caption": {
-            "en": "Station",
-            "pt": "Estação",
-            "es": "Estación"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "projects/07-estacao/12-processo-transfer.jpg",
-          "caption": {
-            "en": "Transfer",
-            "pt": "Transfer",
-            "es": "Transfer"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "projects/07-estacao/13-processo-colagem.jpg",
-          "caption": {
-            "en": "Collage",
-            "pt": "Colagem",
-            "es": "Collage"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/14-processo-fotomontagem.jpg",
-          "caption": {
-            "en": "Photomontage",
-            "pt": "Fotomontagem",
-            "es": "Fotomontaje"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/15-processo-esquema-aereo.jpg",
-          "caption": {
-            "en": "Diagram over aerial photograph",
-            "pt": "Esquema sobre fotografia aérea",
-            "es": "Esquema sobre fotografía aérea"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/07-estacao/17-esquisso-processo.jpg",
-          "caption": {
-            "en": "Study sketches",
-            "pt": "Esquissos de estudo",
-            "es": "Croquis de estudio"
-          },
-          "layout": "half",
-          "row": "equal"
-        },
-        {
-          "src": "projects/07-estacao/18-esquisso-implantacao.jpg",
-          "caption": {
-            "en": "Site plan sketch",
-            "pt": "Esquisso de implantação",
-            "es": "Croquis de emplazamiento"
-          },
-          "layout": "half"
-        },
-        {
-          "section": {
-            "en": "Reference",
-            "pt": "Referência",
-            "es": "Referencia"
-          },
-          "src": "projects/07-estacao/16-referencia-appia.jpg",
-          "caption": {
-            "en": "Scenographies, Adolphe Appia",
-            "pt": "Cenografias, Adolphe Appia",
-            "es": "Escenografías, Adolphe Appia"
-          },
-          "layout": "full"
         }
       ]
     },

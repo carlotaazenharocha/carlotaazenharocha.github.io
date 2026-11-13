@@ -14,7 +14,7 @@ O site apresenta projetos académicos (desenhos, maquetes e processo), o percurs
 
 | Página | Conteúdo |
 |---|---|
-| `index.html` | Grelha com todos os projetos |
+| `index.html` | Projetos numa faixa que desliza para o lado, com os outros trabalhos por baixo |
 | `project.html?id=…` | Projeto: título, texto, imagens organizadas por blocos (Lugar, Desenhos, Maquetes, Processo) e ficha técnica |
 | `about.html` | Apresentação, formação, competências, tese, CV para descarregar e contactos |
 | `research.html` | Investigação (em curso) sobre o Convento da Tomina, iniciada com a dissertação de mestrado: resumo, linha do tempo, levantamento, estratégia de salvaguarda, candidatura a património e publicações |
@@ -37,9 +37,11 @@ Site estático, sem dependências nem passo de build: **HTML, CSS e JavaScript**
 ├── translations.json       # Textos da interface (menus, etiquetas, rodapé)
 ├── css/
 │   ├── style.css           # Estilos do site
+│   ├── caderno.css         # Cadernos (leporello)
 │   └── portfolio.css       # Estilos do gerador de PDF
 ├── js/
 │   ├── main.js             # Línguas, carregamento dos JSON e páginas
+│   ├── caderno.js          # Cadernos (leporello)
 │   └── portfolio.js        # Gerador de PDF
 ├── projects/NN-nome/       # Imagens de cada projeto
 ├── participations/<id>/    # Imagens de cada participação
@@ -93,7 +95,7 @@ Depois abrir http://localhost:8000. Em alternativa, pode usar-se a extensão **L
 - **`concept`**: uma linha em branco (`\n\n`) separa parágrafos.
 - **`section`** (opcional): mostra um subtítulo de bloco antes dessa imagem.
 - **`layout`**: `full` (largura total), `inset` (mais estreita e centrada) ou `half` (duas imagens `half` seguidas ficam lado a lado).
-- **Imagens**: para a web, convém que tenham no máximo cerca de 2500 px e 500 KB.
+- **Imagens**: no máximo 2400 px no lado maior; nomes em minúsculas, sem espaços nem acentos, numerados pela ordem (`03-planta-geral-1-200.jpg`).
 
 ---
 

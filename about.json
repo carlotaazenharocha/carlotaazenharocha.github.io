@@ -22,14 +22,14 @@
   "skills": {
     "experienced": [
       "AutoCAD",
+      "Archicad",
       "TwinMotion",
       "Adobe InDesign",
       "Adobe Photoshop"
     ],
     "learning": [
       "SketchUp",
-      "Revit",
-      "ArchiCAD"
+      "Revit"
     ],
     "practice": [
       {
@@ -96,16 +96,66 @@
         "es": "Abr 2026 — Sep 2026"
       },
       "title": {
-        "en": "Part-time collaborator",
-        "pt": "Colaboradora em part-time",
-        "es": "Colaboradora a tiempo parcial"
+        "pt": "Colaboradora em arquitetura e design de interiores (part-time)",
+        "en": "Architecture and interior design assistant (part-time)",
+        "es": "Colaboradora en arquitectura y diseño de interiores (tiempo parcial)"
       },
-      "office": "INLINEA",
+      "office": "InLinea",
       "location": {
         "en": "Amarante, Portugal",
         "pt": "Amarante, Portugal",
         "es": "Amarante, Portugal"
       },
+      "summary": {
+        "pt": "Atelier de arquitetura e design de interiores. Numa equipa pequena, acompanhei os projetos de perto, do primeiro contacto com o cliente ao licenciamento na câmara municipal.",
+        "en": "Architecture and interior design studio. In a small team, I followed projects closely, from the first meeting with the client to planning permission at the town council.",
+        "es": "Estudio de arquitectura y diseño de interiores. En un equipo reducido, seguí los proyectos de cerca, desde el primer contacto con el cliente hasta la licencia en el ayuntamiento."
+      },
+      "tasks": [
+        {
+          "pt": "Desenvolvimento de peças desenhadas em Archicad, em diferentes fases do projeto",
+          "en": "Producing drawings in Archicad at different stages of the project",
+          "es": "Desarrollo de planos en Archicad en distintas fases del proyecto"
+        },
+        {
+          "pt": "Preparação de processos de licenciamento, de acordo com a legislação portuguesa e as exigências de cada município",
+          "en": "Preparing planning applications under Portuguese legislation and the requirements of each municipality",
+          "es": "Preparación de expedientes de licencia según la legislación portuguesa y los requisitos de cada municipio"
+        },
+        {
+          "pt": "Contacto com clientes e comunicação com as câmaras municipais",
+          "en": "Liaising with clients and with town councils",
+          "es": "Contacto con clientes y comunicación con los ayuntamientos"
+        },
+        {
+          "pt": "Articulação com os técnicos dos projetos de especialidades",
+          "en": "Coordinating with the engineers of the specialist designs",
+          "es": "Coordinación con los técnicos de los proyectos de especialidades"
+        },
+        {
+          "pt": "Acompanhamento de orçamentos e da viabilidade técnica e económica das soluções",
+          "en": "Following budgets and the technical and financial feasibility of solutions",
+          "es": "Seguimiento de presupuestos y de la viabilidad técnica y económica de las soluciones"
+        },
+        {
+          "pt": "Escolha de materiais, acabamentos e mobiliário em projetos de interiores",
+          "en": "Selecting materials, finishes and furniture for interior projects",
+          "es": "Elección de materiales, acabados y mobiliario en proyectos de interiores"
+        }
+      ],
+      "tools": [
+        "Archicad",
+        {
+          "pt": "Licenciamento",
+          "en": "Planning permission",
+          "es": "Licencias"
+        },
+        {
+          "pt": "Design de interiores",
+          "en": "Interior design",
+          "es": "Diseño de interiores"
+        }
+      ],
       "note": {
         "en": "Work subject to confidentiality",
         "pt": "Trabalhos sujeitos a confidencialidade",
