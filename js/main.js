@@ -497,10 +497,12 @@ function renderImages(container, images, parts = []) {
     const media = image.type === 'video' ? video
       : image.type === 'vimeo' ? vimeo
       : `<img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">`;
+    // "pan": on the phone a large drawing keeps a legible size and is moved sideways
     imageDiv.innerHTML = `
-      ${media}
+      ${image.pan ? `<div class="pan-frame">${media}</div>` : media}
       <div class="image-caption">${getText(image.caption)}</div>
     `;
+    if (image.pan) imageDiv.classList.add('pan');
 
     // Until the file exists, show a box describing the image to add
     if (image.placeholder) {

@@ -2245,6 +2245,53 @@ footer {
   font-size: 0.75rem;
 }
 
+/* On the phone: drawings that keep a legible size ("pan") and mosaics that
+   become a sideways strip ("phone-scroll") */
+@media (max-width: 768px) {
+  .project-image.pan .pan-frame {
+    position: relative;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    margin: 0 -1rem;
+    padding: 0 1rem 0.5rem;
+  }
+
+  .project-image.pan .pan-frame img {
+    width: auto !important;
+    max-width: none;
+    height: min(62vh, 520px);
+  }
+
+  .project-mosaic--phone-scroll {
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    gap: 1rem;
+    margin-right: -1rem;
+    padding-right: 1rem;
+    scrollbar-width: none;
+  }
+
+  .project-mosaic--phone-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .project-mosaic--phone-scroll .project-mosaic-row {
+    display: contents;
+  }
+
+  .project-mosaic--phone-scroll .project-image {
+    flex: 0 0 85% !important;
+    scroll-snap-align: start;
+  }
+
+  .research-section .project-mosaic--drawings .project-image img {
+    height: 300px;
+  }
+}
+
 /* Image still to be added: dashed box with what goes there */
 .image-placeholder {
   display: flex;
