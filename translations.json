@@ -33,6 +33,7 @@
       "skills_learning": "Learning",
       "languages": "Languages",
       "language_native": "Native",
+      "experience": "Professional Experience",
       "education": "Education",
       "participations": "Academic Activities & Formative Experiences",
       "sketchbooks": "Sketchbooks",
@@ -45,7 +46,10 @@
         "email": "Email",
         "location": "Location",
         "linkedin": "LinkedIn"
-      }
+      },
+      "skills_practice": "Drawing and making",
+      "participations_more": "See all",
+      "participations_less": "See fewer"
     },
     "participation": {
       "back_to_about": "Back to About",
@@ -90,6 +94,7 @@
       "skills_learning": "A aprender",
       "languages": "Idiomas",
       "language_native": "Nativo",
+      "experience": "Experiência Profissional",
       "education": "Educação",
       "participations": "Atividades Académicas e Experiências Formativas",
       "sketchbooks": "Cadernos",
@@ -102,7 +107,10 @@
         "email": "Email",
         "location": "Localização",
         "linkedin": "LinkedIn"
-      }
+      },
+      "skills_practice": "Desenho e construção",
+      "participations_more": "Ver todas",
+      "participations_less": "Ver menos"
     },
     "participation": {
       "back_to_about": "Voltar a Sobre",
@@ -147,6 +155,7 @@
       "skills_learning": "Aprendiendo",
       "languages": "Idiomas",
       "language_native": "Nativo",
+      "experience": "Experiencia Profesional",
       "education": "Educación",
       "participations": "Actividades Académicas y Experiencias Formativas",
       "sketchbooks": "Cuadernos",
@@ -159,7 +168,10 @@
         "email": "Email",
         "location": "Ubicación",
         "linkedin": "LinkedIn"
-      }
+      },
+      "skills_practice": "Dibujo y construcción",
+      "participations_more": "Ver todas",
+      "participations_less": "Ver menos"
     },
     "participation": {
       "back_to_about": "Volver a Sobre mí",

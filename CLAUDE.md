@@ -64,7 +64,7 @@ Other work (folder `projects/outros-trabalhos/`, shown under "Outros trabalhos" 
 
 Image captions (including the drawing scale, e.g. "E 1.100" / "scale 1:100") live in the JSON only, never inside the images.
 
-Videos: `"type": "video"` plays a local MP4 silently in a loop (add `"controls": true` for sound and controls); `"type": "vimeo", "vimeo": "<id>"` embeds Vimeo's player. Participations use the same layouts when their images have `layout`.
+Videos: `"type": "video"` plays a local MP4 silently in a loop (add `"controls": true` for sound and controls); `"type": "vimeo", "vimeo": "<id>"` embeds Vimeo's player (add `"vertical": true` for 9:16, `"loop": true` to repeat, `"autoplay": true` to play silently in a loop). Participations use the same layouts when their images have `layout`.
 
 Image layouts: `full`, `half` (consecutive halves share a row; `"row": "equal"` keeps one height), `inset`, and `tile` (consecutive tiles form a mosaic; `"mosaic"` on the first names the arrangement: `grid-3`, `grid-2`, `grid-2-narrow`, `row-4`, `uniform` (equal cells, drawings whole), `justified` or `justified-N` (N per row), `masonry`, `scroll` (one row scrolling sideways), plus the modifier `narrow`, e.g. `"justified-2 narrow"`).
 

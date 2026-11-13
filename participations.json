@@ -35,6 +35,7 @@
     {
       "id": "refazer-paisagens",
       "type": "seminar",
+      "featured": true,
       "title": {
         "en": "Seminario Internazionale di Progettazione «Refazer Paisagens»",
         "pt": "Seminario Internazionale di Progettazione «Refazer Paisagens»",
@@ -236,6 +237,7 @@
     {
       "id": "cipa-congress",
       "type": "volunteering",
+      "featured": true,
       "title": {
         "en": "CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira",
         "pt": "CIPA | M — International Congress for Architectural and Landscape Heritage | Malagueira",
@@ -333,6 +335,7 @@
     {
       "id": "jornadas-autoconstrucao",
       "type": "workshop",
+      "featured": true,
       "title": {
         "en": "Jornadas da Autoconstrução",
         "pt": "Jornadas da Autoconstrução",
@@ -350,9 +353,9 @@
         "es": "Casa Branca, Portugal"
       },
       "institution": {
-        "en": "Jornadas da Autoconstrução",
-        "pt": "Jornadas da Autoconstrução",
-        "es": "Jornadas da Autoconstrução"
+        "en": "Estação Cooperativa, in partnership with CRU Atelier and Oficinas do Convento",
+        "pt": "Estação Cooperativa, em parceria com CRU Atelier e Oficinas do Convento",
+        "es": "Estação Cooperativa, en colaboración con CRU Atelier y Oficinas do Convento"
       },
       "description": {
         "pt": "Participação nas «Jornadas da Autoconstrução», realizadas em Casa Branca, em 2023, dedicadas à experimentação de técnicas construtivas tradicionais e sustentáveis, privilegiando a utilização de materiais naturais e de baixo impacto ambiental.\n\nA atividade desenvolveu-se através de uma intervenção prática numa antiga estação ferroviária, entretanto transformada num espaço de apoio à criação artística. Os trabalhos realizados incluíram a preparação e aplicação de argamassas de cal e argila, execução de rebocos e emboços, picagem de paredes e aplicação de azulejos artesanais.\n\nA experiência decorreu sob orientação da arquiteta Tânia Teixeira, permitindo aprofundar o contacto direto com os materiais e os processos de construção, valorizando o saber-fazer artesanal e a recuperação de técnicas tradicionais enquanto estratégias de reabilitação e sustentabilidade do património construído.",
@@ -422,6 +425,7 @@
     {
       "id": "arquitectos-herramienta",
       "type": "workshop",
+      "featured": true,
       "title": {
         "en": "7.º Encuentro de Arquitectos de Herramienta en Mano",
         "pt": "7.º Encuentro de Arquitectos de Herramienta en Mano",
@@ -551,26 +555,100 @@
       },
       "date": "2024-09",
       "dateDisplay": {
-        "en": "September 16-25, 2024",
-        "pt": "16-25 de setembro de 2024",
-        "es": "16-25 de septiembre de 2024"
+        "en": "September 16–25, 2024",
+        "pt": "16 a 25 de setembro de 2024",
+        "es": "16 al 25 de septiembre de 2024"
       },
       "location": {
-        "en": "Roseto degli Abruzzi, Abruzzo, Italy",
-        "pt": "Roseto degli Abruzzi, Abruzzo, Itália",
-        "es": "Roseto degli Abruzzi, Abruzzo, Italia"
+        "en": "Roseto degli Abruzzi, Italy",
+        "pt": "Roseto degli Abruzzi, Itália",
+        "es": "Roseto degli Abruzzi, Italia"
       },
       "institution": {
-        "en": "Erasmus+",
-        "pt": "Erasmus+",
-        "es": "Erasmus+"
+        "en": "ARCI Circolo Territoriale Chieti APS",
+        "pt": "ARCI Circolo Territoriale Chieti APS",
+        "es": "ARCI Circolo Territoriale Chieti APS"
+      },
+      "eventUrl": "https://www.arciyouthlab.eu/borsacchio-youth-exchange-protected-areas-dossier/",
+      "eventName": {
+        "en": "Borsacchio Youth Exchange — dossier",
+        "pt": "Borsacchio Youth Exchange — dossier",
+        "es": "Borsacchio Youth Exchange — dossier"
       },
       "description": {
-        "en": "Participation in the youth exchange \"Protected Areas: A Playground for the Inclusion of Young People\", held in Roseto degli Abruzzi (Abruzzo, Italy), between September 16-25, 2024. The program included visits to protected natural areas, practical activities and debate moments on sustainable management of these territories and the involvement of local communities. Activities promoted awareness actions directed at the population, focused on the importance of biodiversity preservation and protection of endangered species, such as the Kentish plover, a bird characteristic of the region's dune ecosystems. The project also sought to stimulate youth participation in reflection on the role of protected areas and in building environmental conservation strategies in dialogue with the local community.",
-        "pt": "Participação no intercâmbio juvenil \"Protected Areas: A Playground for the Inclusion of Young People\", realizado em Roseto degli Abruzzi (Abruzzo, Itália), entre 16 e 25 de setembro de 2024. O programa integrou visitas a áreas naturais protegidas, atividades práticas e momentos de debate sobre a gestão sustentável destes territórios e o envolvimento das comunidades locais. No âmbito das atividades foram promovidas ações de sensibilização dirigidas à população, centradas na importância da preservação da biodiversidade e na proteção de espécies em risco, como o fratino, ave característica dos ecossistemas dunares da região. O projeto procurou ainda estimular a participação dos jovens na reflexão sobre o papel das áreas protegidas e na construção de estratégias de conservação ambiental em diálogo com a comunidade local.",
-        "es": "Participación en el intercambio juvenil \"Protected Areas: A Playground for the Inclusion of Young People\", realizado en Roseto degli Abruzzi (Abruzzo, Italia), entre el 16 y el 25 de septiembre de 2024. El programa incluyó visitas a áreas naturales protegidas, actividades prácticas y momentos de debate sobre la gestión sostenible de estos territorios y la participación de las comunidades locales. Las actividades promovieron acciones de sensibilización dirigidas a la población, centradas en la importancia de la preservación de la biodiversidad y la protección de especies en peligro, como el chorlitejo patinegro, ave característica de los ecosistemas dunares de la región. El proyecto también buscó estimular la participación de los jóvenes en la reflexión sobre el papel de las áreas protegidas y en la construcción de estrategias de conservación ambiental en diálogo con la comunidad local."
+        "pt": "Participação no intercâmbio juvenil Erasmus+ «Protected Areas: A Playground for the Inclusion of Young People», realizado em Roseto degli Abruzzi, na região de Abruzzo, em Itália, entre 16 e 25 de setembro de 2024, reunindo 40 jovens de oito países europeus.\n\nO programa decorreu na Reserva Natural de Borsacchio, proporcionando uma experiência de contacto direto com uma paisagem costeira protegida, marcada pela presença de ecossistemas dunares de elevado valor ambiental e paisagístico. As atividades centraram-se na preservação da biodiversidade, na proteção das dunas e na valorização do património natural, promovendo a reflexão sobre a relação entre a ocupação humana, a conservação dos ecossistemas e a gestão sustentável do território.\n\nAtravés de visitas à reserva, atividades de sensibilização ambiental e trabalho em equipas internacionais, foram desenvolvidos vídeos, desenhos e materiais informativos multilingues destinados a divulgar o património natural e a importância da sua preservação. Os resultados foram apresentados à comunidade local, reforçando o papel da participação coletiva na proteção e valorização da paisagem.\n\nA experiência permitiu aprofundar a compreensão da importância das áreas naturais protegidas e da necessidade de integrar os valores ecológicos e paisagísticos nas decisões de planeamento e intervenção territorial.",
+        "en": "Participation in the Erasmus+ youth exchange “Protected Areas: A Playground for the Inclusion of Young People”, held in Roseto degli Abruzzi, in the Abruzzo region of Italy, from 16 to 25 September 2024, bringing together 40 young people from eight European countries.\n\nThe programme took place in the Borsacchio Nature Reserve, offering first-hand experience of a protected coastal landscape characterised by dune ecosystems of significant environmental and landscape value. Activities focused on biodiversity conservation, dune protection and the appreciation of natural heritage, encouraging reflection on the relationship between human occupation, ecosystem conservation and sustainable land management.\n\nThrough visits to the reserve, environmental awareness activities and teamwork in international groups, participants developed videos, drawings and multilingual information materials to communicate the reserve’s natural heritage and the importance of protecting it. The results were presented to the local community, highlighting the role of collective participation in safeguarding and enhancing the landscape.\n\nThe experience offered a deeper understanding of the importance of protected natural areas and the need to integrate ecological and landscape values into decisions about spatial planning and territorial intervention.",
+        "es": "Participación en el intercambio juvenil Erasmus+ «Protected Areas: A Playground for the Inclusion of Young People», celebrado en Roseto degli Abruzzi, en la región italiana de Abruzzo, del 16 al 25 de septiembre de 2024, que reunió a 40 jóvenes de ocho países europeos.\n\nEl programa tuvo lugar en la Reserva Natural de Borsacchio y permitió un contacto directo con un paisaje costero protegido, caracterizado por ecosistemas dunares de gran valor ambiental y paisajístico. Las actividades se centraron en la conservación de la biodiversidad, la protección de las dunas y la puesta en valor del patrimonio natural, fomentando la reflexión sobre la relación entre la ocupación humana, la conservación de los ecosistemas y la gestión sostenible del territorio.\n\nA través de visitas a la reserva, actividades de sensibilización ambiental y trabajo en equipos internacionales, se elaboraron vídeos, dibujos y materiales informativos multilingües destinados a divulgar el patrimonio natural y la importancia de su conservación. Los resultados se presentaron a la comunidad local, destacando el papel de la participación colectiva en la protección y valorización del paisaje.\n\nLa experiencia permitió profundizar en la comprensión de la importancia de las áreas naturales protegidas y de la necesidad de integrar los valores ecológicos y paisajísticos en las decisiones de planificación e intervención territorial."
       },
-      "images": [],
+      "images": [
+        {
+          "mosaic": "justified",
+          "src": "participations/protected-areas/01-visita-reserva.jpg",
+          "caption": {
+            "en": "Visit to the Borsacchio Nature Reserve",
+            "pt": "Visita à Reserva Natural de Borsacchio",
+            "es": "Visita a la Reserva Natural de Borsacchio"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/protected-areas/02-ruinas.jpg",
+          "caption": {
+            "en": "Recording heritage within the reserve",
+            "pt": "Registo do património no território da reserva",
+            "es": "Registro del patrimonio en el territorio de la reserva"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/protected-areas/03-planeamento.jpg",
+          "caption": {
+            "en": "Planning the activities as a team",
+            "pt": "Planeamento das atividades em equipa",
+            "es": "Planificación de las actividades en equipo"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified",
+          "src": "participations/protected-areas/04-trabalho-equipa.jpg",
+          "caption": {
+            "en": "Developing the information materials",
+            "pt": "Desenvolvimento dos materiais informativos",
+            "es": "Desarrollo de los materiales informativos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/protected-areas/05-sessao.jpg",
+          "caption": {
+            "en": "Working session with the international teams",
+            "pt": "Sessão de trabalho entre equipas internacionais",
+            "es": "Sesión de trabajo entre equipos internacionales"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/protected-areas/06-apresentacao.jpg",
+          "caption": {
+            "en": "Presenting the results to the local community",
+            "pt": "Apresentação dos resultados à comunidade local",
+            "es": "Presentación de los resultados a la comunidad local"
+          },
+          "layout": "tile"
+        },
+        {
+          "type": "vimeo",
+          "vimeo": "1246665415",
+          "loop": true,
+          "caption": {
+            "en": "Video “Guide della Riserva Borsacchio”",
+            "pt": "Vídeo «Guide della Riserva Borsacchio»",
+            "es": "Vídeo «Guide della Riserva Borsacchio»"
+          },
+          "layout": "full"
+        }
+      ],
       "externalLinks": []
     },
     {
@@ -581,33 +659,120 @@
         "pt": "Heritage Camp Almeida",
         "es": "Heritage Camp Almeida"
       },
-      "date": "2025",
+      "date": "2025-10",
       "dateDisplay": {
-        "en": "2025",
-        "pt": "2025",
-        "es": "2025"
+        "en": "October 5–11, 2025",
+        "pt": "5 a 11 de outubro de 2025",
+        "es": "5 al 11 de octubre de 2025"
       },
       "location": {
-        "en": "Almeida, Portugal",
-        "pt": "Almeida, Portugal",
-        "es": "Almeida, Portugal"
+        "en": "Almeida, Guarda, Portugal",
+        "pt": "Almeida, Guarda, Portugal",
+        "es": "Almeida, Guarda, Portugal"
       },
       "institution": {
-        "en": "Spira – heritage revitalization",
-        "pt": "Spira – revitalização patrimonial",
-        "es": "Spira – revitalización patrimonial"
+        "en": "Spira – Revitalização Patrimonial | Municipality of Almeida",
+        "pt": "Spira – Revitalização Patrimonial | Município de Almeida",
+        "es": "Spira – Revitalização Patrimonial | Municipio de Almeida"
       },
       "description": {
-        "en": "Participation in Heritage Camp Almeida, an initiative promoted by \"Spira – heritage revitalization\", held in Almeida in 2025, with Portuguese and French participants. The program included a set of practical activities for the valorization and safeguarding of local heritage, involving direct work in the territory and contact with different dimensions of the fortified village's historical memory. Activities included the recording and drawing of toponymy elements, identification of historical graffiti, cleaning and conservation of stone walls, recovery of wooden elements associated with the fortress's old cannons, and intervention in the recovery of a street oratory (alminha).",
-        "pt": "Participação no Heritage Camp Almeida, iniciativa promovida pela \"Spira – revitalização patrimonial\", realizada em Almeida em 2025, contando com a presença de participantes portugueses e franceses. O programa integrou um conjunto de atividades práticas de valorização e salvaguarda do património local, envolvendo trabalho direto no território e contacto com diferentes dimensões da memória histórica da vila fortificada. As atividades incluíram o registo e desenho de elementos de toponímia, a identificação de graffitos históricos, a limpeza e conservação de muros de pedra, a recuperação de elementos em madeira associados aos antigos canhões da fortificação e a intervenção na recuperação de um oratório de rua (alminha).",
-        "es": "Participación en Heritage Camp Almeida, iniciativa promovida por \"Spira – revitalización patrimonial\", realizada en Almeida en 2025, con participantes portugueses y franceses. El programa incluyó un conjunto de actividades prácticas de valorización y salvaguarda del patrimonio local, involucrando trabajo directo en el territorio y contacto con diferentes dimensiones de la memoria histórica de la villa fortificada. Las actividades incluyeron el registro y dibujo de elementos de toponimia, la identificación de grafitis históricos, la limpieza y conservación de muros de piedra, la recuperación de elementos de madera asociados a los antiguos cañones de la fortaleza y la intervención en la recuperación de un oratorio callejero (alminha)."
+        "pt": "Participação no «Heritage Camp Almeida», uma iniciativa promovida pela Spira – Revitalização Patrimonial, realizada em Almeida, em 2025, reunindo participantes portugueses e franceses em torno da valorização e salvaguarda do património da vila fortificada.\n\nO programa desenvolveu-se através de atividades práticas de conservação e documentação patrimonial, proporcionando um contacto direto com diferentes elementos da memória histórica e arquitetónica de Almeida. Os trabalhos incluíram o levantamento e desenho de elementos de toponímia, a identificação de grafitos históricos, a limpeza e conservação de muros de pedra, a recuperação de elementos em madeira associados aos antigos canhões da fortificação e a intervenção na recuperação de um oratório de rua, conhecido como <em>alminha</em>.\n\nA experiência permitiu aprofundar o conhecimento de técnicas de conservação e valorização do património construído, destacando a importância do trabalho manual, da participação coletiva e do envolvimento das comunidades na preservação da identidade e memória dos lugares.",
+        "en": "Participation in “Heritage Camp Almeida”, an initiative promoted by Spira – Revitalização Patrimonial, held in Almeida in 2025, bringing together Portuguese and French participants to help safeguard and enhance the heritage of the fortified town.\n\nThe programme involved hands-on activities focused on heritage conservation and documentation, offering direct contact with different elements of Almeida’s historical and architectural memory. Activities included surveying and drawing toponymic features, identifying historic graffiti, cleaning and conserving stone walls, restoring wooden elements associated with the fortress’s former cannons, and helping to restore a small roadside devotional shrine known as an <em>alminha</em>.\n\nThe experience provided an opportunity to deepen knowledge of built-heritage conservation and enhancement techniques, highlighting the importance of craftsmanship, collective participation and community involvement in preserving the identity and memory of places.",
+        "es": "Participación en «Heritage Camp Almeida», una iniciativa promovida por Spira – Revitalização Patrimonial, celebrada en Almeida en 2025, que reunió a participantes portugueses y franceses en torno a la valorización y salvaguarda del patrimonio de la villa fortificada.\n\nEl programa se desarrolló mediante actividades prácticas de conservación y documentación patrimonial, ofreciendo un contacto directo con distintos elementos de la memoria histórica y arquitectónica de Almeida. Los trabajos incluyeron el levantamiento y dibujo de elementos de toponimia, la identificación de grafitos históricos, la limpieza y conservación de muros de piedra, la recuperación de elementos de madera asociados a los antiguos cañones de la fortificación y la colaboración en la restauración de un pequeño oratorio callejero conocido como <em>alminha</em>.\n\nLa experiencia permitió profundizar en el conocimiento de técnicas de conservación y valorización del patrimonio construido, destacando la importancia del trabajo manual, la participación colectiva y la implicación de las comunidades en la preservación de la identidad y la memoria de los lugares."
       },
-      "images": [],
+      "images": [
+        {
+          "mosaic": "justified",
+          "src": "participations/heritage-camp-almeida/01-toponimia-stencil.jpg",
+          "caption": {
+            "en": "Drawing toponymic features",
+            "pt": "Desenho de elementos de toponímia",
+            "es": "Dibujo de elementos de toponimia"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/heritage-camp-almeida/02-toponimia-parede.jpg",
+          "caption": {
+            "en": "Painting a street-name sign",
+            "pt": "Pintura de uma placa toponímica",
+            "es": "Pintura de una placa toponímica"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/heritage-camp-almeida/03-toponimia-pavimento.jpg",
+          "caption": {
+            "en": "Toponymy stencils",
+            "pt": "Moldes da toponímia",
+            "es": "Plantillas de la toponimia"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified-2",
+          "src": "participations/heritage-camp-almeida/04-toponimia-andaime.jpg",
+          "caption": {
+            "en": "Restoring a street-name sign from the scaffold",
+            "pt": "Recuperação da toponímia a partir do andaime",
+            "es": "Recuperación de la toponimia desde el andamio"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/heritage-camp-almeida/05-alminha.jpg",
+          "caption": {
+            "en": "Restoring an alminha",
+            "pt": "Recuperação de uma alminha",
+            "es": "Recuperación de una alminha"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified-2",
+          "src": "participations/heritage-camp-almeida/06-grafitos.jpg",
+          "caption": {
+            "en": "Identifying historic graffiti",
+            "pt": "Identificação de grafitos históricos",
+            "es": "Identificación de grafitos históricos"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/heritage-camp-almeida/07-muros.jpg",
+          "caption": {
+            "en": "Cleaning and conserving stone walls",
+            "pt": "Limpeza e conservação de muros de pedra",
+            "es": "Limpieza y conservación de muros de piedra"
+          },
+          "layout": "tile"
+        },
+        {
+          "mosaic": "justified-2",
+          "src": "participations/heritage-camp-almeida/08-canhoes-1.jpg",
+          "caption": {
+            "en": "Restoring the wooden elements of the cannons",
+            "pt": "Recuperação dos elementos em madeira dos canhões",
+            "es": "Recuperación de los elementos de madera de los cañones"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/heritage-camp-almeida/09-canhoes-2.jpg",
+          "caption": {
+            "en": "Working on the fortress cannons",
+            "pt": "Trabalho nos canhões da fortificação",
+            "es": "Trabajo en los cañones de la fortificación"
+          },
+          "layout": "tile"
+        }
+      ],
       "externalLinks": []
     },
     {
       "id": "floods-opportunity",
       "type": "program",
+      "featured": true,
       "title": {
         "en": "Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence",
         "pt": "Floods as an Opportunity II – New Scenarios for the Territories Hit by Huge Rainfalls Around Florence",
@@ -715,6 +880,7 @@
     {
       "id": "exposicao-evora-monte",
       "type": "exhibition",
+      "featured": true,
       "title": {
         "en": "Ducal Palace Exhibition",
         "pt": "Exposição Paço Ducal",
@@ -858,9 +1024,10 @@
       },
       "images": [
         {
-          "type": "video",
-          "src": "participations/02-open-house/01-video-open-house-porto.mp4",
-          "controls": true,
+          "type": "vimeo",
+          "vimeo": "1246653385",
+          "vertical": true,
+          "loop": true,
           "caption": {
             "en": "Open House Porto promotional video",
             "pt": "Vídeo de apresentação do Open House Porto",
@@ -902,9 +1069,9 @@
       },
       "images": [
         {
-          "type": "video",
-          "src": "participations/03-entrevista-goncalo-m-tavares/01-entrevista-goncalo-m-tavares.mp4",
-          "controls": true,
+          "type": "vimeo",
+          "vimeo": "1246660963",
+          "vertical": true,
           "caption": {
             "en": "Interview with Gonçalo M. Tavares",
             "pt": "Entrevista a Gonçalo M. Tavares",

@@ -447,7 +447,10 @@ function renderImages(container, images, parts = []) {
       ? `<video src="${image.src}" controls playsinline preload="metadata"></video>`
       : `<video src="${image.src}" autoplay muted loop playsinline disablepictureinpicture preload="metadata"></video>`;
     // A Vimeo video plays in Vimeo's own player, with sound and controls
-    const vimeo = `<div class="video-embed"><iframe src="https://player.vimeo.com/video/${image.vimeo}?dnt=1" title="${getText(image.caption)}" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div>`;
+    // ("vertical" for a 9:16 video; "autoplay" plays it silently in a loop;
+    // "loop" starts it over when it ends)
+    const vimeoParams = `dnt=1${image.autoplay ? '&autoplay=1&muted=1&loop=1' : image.loop ? '&loop=1' : ''}`;
+    const vimeo = `<div class="video-embed${image.vertical ? ' video-embed--vertical' : ''}"><iframe src="https://player.vimeo.com/video/${image.vimeo}?${vimeoParams}" title="${getText(image.caption)}" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div>`;
     const media = image.type === 'video' ? video
       : image.type === 'vimeo' ? vimeo
       : `<img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">`;
@@ -736,6 +739,13 @@ function updateAboutPage() {
           ${aboutData.skills.learning.map(s => `<span class="skill-item">${s}</span>`).join('')}
         </div>
       </div>
+      ${aboutData.skills.practice ? `
+      <div class="skills-group skills-group--wide">
+        <h3>${labels.skills_practice}</h3>
+        <div class="skills-list">
+          ${aboutData.skills.practice.map(s => `<span class="skill-item">${getText(s)}</span>`).join('')}
+        </div>
+      </div>` : ''}
     `;
   }
 
@@ -746,6 +756,19 @@ function updateAboutPage() {
       <div class="language-item">
         <span class="language-name">${lang.name}</span>
         <span class="language-level">${lang.level === 'native' ? labels.language_native : lang.level}</span>
+      </div>
+    `).join('');
+  }
+
+  // Update professional experience section
+  const experienceContainer = document.getElementById('experience-section');
+  if (experienceContainer && aboutData.experience) {
+    experienceContainer.innerHTML = aboutData.experience.map(job => `
+      <div class="cv-item">
+        <div class="cv-date">${getText(job.date)}</div>
+        <div class="cv-title">${getText(job.title)}</div>
+        <div class="cv-institution">${[job.office, getText(job.location)].filter(Boolean).join(' · ')}</div>
+        ${job.note ? `<div class="cv-note">${getText(job.note)}</div>` : ''}
       </div>
     `).join('');
   }
@@ -865,19 +888,39 @@ function updateParticipationsSection() {
   if (!container || !participationsData) return;
 
   // Sort participations by date (newest first)
-  const sorted = [...participationsData.participations].sort((a, b) => {
-    return b.date.localeCompare(a.date);
-  });
-
-  container.innerHTML = sorted.map(p => {
-    return `
+  const sorted = [...participationsData.participations].sort((a, b) => b.date.localeCompare(a.date));
+  const item = p => `
       <a href="participation.html?id=${p.id}" class="cv-item cv-item-link">
         <div class="cv-title">${getText(p.title)} <span class="link-arrow">→</span></div>
         <div class="cv-institution">${getText(p.location)} · ${getText(p.institution)}</div>
         <div class="cv-date cv-date--below">${getText(p.dateDisplay)}</div>
       </a>
     `;
-  }).join('');
+
+  // The highlighted ones show first; the others open with a button
+  const featured = sorted.filter(p => p.featured);
+  const others = sorted.filter(p => !p.featured);
+  if (!featured.length || !others.length) {
+    container.innerHTML = sorted.map(item).join('');
+    return;
+  }
+  const labels = translationsData[currentLanguage].about;
+  container.innerHTML = `
+    ${featured.map(item).join('')}
+    <div class="participations-more" id="participations-more" hidden>${others.map(item).join('')}</div>
+    <button type="button" class="participations-toggle" aria-expanded="false" aria-controls="participations-more">
+      ${labels.participations_more} (${others.length})
+    </button>
+  `;
+  const more = container.querySelector('.participations-more');
+  const toggle = container.querySelector('.participations-toggle');
+  toggle.addEventListener('click', () => {
+    const open = more.hidden;
+    more.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.textContent = open ? labels.participations_less : `${labels.participations_more} (${others.length})`;
+    if (open) more.querySelectorAll('.cv-item').forEach(el => el.classList.add('visible'));
+  });
 }
 
 // Sketchbooks: one line each, like the participations, opening its page (the leporello)

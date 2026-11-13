@@ -17,7 +17,7 @@ const MM = 96 / 25.4; // CSS pixels per millimetre
 const LABELS = {
   pt: {
     portfolio: 'Portfólio', introduction: 'Introdução', education: 'Formação', participations: 'Participações',
-    skills: 'Competências', software: 'Software', learning: 'Em aprendizagem', languages: 'Línguas',
+    skills: 'Competências', software: 'Software', learning: 'Em aprendizagem', practice: 'Desenho e construção', languages: 'Línguas',
     publications: 'Publicações', research: 'Investigação', project: 'Projeto', otherWork: 'Outros trabalhos', thanks: 'Obrigada',
     contact: 'Contacto', email: 'Email', location: 'Localização', mobility: 'Mobilidade', page: 'Pág.',
     role: 'Arquitetura', native: 'Nativa',
@@ -25,7 +25,7 @@ const LABELS = {
   },
   en: {
     portfolio: 'Portfolio', introduction: 'Introduction', education: 'Education', participations: 'Participations',
-    skills: 'Skills', software: 'Software', learning: 'Learning', languages: 'Languages',
+    skills: 'Skills', software: 'Software', learning: 'Learning', practice: 'Drawing and making', languages: 'Languages',
     publications: 'Publications', research: 'Research', project: 'Project', otherWork: 'Other work', thanks: 'Thank you',
     contact: 'Contact', email: 'Email', location: 'Location', mobility: 'Mobility', page: 'p.',
     role: 'Architecture', native: 'Native',
@@ -33,7 +33,7 @@ const LABELS = {
   },
   es: {
     portfolio: 'Portafolio', introduction: 'Introducción', education: 'Formación', participations: 'Participaciones',
-    skills: 'Competencias', software: 'Software', learning: 'Aprendiendo', languages: 'Idiomas',
+    skills: 'Competencias', software: 'Software', learning: 'Aprendiendo', practice: 'Dibujo y construcción', languages: 'Idiomas',
     publications: 'Publicaciones', research: 'Investigación', project: 'Proyecto', otherWork: 'Otros trabajos', thanks: 'Gracias',
     contact: 'Contacto', email: 'Email', location: 'Ubicación', mobility: 'Movilidad', page: 'Pág.',
     role: 'Arquitectura', native: 'Nativo',
@@ -300,6 +300,7 @@ function addSkillsPage(images) {
   lists.append(
     rules((skills.experienced || []).map(name => ({ label: name, value: label('software') }))),
     rules((skills.learning || []).map(name => ({ label: name, value: label('learning') }))),
+    rules((skills.practice || []).map(name => ({ label: getText(name), value: label('practice') }))),
     el('div', 'small-heading spaced', label('languages')),
     rules(languages)
   );

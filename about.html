@@ -12,7 +12,10 @@
   <meta property="og:title" content="About — Carlota Azenha da Rocha">
   <meta property="og:description" content="Architecture portfolio of Carlota Azenha da Rocha: academic projects, drawings, models and design process.">
   <meta property="og:url" content="https://carlotaazenharocha.github.io/about.html">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://carlotaazenharocha.github.io/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +23,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=6">
+  <link rel="stylesheet" href="css/style.css?v=7">
 </head>
 <body>
   <!-- Fixed Header -->
@@ -58,6 +61,10 @@
       <div class="about-main">
         <!-- Intro - Loaded from about.json -->
         <div id="about-intro"></div>
+
+        <!-- Professional experience - Loaded from about.json -->
+        <h2 data-section="experience">Professional Experience</h2>
+        <div id="experience-section" class="cv-section"></div>
 
         <!-- Skills - Loaded from about.json -->
         <h2 data-section="skills">Technical Skills</h2>
@@ -108,6 +115,6 @@
   </footer>
 
   <!-- JavaScript -->
-  <script src="js/main.js?v=6"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>

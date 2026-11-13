@@ -498,6 +498,19 @@ main {
   margin: 0 auto;
 }
 
+/* An inset image or video is as wide as itself and centred, so its caption
+   sits right under it, aligned with its right edge */
+.project-image.inset {
+  width: fit-content;
+  max-width: min(900px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-image.inset img {
+  max-width: 100%;
+}
+
 .project-section-title {
   font-size: 0.75rem;
   font-weight: 500;
@@ -806,8 +819,14 @@ main {
 
 .skills-section {
   display: flex;
-  gap: 3rem;
+  flex-wrap: wrap;
+  gap: 2rem 3rem;
   margin-bottom: 2rem;
+}
+
+/* Drawing and making: a row of its own below the software */
+.skills-group--wide {
+  flex-basis: 100%;
 }
 
 .skills-group h3 {
@@ -1607,9 +1626,8 @@ footer {
 .participation-image .image-caption {
   font-size: 0.75rem;
   color: var(--color-text-secondary);
-  margin-top: 0.5rem;
-  font-style: italic;
-  text-align: center;
+  margin-top: 0.4rem;
+  text-align: right;
 }
 
 .participation-links {
@@ -2031,6 +2049,7 @@ footer {
 
   .about-card { display: grid; gap: 1.25rem; order: 0; margin-bottom: 3rem; }
   #about-intro { order: 1; }
+  .about-main h2[data-section="experience"], #experience-section { order: 2; }
   .about-main h2[data-section="education"], #education-section { order: 2; }
   .about-main h2[data-section="participations"], #participations-list { order: 3; }
   .about-main h2[data-section="publications"], #publications-section { order: 4; }
@@ -2125,6 +2144,13 @@ footer {
   background-color: #000000;
 }
 
+/* A vertical one (9:16) has the height of an inset video */
+.video-embed--vertical {
+  aspect-ratio: 9 / 16;
+  height: min(75vh, 680px);
+  max-width: 100%;
+}
+
 .video-embed iframe {
   position: absolute;
   inset: 0;
@@ -2143,4 +2169,42 @@ footer {
 
 .participation-meta a:hover {
   color: var(--color-text);
+}
+
+/* A line under a job, e.g. that its work cannot be shown */
+.cv-note {
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--color-text-tertiary);
+}
+
+/* Participations: the highlighted ones, then a button that shows the others */
+.participations-more {
+  display: flex;
+  flex-direction: column;
+}
+
+.participations-more[hidden] {
+  display: none;
+}
+
+.participations-toggle {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--color-text);
+  background: none;
+  color: var(--color-text);
+  font: inherit;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.participations-toggle:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
 }

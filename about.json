@@ -1,28 +1,77 @@
 {
   "intro": {
-    "en": [
-      "Believing that learning is largely the result of experience, I have been putting into practice my enthusiasm for architecture through programs and volunteering that foster my growth as a person and as a student.",
-      "In addition to this interest, I enjoy being involved with sustainability, the arts, dance, sports, music, and nature."
-    ],
     "pt": [
-      "Acreditando que a aprendizagem é, em grande medida, o resultado da experiência obtida, tenho vindo a colocar em prática o meu entusiasmo pela participação em programas e voluntariados que me fazem crescer enquanto pessoa e estudante de Arquitetura.",
-      "Além deste interesse, gosto de estar relacionada com o tema da sustentabilidade, com as artes, com a dança, com o desporto, com a música e com a natureza."
+      "Estudei Arquitetura na Universidade de Évora, com passagens pela Universidade do Porto e pela Escola Técnica Superior de Arquitetura de Sevilha. Interessa-me a arquitetura que parte da observação do lugar: o património, o território e a forma como as pessoas o habitam.",
+      "O desenho à mão acompanha todo o meu processo, do levantamento no local ao caderno de viagem, e foi esse olhar sobre o património construído que aprofundei na dissertação sobre o Convento da Tomina.",
+      "Procuro também aprender fazendo. Em workshops e voluntariados trabalhei com cal, argila e pedra seca, construí estruturas em madeira com comunidades locais e participei em programas internacionais sobre a água e a adaptação dos territórios às alterações climáticas.",
+      "Fora da arquitetura, dedico-me à cerâmica e à pintura, que alimentam a minha relação com a matéria, a cor e o trabalho manual. Gosto também de dança, desporto, música e natureza."
+    ],
+    "en": [
+      "I studied Architecture at the University of Évora, with periods at the University of Porto and the Superior Technical School of Architecture of Seville. I am drawn to architecture that begins with observing a place: its heritage, its territory and the way people inhabit it.",
+      "Hand drawing runs through my whole process, from surveying on site to the travel sketchbook, and it was this way of looking at built heritage that I explored in depth in my dissertation on the Convent of Tomina.",
+      "I also try to learn by doing. In workshops and volunteering I have worked with lime, clay and dry stone, built timber structures with local communities and taken part in international programmes on water and the adaptation of territories to climate change.",
+      "Beyond architecture, I devote time to ceramics and painting, which nourish my relationship with material, colour and working by hand. I also enjoy dance, sport, music and nature."
     ],
     "es": [
-      "Creyendo que el aprendizaje es, en gran medida, el resultado de la experiencia obtenida, he puesto en práctica mi entusiasmo por la participación en programas y voluntariados que me hacen crecer como persona y estudiante de Arquitectura.",
-      "Además de este interés, me gusta estar relacionada con el tema de la sostenibilidad, las artes, la danza, el deporte, la música y la naturaleza."
+      "Estudié Arquitectura en la Universidad de Évora, con estancias en la Universidad de Oporto y en la Escuela Técnica Superior de Arquitectura de Sevilla. Me interesa la arquitectura que parte de la observación del lugar: el patrimonio, el territorio y la forma en que las personas lo habitan.",
+      "El dibujo a mano acompaña todo mi proceso, del levantamiento en el lugar al cuaderno de viaje, y fue esa mirada sobre el patrimonio construido la que profundicé en la tesis sobre el Convento da Tomina.",
+      "También busco aprender haciendo. En talleres y voluntariados he trabajado con cal, arcilla y piedra seca, he construido estructuras de madera con comunidades locales y he participado en programas internacionales sobre el agua y la adaptación de los territorios al cambio climático.",
+      "Fuera de la arquitectura, me dedico a la cerámica y a la pintura, que alimentan mi relación con la materia, el color y el trabajo manual. También me gustan la danza, el deporte, la música y la naturaleza."
     ]
   },
   "skills": {
     "experienced": [
       "AutoCAD",
       "TwinMotion",
-      "Adobe InDesign"
+      "Adobe InDesign",
+      "Adobe Photoshop"
     ],
     "learning": [
-      "Adobe Photoshop",
       "SketchUp",
-      "Revit"
+      "Revit",
+      "ArchiCAD"
+    ],
+    "practice": [
+      {
+        "en": "Freehand drawing",
+        "pt": "Desenho à mão levantada",
+        "es": "Dibujo a mano alzada"
+      },
+      {
+        "en": "Watercolour",
+        "pt": "Aguarela",
+        "es": "Acuarela"
+      },
+      {
+        "en": "Architectural survey",
+        "pt": "Levantamento arquitetónico",
+        "es": "Levantamiento arquitectónico"
+      },
+      {
+        "en": "Model making",
+        "pt": "Maquetaria",
+        "es": "Maquetería"
+      },
+      {
+        "en": "Photomontage",
+        "pt": "Fotomontagem",
+        "es": "Fotomontaje"
+      },
+      {
+        "en": "Building with lime, clay and dry stone",
+        "pt": "Construção com cal, argila e pedra seca",
+        "es": "Construcción con cal, arcilla y piedra seca"
+      },
+      {
+        "en": "Ceramics",
+        "pt": "Cerâmica",
+        "es": "Cerámica"
+      },
+      {
+        "en": "Painting",
+        "pt": "Pintura",
+        "es": "Pintura"
+      }
     ]
   },
   "languages": [
@@ -37,6 +86,31 @@
     {
       "name": "Español",
       "level": "B2"
+    }
+  ],
+  "experience": [
+    {
+      "date": {
+        "en": "Apr 2026 — Sep 2026",
+        "pt": "Abr 2026 — Set 2026",
+        "es": "Abr 2026 — Sep 2026"
+      },
+      "title": {
+        "en": "Part-time collaborator",
+        "pt": "Colaboradora em part-time",
+        "es": "Colaboradora a tiempo parcial"
+      },
+      "office": "INLINEA",
+      "location": {
+        "en": "Amarante, Portugal",
+        "pt": "Amarante, Portugal",
+        "es": "Amarante, Portugal"
+      },
+      "note": {
+        "en": "Work subject to confidentiality",
+        "pt": "Trabalhos sujeitos a confidencialidade",
+        "es": "Trabajos sujetos a confidencialidad"
+      }
     }
   ],
   "education": [
