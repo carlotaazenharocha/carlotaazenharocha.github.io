@@ -791,8 +791,7 @@
             "pt": "Planta e cortes desenhados in loco",
             "es": "Planta y secciones dibujadas in situ"
           },
-          "layout": "full",
-          "pan": true
+          "layout": "full"
         },
         {
           "src": "research/images/42-espaco-liturgico-regral.jpg",
@@ -883,8 +882,7 @@
             "en": "Site plan and surroundings, with the relief and the Pae Joanes stream, 1:600",
             "es": "Plano de emplazamiento y entorno, con el relieve y la Ribera de Pae Joanes, 1:600"
           },
-          "layout": "full",
-          "pan": true
+          "layout": "full"
         },
         {
           "src": "research/images/52-plantas.jpg",
@@ -893,8 +891,7 @@
             "pt": "Planta de cobertura e planta de piso, 1:250",
             "es": "Planta de cubierta y planta de piso, 1:250"
           },
-          "layout": "full",
-          "pan": true
+          "layout": "full"
         },
         {
           "src": "research/images/53-alcado-frontal.jpg",

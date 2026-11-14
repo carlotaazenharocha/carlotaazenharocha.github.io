@@ -497,12 +497,10 @@ function renderImages(container, images, parts = []) {
     const media = image.type === 'video' ? video
       : image.type === 'vimeo' ? vimeo
       : `<img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">`;
-    // "pan": on the phone a large drawing keeps a legible size and is moved sideways
     imageDiv.innerHTML = `
-      ${image.pan ? `<div class="pan-frame">${media}</div>` : media}
+      ${media}
       <div class="image-caption">${getText(image.caption)}</div>
     `;
-    if (image.pan) imageDiv.classList.add('pan');
 
     // Until the file exists, show a box describing the image to add
     if (image.placeholder) {
@@ -786,6 +784,9 @@ async function initResearchPage() {
 
   document.title = `${getText(researchData.title)} — Carlota Azenha da Rocha`;
 
+  // A tap opens a picture full screen, where it can be zoomed (as in the projects)
+  initLightbox();
+
   // Add fade-in
   setTimeout(() => {
     document.querySelector('main').classList.add('loading');
@@ -1034,6 +1035,15 @@ function renderAboutCard(labels) {
   `;
 }
 
+// The order of the participations, on the About page and between their pages:
+// the highlighted ones by their rank ("featured": 1, 2, ...), then the others,
+// newest first
+function participationOrder(participations) {
+  const byDate = [...participations].sort((a, b) => b.date.localeCompare(a.date));
+  const featured = byDate.filter(p => p.featured).sort((a, b) => Number(a.featured) - Number(b.featured));
+  return [...featured, ...byDate.filter(p => !p.featured)];
+}
+
 function updateParticipationsSection() {
   const container = document.getElementById('participations-list');
   if (!container || !participationsData) return;
@@ -1046,18 +1056,17 @@ function updateParticipationsSection() {
       </a>
     `;
 
-  // All of them by date, newest first; the highlighted ones by their rank
-  // ("featured": 1, 2, ...). The list opens on the highlights, and "see all"
-  // shows every participation by date
-  const byDate = [...participationsData.participations].sort((a, b) => b.date.localeCompare(a.date));
-  const featured = byDate.filter(p => p.featured).sort((a, b) => Number(a.featured) - Number(b.featured));
-  if (!featured.length || featured.length === byDate.length) {
-    container.innerHTML = byDate.map(item).join('');
+  // The list opens on the highlights; "see all" keeps that order and adds the
+  // others after them
+  const all = participationOrder(participationsData.participations);
+  const featured = all.filter(p => p.featured);
+  if (!featured.length || featured.length === all.length) {
+    container.innerHTML = all.map(item).join('');
     return;
   }
 
   const labels = translationsData[currentLanguage].about;
-  const others = byDate.length - featured.length;
+  const others = all.length - featured.length;
   container.innerHTML = `
     <div class="participations-items">${featured.map(item).join('')}</div>
     <button type="button" class="participations-toggle" aria-expanded="false">${labels.participations_more} (${others})</button>
@@ -1066,7 +1075,7 @@ function updateParticipationsSection() {
   const toggle = container.querySelector('.participations-toggle');
   toggle.addEventListener('click', () => {
     const open = toggle.getAttribute('aria-expanded') !== 'true';
-    list.innerHTML = (open ? byDate : featured).map(item).join('');
+    list.innerHTML = (open ? all : featured).map(item).join('');
     toggle.setAttribute('aria-expanded', String(open));
     toggle.textContent = open ? labels.participations_less : `${labels.participations_more} (${others})`;
     // Closing again: back to where the list starts
@@ -1207,6 +1216,19 @@ async function initParticipationPage() {
   const backLink = document.getElementById('back-link');
   if (backLink) {
     backLink.textContent = `← ${t('participation.back_to_about')}`;
+  }
+
+  // Previous / next participation, in the same order as on the About page
+  const navContainer = document.getElementById('participation-pager');
+  if (navContainer) {
+    const ordered = participationOrder(data.participations);
+    const index = ordered.findIndex(p => p.id === participationId);
+    const prev = ordered[index - 1];
+    const next = ordered[index + 1];
+    navContainer.innerHTML = `
+      <div>${prev ? `<a href="participation.html?id=${prev.id}" class="nav-link">← ${getText(prev.title)}</a>` : ''}</div>
+      <div>${next ? `<a href="participation.html?id=${next.id}" class="nav-link">${getText(next.title)} →</a>` : ''}</div>
+    `;
   }
 
   // Update page title

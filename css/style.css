@@ -1847,6 +1847,16 @@ footer {
   opacity: 0.6;
 }
 
+/* Previous / next participation: like the projects, at the width of the page */
+.participation-pager {
+  max-width: 1100px;
+  gap: 2rem;
+}
+
+.participation-pager:empty {
+  display: none;
+}
+
 .participation-navigation {
   max-width: 1100px;
   margin: 0 auto;
@@ -2245,24 +2255,9 @@ footer {
   font-size: 0.75rem;
 }
 
-/* On the phone: drawings that keep a legible size ("pan") and mosaics that
-   become a sideways strip ("phone-scroll") */
+/* On the phone: mosaics that become a sideways strip ("phone-scroll"), and
+   the elevations and sections each at the width of the screen */
 @media (max-width: 768px) {
-  .project-image.pan .pan-frame {
-    position: relative;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scrollbar-width: thin;
-    margin: 0 -1rem;
-    padding: 0 1rem 0.5rem;
-  }
-
-  .project-image.pan .pan-frame img {
-    width: auto !important;
-    max-width: none;
-    height: min(62vh, 520px);
-  }
-
   .project-mosaic--phone-scroll {
     flex-direction: row;
     overflow-x: auto;
@@ -2287,8 +2282,13 @@ footer {
     scroll-snap-align: start;
   }
 
+  .research-section .project-mosaic--drawings .project-image {
+    flex: 0 0 auto;
+  }
+
   .research-section .project-mosaic--drawings .project-image img {
-    height: 300px;
+    width: calc(100vw - 2rem);
+    height: auto;
   }
 }
 
