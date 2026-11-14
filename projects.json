@@ -28,7 +28,11 @@
         "pt": "Universidade de Évora",
         "es": "Universidad de Évora"
       },
-      "teachers": "Daniel Jiménez | João Soares",
+      "teachers": {
+        "en": "Professor Daniel Jiménez | Professor João Soares",
+        "pt": "Professor Daniel Jiménez | Professor João Soares",
+        "es": "Profesor Daniel Jiménez | Profesor João Soares"
+      },
       "thumbnail": "projects/01-atlas-case-studies/00-maquete-torre.jpg",
       "hero": "projects/01-atlas-case-studies/00-maquete-torre.jpg",
       "concept": {
@@ -45,18 +49,18 @@
           },
           "src": "projects/01-atlas-case-studies/01-planta-implantacao-1-500.jpg",
           "caption": {
-            "en": "Site plan, 1:500",
-            "pt": "Planta de implantação, 1:500",
-            "es": "Planta de emplazamiento, 1:500"
+            "en": "Reds and yellows, Scale: 1:500",
+            "pt": "Vermelhos e Amarelos, E: 1:500",
+            "es": "Rojos y amarillos, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/01-atlas-case-studies/02-alcados-conjunto-1-500.jpg",
           "caption": {
-            "en": "Site elevations, 1:500",
-            "pt": "Alçados do conjunto, 1:500",
-            "es": "Alzados del conjunto, 1:500"
+            "en": "Reds and yellows, Scale: 1:500",
+            "pt": "Vermelhos e Amarelos, E: 1:500",
+            "es": "Rojos y amarillos, E: 1:500"
           },
           "layout": "full"
         },
@@ -68,27 +72,27 @@
           },
           "src": "projects/01-atlas-case-studies/03-planta-geral-1-200.jpg",
           "caption": {
-            "en": "General plan, 1:200",
-            "pt": "Planta geral, 1:200",
-            "es": "Planta general, 1:200"
+            "en": "General plan, Scale: 1:200",
+            "pt": "Planta geral, E: 1:200",
+            "es": "Planta general, E: 1:200"
           },
           "layout": "full"
         },
         {
           "src": "projects/01-atlas-case-studies/04-plantas-pisos-1-200.jpg",
           "caption": {
-            "en": "Floor plans, 1:200",
-            "pt": "Plantas dos pisos, 1:200",
-            "es": "Plantas de los pisos, 1:200"
+            "en": "Floor plans, Scale: 1:200",
+            "pt": "Plantas dos pisos, E: 1:200",
+            "es": "Plantas de los pisos, E: 1:200"
           },
           "layout": "full"
         },
         {
           "src": "projects/01-atlas-case-studies/05-cortes-1-200.jpg",
           "caption": {
-            "en": "Sections, 1:200",
-            "pt": "Cortes, 1:200",
-            "es": "Secciones, 1:200"
+            "en": "Sections, Scale: 1:200",
+            "pt": "Cortes, E: 1:200",
+            "es": "Secciones, E: 1:200"
           },
           "layout": "full",
           "section": {
@@ -105,27 +109,27 @@
           },
           "src": "projects/01-atlas-case-studies/06-maquete-conjunto.jpg",
           "caption": {
-            "en": "Site model",
-            "pt": "Maquete de conjunto",
-            "es": "Maqueta de conjunto"
+            "en": "Site model, Scale: 1:500",
+            "pt": "Maquete de conjunto, E: 1:500",
+            "es": "Maqueta de conjunto, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/01-atlas-case-studies/07-maquete-vista-aerea.jpg",
           "caption": {
-            "en": "Physical model, aerial view",
-            "pt": "Maquete física, vista aérea",
-            "es": "Maqueta física, vista aérea"
+            "en": "Physical model, aerial view, Scale: 1:500",
+            "pt": "Maquete física, vista aérea, E: 1:500",
+            "es": "Maqueta física, vista aérea, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/01-atlas-case-studies/08-maquete-praca.jpg",
           "caption": {
-            "en": "Physical model, square",
-            "pt": "Maquete física, praça",
-            "es": "Maqueta física, plaza"
+            "en": "Physical model, square, Scale: 1:200",
+            "pt": "Maquete física, praça, E: 1:200",
+            "es": "Maqueta física, plaza, E: 1:200"
           },
           "layout": "half",
           "row": "equal"
@@ -192,7 +196,11 @@
         "pt": "Universidade de Évora",
         "es": "Universidad de Évora"
       },
-      "teachers": "João Soares | Daniel Jiménez",
+      "teachers": {
+        "en": "Professor João Soares | Professor Daniel Jiménez",
+        "pt": "Professor João Soares | Professor Daniel Jiménez",
+        "es": "Profesor João Soares | Profesor Daniel Jiménez"
+      },
       "thumbnail": "projects/07-estacao/20-maquete-planta.jpg",
       "hero": "projects/07-estacao/19-maquete-conjunto.jpg",
       "concept": {
@@ -209,18 +217,18 @@
           },
           "src": "projects/07-estacao/01-planta-corte-sintese.jpg",
           "caption": {
-            "en": "Synthesis plan-section, scale 1:1000",
-            "pt": "Planta-corte síntese, E 1.1000",
-            "es": "Planta-sección síntesis, E 1.1000"
+            "en": "Synthesis plan",
+            "pt": "Planta síntese",
+            "es": "Planta síntesis"
           },
           "layout": "inset"
         },
         {
           "src": "projects/07-estacao/02-implantacao.jpg",
           "caption": {
-            "en": "Site plan, scale 1:5000",
-            "pt": "Implantação, E 1.5000",
-            "es": "Emplazamiento, E 1.5000"
+            "en": "Site plan, Scale: 1:5000",
+            "pt": "Implantação, E: 1:5000",
+            "es": "Emplazamiento, E: 1:5000"
           },
           "layout": "full"
         },
@@ -232,36 +240,36 @@
           },
           "src": "projects/07-estacao/03-planta-cobertura.jpg",
           "caption": {
-            "en": "Roof plan, scale 1:500",
-            "pt": "Planta de cobertura, E 1.500",
-            "es": "Planta de cubierta, E 1.500"
+            "en": "Roof plan, Scale: 1:500",
+            "pt": "Planta de cobertura, E: 1:500",
+            "es": "Planta de cubierta, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/04-planta-piso-superior.jpg",
           "caption": {
-            "en": "Upper floor plan, scale 1:500",
-            "pt": "Planta do piso superior, E 1.500",
-            "es": "Planta de la planta superior, E 1.500"
+            "en": "Upper floor plan, Scale: 1:500",
+            "pt": "Planta do piso superior, E: 1:500",
+            "es": "Planta de la planta superior, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/05-planta-plataformas.jpg",
           "caption": {
-            "en": "Platform level plan, scale 1:500",
-            "pt": "Planta ao nível das plataformas, E 1.500",
-            "es": "Planta a nivel de los andenes, E 1.500"
+            "en": "Platform level plan, Scale: 1:500",
+            "pt": "Planta ao nível das plataformas, E: 1:500",
+            "es": "Planta a nivel de los andenes, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/06-planta-piso-inferior.jpg",
           "caption": {
-            "en": "Lower floor plan, scale 1:500",
-            "pt": "Planta do piso inferior, E 1.500",
-            "es": "Planta de la planta inferior, E 1.500"
+            "en": "Lower floor plan, Scale: 1:500",
+            "pt": "Planta do piso inferior, E: 1:500",
+            "es": "Planta de la planta inferior, E: 1:500"
           },
           "layout": "full"
         },
@@ -273,27 +281,27 @@
           },
           "src": "projects/07-estacao/07-corte-longitudinal-aa.jpg",
           "caption": {
-            "en": "Longitudinal section AA', scale 1:500",
-            "pt": "Corte longitudinal AA', E 1.500",
-            "es": "Sección longitudinal AA', E 1.500"
+            "en": "Longitudinal section AA', Scale: 1:500",
+            "pt": "Corte longitudinal AA', E: 1:500",
+            "es": "Sección longitudinal AA', E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/08-corte-longitudinal-bb.jpg",
           "caption": {
-            "en": "Longitudinal section BB', scale 1:500",
-            "pt": "Corte longitudinal BB', E 1.500",
-            "es": "Sección longitudinal BB', E 1.500"
+            "en": "Longitudinal section BB', Scale: 1:500",
+            "pt": "Corte longitudinal BB', E: 1:500",
+            "es": "Sección longitudinal BB', E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/09-corte-transversal-cc.jpg",
           "caption": {
-            "en": "Cross section CC', scale 1:500",
-            "pt": "Corte transversal CC', E 1.500",
-            "es": "Sección transversal CC', E 1.500"
+            "en": "Cross section CC', Scale: 1:500",
+            "pt": "Corte transversal CC', E: 1:500",
+            "es": "Sección transversal CC', E: 1:500"
           },
           "layout": "full"
         },
@@ -305,18 +313,18 @@
           },
           "src": "projects/07-estacao/19-maquete-conjunto.jpg",
           "caption": {
-            "en": "Project models",
-            "pt": "Maquetes do projeto",
-            "es": "Maquetas del proyecto"
+            "en": "Project models, Scale: 1:500",
+            "pt": "Maquetes do projeto, E: 1:500",
+            "es": "Maquetas del proyecto, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/20-maquete-planta.jpg",
           "caption": {
-            "en": "Model, top view",
-            "pt": "Maquete, vista superior",
-            "es": "Maqueta, vista superior"
+            "en": "Model, top view, Scale: 1:500",
+            "pt": "Maquete, vista superior, E: 1:500",
+            "es": "Maqueta, vista superior, E: 1:500"
           },
           "layout": "full"
         },
@@ -324,18 +332,18 @@
           "row": "equal",
           "src": "projects/07-estacao/21-maquete-perspetiva.jpg",
           "caption": {
-            "en": "Model, perspective",
-            "pt": "Maquete, perspetiva",
-            "es": "Maqueta, perspectiva"
+            "en": "Model, perspective, Scale: 1:500",
+            "pt": "Maquete, perspetiva, E: 1:500",
+            "es": "Maqueta, perspectiva, E: 1:500"
           },
           "layout": "half"
         },
         {
           "src": "projects/07-estacao/22-maquete-pormenor.jpg",
           "caption": {
-            "en": "Model, platform detail",
-            "pt": "Maquete, pormenor das plataformas",
-            "es": "Maqueta, detalle de los andenes"
+            "en": "Model, platform detail, Scale: 1:500",
+            "pt": "Maquete, pormenor das plataformas, E: 1:500",
+            "es": "Maqueta, detalle de los andenes, E: 1:500"
           },
           "layout": "half"
         },
@@ -345,77 +353,42 @@
             "pt": "Processo",
             "es": "Proceso"
           },
-          "row": "equal",
           "src": "projects/07-estacao/10-processo-paisagem.jpg",
-          "caption": {
-            "en": "Landscape",
-            "pt": "Paisagem",
-            "es": "Paisaje"
-          },
-          "layout": "half"
+          "layout": "tile",
+          "mosaic": "justified-3",
+          "groupCaption": {
+            "en": "Collages – Landscape | Station | Transfer",
+            "pt": "Colagens – Paisagem | Estação | Transfer",
+            "es": "Collages – Paisaje | Estación | Transfer"
+          }
         },
         {
           "src": "projects/07-estacao/11-processo-estacao.jpg",
-          "caption": {
-            "en": "Station",
-            "pt": "Estação",
-            "es": "Estación"
-          },
-          "layout": "half"
+          "layout": "tile"
         },
         {
           "src": "projects/07-estacao/12-processo-transfer.jpg",
-          "caption": {
-            "en": "Transfer",
-            "pt": "Transfer",
-            "es": "Transfer"
-          },
-          "layout": "half"
+          "layout": "tile"
         },
         {
           "src": "projects/07-estacao/13-processo-colagem.jpg",
-          "caption": {
-            "en": "Collage",
-            "pt": "Colagem",
-            "es": "Collage"
-          },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/14-processo-fotomontagem.jpg",
-          "caption": {
-            "en": "Photomontage",
-            "pt": "Fotomontagem",
-            "es": "Fotomontaje"
-          },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/15-processo-esquema-aereo.jpg",
-          "caption": {
-            "en": "Diagram over aerial photograph",
-            "pt": "Esquema sobre fotografia aérea",
-            "es": "Esquema sobre fotografía aérea"
-          },
           "layout": "full"
         },
         {
           "src": "projects/07-estacao/17-esquisso-processo.jpg",
-          "caption": {
-            "en": "Study sketches",
-            "pt": "Esquissos de estudo",
-            "es": "Croquis de estudio"
-          },
           "layout": "half",
           "row": "equal"
         },
         {
           "src": "projects/07-estacao/18-esquisso-implantacao.jpg",
-          "caption": {
-            "en": "Site plan sketch",
-            "pt": "Esquisso de implantação",
-            "es": "Croquis de emplazamiento"
-          },
           "layout": "half"
         },
         {
@@ -462,7 +435,11 @@
         "pt": "Faculdade de Arquitetura da Universidade do Porto | Universidade de Évora",
         "es": "Facultad de Arquitectura de la Universidad de Oporto | Universidad de Évora"
       },
-      "teachers": "Maria Souto de Moura | Joana Vilhena | Ana Isabel Costa e Silva",
+      "teachers": {
+        "en": "Professor Maria Souto de Moura | Professor Joana Vilhena | Professor Ana Isabel Costa e Silva",
+        "pt": "Professora Maria Souto de Moura | Professora Joana Vilhena | Professora Ana Isabel Costa e Silva",
+        "es": "Profesora Maria Souto de Moura | Profesora Joana Vilhena | Profesora Ana Isabel Costa e Silva"
+      },
       "thumbnail": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
       "hero": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
       "concept": {
@@ -472,20 +449,6 @@
       },
       "images": [
         {
-          "section": {
-            "en": "Site and strategy",
-            "pt": "Lugar e estratégia",
-            "es": "Lugar y estrategia"
-          },
-          "src": "projects/02-rock-oporto-palace/01-maquete-implantacao.jpg",
-          "caption": {
-            "en": "Site model, Parque da Cidade",
-            "pt": "Maquete de implantação, Parque da Cidade",
-            "es": "Maqueta de emplazamiento, Parque de la Ciudad"
-          },
-          "layout": "full"
-        },
-        {
           "mosaic": "justified stack",
           "src": "projects/02-rock-oporto-palace/02a-percursos-festival.jpg",
           "caption": {
@@ -493,7 +456,13 @@
             "pt": "Percursos em dias de festival",
             "es": "Recorridos en días de festival"
           },
-          "layout": "tile"
+          "layout": "tile",
+          "section": {
+            "en": "Site and strategy",
+            "pt": "Lugar e estratégia",
+            "es": "Lugar y estrategia"
+          },
+          "part": "projeto"
         },
         {
           "src": "projects/02-rock-oporto-palace/02b-percursos-regulares.jpg",
@@ -521,36 +490,36 @@
           },
           "src": "projects/02-rock-oporto-palace/04-planta-piso-0.jpg",
           "caption": {
-            "en": "Ground floor plan",
-            "pt": "Planta do piso térreo",
-            "es": "Planta baja"
+            "en": "Ground floor plan, Scale: 1:500",
+            "pt": "Planta do piso térreo, E: 1:500",
+            "es": "Planta baja, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/02-rock-oporto-palace/05-planta-piso-1.jpg",
           "caption": {
-            "en": "First floor plan",
-            "pt": "Planta do piso 1",
-            "es": "Planta del piso 1"
+            "en": "First floor plan, Scale: 1:500",
+            "pt": "Planta do piso 1, E: 1:500",
+            "es": "Planta del piso 1, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/02-rock-oporto-palace/06-planta-estacionamento.jpg",
           "caption": {
-            "en": "Level -1 plan, car park",
-            "pt": "Planta do piso -1, estacionamento",
-            "es": "Planta del piso -1, aparcamiento"
+            "en": "Level -1 plan, car park, Scale: 1:500",
+            "pt": "Planta do piso -1, estacionamento, E: 1:500",
+            "es": "Planta del piso -1, aparcamiento, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/02-rock-oporto-palace/07-corte-aa.jpg",
           "caption": {
-            "en": "Section AA, 1:500",
-            "pt": "Corte AA, 1:500",
-            "es": "Sección AA, 1:500"
+            "en": "Section AA, Scale: 1:500",
+            "pt": "Corte AA, E: 1:500",
+            "es": "Sección AA, E: 1:500"
           },
           "layout": "full",
           "section": {
@@ -562,52 +531,180 @@
         {
           "src": "projects/02-rock-oporto-palace/08-corte-bb.jpg",
           "caption": {
-            "en": "Section BB, 1:500",
-            "pt": "Corte BB, 1:500",
-            "es": "Sección BB, 1:500"
+            "en": "Section BB, Scale: 1:500",
+            "pt": "Corte BB, E: 1:500",
+            "es": "Sección BB, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/02-rock-oporto-palace/09-corte-cc.jpg",
           "caption": {
-            "en": "Section CC, 1:500",
-            "pt": "Corte CC, 1:500",
-            "es": "Sección CC, 1:500"
+            "en": "Section CC, Scale: 1:500",
+            "pt": "Corte CC, E: 1:500",
+            "es": "Sección CC, E: 1:500"
           },
           "layout": "full"
         },
         {
           "src": "projects/02-rock-oporto-palace/10-corte-dd.jpg",
           "caption": {
-            "en": "Section DD, 1:500",
-            "pt": "Corte DD, 1:500",
-            "es": "Sección DD, 1:500"
+            "en": "Section DD, Scale: 1:500",
+            "pt": "Corte DD, E: 1:500",
+            "es": "Sección DD, E: 1:500"
           },
           "layout": "full"
         },
         {
-          "section": {
-            "en": "Construction",
-            "pt": "Construção",
-            "es": "Construcción"
+          "src": "projects/02-rock-oporto-palace/01-maquete-implantacao.jpg",
+          "caption": {
+            "en": "Site model, Parque da Cidade, Scale: 1:1000",
+            "pt": "Maquete de implantação, Parque da Cidade, E: 1:1000",
+            "es": "Maqueta de emplazamiento, Parque de la Ciudad, E: 1:1000"
           },
+          "layout": "full",
+          "section": {
+            "en": "Model",
+            "pt": "Maquete",
+            "es": "Maqueta"
+          }
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/20-maquete-parque.jpg",
+          "caption": {
+            "en": "Model of the park, Scale: 1:1000",
+            "pt": "Maquete do parque, E: 1:1000",
+            "es": "Maqueta del parque, E: 1:1000"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/21-maquete-percursos.jpg",
+          "caption": {
+            "en": "Model, paths through the park, Scale: 1:1000",
+            "pt": "Maquete, percursos no parque, E: 1:1000",
+            "es": "Maqueta, recorridos en el parque, E: 1:1000"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/22-maquete-vista.jpg",
+          "caption": {
+            "en": "Model, view of the site, Scale: 1:1000",
+            "pt": "Maquete, vista do conjunto, E: 1:1000",
+            "es": "Maqueta, vista del conjunto, E: 1:1000"
+          },
+          "layout": "full"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/29-maquete-implantacao.jpg",
+          "caption": {
+            "en": "Site model, Scale: 1:1000",
+            "pt": "Maquete de implantação, E: 1:1000",
+            "es": "Maqueta de emplazamiento, E: 1:1000"
+          },
+          "layout": "tile",
+          "mosaic": "justified-3"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/30-maquete-edificio-cobertura.jpg",
+          "caption": {
+            "en": "Building model, top view, Scale: 1:500",
+            "pt": "Maquete do edifício, vista superior, E: 1:500",
+            "es": "Maqueta del edificio, vista superior, E: 1:500"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/31-maquete-edificio-interior.jpg",
+          "caption": {
+            "en": "Building model, without the roof, Scale: 1:500",
+            "pt": "Maquete do edifício, sem cobertura, E: 1:500",
+            "es": "Maqueta del edificio, sin cubierta, E: 1:500"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/23-maquete-edificio.jpg",
+          "caption": {
+            "en": "Building model, Scale: 1:500",
+            "pt": "Maquete do edifício, E: 1:500",
+            "es": "Maqueta del edificio, E: 1:500"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
+          "caption": {
+            "en": "Building model, with the tower, Scale: 1:500",
+            "pt": "Maquete do edifício, com a torre, E: 1:500",
+            "es": "Maqueta del edificio, con la torre, E: 1:500"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/33-painel-corte-aa.jpg",
+          "layout": "tile",
+          "section": {
+            "en": "Process",
+            "pt": "Processo",
+            "es": "Proceso"
+          },
+          "mosaic": "scroll",
+          "groupCaption": {
+            "en": "Testing textures | Colours | Materials",
+            "pt": "Testar texturas | Cores | Materialidades",
+            "es": "Probar texturas | Colores | Materialidades"
+          }
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/34-painel-corte-bb.jpg",
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/35-painel-corte-cc.jpg",
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/36-painel-corte-dd.jpg",
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/37-painel-implantacao.jpg",
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/25-planta-aguas-pluviais.jpg",
+          "caption": {
+            "en": "Site plan, rainwater drainage",
+            "pt": "Implantação, planta de águas pluviais",
+            "es": "Emplazamiento, planta de aguas pluviales"
+          },
+          "layout": "inset",
+          "part": "estrutural",
+          "section": {
+            "en": "The ensemble",
+            "pt": "Conjunto",
+            "es": "Conjunto"
+          }
+        },
+        {
           "src": "projects/02-rock-oporto-palace/12-axonometria-estrutural.jpg",
           "caption": {
             "en": "Exploded structural axonometry",
             "pt": "Axonometria estrutural explodida",
             "es": "Axonometría estructural explotada"
           },
-          "layout": "half"
+          "layout": "inset"
         },
         {
-          "src": "projects/02-rock-oporto-palace/18-esquema-avac.jpg",
+          "src": "projects/02-rock-oporto-palace/44-pre-dimensionamento.jpg",
           "caption": {
-            "en": "HVAC scheme: supply and extraction",
-            "pt": "Esquema AVAC: insuflação e extração",
-            "es": "Esquema de climatización: impulsión y extracción"
+            "en": "Preliminary sizing: ribbed flat slab, beams, columns and tributary area",
+            "pt": "Pré-dimensionamento: laje fungiforme nervurada, vigas, pilares e área de influência",
+            "es": "Predimensionado: forjado reticular, vigas, pilares y área de influencia"
           },
-          "layout": "half"
+          "layout": "full"
         },
         {
           "src": "projects/02-rock-oporto-palace/13-saidas-emergencia-zonas-tecnicas.jpg",
@@ -616,7 +713,7 @@
             "pt": "Saídas de emergência e zonas técnicas",
             "es": "Salidas de emergencia y zonas técnicas"
           },
-          "layout": "full"
+          "layout": "inset"
         },
         {
           "src": "projects/02-rock-oporto-palace/14-corte-construtivo.jpg",
@@ -628,31 +725,27 @@
           "layout": "full"
         },
         {
+          "src": "projects/02-rock-oporto-palace/18-esquema-avac.jpg",
+          "caption": {
+            "en": "HVAC scheme: supply and extraction",
+            "pt": "Esquema AVAC: insuflação e extração",
+            "es": "Esquema de climatización: impulsión y extracción"
+          },
+          "layout": "inset"
+        },
+        {
           "src": "projects/02-rock-oporto-palace/15-corte-construtivo-auditorio.jpg",
           "caption": {
             "en": "Construction section of the auditorium",
             "pt": "Corte construtivo do auditório",
             "es": "Sección constructiva del auditorio"
           },
-          "layout": "half"
-        },
-        {
-          "src": "projects/02-rock-oporto-palace/16-corte-fachada.jpg",
-          "caption": {
-            "en": "Façade section, 1:10",
-            "pt": "Corte de fachada, 1:10",
-            "es": "Sección de fachada, 1:10"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "projects/02-rock-oporto-palace/17-planta-pormenor.jpg",
-          "caption": {
-            "en": "Detail plan, 1:50",
-            "pt": "Planta de pormenor, 1:50",
-            "es": "Planta de detalle, 1:50"
-          },
-          "layout": "full"
+          "layout": "inset",
+          "section": {
+            "en": "Auditorium",
+            "pt": "Auditório",
+            "es": "Auditorio"
+          }
         },
         {
           "src": "projects/02-rock-oporto-palace/19-auditorio.jpg",
@@ -664,77 +757,191 @@
           "layout": "full"
         },
         {
+          "src": "projects/02-rock-oporto-palace/38-referencia-gulbenkian-exterior.jpg",
+          "caption": {
+            "en": "Reference: Calouste Gulbenkian Foundation, Lisbon, Ruy de Athouguia, Pedro Cid and Alberto Pessoa",
+            "pt": "Referência: Fundação Calouste Gulbenkian, Lisboa, Ruy de Athouguia, Pedro Cid e Alberto Pessoa",
+            "es": "Referencia: Fundación Calouste Gulbenkian, Lisboa, Ruy de Athouguia, Pedro Cid y Alberto Pessoa"
+          },
+          "layout": "tile",
+          "mosaic": "justified-3"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/39-referencia-menil.jpg",
+          "caption": {
+            "en": "Reference: The Menil Drawing Institute, Houston, Johnston Marklee",
+            "pt": "Referência: The Menil Drawing Institute, Houston, Johnston Marklee",
+            "es": "Referencia: The Menil Drawing Institute, Houston, Johnston Marklee"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/40-referencia-gulbenkian-auditorio.jpg",
+          "caption": {
+            "en": "Reference: Great Auditorium of the Calouste Gulbenkian Foundation, Lisbon",
+            "pt": "Referência: Grande Auditório da Fundação Calouste Gulbenkian, Lisboa",
+            "es": "Referencia: Gran Auditorio de la Fundación Calouste Gulbenkian, Lisboa"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/27-servicos-planta-cortes.jpg",
+          "caption": {
+            "en": "Services building: plan, structural cross section and cross section, Scale: 1:400",
+            "pt": "Edifício de serviços: planta, corte estrutural transversal e corte transversal, E: 1:400",
+            "es": "Edificio de servicios: planta, sección estructural transversal y sección transversal, E: 1:400"
+          },
+          "layout": "inset",
           "section": {
-            "en": "Model",
-            "pt": "Maquete",
-            "es": "Maqueta"
-          },
-          "src": "projects/02-rock-oporto-palace/20-maquete-parque.jpg",
-          "caption": {
-            "en": "Model of the park",
-            "pt": "Maquete do parque",
-            "es": "Maqueta del parque"
-          },
-          "layout": "full"
+            "en": "Services building",
+            "pt": "Edifício de serviços",
+            "es": "Edificio de servicios"
+          }
         },
         {
-          "src": "projects/02-rock-oporto-palace/21-maquete-percursos.jpg",
+          "src": "projects/02-rock-oporto-palace/28-servicos-axonometria-estrutural.jpg",
           "caption": {
-            "en": "Model, paths through the park",
-            "pt": "Maquete, percursos no parque",
-            "es": "Maqueta, recorridos en el parque"
+            "en": "Services building, structural axonometry",
+            "pt": "Edifício de serviços, axonometria estrutural",
+            "es": "Edificio de servicios, axonometría estructural"
           },
-          "layout": "full"
+          "layout": "half",
+          "row": "equal"
         },
         {
-          "src": "projects/02-rock-oporto-palace/22-maquete-vista.jpg",
+          "src": "projects/02-rock-oporto-palace/26-corte-construtivo-servicos.jpg",
           "caption": {
-            "en": "Model, view of the site",
-            "pt": "Maquete, vista do conjunto",
-            "es": "Maqueta, vista del conjunto"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/02-rock-oporto-palace/23-maquete-edificio.jpg",
-          "caption": {
-            "en": "Building model",
-            "pt": "Maquete do edifício",
-            "es": "Maqueta del edificio"
+            "en": "Services building, construction section",
+            "pt": "Edifício de serviços, corte construtivo",
+            "es": "Edificio de servicios, sección constructiva"
           },
           "layout": "half"
         },
         {
-          "src": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
+          "src": "projects/02-rock-oporto-palace/45-servicos-pre-dimensionamento.jpg",
           "caption": {
-            "en": "Building model, with the tower",
-            "pt": "Maquete do edifício, com a torre",
-            "es": "Maqueta del edificio, con la torre"
+            "en": "Services building, preliminary sizing of columns, walls, slab and beams",
+            "pt": "Edifício de serviços, pré-dimensionamento de pilares, paredes, laje e vigas",
+            "es": "Edificio de servicios, predimensionado de pilares, muros, forjado y vigas"
           },
-          "layout": "half"
+          "layout": "inset"
         },
         {
-          "section": {
-            "en": "Process",
-            "pt": "Processo",
-            "es": "Proceso"
-          },
-          "src": "projects/02-rock-oporto-palace/03-planta-implantacao.jpg",
+          "src": "projects/02-rock-oporto-palace/41-referencia-kunsthaus.jpg",
           "caption": {
-            "en": "Site plan",
-            "pt": "Planta de implantação",
-            "es": "Planta de emplazamiento"
+            "en": "Reference: Kunsthaus, Zurich, David Chipperfield",
+            "pt": "Referência: Kunsthaus, Zurique, David Chipperfield",
+            "es": "Referencia: Kunsthaus, Zúrich, David Chipperfield"
+          },
+          "layout": "tile",
+          "mosaic": "justified-3"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/42-referencia-seagram.jpg",
+          "caption": {
+            "en": "Reference: Seagram Building, New York, Mies van der Rohe",
+            "pt": "Referência: Edifício Seagram, Nova Iorque, Mies van der Rohe",
+            "es": "Referencia: Edificio Seagram, Nueva York, Mies van der Rohe"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/43-referencia-haldenstein.jpg",
+          "caption": {
+            "en": "Reference: Haldenstein, Peter Zumthor",
+            "pt": "Referência: Haldenstein, Peter Zumthor",
+            "es": "Referencia: Haldenstein, Peter Zumthor"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/32-esquissos-processo.jpg",
+          "caption": {
+            "en": "Study sketches of the construction system",
+            "pt": "Esquissos de estudo do sistema construtivo",
+            "es": "Bocetos de estudio del sistema constructivo"
+          },
+          "layout": "full",
+          "part": "sustentavel"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/17-planta-pormenor.jpg",
+          "caption": {
+            "en": "Detail plan, Scale: 1:50",
+            "pt": "Planta de pormenor, E: 1:50",
+            "es": "Planta de detalle, E: 1:50"
           },
           "layout": "full"
         },
         {
-          "src": "projects/02-rock-oporto-palace/11-corte-auditorio.jpg",
+          "src": "projects/02-rock-oporto-palace/16-corte-fachada.jpg",
           "caption": {
-            "en": "Section through the auditorium",
-            "pt": "Corte pelo auditório",
-            "es": "Sección por el auditorio"
+            "en": "Façade section, Scale: 1:10",
+            "pt": "Corte de fachada, E: 1:10",
+            "es": "Sección de fachada, E: 1:10"
           },
-          "layout": "full"
+          "layout": "inset"
+        }
+      ],
+      "parts": [
+        {
+          "id": "projeto",
+          "title": {
+            "en": "Project",
+            "pt": "Projeto",
+            "es": "Proyecto"
+          }
+        },
+        {
+          "id": "estrutural",
+          "title": {
+            "en": "Construction and structural system",
+            "pt": "Sistema construtivo e estrutural",
+            "es": "Sistema constructivo y estructural"
+          },
+          "subtitle": {
+            "en": "Construction 3 · Faculty of Architecture of the University of Porto",
+            "pt": "Construção 3 · Faculdade de Arquitetura da Universidade do Porto",
+            "es": "Construcción 3 · Facultad de Arquitectura de la Universidad de Oporto"
+          },
+          "text": {
+            "en": "Within the Construction 3 course, the project was developed at the level of its construction and structural systems. In the auditorium, taking the Calouste Gulbenkian building as a reference, a large glazed opening turns the south façade towards the park, and a movable wall makes the hall adaptable to different kinds of performance. The structure is steel, the walls concrete and the interior lining timber, for visual and acoustic comfort.\n\nThe services building, with 30,000 m², is organised in a 63-metre, 18-storey tower, with a concrete structure and a ribbed flat slab. The façade keeps a constant, vertical language, with a large rectangular opening in each room that brings in daylight and a direct relationship with the park.",
+            "pt": "No âmbito da unidade curricular de Construção 3, o projeto foi desenvolvido ao nível dos sistemas construtivo e estrutural. No auditório, tendo como referência o Edifício Calouste Gulbenkian, um grande vão envidraçado abre a fachada sul ao parque e uma parede amovível torna a sala versátil para diferentes espetáculos. A estrutura é metálica, as paredes em betão e o revestimento interior em madeira, para conforto visual e acústico.\n\nO edifício de serviços, com 30 000 m², organiza-se numa torre de 63 metros e 18 pisos, com estrutura em betão e laje fungiforme nervurada. A fachada mantém uma linguagem constante e vertical, com um grande vão retangular em cada sala, que traz luz natural e uma relação direta com o parque.",
+            "es": "En el marco de la asignatura Construcción 3, el proyecto se desarrolló a nivel de sus sistemas constructivo y estructural. En el auditorio, tomando como referencia el edificio Calouste Gulbenkian, un gran vano acristalado abre la fachada sur al parque y una pared móvil hace la sala versátil para distintos espectáculos. La estructura es metálica, los muros de hormigón y el revestimiento interior de madera, para el confort visual y acústico.\n\nEl edificio de servicios, de 30 000 m², se organiza en una torre de 63 metros y 18 plantas, con estructura de hormigón y forjado reticular. La fachada mantiene un lenguaje constante y vertical, con un gran vano rectangular en cada sala que aporta luz natural y una relación directa con el parque."
+          },
+          "institution": {
+            "en": "Faculty of Architecture of the University of Porto",
+            "pt": "Faculdade de Arquitetura da Universidade do Porto",
+            "es": "Facultad de Arquitectura de la Universidad de Oporto"
+          }
+        },
+        {
+          "id": "sustentavel",
+          "title": {
+            "en": "Sustainable construction system",
+            "pt": "Sistema construtivo sustentável",
+            "es": "Sistema constructivo sostenible"
+          },
+          "subtitle": {
+            "en": "Architecture and Technology IV · University of Évora, 2024",
+            "pt": "Arquitetura e Tecnologia IV · Universidade de Évora, 2024",
+            "es": "Arquitectura y Tecnología IV · Universidad de Évora, 2024"
+          },
+          "text": {
+            "en": "In the Architecture and Technology IV course, a section of the music rooms was taken up again with a focus on sustainable construction: ecological, local materials compatible with the acoustic demands of music teaching.\n\nThe existing vegetation of the park is kept to regulate the climate. The glass façade has double frames, and a corridor separates the outside from the rooms, which open to the park through double-glazed windows with timber frames. The walls are solid ceramic blocks with acoustic insulation in recycled cellulose. To the south, the projecting columns and the slab provide shade, reducing the need for air conditioning and artificial light. The upper floors have a timber structure and the roof is planted.",
+            "pt": "Na unidade curricular de Arquitetura e Tecnologia IV, um troço das salas de música foi retomado com foco na construção sustentável: materiais ecológicos e locais, compatíveis com as exigências acústicas do ensino da música.\n\nA vegetação existente do parque é mantida para regular o clima. A fachada em vidro tem caixilharia dupla e um corredor separa o exterior das salas, que se abrem ao parque por janelas de vidro duplo com caixilharia de madeira. As paredes são em blocos maciços de cerâmica, com isolamento acústico em celulose reciclada. A sul, os pilares salientes e a laje fazem sombreamento, reduzindo a necessidade de climatização e de luz artificial. Os pisos superiores têm estrutura em madeira e a cobertura é ajardinada.",
+            "es": "En la asignatura Arquitectura y Tecnología IV, se retomó un tramo de las aulas de música con foco en la construcción sostenible: materiales ecológicos y locales, compatibles con las exigencias acústicas de la enseñanza musical.\n\nSe mantiene la vegetación existente del parque para regular el clima. La fachada de vidrio tiene carpintería doble y un pasillo separa el exterior de las aulas, que se abren al parque mediante ventanas de doble acristalamiento con carpintería de madera. Los muros son de bloques macizos de cerámica, con aislamiento acústico de celulosa reciclada. Al sur, los pilares salientes y el forjado dan sombra, reduciendo la necesidad de climatización y de luz artificial. Las plantas superiores tienen estructura de madera y la cubierta es ajardinada."
+          },
+          "institution": {
+            "en": "University of Évora",
+            "pt": "Universidade de Évora",
+            "es": "Universidad de Évora"
+          },
+          "teachers": {
+            "en": "Professor Joana Vilhena",
+            "pt": "Professora Joana Vilhena",
+            "es": "Profesora Joana Vilhena"
+          }
         }
       ]
     },
@@ -766,7 +973,11 @@
         "pt": "Universidade de Évora",
         "es": "Universidad de Évora"
       },
-      "teachers": "João Soares | Francisco Garcia de Freitas | Luís Costa Valente (Atelier Rua)",
+      "teachers": {
+        "en": "Professor João Soares | Professor Francisco Garcia de Freitas | Professor Luís Costa Valente (Atelier Rua)",
+        "pt": "Professor João Soares | Professor Francisco Garcia de Freitas | Professor Luís Costa Valente (Atelier Rua)",
+        "es": "Profesor João Soares | Profesor Francisco Garcia de Freitas | Profesor Luís Costa Valente (Atelier Rua)"
+      },
       "thumbnail": "projects/03-beber-a-terra/02-axonometria-explodida.jpg",
       "hero": "projects/03-beber-a-terra/02-axonometria-explodida.jpg",
       "concept": {
@@ -806,9 +1017,9 @@
           },
           "src": "projects/03-beber-a-terra/03-planta-implantacao.jpg",
           "caption": {
-            "en": "Site plan, 1:1000",
-            "pt": "Planta de implantação, 1:1000",
-            "es": "Planta de emplazamiento, 1:1000"
+            "en": "Site plan, Scale: 1:1000",
+            "pt": "Planta de implantação, E: 1:1000",
+            "es": "Planta de emplazamiento, E: 1:1000"
           },
           "layout": "full"
         },
@@ -865,9 +1076,9 @@
         {
           "src": "projects/03-beber-a-terra/09-corte-pavilhao.jpg",
           "caption": {
-            "en": "Section of the pavilion, 1:50",
-            "pt": "Corte do pavilhão, 1:50",
-            "es": "Sección del pabellón, 1:50"
+            "en": "Section of the pavilion, Scale: 1:50",
+            "pt": "Corte do pavilhão, E: 1:50",
+            "es": "Sección del pabellón, E: 1:50"
           },
           "layout": "full"
         },
@@ -915,7 +1126,11 @@
         "pt": "Universidade de Évora",
         "es": "Universidad de Évora"
       },
-      "teachers": "Pedro Matos Gameiro | Pedro Oliveira | Joana Vilhena | Paula Pinto",
+      "teachers": {
+        "en": "Professor Pedro Matos Gameiro | Professor Pedro Oliveira | Professor Joana Vilhena | Professor Paula Pinto",
+        "pt": "Professor Pedro Matos Gameiro | Professor Pedro Oliveira | Professora Joana Vilhena | Professora Paula Pinto",
+        "es": "Profesor Pedro Matos Gameiro | Profesor Pedro Oliveira | Profesora Joana Vilhena | Profesora Paula Pinto"
+      },
       "thumbnail": "projects/04-centro-interpretativo/06-corte-alcado-rua.jpg",
       "hero": "projects/04-centro-interpretativo/01-fotomontagem-vila.jpg",
       "concept": {
@@ -925,36 +1140,19 @@
       },
       "images": [
         {
-          "section": {
-            "en": "Site and strategy",
-            "pt": "Lugar e estratégia",
-            "es": "Lugar y estrategia"
-          },
-          "src": "projects/04-centro-interpretativo/01-fotomontagem-vila.jpg",
-          "caption": {
-            "en": "Photomontage, the proposal in the village",
-            "pt": "Fotomontagem, a proposta na vila",
-            "es": "Fotomontaje, la propuesta en la villa"
-          },
-          "layout": "full"
-        },
-        {
           "src": "projects/04-centro-interpretativo/03-planta-implantacao.jpg",
           "caption": {
             "en": "Site plan",
             "pt": "Planta de implantação",
             "es": "Planta de emplazamiento"
           },
-          "layout": "inset"
-        },
-        {
-          "src": "projects/04-centro-interpretativo/02-fotomontagem-entrada.jpg",
-          "caption": {
-            "en": "Photomontage, entrance to the interpretive centre",
-            "pt": "Fotomontagem, entrada do centro interpretativo",
-            "es": "Fotomontaje, entrada al centro interpretativo"
+          "layout": "inset",
+          "section": {
+            "en": "Site and strategy",
+            "pt": "Lugar e estratégia",
+            "es": "Lugar y estrategia"
           },
-          "layout": "inset"
+          "part": "projeto"
         },
         {
           "section": {
@@ -1007,43 +1205,30 @@
           "layout": "half"
         },
         {
-          "section": {
-            "en": "Café: construction",
-            "pt": "Cafetaria: construção",
-            "es": "Cafetería: construcción"
-          },
-          "src": "projects/04-centro-interpretativo/09-cafetaria-planta.jpg",
+          "src": "projects/04-centro-interpretativo/14-maquete-centro-interpretativo.jpg",
           "caption": {
-            "en": "Café, detailed plan",
-            "pt": "Cafetaria, planta de pormenor",
-            "es": "Cafetería, planta de detalle"
+            "en": "Model of the interpretive centre",
+            "pt": "Maquete do centro interpretativo",
+            "es": "Maqueta del centro interpretativo"
           },
-          "layout": "half"
-        },
-        {
-          "src": "projects/04-centro-interpretativo/10-cafetaria-corte-cozinha.jpg",
-          "caption": {
-            "en": "Café, section through the kitchen",
-            "pt": "Cafetaria, corte pela cozinha",
-            "es": "Cafetería, sección por la cocina"
-          },
-          "layout": "half"
-        },
-        {
-          "src": "projects/04-centro-interpretativo/11-cafetaria-corte-construtivo.jpg",
-          "caption": {
-            "en": "Café, construction section",
-            "pt": "Cafetaria, corte construtivo",
-            "es": "Cafetería, sección constructiva"
-          },
-          "layout": "full"
-        },
-        {
+          "layout": "full",
           "section": {
             "en": "Model",
             "pt": "Maquete",
             "es": "Maqueta"
+          }
+        },
+        {
+          "type": "video",
+          "src": "projects/04-centro-interpretativo/video-maquete.mp4",
+          "caption": {
+            "en": "Model developed as a group work, video",
+            "pt": "Maquete desenvolvida em grupo, vídeo",
+            "es": "Maqueta desarrollada en grupo, vídeo"
           },
+          "layout": "full"
+        },
+        {
           "src": "projects/04-centro-interpretativo/12-maquete-vila.jpg",
           "caption": {
             "en": "Model of the village",
@@ -1062,25 +1247,6 @@
           "layout": "full"
         },
         {
-          "src": "projects/04-centro-interpretativo/14-maquete-centro-interpretativo.jpg",
-          "caption": {
-            "en": "Model of the interpretive centre",
-            "pt": "Maquete do centro interpretativo",
-            "es": "Maqueta del centro interpretativo"
-          },
-          "layout": "full"
-        },
-        {
-          "type": "video",
-          "src": "projects/04-centro-interpretativo/video-maquete.mp4",
-          "caption": {
-            "en": "Model developed as a group work, video",
-            "pt": "Maquete desenvolvida em grupo, vídeo",
-            "es": "Maqueta desarrollada en grupo, vídeo"
-          },
-          "layout": "full"
-        },
-        {
           "section": {
             "en": "Process",
             "pt": "Processo",
@@ -1093,6 +1259,58 @@
             "es": "Boceto de proceso"
           },
           "layout": "inset"
+        },
+        {
+          "src": "projects/04-centro-interpretativo/01-fotomontagem-vila.jpg",
+          "caption": {
+            "en": "Photomontage, the proposal in the village",
+            "pt": "Fotomontagem, a proposta na vila",
+            "es": "Fotomontaje, la propuesta en la villa"
+          },
+          "layout": "half",
+          "section": {
+            "en": "Photomontages",
+            "pt": "Fotomontagens",
+            "es": "Fotomontajes"
+          },
+          "row": "equal"
+        },
+        {
+          "src": "projects/04-centro-interpretativo/02-fotomontagem-entrada.jpg",
+          "caption": {
+            "en": "Photomontage, entrance to the interpretive centre",
+            "pt": "Fotomontagem, entrada do centro interpretativo",
+            "es": "Fotomontaje, entrada al centro interpretativo"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/04-centro-interpretativo/09-cafetaria-planta.jpg",
+          "caption": {
+            "en": "Café, detailed plan",
+            "pt": "Cafetaria, planta de pormenor",
+            "es": "Cafetería, planta de detalle"
+          },
+          "layout": "half",
+          "part": "construtivo"
+        },
+        {
+          "src": "projects/04-centro-interpretativo/10-cafetaria-corte-cozinha.jpg",
+          "caption": {
+            "en": "Café, section through the kitchen",
+            "pt": "Cafetaria, corte pela cozinha",
+            "es": "Cafetería, sección por la cocina"
+          },
+          "layout": "half"
+        },
+        {
+          "src": "projects/04-centro-interpretativo/11-cafetaria-corte-construtivo.jpg",
+          "caption": {
+            "en": "Café, construction section",
+            "pt": "Cafetaria, corte construtivo",
+            "es": "Cafetería, sección constructiva"
+          },
+          "layout": "full"
         }
       ],
       "participations": [
@@ -1102,6 +1320,24 @@
             "en": "This project was shown at the {link}, an exhibition conceived and organised by Carlota Rocha.",
             "pt": "Este projeto foi apresentado na {link}, exposição idealizada e organizada por Carlota Rocha.",
             "es": "Este proyecto se presentó en la {link}, exposición ideada y organizada por Carlota Rocha."
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "projeto",
+          "title": {
+            "en": "Project",
+            "pt": "Projeto",
+            "es": "Proyecto"
+          }
+        },
+        {
+          "id": "construtivo",
+          "title": {
+            "en": "Construction system",
+            "pt": "Sistema construtivo",
+            "es": "Sistema constructivo"
           }
         }
       ]
@@ -1159,7 +1395,11 @@
             "pt": "Universidade de Évora",
             "es": "Universidad de Évora"
           },
-          "teachers": "Sofia Aleixo | João Santa Rita"
+          "teachers": {
+            "en": "Professor Sofia Aleixo | Professor João Santa Rita",
+            "pt": "Professora Sofia Aleixo | Professor João Santa Rita",
+            "es": "Profesora Sofia Aleixo | Profesor João Santa Rita"
+          }
         },
         {
           "id": "urban-follies",
@@ -1183,7 +1423,11 @@
             "pt": "University of Universities (UOU)",
             "es": "University of Universities (UOU)"
           },
-          "teachers": "Sofia Aleixo | Joana Vilhena",
+          "teachers": {
+            "en": "Professor Sofia Aleixo | Professor Joana Vilhena",
+            "pt": "Professora Sofia Aleixo | Professora Joana Vilhena",
+            "es": "Profesora Sofia Aleixo | Profesora Joana Vilhena"
+          },
           "publication": {
             "url": "https://revistes.ua.es/uou/issue/view/978",
             "label": {
@@ -1280,21 +1524,6 @@
           "layout": "full"
         },
         {
-          "part": "urban-follies",
-          "section": {
-            "en": "Photomontages",
-            "pt": "Fotomontagens",
-            "es": "Fotomontajes"
-          },
-          "src": "projects/05-dispositivo-urbano/10-folly-fotomontagens.jpg",
-          "caption": {
-            "en": "Folly, photomontages in the square",
-            "pt": "Folly, fotomontagens na praça",
-            "es": "Folly, fotomontajes en la plaza"
-          },
-          "layout": "inset"
-        },
-        {
           "section": {
             "en": "Drawings",
             "pt": "Desenhos",
@@ -1306,7 +1535,8 @@
             "pt": "Folly, alçado com escala humana",
             "es": "Folly, alzado con escala humana"
           },
-          "layout": "inset"
+          "layout": "inset",
+          "part": "urban-follies"
         },
         {
           "src": "projects/05-dispositivo-urbano/14-folly-planta.jpg",
@@ -1339,6 +1569,20 @@
             "es": "Folly, maqueta en su contexto"
           },
           "layout": "half"
+        },
+        {
+          "section": {
+            "en": "Photomontages",
+            "pt": "Fotomontagens",
+            "es": "Fotomontajes"
+          },
+          "src": "projects/05-dispositivo-urbano/10-folly-fotomontagens.jpg",
+          "caption": {
+            "en": "Folly, photomontages in the square",
+            "pt": "Folly, fotomontagens na praça",
+            "es": "Folly, fotomontajes en la plaza"
+          },
+          "layout": "inset"
         }
       ]
     },
@@ -1370,7 +1614,11 @@
         "pt": "Faculdade de Arquitectura da Universidade do Porto (FAUP)",
         "es": "Facultad de Arquitectura de la Universidad de Oporto (FAUP)"
       },
-      "teachers": "João Luís Marques",
+      "teachers": {
+        "en": "Professor João Luís Marques",
+        "pt": "Professor João Luís Marques",
+        "es": "Profesor João Luís Marques"
+      },
       "authors": "Ana Peneirol | Carlota Rocha | Carlos Marrero | Carolina Varejão",
       "thumbnail": "projects/outros-trabalhos/01-solar-sao-joao/00-thumbnail.jpg",
       "hero": "projects/outros-trabalhos/01-solar-sao-joao/03-fotomontagem-1.jpg",
@@ -1388,38 +1636,33 @@
           },
           "src": "projects/outros-trabalhos/01-solar-sao-joao/01-analise-contexto.jpg",
           "caption": {
-            "en": "Context analysis, scale 1:1000",
-            "pt": "Análise do contexto, E 1.1000",
-            "es": "Análisis del contexto, E 1.1000"
+            "en": "Context analysis, Scale: 1:1000",
+            "pt": "Análise do contexto, E: 1:1000",
+            "es": "Análisis del contexto, E: 1:1000"
           },
           "layout": "full"
         },
         {
           "src": "projects/outros-trabalhos/01-solar-sao-joao/02-desenho-praca.jpg",
           "caption": {
-            "en": "Measured drawing of the square, scale 1:200; axonometry from “Da vila cercada à praça de guerra” by Margarida Tavares da Conceição",
-            "pt": "Desenho rigoroso da praça, E 1.200; axonometria retirada de «Da vila cercada à praça de guerra», de Margarida Tavares da Conceição",
-            "es": "Dibujo riguroso de la plaza, E 1.200; axonometría tomada de «Da vila cercada à praça de guerra», de Margarida Tavares da Conceição"
+            "en": "Measured drawing of the square, Scale: 1:200; axonometry from “Da vila cercada à praça de guerra” by Margarida Tavares da Conceição",
+            "pt": "Desenho rigoroso da praça, E: 1:200; axonometria retirada de «Da vila cercada à praça de guerra», de Margarida Tavares da Conceição",
+            "es": "Dibujo riguroso de la plaza, E: 1:200; axonometría tomada de «Da vila cercada à praça de guerra», de Margarida Tavares da Conceição"
           },
           "layout": "full"
         },
         {
           "mosaic": "justified-2 narrow",
           "src": "projects/outros-trabalhos/01-solar-sao-joao/03-fotomontagem-1.jpg",
-          "caption": {
-            "en": "Photomontage of the square, towards the manor house",
-            "pt": "Fotomontagem da praça, vista para o solar",
-            "es": "Fotomontaje de la plaza, hacia el solar"
-          },
-          "layout": "tile"
+          "layout": "tile",
+          "groupCaption": {
+            "en": "Views of the manor house",
+            "pt": "Vistas do Solar",
+            "es": "Vistas del Solar"
+          }
         },
         {
           "src": "projects/outros-trabalhos/01-solar-sao-joao/03-fotomontagem-2.jpg",
-          "caption": {
-            "en": "Photomontage of the square, from the manor house",
-            "pt": "Fotomontagem da praça, vista a partir do solar",
-            "es": "Fotomontaje de la plaza, desde el solar"
-          },
           "layout": "tile"
         },
         {
@@ -1430,18 +1673,18 @@
           },
           "src": "projects/outros-trabalhos/01-solar-sao-joao/04-plantas-solar.jpg",
           "caption": {
-            "en": "Ground and first floor plans and longitudinal section BB', scale 1:100",
-            "pt": "Plantas do piso térreo e do 1.º piso e corte longitudinal BB', E 1.100",
-            "es": "Plantas baja y primera y sección longitudinal BB', E 1.100"
+            "en": "Ground and first floor plans and longitudinal section BB', Scale: 1:100",
+            "pt": "Plantas do piso térreo e do 1.º piso e corte longitudinal BB', E: 1:100",
+            "es": "Plantas baja y primera y sección longitudinal BB', E: 1:100"
           },
           "layout": "full"
         },
         {
           "src": "projects/outros-trabalhos/01-solar-sao-joao/05-cortes-alcado-solar.jpg",
           "caption": {
-            "en": "Cross sections AA' and CC' and elevation of the manor house, scale 1:100",
-            "pt": "Cortes transversais AA' e CC' e alçado do solar, E 1.100",
-            "es": "Secciones transversales AA' y CC' y alzado del solar, E 1.100"
+            "en": "Cross sections AA' and CC' and elevation of the manor house, Scale: 1:100",
+            "pt": "Cortes transversais AA' e CC' e alçado do solar, E: 1:100",
+            "es": "Secciones transversales AA' y CC' y alzado del solar, E: 1:100"
           },
           "layout": "full"
         },
@@ -1608,7 +1851,11 @@
         "pt": "Universidade de Sevilha | Escola Técnica Superior de Arquitetura de Sevilha (ETSAS)",
         "es": "Universidad de Sevilla | Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS)"
       },
-      "teachers": "José Joaquín Parra Bañón",
+      "teachers": {
+        "en": "Professor José Joaquín Parra Bañón",
+        "pt": "Professor José Joaquín Parra Bañón",
+        "es": "Profesor José Joaquín Parra Bañón"
+      },
       "thumbnail": "projects/outros-trabalhos/02-capillas-san-bruno/colunas-5.jpg",
       "hero": "projects/outros-trabalhos/02-capillas-san-bruno/01-axonometria.jpg",
       "concept": {
@@ -1625,97 +1872,64 @@
           },
           "src": "projects/outros-trabalhos/02-capillas-san-bruno/01-axonometria.jpg",
           "caption": {
-            "en": "Axonometric projection, scale 1:30",
-            "pt": "Perspetiva axonométrica, E 1.30",
-            "es": "Perspectiva axonométrica, E 1.30"
+            "en": "Axonometric projection, Scale: 1:30",
+            "pt": "Perspetiva axonométrica, E: 1:30",
+            "es": "Perspectiva axonométrica, E: 1:30"
           },
           "layout": "inset"
         },
         {
-          "mosaic": "justified stack",
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/02-seccao-longitudinal-l1.jpg",
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/03-planta-pavimento-s1.jpg",
           "caption": {
-            "en": "Longitudinal section L1, scale 1:40",
-            "pt": "Secção longitudinal L1, E 1.40",
-            "es": "Sección longitudinal L1, E 1.40"
+            "en": "Floor plan S1, Scale: 1:40",
+            "pt": "Planta de pavimento S1, E: 1:40",
+            "es": "Plano de suelo S1, E: 1:40"
+          },
+          "layout": "tile",
+          "mosaic": "justified stack"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/05-planta-teto-s2.jpg",
+          "caption": {
+            "en": "Reflected ceiling plan S2, Scale: 1:40",
+            "pt": "Planta de teto S2, E: 1:40",
+            "es": "Plano de techo S2, E: 1:40"
           },
           "layout": "tile"
         },
         {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/03-planta-pavimento-s1.jpg",
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/02-seccao-longitudinal-l1.jpg",
           "caption": {
-            "en": "Floor plan S1, scale 1:40",
-            "pt": "Planta de pavimento S1, E 1.40",
-            "es": "Plano de suelo S1, E 1.40"
+            "en": "Longitudinal section L1, Scale: 1:40",
+            "pt": "Secção longitudinal L1, E: 1:40",
+            "es": "Sección longitudinal L1, E: 1:40"
           },
           "layout": "tile"
         },
         {
           "src": "projects/outros-trabalhos/02-capillas-san-bruno/04-seccao-longitudinal-l2.jpg",
           "caption": {
-            "en": "Longitudinal section L2, scale 1:40",
-            "pt": "Secção longitudinal L2, E 1.40",
-            "es": "Sección longitudinal L2, E 1.40"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/05-planta-teto-s2.jpg",
-          "caption": {
-            "en": "Reflected ceiling plan S2, scale 1:40",
-            "pt": "Planta de teto S2, E 1.40",
-            "es": "Plano de techo S2, E 1.40"
+            "en": "Longitudinal section L2, Scale: 1:40",
+            "pt": "Secção longitudinal L2, E: 1:40",
+            "es": "Sección longitudinal L2, E: 1:40"
           },
           "layout": "tile"
         },
         {
           "src": "projects/outros-trabalhos/02-capillas-san-bruno/06-seccoes-transversais.jpg",
           "caption": {
-            "en": "Cross sections T1, T2, T3 and T4, scale 1:40",
-            "pt": "Secções transversais T1, T2, T3 e T4, E 1.40",
-            "es": "Secciones transversales T1, T2, T3 y T4, E 1.40"
+            "en": "Cross sections T1, T2, T3 and T4, Scale: 1:40",
+            "pt": "Secções transversais T1, T2, T3 e T4, E: 1:40",
+            "es": "Secciones transversales T1, T2, T3 y T4, E: 1:40"
           },
           "layout": "tile"
         },
         {
           "src": "projects/outros-trabalhos/02-capillas-san-bruno/07-colunas.jpg",
           "caption": {
-            "en": "Detail drawing of the columns, scale 1:30",
-            "pt": "Desenho de pormenor das colunas, E 1.30",
-            "es": "Dibujo de detalle de las columnas, E 1.30"
-          },
-          "layout": "tile"
-        },
-        {
-          "section": {
-            "en": "Sketches",
-            "pt": "Croquis",
-            "es": "Croquis"
-          },
-          "mosaic": "justified stack",
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/08-croquis-1.jpg",
-          "caption": {
-            "en": "Survey sketches of the columns",
-            "pt": "Croquis de levantamento das colunas",
-            "es": "Croquis de levantamiento de las columnas"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/09-croquis-2.jpg",
-          "caption": {
-            "en": "Sketch of the longitudinal section",
-            "pt": "Croquis da secção longitudinal",
-            "es": "Croquis de la sección longitudinal"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "projects/outros-trabalhos/02-capillas-san-bruno/10-croquis-3.jpg",
-          "caption": {
-            "en": "Sketch of the column layout",
-            "pt": "Croquis da implantação das colunas",
-            "es": "Croquis de la disposición de las columnas"
+            "en": "Detail drawing of the columns, Scale: 1:30",
+            "pt": "Desenho de pormenor das colunas, E: 1:30",
+            "es": "Dibujo de detalle de las columnas, E: 1:30"
           },
           "layout": "tile"
         },
@@ -1727,20 +1941,15 @@
           },
           "mosaic": "justified-2",
           "src": "projects/outros-trabalhos/02-capillas-san-bruno/14-foto-abobada-1.jpg",
-          "caption": {
-            "en": "Ribbed vault with mural painting",
-            "pt": "Abóbada de nervuras com pintura mural",
-            "es": "Bóveda de nervaduras con pintura mural"
-          },
-          "layout": "tile"
+          "layout": "tile",
+          "groupCaption": {
+            "en": "Vault with mural painting",
+            "pt": "Abóbada com pintura mural",
+            "es": "Bóveda con pintura mural"
+          }
         },
         {
           "src": "projects/outros-trabalhos/02-capillas-san-bruno/15-foto-abobada-2.jpg",
-          "caption": {
-            "en": "Vault with fragments of mural painting",
-            "pt": "Abóbada com fragmentos de pintura mural",
-            "es": "Bóveda con fragmentos de pintura mural"
-          },
           "layout": "tile"
         },
         {
@@ -1797,6 +2006,39 @@
             "es": "Columnata junto a la galería"
           },
           "layout": "tile"
+        },
+        {
+          "section": {
+            "en": "Sketches",
+            "pt": "Croquis",
+            "es": "Croquis"
+          },
+          "mosaic": "scroll",
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/08-croquis-1.jpg",
+          "caption": {
+            "en": "Survey sketches of the columns",
+            "pt": "Croquis de levantamento das colunas",
+            "es": "Croquis de levantamiento de las columnas"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/09-croquis-2.jpg",
+          "caption": {
+            "en": "Sketch of the longitudinal section",
+            "pt": "Croquis da secção longitudinal",
+            "es": "Croquis de la sección longitudinal"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "projects/outros-trabalhos/02-capillas-san-bruno/10-croquis-3.jpg",
+          "caption": {
+            "en": "Sketch of the column layout",
+            "pt": "Croquis da implantação das colunas",
+            "es": "Croquis de la disposición de las columnas"
+          },
+          "layout": "tile"
         }
       ]
     },
@@ -1828,7 +2070,11 @@
         "pt": "Universidade de Évora",
         "es": "Universidad de Évora"
       },
-      "teachers": "Jorge Sá",
+      "teachers": {
+        "en": "Professor Jorge Sá",
+        "pt": "Professor Jorge Sá",
+        "es": "Profesor Jorge Sá"
+      },
       "thumbnail": "projects/outros-trabalhos/03-espaco-verde-leoes/05-vista-4.jpg",
       "hero": "projects/outros-trabalhos/03-espaco-verde-leoes/01-painel-jardim-dos-leoes.jpg",
       "concept": {
@@ -1884,14 +2130,15 @@
           "layout": "tile"
         },
         {
-          "type": "video",
-          "src": "projects/outros-trabalhos/03-espaco-verde-leoes/06-video.mp4",
+          "type": "vimeo",
           "caption": {
             "en": "Video of the garden",
             "pt": "Vídeo do jardim",
             "es": "Vídeo del jardín"
           },
-          "layout": "full"
+          "layout": "full",
+          "vimeo": "1246878229",
+          "loop": true
         }
       ]
     },
@@ -1923,7 +2170,11 @@
         "pt": "Universidade de Sevilha | Escola Técnica Superior de Arquitetura de Sevilha (ETSAS)",
         "es": "Universidad de Sevilla | Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS)"
       },
-      "teachers": "Carmen de Tomás Medina",
+      "teachers": {
+        "en": "Professor Carmen de Tomás Medina",
+        "pt": "Professora Carmen de Tomás Medina",
+        "es": "Profesora Carmen de Tomás Medina"
+      },
       "authors": "Carlota de Sousa Azenha da Rocha | Margarida Alves Pereira",
       "thumbnail": "projects/outros-trabalhos/05-taller/07-praca-tomas-pavon.jpg",
       "hero": "projects/outros-trabalhos/05-taller/07-praca-tomas-pavon.jpg",
@@ -2056,7 +2307,11 @@
         "pt": "Universidade de Sevilha | Escola Técnica Superior de Arquitetura de Sevilha (ETSAS)",
         "es": "Universidad de Sevilla | Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS)"
       },
-      "teachers": "Andrés Salazar Leo",
+      "teachers": {
+        "en": "Professor Andrés Salazar Leo",
+        "pt": "Professor Andrés Salazar Leo",
+        "es": "Profesor Andrés Salazar Leo"
+      },
       "authors": "Carlota Rocha | Emma Breteau | Margarida Pereira",
       "thumbnail": "projects/outros-trabalhos/04-valencina/00-thumbnail.jpg",
       "hero": "projects/outros-trabalhos/04-valencina/05-zona-sul.jpg",
@@ -2107,54 +2362,54 @@
         {
           "src": "projects/outros-trabalhos/04-valencina/07-morfologias.jpg",
           "caption": {
-            "en": "Urban morphologies, scale 1:6000",
-            "pt": "Morfologias urbanas, E 1.6000",
-            "es": "Morfologías urbanas, E 1.6000"
+            "en": "Urban morphologies, Scale: 1:6000",
+            "pt": "Morfologias urbanas, E: 1:6000",
+            "es": "Morfologías urbanas, E: 1:6000"
           },
           "layout": "full"
         },
         {
           "src": "projects/outros-trabalhos/04-valencina/08-viario.jpg",
           "caption": {
-            "en": "Interurban and urban roads, scale 1:6000",
-            "pt": "Viário interurbano e urbano, E 1.6000",
-            "es": "Viario interurbano y urbano, E 1.6000"
+            "en": "Interurban and urban roads, Scale: 1:6000",
+            "pt": "Viário interurbano e urbano, E: 1:6000",
+            "es": "Viario interurbano y urbano, E: 1:6000"
           },
           "layout": "full"
         },
         {
           "src": "projects/outros-trabalhos/04-valencina/09-viario-interurbano.jpg",
           "caption": {
-            "en": "Interurban roads: street profiles, scale 1:6000",
-            "pt": "Viário interurbano: perfis de rua, E 1.6000",
-            "es": "Viario interurbano: perfiles de calle, E 1.6000"
+            "en": "Interurban roads: street profiles, Scale: 1:6000",
+            "pt": "Viário interurbano: perfis de rua, E: 1:6000",
+            "es": "Viario interurbano: perfiles de calle, E: 1:6000"
           },
           "layout": "full"
         },
         {
           "src": "projects/outros-trabalhos/04-valencina/10-viario-urbano.jpg",
           "caption": {
-            "en": "Urban roads: street profiles, scale 1:6000",
-            "pt": "Viário urbano: perfis de rua, E 1.6000",
-            "es": "Viario urbano: perfiles de calle, E 1.6000"
+            "en": "Urban roads: street profiles, Scale: 1:6000",
+            "pt": "Viário urbano: perfis de rua, E: 1:6000",
+            "es": "Viario urbano: perfiles de calle, E: 1:6000"
           },
           "layout": "full"
         },
         {
           "src": "projects/outros-trabalhos/04-valencina/11-tipologia-1.jpg",
           "caption": {
-            "en": "Building typologies: detached and semi-detached, scale 1:6000",
-            "pt": "Tipologias de edificação: isolada e geminada, E 1.6000",
-            "es": "Tipologías edificatorias: aislada y pareada, E 1.6000"
+            "en": "Building typologies: detached and semi-detached, Scale: 1:6000",
+            "pt": "Tipologias de edificação: isolada e geminada, E: 1:6000",
+            "es": "Tipologías edificatorias: aislada y pareada, E: 1:6000"
           },
           "layout": "full"
         },
         {
           "src": "projects/outros-trabalhos/04-valencina/12-tipologia-2.jpg",
           "caption": {
-            "en": "Building typologies: terraced and between party walls, scale 1:6000",
-            "pt": "Tipologias de edificação: em banda e entre empenas, E 1.6000",
-            "es": "Tipologías edificatorias: adosada y entre medianeras, E 1.6000"
+            "en": "Building typologies: terraced and between party walls, Scale: 1:6000",
+            "pt": "Tipologias de edificação: em banda e entre empenas, E: 1:6000",
+            "es": "Tipologías edificatorias: adosada y entre medianeras, E: 1:6000"
           },
           "layout": "full"
         }
@@ -2457,7 +2712,11 @@
         "pt": "Universidade de Sevilha | Escola Técnica Superior de Arquitetura de Sevilha (ETSAS)",
         "es": "Universidad de Sevilla | Escuela Técnica Superior de Arquitectura de Sevilla (ETSAS)"
       },
-      "teachers": "José Joaquín Parra Bañón",
+      "teachers": {
+        "en": "Professor José Joaquín Parra Bañón",
+        "pt": "Professor José Joaquín Parra Bañón",
+        "es": "Profesor José Joaquín Parra Bañón"
+      },
       "thumbnail": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/01.jpg",
       "hero": "projects/outros-trabalhos/07-cuaderno-caligrafico/paginas/00-capa.jpg",
       "concept": {

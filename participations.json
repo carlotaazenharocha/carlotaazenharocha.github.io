@@ -89,20 +89,20 @@
           "layout": "tile"
         },
         {
-          "src": "participations/refazer-paisagens/07-reservatorio-implantacao.jpg",
+          "src": "participations/refazer-paisagens/07-reservatorio-corte-transversal.jpg",
           "caption": {
-            "en": "General plan of the reservoir",
-            "pt": "Planta geral do reservatório",
-            "es": "Planta general del depósito"
+            "en": "Cross section of the reservoir",
+            "pt": "Corte transversal do reservatório",
+            "es": "Sección transversal del depósito"
           },
           "layout": "tile"
         },
         {
           "src": "participations/refazer-paisagens/08-reservatorio-corte.jpg",
           "caption": {
-            "en": "Section through the reservoir",
-            "pt": "Corte do reservatório",
-            "es": "Sección del depósito"
+            "en": "Longitudinal section of the reservoir",
+            "pt": "Corte longitudinal do reservatório",
+            "es": "Sección longitudinal del depósito"
           },
           "layout": "tile"
         }
@@ -140,7 +140,7 @@
       },
       "images": [
         {
-          "mosaic": "justified-2",
+          "mosaic": "justified-3",
           "src": "participations/youth-sustainability/01-grupo.jpg",
           "caption": {
             "en": "Exchange participants",
@@ -159,17 +159,7 @@
           "layout": "tile"
         },
         {
-          "mosaic": "justified-2",
-          "src": "participations/youth-sustainability/03-ikigai.jpg",
-          "caption": {
-            "en": "The concept of Ikigai",
-            "pt": "O conceito de Ikigai",
-            "es": "El concepto de Ikigai"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "participations/youth-sustainability/04-trabalho-em-grupo.jpg",
+          "src": "participations/youth-sustainability/03-trabalho-em-grupo.jpg",
           "caption": {
             "en": "Group work on skills",
             "pt": "Trabalho em grupo sobre competências",
@@ -890,6 +880,24 @@
             "en": "Sketch of the proposal",
             "pt": "Esquisso da proposta",
             "es": "Boceto de la propuesta"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/floods-opportunity/08-esquisso-sistema-agua.jpg",
+          "caption": {
+            "pt": "Esquisso do sistema de gestão da água",
+            "en": "Sketch of the water management system",
+            "es": "Boceto del sistema de gestión del agua"
+          },
+          "layout": "tile"
+        },
+        {
+          "src": "participations/floods-opportunity/09-sessao-de-trabalho.jpg",
+          "caption": {
+            "pt": "Sessão de trabalho com as maquetas e os desenhos do território",
+            "en": "Working session with the models and drawings of the territory",
+            "es": "Sesión de trabajo con las maquetas y los dibujos del territorio"
           },
           "layout": "tile"
         }

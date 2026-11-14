@@ -62,7 +62,11 @@
         "pt": "Orientadora",
         "es": "Directora"
       },
-      "value": "Sofia Aleixo"
+      "value": {
+        "en": "Professor Sofia Aleixo, PhD",
+        "pt": "Professora Doutora Sofia Aleixo",
+        "es": "Profesora Doctora Sofia Aleixo"
+      }
     }
   ],
   "sections": [
@@ -129,9 +133,9 @@
         },
         {
           "title": {
-            "pt": "Casos de estudo",
-            "en": "Case studies",
-            "es": "Casos de estudio"
+            "pt": "Precedentes",
+            "en": "Precedents",
+            "es": "Precedentes"
           },
           "text": {
             "pt": "A análise comparada de quatro intervenções em edifícios religiosos, para definir critérios de intervenção adequados à Tomina.",
@@ -168,9 +172,9 @@
           "src": "research/images/03-carta-perimetro-contenda.jpg",
           "layout": "half",
           "caption": {
-            "pt": "Carta de localização do Perímetro Florestal da Contenda, com o Convento a vermelho, 1:25 000. Elaborada por João Ribeiro (2009)",
-            "en": "Location map of the Contenda forest area, with the convent in red, 1:25,000. Drawn by João Ribeiro (2009)",
-            "es": "Mapa de localización del Perímetro Forestal de la Contenda, con el Convento en rojo, 1:25 000. Elaborado por João Ribeiro (2009)"
+            "pt": "Carta de localização do Perímetro Florestal da Contenda, com o Convento a vermelho, E: 1:25 000. Elaborada por João Ribeiro (2009)",
+            "en": "Location map of the Contenda forest area, with the convent in red, Scale: 1:25,000. Drawn by João Ribeiro (2009)",
+            "es": "Mapa de localización del Perímetro Forestal de la Contenda, con el Convento en rojo, E: 1:25 000. Elaborado por João Ribeiro (2009)"
           }
         },
         {
@@ -463,9 +467,9 @@
         {
           "src": "research/images/15-ruinas-igreja.jpg",
           "caption": {
-            "pt": "Agora · as ruínas da igreja, com a torre sineira",
-            "en": "Now · the ruins of the church, with the bell tower",
-            "es": "Ahora · las ruinas de la iglesia, con el campanario"
+            "pt": "Agora · a igreja, com a torre sineira",
+            "en": "Now · the church, with the bell tower",
+            "es": "Ahora · la iglesia, con el campanario"
           },
           "layout": "tile"
         },
@@ -810,7 +814,7 @@
             "es": "Modelo fotogramétrico texturizado, a partir de las imágenes de dron de Rui Amaro"
           },
           "layout": "tile",
-          "mosaic": "justified-4 phone-scroll"
+          "mosaic": "justified-2 phone-scroll"
         },
         {
           "src": "research/images/44-modelo-alcado.jpg",
@@ -822,129 +826,75 @@
           "layout": "tile"
         },
         {
-          "src": "research/images/45-nuvem-torre.jpg",
+          "src": "research/images/45-planta-implantacao.jpg",
           "caption": {
-            "pt": "Nuvem de pontos: torre sineira, a partir das imagens de drone de Rui Amaro",
-            "en": "Point cloud: bell tower, from drone images by Rui Amaro",
-            "es": "Nube de puntos: campanario, a partir de las imágenes de dron de Rui Amaro"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "research/images/46-nuvem-alcado.jpg",
-          "caption": {
-            "pt": "Nuvem de pontos: alçado, a partir das imagens de drone de Rui Amaro",
-            "en": "Point cloud: elevation, from drone images by Rui Amaro",
-            "es": "Nube de puntos: alzado, a partir de las imágenes de dron de Rui Amaro"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "research/images/47-nuvem-tardoz.jpg",
-          "caption": {
-            "pt": "Nuvem de pontos: alçado tardoz, a partir das imagens de drone de Rui Amaro",
-            "en": "Point cloud: rear elevation, from drone images by Rui Amaro",
-            "es": "Nube de puntos: alzado trasero, a partir de las imágenes de dron de Rui Amaro"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "research/images/48-nuvem-planta.jpg",
-          "caption": {
-            "pt": "Nuvem de pontos: planta, a partir das imagens de drone de Rui Amaro",
-            "en": "Point cloud: plan, from drone images by Rui Amaro",
-            "es": "Nube de puntos: planta, a partir de las imágenes de dron de Rui Amaro"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "research/images/49-nuvem-planta-cobertura.jpg",
-          "caption": {
-            "pt": "Nuvem de pontos: cobertura, a partir das imagens de drone de Rui Amaro",
-            "en": "Point cloud: roof, from drone images by Rui Amaro",
-            "es": "Nube de puntos: cubierta, a partir de las imágenes de dron de Rui Amaro"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "research/images/50-nuvem-planta-piso.jpg",
-          "caption": {
-            "pt": "Nuvem de pontos: piso, a partir das imagens de drone de Rui Amaro",
-            "en": "Point cloud: floor, from drone images by Rui Amaro",
-            "es": "Nube de puntos: planta de piso, a partir de las imágenes de dron de Rui Amaro"
-          },
-          "layout": "tile"
-        },
-        {
-          "src": "research/images/51-planta-implantacao.jpg",
-          "caption": {
-            "pt": "Planta de implantação e envolvente, com o relevo e a Ribeira de Pae Joanes, 1:600",
-            "en": "Site plan and surroundings, with the relief and the Pae Joanes stream, 1:600",
-            "es": "Plano de emplazamiento y entorno, con el relieve y la Ribera de Pae Joanes, 1:600"
+            "pt": "Planta de implantação e envolvente, com o relevo e a Ribeira de Pae Joanes, E: 1:600",
+            "en": "Site plan and surroundings, with the relief and the Pae Joanes stream, Scale: 1:600",
+            "es": "Plano de emplazamiento y entorno, con el relieve y la Ribera de Pae Joanes, E: 1:600"
           },
           "layout": "full"
         },
         {
-          "src": "research/images/52-plantas.jpg",
+          "src": "research/images/46-plantas.jpg",
           "caption": {
-            "en": "Roof plan and floor plan, 1:250",
-            "pt": "Planta de cobertura e planta de piso, 1:250",
-            "es": "Planta de cubierta y planta de piso, 1:250"
+            "en": "Roof plan and floor plan, Scale: 1:250",
+            "pt": "Planta de cobertura e planta de piso, E: 1:250",
+            "es": "Planta de cubierta y planta de piso, E: 1:250"
           },
           "layout": "full"
         },
         {
-          "src": "research/images/53-alcado-frontal.jpg",
+          "src": "research/images/47-alcado-frontal.jpg",
           "caption": {
-            "pt": "Alçado frontal, 1:250",
-            "en": "Front elevation, 1:250",
-            "es": "Alzado frontal, 1:250"
+            "pt": "Alçado frontal, E: 1:250",
+            "en": "Front elevation, Scale: 1:250",
+            "es": "Alzado frontal, E: 1:250"
           },
           "layout": "tile",
           "mosaic": "scroll drawings"
         },
         {
-          "src": "research/images/54-alcado-tardoz.jpg",
+          "src": "research/images/48-alcado-tardoz.jpg",
           "caption": {
-            "pt": "Alçado tardoz, 1:250",
-            "en": "Rear elevation, 1:250",
-            "es": "Alzado trasero, 1:250"
+            "pt": "Alçado tardoz, E: 1:250",
+            "en": "Rear elevation, Scale: 1:250",
+            "es": "Alzado trasero, E: 1:250"
           },
           "layout": "tile"
         },
         {
-          "src": "research/images/55-alcado-sudeste.jpg",
+          "src": "research/images/49-alcado-sudeste.jpg",
           "caption": {
-            "pt": "Alçado sudeste, 1:250",
-            "en": "South-east elevation, 1:250",
-            "es": "Alzado sureste, 1:250"
+            "pt": "Alçado sudeste, E: 1:250",
+            "en": "South-east elevation, Scale: 1:250",
+            "es": "Alzado sureste, E: 1:250"
           },
           "layout": "tile"
         },
         {
-          "src": "research/images/56-alcado-noroeste.jpg",
+          "src": "research/images/50-alcado-noroeste.jpg",
           "caption": {
-            "pt": "Alçado noroeste, 1:250",
-            "en": "North-west elevation, 1:250",
-            "es": "Alzado noroeste, 1:250"
+            "pt": "Alçado noroeste, E: 1:250",
+            "en": "North-west elevation, Scale: 1:250",
+            "es": "Alzado noroeste, E: 1:250"
           },
           "layout": "tile"
         },
         {
-          "src": "research/images/57-corte-transversal.jpg",
+          "src": "research/images/51-corte-transversal.jpg",
           "caption": {
-            "pt": "Corte transversal, 1:250",
-            "en": "Cross section, 1:250",
-            "es": "Sección transversal, 1:250"
+            "pt": "Corte transversal, E: 1:250",
+            "en": "Cross section, Scale: 1:250",
+            "es": "Sección transversal, E: 1:250"
           },
           "layout": "tile"
         },
         {
-          "src": "research/images/58-corte-longitudinal.jpg",
+          "src": "research/images/52-corte-longitudinal.jpg",
           "caption": {
-            "pt": "Corte longitudinal, 1:250",
-            "en": "Longitudinal section, 1:250",
-            "es": "Sección longitudinal, 1:250"
+            "pt": "Corte longitudinal, E: 1:250",
+            "en": "Longitudinal section, Scale: 1:250",
+            "es": "Sección longitudinal, E: 1:250"
           },
           "layout": "tile"
         }
@@ -1172,81 +1122,15 @@
     {
       "type": "cases",
       "title": {
-        "pt": "Casos de estudo",
-        "en": "Case studies",
-        "es": "Casos de estudio"
+        "pt": "Precedentes",
+        "en": "Precedents",
+        "es": "Precedentes"
       },
       "text": {
-        "pt": "A estratégia nasce da comparação com quatro intervenções em edifícios religiosos. Não se trata de copiar soluções, mas de retirar princípios e verificar como se adaptam à Tomina.",
-        "en": "The strategy comes from comparing four interventions in religious buildings. The aim is not to copy solutions but to draw principles from them and test how they adapt to the Tomina.",
-        "es": "La estrategia nace de la comparación con cuatro intervenciones en edificios religiosos. No se trata de copiar soluciones, sino de extraer principios y comprobar cómo se adaptan a la Tomina."
+        "pt": "A comparação com precedentes de intervenção em edifícios religiosos, desenvolvida na dissertação, não procura copiar soluções, mas retirar princípios e verificar como se adaptam à Tomina. Daí resultam os critérios de intervenção.",
+        "en": "The comparison with precedents of intervention in religious buildings, developed in the dissertation, does not seek to copy solutions but to draw principles from them and test how they adapt to the Tomina. The intervention criteria come from it.",
+        "es": "La comparación con precedentes de intervención en edificios religiosos, desarrollada en la disertación, no busca copiar soluciones, sino extraer principios y comprobar cómo se adaptan a la Tomina. De ella resultan los criterios de intervención."
       },
-      "labels": {
-        "principle": {
-          "pt": "Princípio",
-          "en": "Principle",
-          "es": "Principio"
-        },
-        "application": {
-          "pt": "Na Tomina",
-          "en": "At the Tomina",
-          "es": "En la Tomina"
-        }
-      },
-      "items": [
-        {
-          "name": "Mosteiro de Santa Maria do Bouro",
-          "principle": {
-            "pt": "Adaptação funcional através de um novo programa compatível com a pré-existência.",
-            "en": "Functional adaptation through a new programme compatible with the existing building.",
-            "es": "Adaptación funcional mediante un nuevo programa compatible con la preexistencia."
-          },
-          "application": {
-            "pt": "Uma ruína pode acolher um novo uso, mas a escala deste programa não é transponível. Fica apenas definido que um uso futuro deverá preservar a organização espacial e os elementos identitários.",
-            "en": "A ruin can take on a new use, but the scale of this programme cannot be transferred. It only sets that any future use must preserve the spatial organisation and the elements of identity.",
-            "es": "Una ruina puede acoger un nuevo uso, pero la escala de este programa no es trasladable. Solo se establece que un uso futuro deberá preservar la organización espacial y los elementos identitarios."
-          }
-        },
-        {
-          "name": "Antiga Igreja de Corbera d'Ebre",
-          "principle": {
-            "pt": "Proteção da ruína com um elemento contemporâneo leve, estruturalmente autónomo e distinguível.",
-            "en": "Protecting the ruin with a light contemporary element, structurally independent and distinguishable.",
-            "es": "Protección de la ruina con un elemento contemporáneo ligero, estructuralmente autónomo y distinguible."
-          },
-          "application": {
-            "pt": "Uma cobertura leve sobre apoios independentes para proteger abóbadas e paramentos, apenas como hipótese a avaliar na última fase.",
-            "en": "A light roof on independent supports to protect vaults and walls, only as a possibility to assess in the last phase.",
-            "es": "Una cubierta ligera sobre apoyos independientes para proteger bóvedas y paramentos, solo como hipótesis a evaluar en la última fase."
-          }
-        },
-        {
-          "name": "Convento dos Capuchos de Alferrara",
-          "principle": {
-            "pt": "Estabilização da ruína, controlo da vegetação, manutenção periódica, percursos qualificados e envolvimento da comunidade.",
-            "en": "Stabilising the ruin, controlling vegetation, periodic maintenance, improved paths and community involvement.",
-            "es": "Estabilización de la ruina, control de la vegetación, mantenimiento periódico, recorridos cualificados e implicación de la comunidad."
-          },
-          "application": {
-            "pt": "Uma das referências mais próximas: primeiro consolidar, depois manter, percursos controlados e a comunidade a comunicar sinais de degradação.",
-            "en": "One of the closest references: first consolidate, then maintain, with controlled paths and the community reporting signs of decay.",
-            "es": "Una de las referencias más cercanas: primero consolidar, luego mantener, recorridos controlados y la comunidad comunicando señales de degradación."
-          }
-        },
-        {
-          "name": "Convento de Santa Cruz da Serra de Sintra",
-          "principle": {
-            "pt": "Intervenção mínima, compatibilidade material, conservação seletiva e respeito pela experiência espiritual e paisagística do lugar.",
-            "en": "Minimal intervention, material compatibility, selective conservation and respect for the spiritual and landscape experience of the place.",
-            "es": "Intervención mínima, compatibilidad material, conservación selectiva y respeto por la experiencia espiritual y paisajística del lugar."
-          },
-          "application": {
-            "pt": "Soluções compatíveis com a alvenaria de xisto e as argamassas de cal, conservando as marcas do tempo e a dimensão eremítica do Convento.",
-            "en": "Solutions compatible with the schist masonry and lime mortars, keeping the marks of time and the hermitic character of the convent.",
-            "es": "Soluciones compatibles con la mampostería de pizarra y los morteros de cal, conservando las huellas del tiempo y la dimensión eremítica del Convento."
-          }
-        }
-      ],
       "criteriaTitle": {
         "pt": "Critérios de intervenção",
         "en": "Intervention criteria",

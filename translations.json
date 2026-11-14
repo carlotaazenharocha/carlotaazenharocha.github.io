@@ -29,8 +29,7 @@
       "intro": "Believing that learning is largely the result of experience, I have been putting into practice my enthusiasm for architecture through programs and volunteering that foster my growth as a person and as a student.",
       "intro2": "In addition to this interest, I enjoy being involved with sustainability, the arts, dance, sports, music, and nature.",
       "skills": "Technical Skills",
-      "skills_experienced": "Experienced",
-      "skills_learning": "Learning",
+      "skills_computer": "Computer",
       "languages": "Languages",
       "language_native": "Native",
       "experience": "Professional Experience",
@@ -47,17 +46,16 @@
         "location": "Location",
         "linkedin": "LinkedIn"
       },
-      "skills_practice": "Drawing and making",
+      "skills_practice": "Drawing | Making",
       "participations_more": "See all",
       "participations_less": "See fewer"
     },
     "participation": {
-      "back_to_about": "Back to About",
       "external_links": "External Links",
       "related_project": "Related project"
     },
     "footer": {
-      "copyright": "© 2026 Carlota Azenha da Rocha. All rights reserved.",
+      "copyright": "© 2026 Carlota de Sousa Azenha da Rocha. All rights reserved.",
       "credit": "Website"
     }
   },
@@ -91,8 +89,7 @@
       "intro": "Acreditando que a aprendizagem é, em grande medida, o resultado da experiência obtida, tenho vindo a colocar em prática o meu entusiasmo pela participação em programas e voluntariados que me fazem crescer enquanto pessoa e estudante de Arquitetura.",
       "intro2": "Além deste interesse, gosto de estar relacionada com o tema da sustentabilidade, com as artes, com a dança, com o desporto, com a música e com a natureza.",
       "skills": "Competências Técnicas",
-      "skills_experienced": "Experiente",
-      "skills_learning": "A aprender",
+      "skills_computer": "Computacionais",
       "languages": "Idiomas",
       "language_native": "Nativo",
       "experience": "Experiência Profissional",
@@ -109,17 +106,16 @@
         "location": "Localização",
         "linkedin": "LinkedIn"
       },
-      "skills_practice": "Desenho e construção",
+      "skills_practice": "Desenho | Manualidades",
       "participations_more": "Ver todas",
       "participations_less": "Ver menos"
     },
     "participation": {
-      "back_to_about": "Voltar a Sobre",
       "external_links": "Links Externos",
       "related_project": "Projeto relacionado"
     },
     "footer": {
-      "copyright": "© 2026 Carlota Azenha da Rocha. Todos os direitos reservados.",
+      "copyright": "© 2026 Carlota de Sousa Azenha da Rocha. Todos os direitos reservados.",
       "credit": "Site"
     }
   },
@@ -153,8 +149,7 @@
       "intro": "Creyendo que el aprendizaje es, en gran medida, el resultado de la experiencia obtenida, he puesto en práctica mi entusiasmo por la participación en programas y voluntariados que me hacen crecer como persona y estudiante de Arquitectura.",
       "intro2": "Además de este interés, me gusta estar relacionada con el tema de la sostenibilidad, las artes, la danza, el deporte, la música y la naturaleza.",
       "skills": "Competencias Técnicas",
-      "skills_experienced": "Experimentada",
-      "skills_learning": "Aprendiendo",
+      "skills_computer": "Informáticas",
       "languages": "Idiomas",
       "language_native": "Nativo",
       "experience": "Experiencia Profesional",
@@ -171,17 +166,16 @@
         "location": "Ubicación",
         "linkedin": "LinkedIn"
       },
-      "skills_practice": "Dibujo y construcción",
+      "skills_practice": "Dibujo | Manualidades",
       "participations_more": "Ver todas",
       "participations_less": "Ver menos"
     },
     "participation": {
-      "back_to_about": "Volver a Sobre mí",
       "external_links": "Enlaces Externos",
       "related_project": "Proyecto relacionado"
     },
     "footer": {
-      "copyright": "© 2026 Carlota Azenha da Rocha. Todos los derechos reservados.",
+      "copyright": "© 2026 Carlota de Sousa Azenha da Rocha. Todos los derechos reservados.",
       "credit": "Web"
     }
   }

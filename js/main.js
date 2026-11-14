@@ -82,6 +82,7 @@ function t(key) {
 
 // Get translated content from bilingual object
 function getText(obj) {
+  if (obj == null) return '';
   if (typeof obj === 'string') return obj;
   if (typeof obj === 'object' && obj[currentLanguage]) {
     return obj[currentLanguage];
@@ -434,10 +435,10 @@ function renderPart(part, number) {
         ${part.subtitle ? `<p class="project-part-subtitle">${getText(part.subtitle)}</p>` : ''}
       </div>
     </div>
-    <div class="project-intro-body">
-      <div class="project-concept">${paragraphs(part.text)}</div>
+    ${part.text || details ? `<div class="project-intro-body">
+      <div class="project-concept">${part.text ? paragraphs(part.text) : ''}</div>
       ${details ? `<dl class="project-metadata">${details}</dl>` : ''}
-    </div>
+    </div>` : ''}
   `;
   return header;
 }
@@ -460,7 +461,11 @@ function renderImages(container, images, parts = []) {
   let row = null;
   let mosaic = null;
   let mosaicRow = MOSAIC_ROW;
+  let groupCaption = null;
   images.forEach(image => {
+    // Pictures under a mosaic's shared caption take it as their description
+    if (image.layout !== 'tile' || image.mosaic) groupCaption = image.groupCaption || null;
+    const alt = getText(image.caption || groupCaption);
 
     // Optional part opening before this image (its sections follow it)
     const part = image.part && parts.find(item => item.id === image.part);
@@ -493,13 +498,13 @@ function renderImages(container, images, parts = []) {
     // ("vertical" for a 9:16 video; "autoplay" plays it silently in a loop;
     // "loop" starts it over when it ends)
     const vimeoParams = `dnt=1${image.autoplay ? '&autoplay=1&muted=1&loop=1' : image.loop ? '&loop=1' : ''}`;
-    const vimeo = `<div class="video-embed${image.vertical ? ' video-embed--vertical' : ''}"><iframe src="https://player.vimeo.com/video/${image.vimeo}?${vimeoParams}" title="${getText(image.caption)}" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div>`;
+    const vimeo = `<div class="video-embed${image.vertical ? ' video-embed--vertical' : ''}"><iframe src="https://player.vimeo.com/video/${image.vimeo}?${vimeoParams}" title="${alt}" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div>`;
     const media = image.type === 'video' ? video
       : image.type === 'vimeo' ? vimeo
-      : `<img src="${image.src}" alt="${getText(image.caption)}" loading="lazy">`;
+      : `<img src="${image.src}" alt="${alt}" loading="lazy">`;
     imageDiv.innerHTML = `
       ${media}
-      <div class="image-caption">${getText(image.caption)}</div>
+      ${image.caption ? `<div class="image-caption">${getText(image.caption)}</div>` : ''}
     `;
 
     // Until the file exists, show a box describing the image to add
@@ -541,6 +546,13 @@ function renderImages(container, images, parts = []) {
           setupScrollStrip(strip, mosaic);
         } else {
           container.appendChild(mosaic);
+        }
+        // "groupCaption" on the first image: one caption for the whole mosaic
+        if (image.groupCaption) {
+          const caption = document.createElement('div');
+          caption.className = 'image-caption mosaic-caption';
+          caption.textContent = getText(image.groupCaption);
+          container.appendChild(caption);
         }
       }
       if (mosaic.classList.contains('project-mosaic--justified')) {
@@ -665,19 +677,19 @@ function renderResearchSection(section, number) {
     `;
   }
 
-  // Case studies, without pictures: what each one teaches and how it applies
+  // Precedents, without pictures: the text, the cases if listed, and the criteria
   if (section.type === 'cases') {
     wrapper.innerHTML = `
       ${sectionTitle(section.title)}
       <div class="research-text">${paragraphs(section.text)}</div>
-      <ol class="cases">
+      ${section.items ? `<ol class="cases">
         ${section.items.map(item => `
           <li class="case">
             <h3 class="case-name">${item.name}</h3>
             <div class="case-part"><span class="metadata-label">${getText(section.labels.principle)}</span><p>${getText(item.principle)}</p></div>
             <div class="case-part"><span class="metadata-label">${getText(section.labels.application)}</span><p>${getText(item.application)}</p></div>
           </li>`).join('')}
-      </ol>
+      </ol>` : ''}
       ${section.criteria ? `
         <h3 class="criteria-title">${getText(section.criteriaTitle)}</h3>
         <ol class="criteria">${section.criteria.map(item => `<li>${getText(item)}</li>`).join('')}</ol>` : ''}
@@ -876,16 +888,10 @@ function updateAboutPage() {
   const skillsContainer = document.getElementById('skills-section');
   if (skillsContainer && aboutData.skills) {
     skillsContainer.innerHTML = `
-      <div class="skills-group">
-        <h3>${labels.skills_experienced}</h3>
+      <div class="skills-group skills-group--wide">
+        <h3>${labels.skills_computer}</h3>
         <div class="skills-list">
-          ${skillList(aboutData.skills.experienced)}
-        </div>
-      </div>
-      <div class="skills-group">
-        <h3>${labels.skills_learning}</h3>
-        <div class="skills-list">
-          ${skillList(aboutData.skills.learning)}
+          ${skillList(aboutData.skills.computer)}
         </div>
       </div>
       ${aboutData.skills.practice ? `
@@ -917,8 +923,7 @@ function updateAboutPage() {
         <div class="cv-date">${getText(job.date)}</div>
         <div class="cv-title">${getText(job.title)}</div>
         <div class="cv-institution">${[job.office, getText(job.location)].filter(Boolean).join(' · ')}</div>
-        ${job.summary ? `<p class="cv-summary">${getText(job.summary)}</p>` : ''}
-        ${job.tasks ? `<ul class="cv-tasks">${job.tasks.map(task => `<li>${getText(task)}</li>`).join('')}</ul>` : ''}
+        ${job.description ? getText(job.description).split(/\n\s*\n/).map(text => `<p class="cv-summary">${text}</p>`).join('') : ''}
         ${job.tools ? `<ul class="cv-tags">${job.tools.map(tool => `<li>${getText(tool)}</li>`).join('')}</ul>` : ''}
         ${job.note ? `<div class="cv-note">${getText(job.note)}</div>` : ''}
       </div>
@@ -1210,12 +1215,6 @@ async function initParticipationPage() {
       `;
     }
     linksContainer.innerHTML = html;
-  }
-
-  // Back link
-  const backLink = document.getElementById('back-link');
-  if (backLink) {
-    backLink.textContent = `← ${t('participation.back_to_about')}`;
   }
 
   // Previous / next participation, in the same order as on the About page

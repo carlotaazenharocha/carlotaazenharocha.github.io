@@ -107,6 +107,6 @@ O site é publicado pelo **GitHub Pages** a partir da branch `main`. Cada `push`
 
 ## Direitos de autor
 
-© 2026 Carlota Azenha da Rocha. **Todos os direitos reservados.**
+© 2026 Carlota de Sousa Azenha da Rocha. **Todos os direitos reservados.**
 
 Os desenhos, imagens, fotografias e textos deste repositório e do site não podem ser reproduzidos nem utilizados sem autorização da autora. Ver [LICENSE](LICENSE).

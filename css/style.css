@@ -776,6 +776,7 @@ main {
   display: flex;
   gap: 1.5rem;
   overflow-x: auto;
+  overflow-y: hidden;
   padding-bottom: 1rem;
   scroll-snap-type: x proximity;
   overscroll-behavior-x: contain;
@@ -906,6 +907,16 @@ main {
   margin-top: 0.75rem;
   padding-left: 0rem;
   text-align: right;
+}
+
+/* One caption under a whole mosaic or sideways strip */
+.project-mosaic:has(+ .mosaic-caption),
+.project-scroll:has(+ .mosaic-caption) {
+  margin-bottom: 0;
+}
+
+.mosaic-caption {
+  margin-bottom: 4rem;
 }
 
 /* ============================================
@@ -1857,17 +1868,6 @@ footer {
   display: none;
 }
 
-.participation-navigation {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.participation-navigation .nav-link {
-  font-size: 0.8rem;
-  color: var(--color-text-secondary);
-}
-
 /* ============================================
    RESPONSIVE - Participations
    ============================================ */
@@ -1917,10 +1917,6 @@ footer {
   .participation-links {
     padding: 0 1rem 1.5rem;
   }
-
-  .participation-navigation {
-    padding: 1.5rem 1rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1946,7 +1942,7 @@ footer {
   max-width: 60ch;
   margin: -2rem 0 3rem;
   font-size: 1.125rem;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.5;
   color: var(--color-text-secondary);
 }
@@ -2104,7 +2100,7 @@ footer {
 .criteria-title,
 .research-subtitle-small {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0.6rem;
 }
 
@@ -2228,18 +2224,6 @@ footer {
   text-align: justify;
 }
 
-.cv-tasks {
-  margin: 0.6rem 0 0 1.1rem;
-  font-size: 0.875rem;
-  font-weight: 300;
-  line-height: 1.6;
-  color: var(--color-concept);
-}
-
-.cv-tasks li {
-  margin-bottom: 0.2rem;
-}
-
 .cv-tags {
   display: flex;
   flex-wrap: wrap;
@@ -2261,6 +2245,7 @@ footer {
   .project-mosaic--phone-scroll {
     flex-direction: row;
     overflow-x: auto;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     overscroll-behavior-x: contain;
     gap: 1rem;
@@ -2394,7 +2379,7 @@ footer {
 
 .phase-title {
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.3;
   margin-bottom: 1rem;
 }
