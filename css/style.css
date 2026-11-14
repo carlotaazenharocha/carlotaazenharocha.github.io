@@ -333,7 +333,7 @@ main {
 }
 
 .ps-card {
-  flex: 0 0 min(62%, 860px);
+  flex: 0 0 min(52%, 720px);
   scroll-snap-align: start;
   color: var(--color-text);
 }
@@ -394,7 +394,7 @@ main {
   }
 
   .ps-card {
-    flex-basis: 85%;
+    flex-basis: 78%;
   }
 
   .ps-caption {
