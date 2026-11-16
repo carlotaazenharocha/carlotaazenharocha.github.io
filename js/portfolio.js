@@ -17,7 +17,7 @@ const MM = 96 / 25.4; // CSS pixels per millimetre
 const LABELS = {
   pt: {
     portfolio: 'Portfólio', introduction: 'Introdução', education: 'Formação', participations: 'Participações',
-    skills: 'Competências', software: 'Software', practice: 'Desenho | Manualidades', languages: 'Línguas',
+    skills: 'Competências', software: 'Software', learning: 'A aprender', practice: 'Desenho | Manualidades', languages: 'Línguas',
     publications: 'Publicações', research: 'Investigação', project: 'Projeto', otherWork: 'Outros trabalhos', thanks: 'Obrigada',
     contact: 'Contacto', email: 'Email', location: 'Localização', mobility: 'Mobilidade', page: 'Pág.',
     role: 'Arquitetura', native: 'Nativa',
@@ -25,7 +25,7 @@ const LABELS = {
   },
   en: {
     portfolio: 'Portfolio', introduction: 'Introduction', education: 'Education', participations: 'Participations',
-    skills: 'Skills', software: 'Software', practice: 'Drawing | Making', languages: 'Languages',
+    skills: 'Skills', software: 'Software', learning: 'Learning', practice: 'Drawing | Making', languages: 'Languages',
     publications: 'Publications', research: 'Research', project: 'Project', otherWork: 'Other work', thanks: 'Thank you',
     contact: 'Contact', email: 'Email', location: 'Location', mobility: 'Mobility', page: 'p.',
     role: 'Architecture', native: 'Native',
@@ -33,7 +33,7 @@ const LABELS = {
   },
   es: {
     portfolio: 'Portafolio', introduction: 'Introducción', education: 'Formación', participations: 'Participaciones',
-    skills: 'Competencias', software: 'Software', practice: 'Dibujo | Manualidades', languages: 'Idiomas',
+    skills: 'Competencias', software: 'Software', learning: 'Aprendiendo', practice: 'Dibujo | Manualidades', languages: 'Idiomas',
     publications: 'Publicaciones', research: 'Investigación', project: 'Proyecto', otherWork: 'Otros trabajos', thanks: 'Gracias',
     contact: 'Contacto', email: 'Email', location: 'Ubicación', mobility: 'Movilidad', page: 'Pág.',
     role: 'Arquitectura', native: 'Nativo',
@@ -300,6 +300,7 @@ function addSkillsPage(images) {
   const lists = el('div', 'skills-lists');
   lists.append(
     rules((skills.computer || []).map(name => ({ label: name, value: label('software') }))),
+    rules((skills.learning || []).map(name => ({ label: name, value: label('learning') }))),
     rules((skills.practice || []).map(name => ({ label: getText(name), value: label('practice') }))),
     el('div', 'small-heading spaced', label('languages')),
     rules(languages)
@@ -661,19 +662,14 @@ function addPhasesPage(section) {
   body.append(title, section.intro ? el('p', 'lead phases-lead', getText(section.intro)) : el('div'), list);
 }
 
-// Classification status and publications share the last page of the chapter
-function addStatusPage(status, publications) {
+// The classification proposal and the publications share the last page of the chapter
+function addStatusPage(proposal, publications) {
   const body = addPage('page-layout layout-list');
   const title = el('div', 'list-title');
-  title.append(bigNumber(), el('h2', 'heading', getText(status?.title || publications?.title)));
+  title.append(bigNumber(), el('h2', 'heading', getText(proposal?.title || publications?.title)));
 
   const content = el('div', 'list-rules status-content');
-  if (status) {
-    content.append(
-      rules([{ label: getText(status.statusLabel), value: getText(status.status) }]),
-      el('p', 'lead', getText(status.text))
-    );
-  }
+  if (proposal) content.append(el('p', 'lead', getText(proposal.text).replace(/<[^>]+>/g, '')));
   if (publications) {
     content.append(
       el('div', 'small-heading spaced', getText(publications.title)),
@@ -683,27 +679,36 @@ function addStatusPage(status, publications) {
   body.append(title, content);
 }
 
+// Every block of every chapter of the research
+function researchBlocks() {
+  return (research?.sections || []).flatMap(section => (section.blocks || []).map(block => ({ section, block })));
+}
+
 function researchImages() {
-  return (research?.sections || []).flatMap(section => (section.images || []).map(image => image.src));
+  return researchBlocks().flatMap(({ block }) => (block.images || []).map(image => image.src));
 }
 
 // Research chapter, presented as the case study; missing images are left out
 function addResearch() {
-  const find = type => research.sections.find(section => section.type === type);
   const images = researchImages().filter(available);
   addResearchCase(images[0], images[1]);
 
   const used = new Set(images.slice(0, 2));
-  research.sections.forEach(section => {
-    if (section.type === 'timeline') addTimelinePage(section);
-    if (section.type === 'phases') addPhasesPage(section);
-    if (section.type === 'text' && section.images) {
-      const rest = section.images.filter(image => !used.has(image.src));
-      addImagePages(rest, getText(research.title), getText(section.title));
+  let proposal = null;
+  let publications = null;
+  researchBlocks().forEach(({ section, block }) => {
+    const title = block.title || section.title;
+    if (block.timeline) addTimelinePage({ title, items: block.timeline });
+    if (block.phases) addPhasesPage({ title: section.title, intro: block.text, items: block.phases });
+    if (block.images) {
+      const rest = block.images.filter(image => !used.has(image.src));
+      addImagePages(rest, getText(research.title), getText(title));
     }
+    if (block.text && /<strong>/.test(getText(block.text))) proposal = { title: block.title, text: block.text };
+    if (block.publications) publications = { title: section.title, items: block.publications };
   });
 
-  if (find('status') || find('publications')) addStatusPage(find('status'), find('publications'));
+  if (proposal || publications) addStatusPage(proposal, publications);
 }
 
 // ============================================

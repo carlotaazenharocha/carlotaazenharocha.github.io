@@ -25,19 +25,21 @@
   "skills": {
     "computer": [
       "AutoCAD",
-      "Archicad",
       "Twinmotion",
       "Adobe InDesign",
-      "Adobe Illustrator",
       "Metashape",
-      "Adobe Photoshop",
       "SketchUp",
-      "Revit",
       "CloudCompare",
       "Autodesk ReCap",
       "QGIS",
       "Office",
       "Canva"
+    ],
+    "learning": [
+      "Revit",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Archicad"
     ],
     "practice": [
       {
@@ -94,19 +96,6 @@
         "en": "The six-month professional experience at InLinea, an architecture and interior design studio in Amarante, provided direct exposure to different stages of project development, allowing for the expansion of technical knowledge and a deeper understanding of professional practice.\n\nDuring this period, skills in Archicad were developed, alongside knowledge of planning permission and licensing procedures, fostering greater familiarity with Portuguese architectural legislation and the requirements and procedures of different municipalities.\n\nWorking in a small team allowed close involvement with projects and more direct participation in different stages of the process, from communication with clients to liaising with municipal authorities and coordinating with consultants responsible for specialist engineering designs.\n\nThe experience also contributed to a better understanding of the financial and technical constraints affecting projects, particularly budgets, the feasibility of proposed solutions, and the need to reconcile architectural intentions with legal, functional and financial requirements.\n\nWorking with interior design also sparked a previously unexplored interest in this field, particularly in the selection of materials, finishes, furniture and other elements that shape a space.\n\nOverall, it was an opportunity to learn and engage with the realities of professional practice, reinforcing the importance of communication, collaboration between different stakeholders and adaptability to the many constraints of the architectural process.",
         "es": "La experiencia profesional de seis meses en InLinea, un estudio de arquitectura y diseño de interiores situado en Amarante, permitió un contacto directo con distintas fases del desarrollo de proyectos, profundizando en los conocimientos técnicos y en la comprensión de la práctica profesional.\n\nDurante este periodo, se desarrollaron competencias en el uso de Archicad y se adquirieron conocimientos sobre los procedimientos de licencia urbanística, lo que permitió familiarizarse con la legislación portuguesa aplicable a la arquitectura y con los trámites y requisitos de diferentes municipios.\n\nLa integración en un equipo reducido permitió un seguimiento cercano de los proyectos y una participación más directa en sus distintas etapas, desde el contacto con los clientes hasta la comunicación con los ayuntamientos y la coordinación con los técnicos responsables de los proyectos de especialidades.\n\nEsta experiencia también contribuyó a comprender mejor los condicionantes económicos y técnicos de los proyectos, especialmente en lo relativo a presupuestos, viabilidad de las soluciones y necesidad de conciliar las intenciones arquitectónicas con las exigencias legales, funcionales y financieras.\n\nEl contacto con el diseño de interiores despertó además un interés hasta entonces desconocido por este ámbito, especialmente por la elección de materiales, acabados, mobiliario y otros elementos que configuran un espacio.\n\nEn conjunto, constituyó una oportunidad de aprendizaje y acercamiento a la realidad profesional, reforzando la importancia de la comunicación, la colaboración entre los distintos agentes y la capacidad de adaptación a las diversas condiciones del proceso arquitectónico."
       },
-      "tools": [
-        "Archicad",
-        {
-          "pt": "Licenciamento",
-          "en": "Planning permission",
-          "es": "Licencias"
-        },
-        {
-          "pt": "Design de interiores",
-          "en": "Interior design",
-          "es": "Diseño de interiores"
-        }
-      ],
       "note": {
         "en": "Work subject to confidentiality",
         "pt": "Trabalhos sujeitos a confidencialidade",

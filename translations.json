@@ -48,7 +48,8 @@
       },
       "skills_practice": "Drawing | Making",
       "participations_more": "See all",
-      "participations_less": "See fewer"
+      "participations_less": "See fewer",
+      "skills_learning": "Learning"
     },
     "participation": {
       "external_links": "External Links",
@@ -108,7 +109,8 @@
       },
       "skills_practice": "Desenho | Manualidades",
       "participations_more": "Ver todas",
-      "participations_less": "Ver menos"
+      "participations_less": "Ver menos",
+      "skills_learning": "A aprender"
     },
     "participation": {
       "external_links": "Links Externos",
@@ -168,7 +170,8 @@
       },
       "skills_practice": "Dibujo | Manualidades",
       "participations_more": "Ver todas",
-      "participations_less": "Ver menos"
+      "participations_less": "Ver menos",
+      "skills_learning": "Aprendiendo"
     },
     "participation": {
       "external_links": "Enlaces Externos",

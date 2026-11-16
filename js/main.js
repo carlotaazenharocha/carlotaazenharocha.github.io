@@ -50,16 +50,32 @@ async function switchLanguage(lang) {
   revealAnimatedElements();
 }
 
-// Update language button states
+// Labels read by screen readers, in each language
+const A11Y_LABELS = {
+  pt: { menu: 'Menu', close: 'Fechar', zoom: 'Ampliar imagem' },
+  en: { menu: 'Menu', close: 'Close', zoom: 'Enlarge image' },
+  es: { menu: 'Menú', close: 'Cerrar', zoom: 'Ampliar imagen' }
+};
+const LANGUAGE_NAMES = { pt: 'Português', en: 'English', es: 'Español' };
+
+// Update language button states, the page language and the accessible labels
 function updateLanguageUI() {
-  const langButtons = document.querySelectorAll('.lang-btn');
-  langButtons.forEach(btn => {
-    if (btn.dataset.lang === currentLanguage) {
-      btn.classList.add('active');
-    } else {
-      btn.classList.remove('active');
-    }
+  document.documentElement.lang = currentLanguage;
+  const labels = A11Y_LABELS[currentLanguage] || A11Y_LABELS.en;
+
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    const active = btn.dataset.lang === currentLanguage;
+    btn.classList.toggle('active', active);
+    btn.setAttribute('aria-pressed', String(active));
+    btn.setAttribute('aria-label', LANGUAGE_NAMES[btn.dataset.lang]);
+    btn.setAttribute('lang', btn.dataset.lang);
   });
+
+  const menuToggle = document.querySelector('.menu-toggle');
+  if (menuToggle) menuToggle.setAttribute('aria-label', labels.menu);
+  const lightboxClose = document.querySelector('.lightbox-close');
+  if (lightboxClose) lightboxClose.setAttribute('aria-label', labels.close);
+  document.querySelectorAll('.zoomable').forEach(el => el.setAttribute('title', labels.zoom));
 }
 
 // Get translated text
@@ -605,153 +621,89 @@ function chapterTitle(title, number) {
   return `<h2 class="research-chapter"><span class="research-chapter-number">${String(number).padStart(2, '0')}</span><span class="research-chapter-title">${getText(title)}</span></h2>`;
 }
 
+// A chapter is made of blocks, each with an optional subtitle and any of:
+// text, a quote, cards (title + text or list), a list of tags, a timeline,
+// the phases of the strategy, publications, pictures and a note
+function renderResearchBlock(block) {
+  const div = document.createElement('div');
+  div.className = 'research-block';
+  const cards = block.cards ? `
+    <ol class="research-cards${block.columns ? ` research-cards--${block.columns}` : ''}">
+      ${block.cards.map(card => `
+        <li class="research-card">
+          <h4 class="research-card-title">${getText(card.title)}</h4>
+          ${card.text ? `<p class="research-card-text">${getText(card.text)}</p>` : ''}
+          ${card.list ? `<ul class="research-card-list">${card.list.map(item => `<li>${getText(item)}</li>`).join('')}</ul>` : ''}
+        </li>`).join('')}
+    </ol>` : '';
+  const timeline = block.timeline ? `
+    <ol class="timeline">
+      ${block.timeline.map(item => `
+        <li class="timeline-item${item.highlight ? ' timeline-item--key' : ''}">
+          <span class="timeline-year">${item.year}</span>
+          <p class="timeline-text">${getText(item.text)}</p>
+        </li>`).join('')}
+    </ol>` : '';
+  // The four phases as a diagram: each one, and below it the condition to move on
+  const phases = block.phases ? `
+    <ol class="phases">
+      ${block.phases.map((item, index) => `
+        <li class="phase">
+          <span class="phase-number">${String(index + 1).padStart(2, '0')}</span>
+          <h4 class="phase-title">${getText(item.title)}</h4>
+          ${paragraphs(item.text).replace(/<p>/g, '<p class="phase-text">')}
+          ${item.condition ? `<p class="phase-next"><strong>${getText(item.condition.label)}</strong> ${getText(item.condition.text)}</p>` : ''}
+        </li>`).join('')}
+    </ol>` : '';
+  const publications = block.publications ? `
+    <ul class="publications">
+      ${block.publications.map(item => `
+        <li class="publication${item.cover ? ' publication--cover' : ''}">
+          ${item.cover ? `<a class="publication-cover" href="${item.url}" target="_blank" rel="noopener"><img src="${item.cover}" alt="${getText(item.coverAlt)}" loading="lazy"></a>` : `<span class="publication-year">${item.year}</span>`}
+          <div>
+            ${item.cover ? `<span class="publication-year">${item.year}</span>` : ''}
+            <p class="publication-title">${item.title}</p>
+            <p class="publication-venue">${item.authors} — ${getText(item.venue)}</p>
+            ${item.note ? `<p class="publication-venue">${getText(item.note)}</p>` : ''}
+            ${item.url ? `<a class="publication-link" href="${item.url}" target="_blank" rel="noopener">${getText(block.linkLabel)} ↗</a>` : ''}
+          </div>
+        </li>`).join('')}
+    </ul>` : '';
+
+  div.innerHTML = `
+    ${block.title ? `<h3 class="research-block-title">${getText(block.title)}</h3>` : ''}
+    ${block.text ? `<div class="research-text">${paragraphs(block.text)}</div>` : ''}
+    ${block.quote ? `<blockquote class="research-question${block.cite ? ' research-quote' : ''}">${getText(block.quote)}${block.cite ? `<cite>${getText(block.cite)}</cite>` : ''}</blockquote>` : ''}
+    ${cards}
+    ${block.list ? `<ol class="criteria">${block.list.map(item => `<li>${getText(item)}</li>`).join('')}</ol>` : ''}
+    ${timeline}
+    ${phases}
+    ${publications}
+    ${block.after ? `<div class="research-text">${paragraphs(block.after)}</div>` : ''}
+  `;
+  if (block.images) renderImages(div, block.images);
+  if (block.note) div.insertAdjacentHTML('beforeend', `<p class="publication-note">${getText(block.note)}</p>`);
+  return div;
+}
+
 function renderResearchSection(section, number) {
   const wrapper = document.createElement('section');
-  wrapper.className = `research-section research-section--${section.type}`;
-  const sectionTitle = title => chapterTitle(title, number);
+  wrapper.className = 'research-section';
 
-  if (section.type === 'text') {
-    wrapper.innerHTML = `${sectionTitle(section.title)}<div class="research-text">${paragraphs(section.text)}</div>`;
-    if (section.images) renderImages(wrapper, section.images);
-  }
-
-  if (section.type === 'timeline') {
-    wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
-      <ol class="timeline">
-        ${section.items.map(item => `
-          <li class="timeline-item${item.highlight ? ' timeline-item--key' : ''}">
-            <span class="timeline-year">${item.year}</span>
-            <p class="timeline-text">${getText(item.text)}</p>
-          </li>
-        `).join('')}
-      </ol>
-    `;
-    if (section.images) {
-      if (section.imagesTitle) wrapper.insertAdjacentHTML('beforeend', `<h3 class="research-subtitle-small">${getText(section.imagesTitle)}</h3>`);
-      renderImages(wrapper, section.images);
-      if (section.imagesNote) wrapper.insertAdjacentHTML('beforeend', `<p class="publication-note">${getText(section.imagesNote)}</p>`);
-    }
-  }
-
-  // The research question, large, and the method in short columns
-  if (section.type === 'question') {
-    wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
-      <blockquote class="research-question">${getText(section.question)}</blockquote>
-      <ol class="research-cards">
-        ${section.items.map(item => `
-          <li class="research-card">
-            <h3 class="research-card-title">${getText(item.title)}</h3>
-            <p class="research-card-text">${getText(item.text)}</p>
-          </li>`).join('')}
-      </ol>
-    `;
-  }
-
-  // Three columns: values at the origin, lost, and still enduring
-  if (section.type === 'values') {
-    wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
-      <div class="research-text">${paragraphs(section.text)}</div>
-      <div class="values-table" role="table">
-        <div class="values-row values-head" role="row">${section.columns.map(column => `<span role="columnheader">${getText(column)}</span>`).join('')}</div>
-        ${section.rows.map(row => `
-          <div class="values-row" role="row">${row.map((cell, i) => `<span role="cell" data-label="${getText(section.columns[i])}">${getText(cell)}</span>`).join('')}</div>`).join('')}
-      </div>
-      ${section.conclusion ? `<p class="values-conclusion">${getText(section.conclusion)}</p>` : ''}
-    `;
-  }
-
-  if (section.type === 'constraints') {
-    wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
-      <div class="research-text">${paragraphs(section.text)}</div>
-      <ol class="research-cards research-cards--two">
-        ${section.items.map(item => `
-          <li class="research-card">
-            <h3 class="research-card-title">${getText(item.title)}</h3>
-            <p class="research-card-text">${getText(item.text)}</p>
-          </li>`).join('')}
-      </ol>
-    `;
-  }
-
-  // Precedents, without pictures: the text, the cases if listed, and the criteria
-  if (section.type === 'cases') {
-    wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
-      <div class="research-text">${paragraphs(section.text)}</div>
-      ${section.items ? `<ol class="cases">
-        ${section.items.map(item => `
-          <li class="case">
-            <h3 class="case-name">${item.name}</h3>
-            <div class="case-part"><span class="metadata-label">${getText(section.labels.principle)}</span><p>${getText(item.principle)}</p></div>
-            <div class="case-part"><span class="metadata-label">${getText(section.labels.application)}</span><p>${getText(item.application)}</p></div>
-          </li>`).join('')}
-      </ol>` : ''}
-      ${section.criteria ? `
-        <h3 class="criteria-title">${getText(section.criteriaTitle)}</h3>
-        <ol class="criteria">${section.criteria.map(item => `<li>${getText(item)}</li>`).join('')}</ol>` : ''}
-    `;
-  }
-
-  if (section.type === 'phases') {
-    wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
-      <div class="research-text">${paragraphs(section.intro)}</div>
-      <ol class="phases">
-        ${section.items.map((item, index) => `
-          <li class="phase">
-            <span class="phase-number">${String(index + 1).padStart(2, '0')}</span>
-            <h3 class="phase-title">${getText(item.title)}</h3>
-            <p class="phase-text">${getText(item.text)}</p>
-            ${item.next ? `<p class="phase-next">${getText(item.next)}</p>` : ''}
-          </li>
-        `).join('')}
-      </ol>
-    `;
-  }
-
-  if (section.type === 'status') {
-    wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
-      <div class="status">
-        <span class="metadata-label">${getText(section.statusLabel)}</span>
-        <span class="status-badge">${getText(section.status)}</span>
-      </div>
-      <div class="research-text">${paragraphs(section.text)}</div>
-    `;
-  }
-
+  // The invitation to contribute closes the page, outside the numbered chapters
   if (section.type === 'contact') {
     const href = `mailto:${section.email}?subject=${encodeURIComponent(section.subject || '')}`;
+    wrapper.classList.add('research-section--contact');
     wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
+      <h2 class="research-contact-title">${getText(section.title)}</h2>
       <div class="research-text">${paragraphs(section.text)}</div>
       <a class="research-contact-btn" href="${href}">${getText(section.cta)} — ${section.email}</a>
     `;
+    return wrapper;
   }
 
-  if (section.type === 'publications') {
-    wrapper.innerHTML = `
-      ${sectionTitle(section.title)}
-      <ul class="publications">
-        ${section.items.map(item => `
-          <li class="publication">
-            <span class="publication-year">${item.year}</span>
-            <div>
-              <p class="publication-title">${item.title}</p>
-              <p class="publication-venue">${item.authors} — ${getText(item.venue)}</p>
-              ${item.url ? `<a class="publication-link" href="${item.url}" target="_blank" rel="noopener">${getText(section.linkLabel)} ↗</a>` : ''}
-            </div>
-          </li>
-        `).join('')}
-      </ul>
-      ${section.dissertationNote ? `<p class="publication-note">${getText(section.dissertationNote)}</p>` : ''}
-    `;
-  }
-
+  wrapper.innerHTML = chapterTitle(section.title, number);
+  (section.blocks || []).forEach(block => wrapper.appendChild(renderResearchBlock(block)));
   return wrapper;
 }
 
@@ -785,7 +737,11 @@ async function initResearchPage() {
 
   const content = document.getElementById('research-content');
   content.innerHTML = '';
-  researchData.sections.forEach((section, index) => content.appendChild(renderResearchSection(section, index + 1)));
+  let chapter = 0;
+  researchData.sections.forEach(section => {
+    if (section.type !== 'contact') chapter += 1;
+    content.appendChild(renderResearchSection(section, chapter));
+  });
 
   document.getElementById('research-metadata').innerHTML = researchData.metadata.map(item => `
     <div class="metadata-item">
@@ -894,6 +850,13 @@ function updateAboutPage() {
           ${skillList(aboutData.skills.computer)}
         </div>
       </div>
+      ${aboutData.skills.learning ? `
+      <div class="skills-group skills-group--wide">
+        <h3>${labels.skills_learning}</h3>
+        <div class="skills-list">
+          ${skillList(aboutData.skills.learning)}
+        </div>
+      </div>` : ''}
       ${aboutData.skills.practice ? `
       <div class="skills-group skills-group--wide">
         <h3>${labels.skills_practice}</h3>
@@ -1315,7 +1278,7 @@ function initLightbox() {
     lightbox.id = 'lightbox';
     lightbox.className = 'lightbox';
     lightbox.innerHTML = `
-      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <button class="lightbox-close" aria-label="${(A11Y_LABELS[currentLanguage] || A11Y_LABELS.en).close}">&times;</button>
       <div class="lightbox-content">
         <img src="" alt="">
         <div class="lightbox-caption"></div>
@@ -1325,7 +1288,7 @@ function initLightbox() {
 
     // Close on click outside image
     lightbox.addEventListener('click', (e) => {
-      if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+      if (e.target === lightbox || e.target.closest('.lightbox-close')) {
         closeLightbox();
       }
     });
@@ -1339,7 +1302,11 @@ function initLightbox() {
   }
 
   // Add click listeners to all project and participation images
+  // A magnifier in the corner shows that the picture opens larger
+  const zoomLabel = (A11Y_LABELS[currentLanguage] || A11Y_LABELS.en).zoom;
   document.querySelectorAll('.project-image img, .participation-image img').forEach(img => {
+    img.parentElement.classList.add('zoomable');
+    img.parentElement.setAttribute('title', zoomLabel);
     img.addEventListener('click', () => {
       openLightbox(img.src, img.alt);
     });
@@ -1386,10 +1353,16 @@ function initMobileMenu() {
 
   if (!menuToggle || !navMenu) return;
 
+  if (!navMenu.id) navMenu.id = 'site-menu';
+  menuToggle.setAttribute('aria-controls', navMenu.id);
+  menuToggle.setAttribute('aria-expanded', 'false');
+
   menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('active');
     navMenu.classList.toggle('active');
-    document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    const open = navMenu.classList.contains('active');
+    menuToggle.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
   });
 
   // Close menu when clicking on a link
@@ -1397,6 +1370,7 @@ function initMobileMenu() {
     link.addEventListener('click', () => {
       menuToggle.classList.remove('active');
       navMenu.classList.remove('active');
+      menuToggle.setAttribute('aria-expanded', 'false');
       document.body.style.overflow = '';
     });
   });
