@@ -52,9 +52,9 @@ async function switchLanguage(lang) {
 
 // Labels read by screen readers, in each language
 const A11Y_LABELS = {
-  pt: { menu: 'Menu', close: 'Fechar', zoom: 'Ampliar imagem' },
-  en: { menu: 'Menu', close: 'Close', zoom: 'Enlarge image' },
-  es: { menu: 'Menú', close: 'Cerrar', zoom: 'Ampliar imagen' }
+  pt: { menu: 'Menu', close: 'Fechar', zoom: 'Ampliar imagem', level: n => `Nível ${n} de 5` },
+  en: { menu: 'Menu', close: 'Close', zoom: 'Enlarge image', level: n => `Level ${n} of 5` },
+  es: { menu: 'Menú', close: 'Cerrar', zoom: 'Ampliar imagen', level: n => `Nivel ${n} de 5` }
 };
 const LANGUAGE_NAMES = { pt: 'Português', en: 'English', es: 'Español' };
 
@@ -860,17 +860,19 @@ function updateAboutPage() {
     }
   });
 
-  // A group's tags with the long ones last; with an odd number of short ones,
-  // the last short one also takes a whole row, so no row is left half empty
-  const skillList = skills => {
-    const names = skills.map(getText);
-    const short = names.filter(name => name.length <= 26);
-    const long = names.filter(name => name.length > 26);
-    return [
-      ...short.map((name, i) => `<span class="skill-item${short.length % 2 && i === short.length - 1 ? ' skill-item--wide' : ''}">${name}</span>`),
-      ...long.map(name => `<span class="skill-item skill-item--wide">${name}</span>`)
-    ].join('');
-  };
+  // Each skill on a row: the name, then its level as five squares, filled up
+  // to the level ({name, level} in about.json; a plain name has no squares)
+  const levelLabel = A11Y_LABELS[currentLanguage]?.level || A11Y_LABELS.en.level;
+  const skillList = skills => skills.map(skill => {
+    const name = getText(skill.name ?? skill);
+    const level = Math.max(0, Math.min(5, Number(skill.level) || 0));
+    const squares = level
+      ? `<span class="skill-level" role="img" aria-label="${levelLabel(level)}">${
+          Array.from({ length: 5 }, (_, i) => `<span class="skill-square${i < level ? ' is-filled' : ''}"></span>`).join('')
+        }</span>`
+      : '';
+    return `<div class="skill-row"><span class="skill-name">${name}</span>${squares}</div>`;
+  }).join('');
 
   // Update skills section
   const skillsContainer = document.getElementById('skills-section');

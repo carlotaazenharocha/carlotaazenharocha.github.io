@@ -1029,20 +1029,42 @@ main {
   font-weight: 400;
 }
 
+/* One skill per row: the name, then the level as five squares */
 .skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 3rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.skill-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.skill-item {
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--color-border);
   font-size: 0.9rem;
-  padding: 0.35rem 0.75rem;
-  border: 1px solid var(--color-border);
-  border-radius: 3px;
+  line-height: 1.35;
 }
 
-/* On the phone: two even columns, every tag the same width and aligned */
+.skill-level {
+  display: flex;
+  flex-shrink: 0;
+  gap: 4px;
+}
+
+.skill-square {
+  width: 9px;
+  height: 9px;
+  border: 1px solid var(--color-text);
+}
+
+.skill-square.is-filled {
+  background-color: var(--color-text);
+}
+
+/* On the phone: one column of skills */
 @media (max-width: 768px) {
   .skills-section {
     gap: 1.5rem;
@@ -1057,19 +1079,11 @@ main {
   }
 
   .skills-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+    grid-template-columns: 1fr;
   }
 
-  .skill-item {
+  .skill-row {
     font-size: 0.85rem;
-    padding: 0.5rem 0.6rem;
-    text-align: center;
-  }
-
-  .skill-item--wide {
-    grid-column: 1 / -1;
   }
 }
 

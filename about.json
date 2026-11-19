@@ -21,48 +21,105 @@
   },
   "skills": {
     "computer": [
-      "AutoCAD",
-      "Twinmotion",
-      "Adobe InDesign",
-      "Metashape",
-      "SketchUp",
-      "CloudCompare",
-      "Autodesk ReCap",
-      "QGIS",
-      "Office",
-      "Canva"
+      {
+        "name": "AutoCAD",
+        "level": 5
+      },
+      {
+        "name": "Twinmotion",
+        "level": 3
+      },
+      {
+        "name": "Adobe InDesign",
+        "level": 4
+      },
+      {
+        "name": "Metashape",
+        "level": 3
+      },
+      {
+        "name": "SketchUp",
+        "level": 4
+      },
+      {
+        "name": "CloudCompare",
+        "level": 3
+      },
+      {
+        "name": "Autodesk ReCap",
+        "level": 3
+      },
+      {
+        "name": "QGIS",
+        "level": 2
+      },
+      {
+        "name": "Office",
+        "level": 4
+      },
+      {
+        "name": "Canva",
+        "level": 4
+      }
     ],
     "learning": [
-      "Revit",
-      "Adobe Illustrator",
-      "Adobe Photoshop",
-      "Archicad"
+      {
+        "name": "Revit",
+        "level": 1
+      },
+      {
+        "name": "Adobe Illustrator",
+        "level": 2
+      },
+      {
+        "name": "Adobe Photoshop",
+        "level": 2
+      },
+      {
+        "name": "Archicad",
+        "level": 3
+      }
     ],
     "practice": [
       {
-        "en": "Hand drawing",
-        "pt": "Desenho à mão",
-        "es": "Dibujo a mano"
+        "name": {
+          "en": "Hand drawing",
+          "pt": "Desenho à mão",
+          "es": "Dibujo a mano"
+        },
+        "level": 5
       },
       {
-        "en": "Topographic, photographic and architectural survey",
-        "pt": "Levantamento topográfico, fotográfico e arquitetónico",
-        "es": "Levantamiento topográfico, fotográfico y arquitectónico"
+        "name": {
+          "en": "Topographic, photographic and architectural survey",
+          "pt": "Levantamento topográfico, fotográfico e arquitetónico",
+          "es": "Levantamiento topográfico, fotográfico y arquitectónico"
+        },
+        "level": 5
       },
       {
-        "en": "Model making",
-        "pt": "Maqueteria",
-        "es": "Maquetería"
+        "name": {
+          "en": "Model making",
+          "pt": "Maqueteria",
+          "es": "Maquetería"
+        },
+        "level": 5
       },
       {
-        "en": "Ceramics",
-        "pt": "Cerâmica",
-        "es": "Cerámica"
+        "name": {
+          "en": "Ceramics",
+          "pt": "Cerâmica",
+          "es": "Cerámica"
+        },
+        "level": 3
       },
       {
-        "en": "Painting",
-        "pt": "Pintura",
-        "es": "Pintura"
+        "name": {
+          "en": "Painting",
+          "pt": "Pintura",
+          "es": "Pintura"
+        },
+        "level": 3
       }
     ]
   },
