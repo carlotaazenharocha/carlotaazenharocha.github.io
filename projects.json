@@ -440,7 +440,7 @@
         "pt": "Professora Maria Souto de Moura | Professora Joana Vilhena | Professora Ana Isabel Costa e Silva",
         "es": "Profesora Maria Souto de Moura | Profesora Joana Vilhena | Profesora Ana Isabel Costa e Silva"
       },
-      "thumbnail": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
+      "thumbnail": "projects/02-rock-oporto-palace/thumbnail.jpg",
       "hero": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
       "concept": {
         "en": "The project consists of a large-scale cultural and educational facility located in Porto City Park, bringing together different programmes, including an auditorium, performance spaces, dining facilities, parking and a series of rooms dedicated to music education.\n\nThe proposal seeks to establish a close relationship with the surrounding landscape, preserving the existing vegetation and exploring façade transparency as a means of connecting the interior with the park. The spatial organisation and visual relationship with the outdoors serve as starting points for the architectural design.\n\nStructural solutions in concrete and steel, large glazed openings, movable partitions and timber interior finishes were explored, seeking to reconcile spatial flexibility, acoustic performance and visual comfort.\n\nThe project provided an opportunity to further explore the relationship between architectural design, construction systems and conscious material selection, highlighting the importance of these decisions in improving energy efficiency, user comfort and reducing the environmental impact of construction.",
@@ -597,23 +597,14 @@
           "layout": "full"
         },
         {
-          "src": "projects/02-rock-oporto-palace/29-maquete-implantacao.jpg",
-          "caption": {
-            "en": "Site model, Scale: 1:1000",
-            "pt": "Maquete de implantação, E: 1:1000",
-            "es": "Maqueta de emplazamiento, E: 1:1000"
-          },
-          "layout": "tile",
-          "mosaic": "justified-3"
-        },
-        {
           "src": "projects/02-rock-oporto-palace/30-maquete-edificio-cobertura.jpg",
           "caption": {
             "en": "Building model, top view, Scale: 1:500",
             "pt": "Maquete do edifício, vista superior, E: 1:500",
             "es": "Maqueta del edificio, vista superior, E: 1:500"
           },
-          "layout": "tile"
+          "layout": "tile",
+          "mosaic": "justified-3"
         },
         {
           "src": "projects/02-rock-oporto-palace/31-maquete-edificio-interior.jpg",

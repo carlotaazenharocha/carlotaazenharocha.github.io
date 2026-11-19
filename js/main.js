@@ -627,7 +627,25 @@ function chapterTitle(title, number) {
 function renderResearchBlock(block) {
   const div = document.createElement('div');
   div.className = 'research-block';
-  const cards = block.cards ? `
+  // "style": "statements" (numbered conclusions) or "rows" (title beside the text)
+  const cards = block.cards && block.style === 'statements' ? `
+    <ol class="research-statements">
+      ${block.cards.map((card, i) => `
+        <li class="research-statement">
+          <span class="research-statement-number">${String(i + 1).padStart(2, '0')}</span>
+          <div>
+            <h4 class="research-statement-title">${getText(card.title)}</h4>
+            <p class="research-statement-text">${getText(card.text)}</p>
+          </div>
+        </li>`).join('')}
+    </ol>` : block.cards && block.style === 'rows' ? `
+    <dl class="research-rows">
+      ${block.cards.map(card => `
+        <div class="research-row">
+          <dt class="research-row-title">${getText(card.title)}</dt>
+          <dd class="research-row-text">${getText(card.text)}</dd>
+        </div>`).join('')}
+    </dl>` : block.cards ? `
     <ol class="research-cards${block.columns ? ` research-cards--${block.columns}` : ''}">
       ${block.cards.map(card => `
         <li class="research-card">
@@ -671,7 +689,8 @@ function renderResearchBlock(block) {
     </ul>` : '';
 
   div.innerHTML = `
-    ${block.title ? `<h3 class="research-block-title">${getText(block.title)}</h3>` : ''}
+    ${block.title ? `<h3 class="research-block-title"${block.anchor ? ` id="${block.anchor}"` : ''}>${getText(block.title)}</h3>` : ''}
+    ${block.label ? `<h4 class="research-block-label">${getText(block.label)}</h4>` : ''}
     ${block.text ? `<div class="research-text">${paragraphs(block.text)}</div>` : ''}
     ${block.quote ? `<blockquote class="research-question${block.cite ? ' research-quote' : ''}">${getText(block.quote)}${block.cite ? `<cite>${getText(block.cite)}</cite>` : ''}</blockquote>` : ''}
     ${cards}
@@ -702,6 +721,7 @@ function renderResearchSection(section, number) {
     return wrapper;
   }
 
+  wrapper.id = `capitulo-${String(number).padStart(2, '0')}`;
   wrapper.innerHTML = chapterTitle(section.title, number);
   (section.blocks || []).forEach(block => wrapper.appendChild(renderResearchBlock(block)));
   return wrapper;
@@ -737,7 +757,19 @@ async function initResearchPage() {
 
   const content = document.getElementById('research-content');
   content.innerHTML = '';
+  // A short index: the chapters, and the parts marked "toc", linking to them
   let chapter = 0;
+  const toc = researchData.sections.filter(section => section.type !== 'contact').map((section, index) => {
+    const id = `capitulo-${String(index + 1).padStart(2, '0')}`;
+    const parts = (section.blocks || []).filter(block => block.toc && block.anchor);
+    return `
+      <li>
+        <a href="#${id}"><span class="research-toc-number">${String(index + 1).padStart(2, '0')}</span>${getText(section.title)}</a>
+        ${parts.length ? `<ul>${parts.map(block => `<li><a href="#${block.anchor}">${getText(block.title)}</a></li>`).join('')}</ul>` : ''}
+      </li>`;
+  }).join('');
+  content.insertAdjacentHTML('beforeend', `<div class="research-toc" role="navigation" aria-label="${getText(researchData.tocTitle)}"><h2 class="research-toc-title">${getText(researchData.tocTitle)}</h2><ol>${toc}</ol></div>`);
+
   researchData.sections.forEach(section => {
     if (section.type !== 'contact') chapter += 1;
     content.appendChild(renderResearchSection(section, chapter));
