@@ -10,3 +10,8 @@ Portfolio.pdf
 participations/*/INFO*.txt
 projects/**/TEXTO_PROJETO*.txt
 projects/**/concept*
+
+# Portfolio PDF builder: local only, never published
+portfolio.html
+js/portfolio.js
+css/portfolio.css

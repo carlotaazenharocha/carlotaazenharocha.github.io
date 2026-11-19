@@ -53,6 +53,16 @@
         "en": "Model making",
         "pt": "Maqueteria",
         "es": "Maquetería"
+      },
+      {
+        "en": "Ceramics",
+        "pt": "Cerâmica",
+        "es": "Cerámica"
+      },
+      {
+        "en": "Painting",
+        "pt": "Pintura",
+        "es": "Pintura"
       }
     ]
   },
@@ -209,7 +219,7 @@
       "es": "Amarante | Ericeira, Portugal · Granada, España"
     },
     "linkedin": {
-      "url": "https://www.linkedin.com/in/carlota-rocha-766665248/",
+      "url": "https://www.linkedin.com/in/carlotarocha22",
       "label": "Carlota Rocha"
     }
   },
