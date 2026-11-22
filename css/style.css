@@ -11,11 +11,11 @@
   --color-bg: #ffffff;
   --color-bg-alt: #f9f9f9;
   --color-text: #1a1a1a;
-  --color-text-secondary: #666666;
-  --color-text-tertiary: #707070;
+  --color-text-secondary: #555555;
+  --color-text-tertiary: #636363;
   --color-border: #e5e5e5;
   --color-overlay: rgba(0, 0, 0, 0.3);
-  --color-concept: #333333;
+  --color-concept: #363636;
   --color-accent: #a32a2a;
 }
 
@@ -439,7 +439,6 @@ main {
   align-items: flex-start;
   gap: 5rem;
   padding-top: 2.5rem;
-  opacity: 0.5;
 }
 
 .project-intro-body .project-concept {
@@ -578,9 +577,9 @@ main {
 
 .project-concept {
   font-size: 1.0625rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.8;
-  color: #444444;
+  color: var(--color-concept);
   max-width: 70ch;
   text-align: justify;
 }
@@ -2003,7 +2002,7 @@ footer {
   max-width: 70ch;
   margin-bottom: 3rem;
   font-size: 1.0625rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.8;
   color: var(--color-concept);
 }
@@ -2089,7 +2088,7 @@ footer {
   padding: 0.45rem 0;
   border-bottom: 1px solid var(--color-border);
   font-size: 0.95rem;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--color-concept);
 }
 
@@ -2218,7 +2217,7 @@ footer {
 
 .research-statement-text {
   font-size: 0.95rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--color-concept);
   text-align: justify;
@@ -2245,7 +2244,7 @@ footer {
 
 .research-row-text {
   font-size: 0.95rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--color-concept);
   text-align: justify;
@@ -2381,7 +2380,7 @@ footer {
 
 .research-card-text {
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
   color: var(--color-concept);
   text-align: justify;
@@ -2406,7 +2405,7 @@ footer {
 .about-main .cv-item .cv-summary {
   margin-top: 0.6rem;
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
   color: var(--color-concept);
   text-align: justify;
@@ -2520,7 +2519,7 @@ footer {
 
 .timeline-text {
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--color-concept);
 }
@@ -2590,7 +2589,7 @@ footer {
 
 .phase-text {
   font-size: 0.9375rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--color-concept);
 }
@@ -2666,7 +2665,7 @@ footer {
 
 .publication-venue {
   font-size: 0.9375rem;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--color-text-secondary);
   margin-bottom: 0.5rem;
 }
@@ -2832,12 +2831,12 @@ footer {
     margin: 0;
   }
 
-  /* Lighter text and headings, like the project pages */
+  /* Running text like the project pages */
   .about-main p {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.75;
-    color: #444444;
+    color: var(--color-concept);
   }
 
   .about-main h2 {

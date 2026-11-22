@@ -517,7 +517,9 @@ function renderImages(container, images, parts = []) {
     const vimeo = `<div class="video-embed${image.vertical ? ' video-embed--vertical' : ''}"><iframe src="https://player.vimeo.com/video/${image.vimeo}?${vimeoParams}" title="${alt}" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div>`;
     const media = image.type === 'video' ? video
       : image.type === 'vimeo' ? vimeo
-      : `<img src="${image.src}" alt="${alt}" loading="lazy">`;
+      // "ratio" (e.g. "5 / 4") crops the picture to that shape, so the pictures
+      // of a grid mosaic line up in columns whatever their original shape
+      : `<img src="${image.src}" alt="${alt}" loading="lazy"${image.ratio ? ` style="aspect-ratio: ${image.ratio}; object-fit: cover"` : ''}>`;
     imageDiv.innerHTML = `
       ${media}
       ${image.caption ? `<div class="image-caption">${getText(image.caption)}</div>` : ''}
