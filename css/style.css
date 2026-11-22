@@ -620,6 +620,11 @@ main {
   max-width: 100%;
 }
 
+/* "small": an inset kept smaller still, e.g. a diagram */
+.project-image.inset.small {
+  max-width: min(560px, 100%);
+}
+
 .project-section-title {
   font-size: 0.75rem;
   font-weight: 500;
@@ -2540,6 +2545,78 @@ footer {
 .timeline-item--key .timeline-text {
   font-weight: 500;
   color: var(--color-text);
+}
+
+/* Horizontal timeline ("timelineLayout": "horizontal"): the years over a
+   line, the events under it, in rows; on phones it stays a vertical list */
+@media (min-width: 769px) {
+  .timeline--horizontal {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    row-gap: 3rem;
+    border-left: 0;
+  }
+
+  .timeline--horizontal .timeline-item {
+    display: block;
+    padding: 0 0.6rem;
+    text-align: center;
+  }
+
+  /* The line, drawn by each event so that a row reads as one line */
+  .timeline--horizontal .timeline-item::after {
+    content: '';
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    right: 0;
+    border-top: 1px solid var(--color-text-tertiary);
+  }
+
+  /* It fades in from the past and out into the future */
+  .timeline--horizontal .timeline-item:first-child::after,
+  .timeline--horizontal .timeline-item:last-child::after {
+    border-top-style: dashed;
+  }
+
+  .timeline--horizontal .timeline-item::before {
+    display: none;
+  }
+
+  .timeline--horizontal .timeline-item--key::before {
+    display: block;
+    top: calc(2.5rem - 6px);
+    left: calc(50% - 6px);
+    width: 13px;
+    height: 13px;
+    z-index: 1;
+  }
+
+  .timeline--horizontal .timeline-year {
+    display: block;
+    height: 2.5rem;
+    line-height: 2rem;
+    font-size: 1.0625rem;
+  }
+
+  .timeline--horizontal .timeline-text {
+    padding-top: 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.45;
+    text-align: center;
+    hyphens: manual;
+  }
+
+  .timeline--horizontal .timeline-item--key .timeline-text {
+    font-weight: 400;
+    color: var(--color-concept);
+  }
+}
+
+@media (min-width: 1200px) {
+  .timeline--horizontal {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
 }
 
 /* Safeguarding phases */

@@ -501,7 +501,8 @@ function renderImages(container, images, parts = []) {
       mosaic = null;
     }
 
-    const layoutClass = { full: 'full-width', half: 'half-width', tile: 'tile' }[image.layout] || 'inset';
+    // "small" is an inset kept smaller still (e.g. a diagram)
+    const layoutClass = { full: 'full-width', half: 'half-width', tile: 'tile', small: 'inset small' }[image.layout] || 'inset';
     const imageDiv = document.createElement('div');
     // "bleed": a full-width picture that runs to the edges of the screen
     imageDiv.className = `project-image ${layoutClass}${image.bleed ? ' bleed' : ''}`;
@@ -657,7 +658,7 @@ function renderResearchBlock(block) {
         </li>`).join('')}
     </ol>` : '';
   const timeline = block.timeline ? `
-    <ol class="timeline">
+    <ol class="timeline${block.timelineLayout === 'horizontal' ? ' timeline--horizontal' : ''}">
       ${block.timeline.map(item => `
         <li class="timeline-item${item.highlight ? ' timeline-item--key' : ''}">
           <span class="timeline-year">${item.year}</span>

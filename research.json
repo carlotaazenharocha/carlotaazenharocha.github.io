@@ -202,59 +202,150 @@
           },
           "timeline": [
             {
+              "year": "1542",
+              "text": {
+                "pt": "Concordata de Moura",
+                "en": "Concordat of Moura",
+                "es": "Concordia de Moura"
+              }
+            },
+            {
+              "year": "1668",
+              "text": {
+                "pt": "Fim da Guerra da Restauração",
+                "en": "End of the Restoration War",
+                "es": "Fin de la Guerra de Restauración"
+              }
+            },
+            {
+              "year": "1677",
+              "text": {
+                "pt": "Chegada de Manuel de Beça Leal ao Alentejo",
+                "en": "Manuel de Beça Leal arrives in the Alentejo",
+                "es": "Llegada de Manuel de Beça Leal al Alentejo"
+              }
+            },
+            {
+              "year": "1683",
+              "text": {
+                "pt": "Manuel de Beça Leal adota o nome de Padre Manuel de Jesus Maria",
+                "en": "Manuel de Beça Leal takes the name Father Manuel de Jesus Maria",
+                "es": "Manuel de Beça Leal adopta el nombre de Padre Manuel de Jesus Maria"
+              }
+            },
+            {
+              "year": "?",
+              "text": {
+                "pt": "Proibição de construções definitivas",
+                "en": "Permanent buildings are forbidden",
+                "es": "Prohibición de construcciones definitivas"
+              }
+            },
+            {
               "year": "1686",
               "text": {
-                "pt": "Fundação do Convento pelo padre Manuel de Jesus Maria (Manuel de Beça Leal), com uma comunidade de eremitas.",
-                "en": "The convent is founded by Father Manuel de Jesus Maria (Manuel de Beça Leal), with a community of hermits.",
-                "es": "Fundación del Convento por el padre Manuel de Jesus Maria (Manuel de Beça Leal), con una comunidad de eremitas."
-              }
+                "pt": "Formação do Convento – Congregação de Frades Agonizantes",
+                "en": "The convent is formed – Congregation of the Agonizantes Friars",
+                "es": "Formación del Convento – Congregación de Frailes Agonizantes"
+              },
+              "highlight": true
             },
             {
               "year": "1688",
               "text": {
-                "pt": "Milagre de Nossa Senhora das Necessidades, na sequência de um incêndio, que está na origem da Festa da Tomina.",
-                "en": "The miracle of Our Lady of the Necessities, after a fire, which gave rise to the Festa da Tomina.",
-                "es": "Milagro de Nuestra Señora de las Necesidades, tras un incendio, en el origen de la Festa da Tomina."
+                "pt": "Incêndio e Milagre associado às festividades",
+                "en": "Fire and the Miracle linked to the festivities",
+                "es": "Incendio y Milagro asociado a las festividades"
               }
+            },
+            {
+              "year": "1698",
+              "text": {
+                "pt": "Ordem de demolição do Convento, parcialmente executada",
+                "en": "Order to demolish the convent, partly carried out",
+                "es": "Orden de demolición del Convento, parcialmente ejecutada"
+              }
+            },
+            {
+              "year": "1702",
+              "text": {
+                "pt": "Autorização régia para obras no Convento e construção da cerca",
+                "en": "Royal permission for works on the convent and for building the enclosure wall",
+                "es": "Autorización real para obras en el Convento y construcción de la cerca"
+              }
+            },
+            {
+              "year": "1717",
+              "text": {
+                "pt": "Inauguração do Convento do Alcance, em Mourão",
+                "en": "The Convento do Alcance opens in Mourão",
+                "es": "Inauguración del Convento do Alcance, en Mourão"
+              }
+            },
+            {
+              "year": "1721",
+              "text": {
+                "pt": "Concessão e demarcação de terreno para um novo convento",
+                "en": "Land granted and marked out for a new convent",
+                "es": "Concesión y demarcación de terreno para un nuevo convento"
+              },
+              "highlight": true
             },
             {
               "year": "1722",
               "text": {
-                "pt": "Início da reedificação do conjunto, com a confirmação régia da licença de construção.",
-                "en": "Rebuilding of the ensemble begins, with royal confirmation of the building licence.",
-                "es": "Inicio de la reedificación del conjunto, con la confirmación real de la licencia de construcción."
+                "pt": "Confirmação régia da licença de construção",
+                "en": "Royal confirmation of the building licence",
+                "es": "Confirmación real de la licencia de construcción"
               }
+            },
+            {
+              "year": "1729",
+              "text": {
+                "pt": "Nova tentativa de destruição dos muros e plantações",
+                "en": "New attempt to destroy the walls and plantations",
+                "es": "Nuevo intento de destrucción de los muros y plantaciones"
+              }
+            },
+            {
+              "year": "1737",
+              "text": {
+                "pt": "Obras de reparação e consolidação estrutural",
+                "en": "Repair works and structural consolidation",
+                "es": "Obras de reparación y consolidación estructural"
+              },
+              "highlight": true
             },
             {
               "year": "1749",
               "text": {
-                "pt": "Integração na Congregação dos Clérigos Regulares Ministros dos Enfermos.",
-                "en": "Integration into the Congregation of the Clerics Regular, Ministers of the Sick.",
-                "es": "Integración en la Congregación de los Clérigos Regulares Ministros de los Enfermos."
+                "pt": "Transferência para a Congregação dos Clérigos Regulares Ministros dos Enfermos de Portugal e dos Algarves",
+                "en": "Transfer to the Congregation of the Clerics Regular, Ministers of the Sick, of Portugal and the Algarves",
+                "es": "Traslado a la Congregación de los Clérigos Regulares Ministros de los Enfermos de Portugal y de los Algarves"
               }
             },
             {
               "year": "1834",
               "text": {
-                "pt": "Abandono do Convento, na sequência da extinção das ordens religiosas.",
-                "en": "The convent is abandoned after the dissolution of the religious orders.",
-                "es": "Abandono del Convento, tras la extinción de las órdenes religiosas."
+                "pt": "Abandono do Convento na sequência da extinção das Ordens Religiosas",
+                "en": "The convent is abandoned after the dissolution of the religious orders",
+                "es": "Abandono del Convento tras la extinción de las Órdenes Religiosas"
               }
             },
             {
-              "year": "c. 1955",
+              "year": "1955",
               "text": {
-                "pt": "A fachada da igreja mantém-se de pé, já sem coberturas.",
-                "en": "The church façade is still standing, already without its roofs.",
-                "es": "La fachada de la iglesia sigue en pie, ya sin cubiertas."
+                "pt": "Fotografias antigas mostram a fachada da igreja ainda existente, mas sem coberturas",
+                "en": "Old photographs show the church façade still standing, but without roofs",
+                "es": "Fotografías antiguas muestran la fachada de la iglesia aún en pie, pero sin cubiertas"
               }
             },
             {
               "year": "2012",
               "text": {
-                "pt": "O registo fotográfico mostra o Convento já sem a fachada principal da igreja.",
-                "en": "Photographs show the convent already without the main façade of the church.",
-                "es": "El registro fotográfico muestra el Convento ya sin la fachada principal de la iglesia."
+                "pt": "Registo fotográfico do Convento já sem a fachada principal da igreja",
+                "en": "Photographs of the convent already without the main façade of the church",
+                "es": "Registro fotográfico del Convento ya sin la fachada principal de la iglesia"
               }
             },
             {
@@ -265,7 +356,8 @@
                 "es": "?"
               }
             }
-          ]
+          ],
+          "timelineLayout": "horizontal"
         },
         {
           "label": {
@@ -512,7 +604,7 @@
                 "en": "Understanding religious heritage: tangible and intangible dimensions. Diagram by the author (XI Seminar, 2025)",
                 "es": "Comprensión del patrimonio religioso: dimensiones material e inmaterial. Esquema de la autora (XI Seminario, 2025)"
               },
-              "layout": "inset"
+              "layout": "small"
             }
           ]
         },
@@ -629,6 +721,15 @@
                 "es": "Caminata por el recorrido tradicional hasta el Convento"
               },
               "layout": "tile"
+            },
+            {
+              "src": "research/images/60-percurso-tradicional.jpg",
+              "caption": {
+                "pt": "O percurso tradicional era feito desde Santo Aleixo da Restauração até ao Convento. Atualmente é realizado apenas em Santo Aleixo da Restauração.",
+                "en": "The traditional route used to run from Santo Aleixo da Restauração to the convent. Today it takes place only in Santo Aleixo da Restauração.",
+                "es": "El recorrido tradicional se hacía desde Santo Aleixo da Restauração hasta el Convento. Actualmente se realiza solo en Santo Aleixo da Restauração."
+              },
+              "layout": "inset"
             }
           ]
         }
@@ -655,7 +756,7 @@
                 "en": "Research methodology and aims. Diagram by the author (XI Seminar, 2025)",
                 "es": "Metodología y objetivos de la investigación. Esquema de la autora (XI Seminario, 2025)"
               },
-              "layout": "inset"
+              "layout": "small"
             }
           ]
         },
@@ -996,7 +1097,7 @@
                 "en": "How to intervene: international safeguarding documents and principles of intervention. Diagram by the author (XI Seminar, 2025)",
                 "es": "Cómo intervenir: documentos internacionales de salvaguarda y principios de intervención. Esquema de la autora (XI Seminario, 2025)"
               },
-              "layout": "inset"
+              "layout": "small"
             }
           ]
         },
@@ -1122,7 +1223,7 @@
                 "en": "Adaptive reuse. Diagram by the author (XI Seminar, 2025)",
                 "es": "Rehabilitación adaptativa. Esquema de la autora (XI Seminario, 2025)"
               },
-              "layout": "inset"
+              "layout": "small"
             }
           ]
         },
@@ -1200,9 +1301,9 @@
       "blocks": [
         {
           "text": {
-            "pt": "O Convento não se encontra classificado. O trabalho constitui uma base de conhecimento para fundamentar a proposta da sua classificação como <strong>Monumento de Interesse Público</strong>, nos termos da Lei n.º 107/2001, apoiada na ficha de inventário, nos contributos para o Relatório Prévio e na identificação dos valores patrimoniais. A proposta resulta da investigação; não se trata de um procedimento administrativo concluído.",
-            "en": "The convent is not classified. The work provides a body of knowledge to ground a proposal for its classification as a <strong>Monument of Public Interest</strong>, under Law no. 107/2001, supported by the inventory record, the groundwork for the Preliminary Report and the identification of its heritage values. The proposal comes from the research; it is not a completed administrative procedure.",
-            "es": "El Convento no está clasificado. El trabajo constituye una base de conocimiento para fundamentar la propuesta de su clasificación como <strong>Monumento de Interés Público</strong>, en los términos de la Ley n.º 107/2001, apoyada en la ficha de inventario, en las contribuciones para el Informe Previo y en la identificación de los valores patrimoniales. La propuesta resulta de la investigación; no se trata de un procedimiento administrativo concluido."
+            "pt": "O Convento não tem classificação cultural formal, mas está inventariado como património arquitetónico no SIPA (IPA 00022512) e como património arqueológico no Endovélico (CNS 42192) e no PDM de Moura (ID 463, grau 2, sujeito ao art. 27.º do Regulamento). Situa-se no Sítio Moura/Barrancos (Rede Natura 2000), cujo plano de gestão condiciona qualquer intervenção.\n\nApesar da ruína e da perda da função conventual, mantém valores históricos, arquitetónicos, paisagísticos, simbólicos e identitários, reconhecidos pela comunidade de Santo Aleixo da Restauração. Face a estes valores, à sua vulnerabilidade e à ausência de uma entidade responsável pela conservação, a investigação fundamenta uma proposta de classificação como <strong>Monumento de Interesse Público</strong> (Lei n.º 107/2001).\n\nEm novembro de 2026, foi apresentado ao Património Cultural, I.P. o requerimento inicial do procedimento de classificação, na categoria de património misto, por reunir dimensões arquitetónica e arqueológica.",
+            "en": "The convent has no formal heritage classification, but it is listed as architectural heritage in SIPA (IPA 00022512) and as archaeological heritage in Endovélico (CNS 42192) and in the Moura Municipal Master Plan (ID 463, grade 2, subject to art. 27 of its Regulation). It lies within the Moura/Barrancos Site (Natura 2000 network), whose management plan sets conditions on any intervention.\n\nDespite its ruined state and the loss of its conventual function, it keeps historical, architectural, landscape, symbolic and identity values, recognised by the community of Santo Aleixo da Restauração. Given these values, its vulnerability and the lack of any body responsible for its conservation, the research grounds a proposal for its classification as a <strong>Monument of Public Interest</strong> (Law no. 107/2001).\n\nIn November 2026, the initial application for the classification procedure was submitted to Património Cultural, I.P., in the category of mixed heritage, as the site brings together architectural and archaeological dimensions.",
+            "es": "El Convento no tiene clasificación patrimonial formal, pero está inventariado como patrimonio arquitectónico en el SIPA (IPA 00022512) y como patrimonio arqueológico en Endovélico (CNS 42192) y en el PDM de Moura (ID 463, grado 2, sujeto al art. 27.º del Reglamento). Se sitúa en el Sitio Moura/Barrancos (Red Natura 2000), cuyo plan de gestión condiciona cualquier intervención.\n\nA pesar de la ruina y de la pérdida de la función conventual, mantiene valores históricos, arquitectónicos, paisajísticos, simbólicos e identitarios, reconocidos por la comunidad de Santo Aleixo da Restauração. Ante estos valores, su vulnerabilidad y la ausencia de una entidad responsable de su conservación, la investigación fundamenta una propuesta de clasificación como <strong>Monumento de Interés Público</strong> (Ley n.º 107/2001).\n\nEn noviembre de 2026 se presentó a Património Cultural, I.P. la solicitud inicial del procedimiento de clasificación, en la categoría de patrimonio mixto, por reunir dimensiones arquitectónica y arqueológica."
           }
         }
       ]
