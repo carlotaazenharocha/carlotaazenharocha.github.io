@@ -976,11 +976,20 @@ function updateAboutPage() {
     `;
   }
 
-  // Update CV download button
-  const cvBtn = document.getElementById('cv-download-btn');
-  if (cvBtn && aboutData.cvFile) {
-    cvBtn.href = aboutData.cvFile;
-    cvBtn.textContent = labels.cv_download;
+  // CV and portfolio: a thumbnail of the first page of each PDF
+  const docsContainer = document.getElementById('documents-section');
+  if (docsContainer && aboutData.documents) {
+    docsContainer.innerHTML = `
+      <h3>${labels.documents}</h3>
+      <div class="documents-grid">
+        ${aboutData.documents.map(doc => `
+          <a href="${doc.file}" class="document-card document-card--${doc.key}" target="_blank" rel="noopener">
+            <img src="${doc.thumb}" alt="" loading="lazy">
+            <span class="document-label">${labels['doc_' + doc.key]} <span class="document-type">PDF</span></span>
+          </a>
+        `).join('')}
+      </div>
+    `;
   }
 
   // Update participations section

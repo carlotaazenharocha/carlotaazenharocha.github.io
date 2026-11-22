@@ -280,5 +280,16 @@
       "label": "Carlota Rocha"
     }
   },
-  "cvFile": "assets/cv.pdf"
+  "documents": [
+    {
+      "key": "cv",
+      "file": "assets/CV_CarlotaRocha.pdf",
+      "thumb": "assets/cv-thumb.jpg"
+    },
+    {
+      "key": "portfolio",
+      "file": "assets/Portfolio_CarlotaRocha.pdf",
+      "thumb": "assets/portfolio-thumb.jpg"
+    }
+  ]
 }

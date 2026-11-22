@@ -116,6 +116,15 @@
           "layout": "full"
         },
         {
+          "src": "projects/01-atlas-case-studies/00-maquete-torre.jpg",
+          "caption": {
+            "en": "Physical model, the residential tower and the archive",
+            "pt": "Maquete física, torre de habitação e arquivo",
+            "es": "Maqueta física, torre residencial y archivo"
+          },
+          "layout": "full"
+        },
+        {
           "src": "projects/01-atlas-case-studies/08-maquete-praca.jpg",
           "caption": {
             "en": "Physical model, square, Scale: 1:200",

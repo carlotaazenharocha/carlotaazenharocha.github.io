@@ -1713,9 +1713,56 @@ footer {
 }
 
 /* The CV button as wide as the photo above it */
-.about-sidebar .cv-download {
+/* CV and portfolio: first pages side by side, at one height
+   (columns in the proportion of A4 portrait and 16:9) */
+.documents { margin-top: 2.25rem; }
+
+/* Same heading as Contact */
+.documents h3 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+}
+
+.documents-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.707fr) minmax(0, 1.778fr);
+  gap: 1rem;
+}
+
+.document-card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  color: var(--color-text);
+}
+
+.document-card img {
   display: block;
-  text-align: center;
+  width: 100%;
+  border: 1px solid var(--color-border);
+  transition: opacity 0.3s ease;
+}
+
+.document-card--cv img { aspect-ratio: 595 / 842; object-fit: cover; }
+.document-card--portfolio img { aspect-ratio: 16 / 9; object-fit: cover; }
+
+.document-card:hover { opacity: 1; }
+.document-card:hover img { opacity: 0.75; }
+
+.document-label {
+  font-size: 0.8125rem;
+  line-height: 1.3;
+}
+
+.document-type {
+  color: var(--color-text-tertiary);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  margin-left: 0.25rem;
 }
 
 /* ============================================
@@ -2871,7 +2918,14 @@ footer {
   .about-main h2[data-section="skills"], #skills-section { order: 8; }
   .about-main h2[data-section="languages"], #languages-section { order: 9; }
   #contact-section { order: 10; margin-top: 2.25rem; }
-  .about-sidebar .cv-download { order: 11; align-self: center; margin-top: 1.5rem; }
+  #documents-section { order: 11; width: 100%; margin-top: 1rem; }
+  .documents h3 {
+    font-size: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 1rem;
+  }
+  .documents-grid { max-width: 30rem; }
 
   /* Same heading as the other sections */
   #contact-section h3 {

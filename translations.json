@@ -38,7 +38,6 @@
       "sketchbooks": "Sketchbooks",
       "publications": "Publications",
       "thesis": "Thesis",
-      "cv_download": "Download Full CV (PDF)",
       "contact": "Contact",
       "contact_labels": {
         "name": "Name",
@@ -49,7 +48,10 @@
       "skills_practice": "Drawing | Making",
       "participations_more": "See all",
       "participations_less": "See fewer",
-      "skills_learning": "Learning"
+      "skills_learning": "Learning",
+      "doc_cv": "CV",
+      "doc_portfolio": "Portfolio",
+      "documents": "Documents"
     },
     "participation": {
       "external_links": "External Links",
@@ -99,7 +101,6 @@
       "sketchbooks": "Cadernos",
       "publications": "Publicações",
       "thesis": "Dissertação",
-      "cv_download": "Descarregar CV Completo (PDF)",
       "contact": "Contacto",
       "contact_labels": {
         "name": "Nome",
@@ -110,7 +111,10 @@
       "skills_practice": "Desenho | Manualidades",
       "participations_more": "Ver todas",
       "participations_less": "Ver menos",
-      "skills_learning": "A aprender"
+      "skills_learning": "A aprender",
+      "doc_cv": "CV",
+      "doc_portfolio": "Portfólio",
+      "documents": "Documentos"
     },
     "participation": {
       "external_links": "Links Externos",
@@ -160,7 +164,6 @@
       "sketchbooks": "Cuadernos",
       "publications": "Publicaciones",
       "thesis": "Tesis",
-      "cv_download": "Descargar CV Completo (PDF)",
       "contact": "Contacto",
       "contact_labels": {
         "name": "Nombre",
@@ -171,7 +174,10 @@
       "skills_practice": "Dibujo | Manualidades",
       "participations_more": "Ver todas",
       "participations_less": "Ver menos",
-      "skills_learning": "Aprendiendo"
+      "skills_learning": "Aprendiendo",
+      "doc_cv": "CV",
+      "doc_portfolio": "Portafolio",
+      "documents": "Documentos"
     },
     "participation": {
       "external_links": "Enlaces Externos",
