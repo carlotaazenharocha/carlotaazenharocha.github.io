@@ -1,17 +1,2 @@
 .DS_Store
 .claude/
-*.docx
-projects/*/TEXTO_PROJETO.txt
-projects/*/concept
-thesis/*.pdf
-
-# Old portfolio (reference only, ~350 MB)
-Portfolio.pdf
-participations/*/INFO*.txt
-projects/**/TEXTO_PROJETO*.txt
-projects/**/concept*
-
-# Portfolio PDF builder: local only, never published
-portfolio.html
-js/portfolio.js
-css/portfolio.css

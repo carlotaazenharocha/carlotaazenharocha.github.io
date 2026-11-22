@@ -82,7 +82,7 @@ Images are at most 2400 px on the longer side; file names are lower case, no spa
 2. Add images: `thumbnail.jpg` (or use hero), `hero.jpg`, additional content images
 3. Add entry to `projects.json` following existing structure
 
-Studies, surveys and exercises go in `projects/outros-trabalhos/NN-name/` instead: any entry whose thumbnail is in that folder appears under "Outros trabalhos" on the homepage (and in its own chapter of the portfolio PDF).
+Studies, surveys and exercises go in `projects/outros-trabalhos/NN-name/` instead: any entry whose thumbnail is in that folder appears under "Outros trabalhos" on the homepage.
 4. Push to GitHub → auto-deploys to GitHub Pages
 
 ## Key Implementation Details

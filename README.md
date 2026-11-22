@@ -19,7 +19,6 @@ O site apresenta projetos académicos (desenhos, maquetes e processo), o percurs
 | `about.html` | Apresentação, formação, competências, tese, CV para descarregar e contactos |
 | `research.html` | Investigação (em curso) sobre o Convento da Tomina, iniciada com a dissertação de mestrado: resumo, linha do tempo, levantamento, estratégia de salvaguarda, candidatura a património e publicações |
 | `participation.html?id=…` | Detalhe de cada participação (workshop, seminário, intercâmbio…) |
-| `portfolio.html` | Ferramenta interna para gerar o portfólio em PDF: escolher projetos, formato (A4/A3, horizontal/vertical) e língua |
 
 ---
 
@@ -28,8 +27,7 @@ O site apresenta projetos académicos (desenhos, maquetes e processo), o percurs
 Site estático, sem dependências nem passo de build: **HTML, CSS e JavaScript**, com o conteúdo em ficheiros **JSON**. O JavaScript lê os JSON e monta as páginas na língua escolhida, que fica guardada no browser.
 
 ```
-├── index.html, project.html, about.html, participation.html, 404.html
-├── portfolio.html          # Gerador do portfólio em PDF
+├── index.html, project.html, about.html, research.html, participation.html, 404.html
 ├── projects.json           # Projetos
 ├── participations.json     # Participações
 ├── about.json              # Conteúdo da página About
@@ -37,12 +35,10 @@ Site estático, sem dependências nem passo de build: **HTML, CSS e JavaScript**
 ├── translations.json       # Textos da interface (menus, etiquetas, rodapé)
 ├── css/
 │   ├── style.css           # Estilos do site
-│   ├── caderno.css         # Cadernos (leporello)
-│   └── portfolio.css       # Estilos do gerador de PDF
+│   └── caderno.css         # Cadernos (leporello)
 ├── js/
 │   ├── main.js             # Línguas, carregamento dos JSON e páginas
-│   ├── caderno.js          # Cadernos (leporello)
-│   └── portfolio.js        # Gerador de PDF
+│   └── caderno.js          # Cadernos (leporello)
 ├── projects/NN-nome/       # Imagens de cada projeto
 ├── participations/<id>/    # Imagens de cada participação
 ├── assets/                 # CV, documentos e imagens gerais
