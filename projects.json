@@ -459,9 +459,9 @@
       "thumbnail": "projects/02-rock-oporto-palace/thumbnail.jpg",
       "hero": "projects/02-rock-oporto-palace/24-maquete-edificio-torre.jpg",
       "concept": {
-        "en": "The project consists of a large-scale cultural and educational facility located in Porto City Park, bringing together different programmes, including an auditorium, performance spaces, dining facilities, parking and a series of rooms dedicated to music education.\n\nThe proposal seeks to establish a close relationship with the surrounding landscape, preserving the existing vegetation and exploring façade transparency as a means of connecting the interior with the park. The spatial organisation and visual relationship with the outdoors serve as starting points for the architectural design.\n\nStructural solutions in concrete and steel, large glazed openings, movable partitions and timber interior finishes were explored, seeking to reconcile spatial flexibility, acoustic performance and visual comfort.\n\nThe project provided an opportunity to further explore the relationship between architectural design, construction systems and conscious material selection, highlighting the importance of these decisions in improving energy efficiency, user comfort and reducing the environmental impact of construction.",
-        "pt": "O projeto consiste num equipamento cultural e educativo de grande escala, implantado no Parque da Cidade do Porto, integrando diferentes programas, entre os quais um auditório, salas de espetáculo, espaços de restauração, estacionamento e um conjunto de salas destinadas ao ensino da música.\n\nA proposta procura estabelecer uma relação próxima com a paisagem envolvente, preservando a vegetação existente e explorando a transparência das fachadas como elemento de ligação entre o interior e o parque. A organização dos espaços e a relação visual com o exterior constituem pontos de partida para o desenvolvimento da solução arquitetónica.\n\nForam estudadas soluções estruturais em betão e aço, grandes vãos envidraçados, paredes amovíveis e revestimentos interiores em madeira, procurando conciliar flexibilidade espacial, desempenho acústico e conforto visual.\n\nO exercício permitiu aprofundar a relação entre conceção arquitetónica, sistemas construtivos e escolha consciente de materiais, compreendendo a importância destas decisões para a eficiência energética, o conforto dos utilizadores e a redução do impacto ambiental da construção.",
-        "es": "El proyecto consiste en un equipamiento cultural y educativo de gran escala, situado en el Parque de la Ciudad de Oporto, que integra diferentes programas, entre ellos un auditorio, salas de espectáculos, espacios de restauración, aparcamiento y un conjunto de aulas destinadas a la enseñanza musical.\n\nLa propuesta busca establecer una estrecha relación con el paisaje circundante, preservando la vegetación existente y explorando la transparencia de las fachadas como elemento de conexión entre el interior y el parque. La organización de los espacios y la relación visual con el exterior constituyen puntos de partida para el desarrollo de la solución arquitectónica.\n\nSe estudiaron soluciones estructurales de hormigón y acero, grandes superficies acristaladas, particiones móviles y revestimientos interiores de madera, buscando conciliar flexibilidad espacial, rendimiento acústico y confort visual.\n\nEl ejercicio permitió profundizar en la relación entre concepción arquitectónica, sistemas constructivos y selección consciente de materiales, comprendiendo la importancia de estas decisiones para mejorar la eficiencia energética, el confort de los usuarios y reducir el impacto ambiental de la construcción."
+        "en": "The project consists of a large-scale cultural and educational facility located in Porto City Park, bringing together different programmes, including an auditorium, performance halls, parking and a series of rooms dedicated to music education. The exercise also included a reflection on how the park and its spaces are organised on event days.\n\nThe proposal seeks to establish a close relationship with the surrounding landscape, preserving the existing vegetation and exploring the transparency of the façades as a link between the interior and the park.\n\nIn a first phase, the structure and the routes and emergency exits were developed, studying solutions in concrete and steel, large glazed openings, movable walls and timber interior linings, so as to reconcile spatial flexibility, acoustic performance and visual comfort.\n\nIn a second phase, the project was revised from the perspective of sustainable construction, reflecting on the choice of materials and its effect on energy efficiency, on the comfort of users and on reducing the environmental impact of construction.",
+        "pt": "O projeto consiste num equipamento cultural e educativo de grande escala, implantado no Parque da Cidade do Porto, integrando diferentes programas, entre os quais um auditório, salas de espetáculo, estacionamento e um conjunto de salas destinadas ao ensino da música. O exercício contemplava também uma reflexão sobre a dinâmica de organização do parque e dos espaços para dias de eventos.\n\nA proposta procura estabelecer uma relação próxima com a paisagem envolvente, preservando a vegetação existente e explorando a transparência das fachadas como elemento de ligação entre o interior e o parque.\n\nNuma primeira fase, desenvolveram-se a estrutura e os percursos e saídas de emergência, estudando soluções em betão e aço, grandes vãos envidraçados, paredes amovíveis e revestimentos interiores em madeira, de forma a conciliar flexibilidade espacial, desempenho acústico e conforto visual.\n\nNuma segunda fase, o projeto foi revisto numa perspetiva de construção sustentável, refletindo sobre a escolha dos materiais e o seu efeito na eficiência energética, no conforto dos utilizadores e na redução do impacto ambiental da construção.",
+        "es": "El proyecto consiste en un equipamiento cultural y educativo de gran escala, situado en el Parque de la Ciudad de Oporto, que integra diferentes programas, entre ellos un auditorio, salas de espectáculos, aparcamiento y un conjunto de aulas destinadas a la enseñanza musical. El ejercicio contemplaba también una reflexión sobre la dinámica de organización del parque y de sus espacios en días de eventos.\n\nLa propuesta busca establecer una estrecha relación con el paisaje circundante, preservando la vegetación existente y explorando la transparencia de las fachadas como elemento de conexión entre el interior y el parque.\n\nEn una primera fase, se desarrollaron la estructura y los recorridos y salidas de emergencia, estudiando soluciones de hormigón y acero, grandes vanos acristalados, paredes móviles y revestimientos interiores de madera, con el fin de conciliar flexibilidad espacial, rendimiento acústico y confort visual.\n\nEn una segunda fase, el proyecto se revisó desde la perspectiva de la construcción sostenible, reflexionando sobre la elección de los materiales y su efecto en la eficiencia energética, en el confort de los usuarios y en la reducción del impacto ambiental de la construcción."
       },
       "images": [
         {
@@ -578,12 +578,22 @@
             "pt": "Maquete de implantação, Parque da Cidade, E: 1:1000",
             "es": "Maqueta de emplazamiento, Parque de la Ciudad, E: 1:1000"
           },
-          "layout": "full",
+          "layout": "half",
           "section": {
             "en": "Model",
             "pt": "Maquete",
             "es": "Maqueta"
-          }
+          },
+          "row": "equal"
+        },
+        {
+          "src": "projects/02-rock-oporto-palace/22-maquete-vista.jpg",
+          "caption": {
+            "en": "Model, view of the site, Scale: 1:1000",
+            "pt": "Maquete, vista do conjunto, E: 1:1000",
+            "es": "Maqueta, vista del conjunto, E: 1:1000"
+          },
+          "layout": "half"
         },
         {
           "src": "projects/02-rock-oporto-palace/20-maquete-parque.jpg",
@@ -600,15 +610,6 @@
             "en": "Model, paths through the park, Scale: 1:1000",
             "pt": "Maquete, percursos no parque, E: 1:1000",
             "es": "Maqueta, recorridos en el parque, E: 1:1000"
-          },
-          "layout": "full"
-        },
-        {
-          "src": "projects/02-rock-oporto-palace/22-maquete-vista.jpg",
-          "caption": {
-            "en": "Model, view of the site, Scale: 1:1000",
-            "pt": "Maquete, vista do conjunto, E: 1:1000",
-            "es": "Maqueta, vista del conjunto, E: 1:1000"
           },
           "layout": "full"
         },
@@ -732,6 +733,15 @@
           "layout": "inset"
         },
         {
+          "src": "projects/02-rock-oporto-palace/19-auditorio.jpg",
+          "caption": {
+            "en": "Auditorium, plan and section",
+            "pt": "Auditório, planta e corte",
+            "es": "Auditorio, planta y sección"
+          },
+          "layout": "full"
+        },
+        {
           "src": "projects/02-rock-oporto-palace/18-esquema-avac.jpg",
           "caption": {
             "en": "HVAC scheme: supply and extraction",
@@ -753,15 +763,6 @@
             "pt": "Auditório",
             "es": "Auditorio"
           }
-        },
-        {
-          "src": "projects/02-rock-oporto-palace/19-auditorio.jpg",
-          "caption": {
-            "en": "Auditorium, plan and section",
-            "pt": "Auditório, planta e corte",
-            "es": "Auditorio, planta y sección"
-          },
-          "layout": "full"
         },
         {
           "src": "projects/02-rock-oporto-palace/38-referencia-gulbenkian-exterior.jpg",
