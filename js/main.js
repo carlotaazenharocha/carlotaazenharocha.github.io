@@ -983,8 +983,8 @@ function updateAboutPage() {
       <h3>${labels.documents}</h3>
       <div class="documents-grid">
         ${aboutData.documents.map(doc => `
-          <a href="${doc.file}" class="document-card document-card--${doc.key}" target="_blank" rel="noopener">
-            <img src="${doc.thumb}" alt="" loading="lazy">
+          <a href="${getText(doc.file)}" class="document-card document-card--${doc.key}" target="_blank" rel="noopener">
+            <img src="${getText(doc.thumb)}" alt="" loading="lazy">
             <span class="document-label">${labels['doc_' + doc.key]} <span class="document-type">PDF</span></span>
           </a>
         `).join('')}

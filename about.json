@@ -283,13 +283,29 @@
   "documents": [
     {
       "key": "cv",
-      "file": "assets/CV_CarlotaRocha.pdf",
-      "thumb": "assets/cv-thumb.jpg"
+      "file": {
+        "pt": "assets/CV_CarlotaRocha_PT.pdf",
+        "en": "assets/CV_Carlota_Rocha_EN.pdf",
+        "es": "assets/CV_Carlota_Rocha_ES.pdf"
+      },
+      "thumb": {
+        "pt": "assets/cv-thumb-pt.jpg",
+        "en": "assets/cv-thumb-en.jpg",
+        "es": "assets/cv-thumb-es.jpg"
+      }
     },
     {
       "key": "portfolio",
-      "file": "assets/Portfolio_CarlotaRocha.pdf",
-      "thumb": "assets/portfolio-thumb.jpg"
+      "file": {
+        "pt": "assets/Portfolio_CarlotaRocha_PT.pdf",
+        "en": "assets/Portfolio_Carlota_Rocha_EN.pdf",
+        "es": "assets/Portafolio_Carlota_Rocha_ES.pdf"
+      },
+      "thumb": {
+        "pt": "assets/portfolio-thumb-pt.jpg",
+        "en": "assets/portfolio-thumb-en.jpg",
+        "es": "assets/portfolio-thumb-es.jpg"
+      }
     }
   ]
 }
