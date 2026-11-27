@@ -96,6 +96,57 @@ function t(key) {
   return value;
 }
 
+// ===== Videos full screen on phones =====
+// On a touch screen, a video that waits to be played (a Vimeo embed or a
+// video with controls) opens full screen as soon as it starts. iPhones do it
+// through "playsinline=0"; elsewhere the player is asked for full screen.
+const isTouchScreen = window.matchMedia('(pointer: coarse)').matches;
+let vimeoApi = null;
+
+function loadVimeoApi() {
+  if (!vimeoApi) {
+    vimeoApi = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = 'https://player.vimeo.com/api/player.js';
+      script.onload = () => resolve(window.Vimeo);
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+  }
+  return vimeoApi;
+}
+
+function fullScreenOnPlay(container) {
+  const video = container.querySelector('video[controls]');
+  if (video) {
+    video.addEventListener('play', () => {
+      if (document.fullscreenElement) return;
+      if (video.requestFullscreen) video.requestFullscreen().catch(() => {});
+      else if (video.webkitEnterFullscreen) video.webkitEnterFullscreen();
+    });
+  }
+  const iframe = container.querySelector('iframe[src*="player.vimeo.com"]');
+  if (iframe) {
+    loadVimeoApi().then(Vimeo => {
+      const player = new Vimeo.Player(iframe);
+      player.on('play', () => {
+        player.getFullscreen().then(isFull => {
+          if (!isFull) player.requestFullscreen().catch(() => {});
+        });
+      });
+    }).catch(() => {});
+  }
+}
+
+// A link to the previous / next project or participation: the arrow and the
+// title on a computer; on a phone (style.css) only the arrow
+function pagerLink(href, title, direction) {
+  const points = direction < 0 ? '15 18 9 12 15 6' : '9 18 15 12 9 6';
+  const chevron = `<svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="${points}"/></svg>`;
+  const label = `<span class="nav-title">${direction < 0 ? '← ' : ''}${title}${direction > 0 ? ' →' : ''}</span>`;
+  return `<a href="${href}" class="nav-link" aria-label="${title.replace(/"/g, '&quot;')}">${direction < 0 ? chevron + label : label + chevron}</a>`;
+}
+
 // Get translated content from bilingual object
 function getText(obj) {
   if (obj == null) return '';
@@ -508,13 +559,15 @@ function renderImages(container, images, parts = []) {
     imageDiv.className = `project-image ${layoutClass}${image.bleed ? ' bleed' : ''}`;
     // Videos play silently in a loop like an image, without controls; with
     // "controls" (an interview, say) they wait to be played, with sound
+    // (on a phone, a video with controls opens full screen when played)
     const video = image.controls
-      ? `<video src="${image.src}" controls playsinline preload="metadata"></video>`
+      ? `<video src="${image.src}" controls${isTouchScreen ? '' : ' playsinline'} preload="metadata"></video>`
       : `<video src="${image.src}" autoplay muted loop playsinline disablepictureinpicture preload="metadata"></video>`;
     // A Vimeo video plays in Vimeo's own player, with sound and controls
     // ("vertical" for a 9:16 video; "autoplay" plays it silently in a loop;
     // "loop" starts it over when it ends)
-    const vimeoParams = `dnt=1${image.autoplay ? '&autoplay=1&muted=1&loop=1' : image.loop ? '&loop=1' : ''}`;
+    // On a phone, a video that waits to be played opens full screen
+    const vimeoParams = `dnt=1${image.autoplay ? '&autoplay=1&muted=1&loop=1' : image.loop ? '&loop=1' : ''}${!image.autoplay && isTouchScreen ? '&playsinline=0' : ''}`;
     const vimeo = `<div class="video-embed${image.vertical ? ' video-embed--vertical' : ''}"><iframe src="https://player.vimeo.com/video/${image.vimeo}?${vimeoParams}" title="${alt}" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div>`;
     const media = image.type === 'video' ? video
       : image.type === 'vimeo' ? vimeo
@@ -525,6 +578,7 @@ function renderImages(container, images, parts = []) {
       ${media}
       ${image.caption ? `<div class="image-caption">${getText(image.caption)}</div>` : ''}
     `;
+    if (isTouchScreen && !image.autoplay) fullScreenOnPlay(imageDiv);
 
     // Until the file exists, show a box describing the image to add
     if (image.placeholder) {
@@ -744,6 +798,32 @@ async function loadResearchData() {
   return researchData;
 }
 
+// Scroll to a title of the research page and keep it there while the pictures
+// above it load
+function scrollToResearchTarget(target, behavior = 'smooth') {
+  const above = [...document.querySelectorAll('#research-content img')]
+    .filter(img => img.compareDocumentPosition(target) & Node.DOCUMENT_POSITION_FOLLOWING);
+  above.forEach(img => { img.loading = 'eager'; });
+  target.scrollIntoView({ behavior, block: 'start' });
+
+  const pending = above.filter(img => !img.naturalWidth);
+  if (!pending.length) return;
+  let timer;
+  let active = true;
+  const stop = () => { active = false; };
+  ['wheel', 'touchstart', 'keydown'].forEach(type => window.addEventListener(type, stop, { once: true, passive: true }));
+  setTimeout(stop, 8000);
+  const settle = () => {
+    if (!active) return;
+    clearTimeout(timer);
+    timer = setTimeout(() => { if (active) target.scrollIntoView({ behavior, block: 'start' }); }, 80);
+  };
+  pending.forEach(img => {
+    img.addEventListener('load', settle, { once: true });
+    img.addEventListener('error', settle, { once: true });
+  });
+}
+
 async function initResearchPage() {
   if (!await loadResearchData()) return;
 
@@ -777,6 +857,23 @@ async function initResearchPage() {
     if (section.type !== 'contact') chapter += 1;
     content.appendChild(renderResearchSection(section, chapter));
   });
+
+  // The index jumps to the title even while pictures above it are still
+  // loading (lazy, so they grow and push it down): load them now and keep the
+  // title in place as they appear, until the reader scrolls on their own
+  content.querySelectorAll('.research-toc a[href^="#"]').forEach(link => {
+    link.addEventListener('click', event => {
+      const target = document.getElementById(link.getAttribute('href').slice(1));
+      if (!target) return;
+      event.preventDefault();
+      history.pushState(null, '', `#${target.id}`);
+      scrollToResearchTarget(target);
+    });
+  });
+  if (location.hash) {
+    const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (target) scrollToResearchTarget(target, 'instant');
+  }
 
   document.getElementById('research-metadata').innerHTML = researchData.metadata.map(item => `
     <div class="metadata-item">
@@ -813,10 +910,10 @@ function setupProjectNavigation(allProjects, currentId) {
 
   navContainer.innerHTML = `
     <div>
-      ${prevProject ? `<a href="project.html?id=${prevProject.id}" class="nav-link">← ${getText(prevProject.title)}</a>` : '<div></div>'}
+      ${prevProject ? pagerLink(`project.html?id=${prevProject.id}`, getText(prevProject.title), -1) : '<div></div>'}
     </div>
     <div>
-      ${nextProject ? `<a href="project.html?id=${nextProject.id}" class="nav-link">${getText(nextProject.title)} →</a>` : '<div></div>'}
+      ${nextProject ? pagerLink(`project.html?id=${nextProject.id}`, getText(nextProject.title), 1) : '<div></div>'}
     </div>
   `;
 }
@@ -1234,8 +1331,8 @@ async function initParticipationPage() {
     const prev = ordered[index - 1];
     const next = ordered[index + 1];
     navContainer.innerHTML = `
-      <div>${prev ? `<a href="participation.html?id=${prev.id}" class="nav-link">← ${getText(prev.title)}</a>` : ''}</div>
-      <div>${next ? `<a href="participation.html?id=${next.id}" class="nav-link">${getText(next.title)} →</a>` : ''}</div>
+      <div>${prev ? pagerLink(`participation.html?id=${prev.id}`, getText(prev.title), -1) : ''}</div>
+      <div>${next ? pagerLink(`participation.html?id=${next.id}`, getText(next.title), 1) : ''}</div>
     `;
   }
 
