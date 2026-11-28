@@ -1065,11 +1065,11 @@ function updateAboutPage() {
   const thesisContainer = document.getElementById('thesis-section');
   if (thesisContainer && aboutData.thesis) {
     thesisContainer.innerHTML = `
-      <a href="research.html" class="cv-item cv-item-link">
+      <div class="cv-item">
         <div class="cv-date">${getText(aboutData.thesis.date)}</div>
-        <div class="cv-title">${getText(aboutData.thesis.title)} →</div>
+        <div class="cv-title">${getText(aboutData.thesis.title)}</div>
         <div class="cv-institution">${getText(aboutData.thesis.institution)}</div>
-      </a>
+      </div>
     `;
   }
 

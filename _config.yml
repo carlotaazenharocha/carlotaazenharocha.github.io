@@ -5,3 +5,7 @@ exclude:
   - README.md
   - CLAUDE.md
   - .gitignore
+  # Investigação: fica no repositório mas só é publicada depois da defesa da tese
+  - research.html
+  - research.json
+  - research

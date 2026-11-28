@@ -1284,7 +1284,17 @@
             "pt": "Esquisso de processo",
             "es": "Boceto de proceso"
           },
-          "layout": "inset"
+          "layout": "tile",
+          "mosaic": "grid-2-narrow"
+        },
+        {
+          "src": "projects/04-centro-interpretativo/16-apresentacao.jpg",
+          "caption": {
+            "en": "Presenting the project",
+            "pt": "Apresentação do projeto",
+            "es": "Presentación del proyecto"
+          },
+          "layout": "tile"
         },
         {
           "src": "projects/04-centro-interpretativo/01-fotomontagem-vila.jpg",
